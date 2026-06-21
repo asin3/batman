@@ -24,7 +24,9 @@ from quiz_manager import (
     set_current_answer,
     check_answer,
     is_quiz_complete,
-    end_quiz
+    end_quiz,
+    set_current_explanation,
+    get_current_explanation
 )
 
 import chromadb
@@ -97,6 +99,18 @@ def build_quiz_question(
             match.group(1)
         )
 
+    explanation_match = re.search(
+        r"EXPLANATION:\s*(.*)",
+        mcq,
+        re.DOTALL
+    )
+
+    if explanation_match:
+
+        set_current_explanation(
+            explanation_match.group(1).strip()
+        )
+
     question_only = re.split(
         r"CORRECT:",
         mcq
@@ -129,6 +143,10 @@ def ask_batman(
             answer
         )
 
+        explanation = (
+            get_current_explanation()
+        )
+
         response_text = ""
 
         if correct:
@@ -139,10 +157,16 @@ def ask_batman(
 
         else:
 
-            state = get_quiz_state()
+            response_text += (
+                "❌ Wrong\n\n"
+            )
+
+        if explanation:
 
             response_text += (
-                f"❌ Wrong\n\n"
+                "📘 Explanation:\n\n"
+                + explanation +
+                "\n\n"
             )
 
         if is_quiz_complete():
@@ -194,21 +218,15 @@ def ask_batman(
 
         if not topics:
 
-            return (
-                "Which topic?"
-            )
+            return "Which topic?"
 
         if not difficulty:
 
-            return (
-                "Difficulty? Easy / Medium / Hard"
-            )
+            return "Difficulty? Easy / Medium / Hard"
 
         if count == 0:
 
-            return (
-                "How many questions?"
-            )
+            return "How many questions?"
 
         start_quiz(
             topics

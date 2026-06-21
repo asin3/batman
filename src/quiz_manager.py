@@ -7,7 +7,8 @@ quiz_state = {
     "score": 0,
     "setup_stage": "",
     "setup_data": {},
-    "current_answer": ""
+    "current_answer": "",
+    "current_explanation": ""
 }
 
 
@@ -32,9 +33,11 @@ def set_question_count(count):
 
     return quiz_state
 
+
 def is_quiz_active():
 
     return quiz_state["active"]
+
 
 def set_setup_stage(stage):
 
@@ -47,9 +50,11 @@ def get_setup_stage():
 
     return quiz_state["setup_stage"]
 
+
 def get_quiz_state():
 
     return quiz_state
+
 
 def set_setup_data(data):
 
@@ -62,11 +67,13 @@ def get_setup_data():
 
     return quiz_state["setup_data"]
 
+
 def clear_setup_data():
 
     quiz_state["setup_data"] = {}
 
     return quiz_state
+
 
 def increment_question():
 
@@ -81,6 +88,7 @@ def increment_score():
 
     return quiz_state
 
+
 def is_quiz_complete():
 
     return (
@@ -89,14 +97,17 @@ def is_quiz_complete():
         quiz_state["total_questions"]
     )
 
+
 def end_quiz():
 
     quiz_state["active"] = False
     quiz_state["current_question"] = 0
     quiz_state["score"] = 0
     quiz_state["current_answer"] = ""
+    quiz_state["current_explanation"] = ""
 
     return quiz_state
+
 
 def reset_runtime():
 
@@ -104,6 +115,7 @@ def reset_runtime():
     quiz_state["score"] = 0
 
     return quiz_state
+
 
 def set_current_answer(answer):
 
@@ -115,6 +127,19 @@ def set_current_answer(answer):
 def get_current_answer():
 
     return quiz_state["current_answer"]
+
+
+def set_current_explanation(explanation):
+
+    quiz_state["current_explanation"] = explanation
+
+    return quiz_state
+
+
+def get_current_explanation():
+
+    return quiz_state["current_explanation"]
+
 
 def check_answer(student_answer):
 
