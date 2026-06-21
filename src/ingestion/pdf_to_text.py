@@ -2,48 +2,71 @@ from pdf2image import convert_from_path
 import pytesseract
 from pathlib import Path
 
-# Tesseract location
+# ---------------------------------
+# TESSERACT
+# ---------------------------------
+
 pytesseract.pytesseract.tesseract_cmd = (
     r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 )
 
-# Poppler location
+# ---------------------------------
+# POPPLER
+# ---------------------------------
+
 POPPLER_PATH = (
     r"F:\batman_student\tools\poppler\poppler-26.02.0\Library\bin"
 )
 
-# Input PDF
-PDF_FILE = (
-    r"F:\batman_student\data\class10\physics\textbook\chapter-1-force.pdf"
+# ---------------------------------
+# PDF FOLDER
+# ---------------------------------
+
+PDF_FOLDER = Path(
+    "data/class10/physics/textbook"
 )
 
-print("Converting PDF pages to images...")
+# ---------------------------------
+# PROCESS ALL PDFS
+# ---------------------------------
 
-pages = convert_from_path(
-    PDF_FILE,
-    first_page=1,
-    last_page=2,      # Only first 2 pages for testing
-    poppler_path=POPPLER_PATH
-)
+for pdf_file in PDF_FOLDER.glob("*.pdf"):
 
-all_text = ""
+    print(f"\nProcessing: {pdf_file.name}")
 
-for i, page in enumerate(pages, start=1):
-    print(f"OCR Page {i}...")
+    pages = convert_from_path(
+        str(pdf_file),
+        poppler_path=POPPLER_PATH
+    )
 
-    text = pytesseract.image_to_string(page)
+    all_text = ""
 
-    all_text += f"\n\n===== PAGE {i} =====\n\n"
-    all_text += text
+    for i, page in enumerate(pages, start=1):
 
-print("\nOCR COMPLETE\n")
+        print(f"  OCR Page {i}")
 
-print(all_text[:5000])
+        text = pytesseract.image_to_string(
+            page
+        )
 
-# Save output
-output_file = Path("output_chapter1.txt")
+        all_text += (
+            f"\n\n===== PAGE {i} =====\n\n"
+        )
 
-with open(output_file, "w", encoding="utf-8") as f:
-    f.write(all_text)
+        all_text += text
 
-print(f"\nSaved to: {output_file}")
+    output_file = (
+        pdf_file.parent /
+        f"{pdf_file.stem}.txt"
+    )
+
+    output_file.write_text(
+        all_text,
+        encoding="utf-8"
+    )
+
+    print(
+        f"Saved: {output_file.name}"
+    )
+
+print("\nALL PDFS PROCESSED")

@@ -402,5 +402,29 @@
   {
     "role": "assistant",
     "content": "Okay, exiting the study session. \ud83e\udd87  \nKeep revising \u2014 Batman Student out."
+  },
+  {
+    "role": "user",
+    "content": "centripetal - one liner"
+  },
+  {
+    "role": "assistant",
+    "content": "**Centripetal force is the inward force that keeps a body moving in a circular path, always directed towards the centre.**"
+  },
+  {
+    "role": "user",
+    "content": "What is radioactivity?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Radioactivity** is the **spontaneous disintegration of the nucleus** of an unstable atom, with the emission of radiations such as **alpha (\u03b1), beta (\u03b2), and gamma (\u03b3) rays**.\n\n### Simple meaning\nSome atoms have **unstable nuclei**. To become more stable, their nuclei break down naturally and give out radiation. This process is called **radioactivity**.\n\n### Textbook points\n\n- Radioactivity is a **nuclear phenomenon**, not due to orbital electrons.\n- It is **spontaneous**, meaning it happens on its own.\n- It is **random**, meaning we cannot predict exactly which nucleus will decay at a particular moment.\n- It is not affected by physical or chemical changes like:\n  - heating\n  - freezing\n  - strong electric or magnetic fields\n  - chemical treatment\n  - oxidation\n\n### Example\nUranium is a radioactive substance. Its unstable nuclei decay and emit radiations.\n\n### One-line definition\n**Radioactivity is the spontaneous disintegration of an unstable atomic nucleus with the emission of \u03b1, \u03b2, and \u03b3 radiations.**"
+  },
+  {
+    "role": "user",
+    "content": "Pulleys - 2 lines on it from texbook only..also tell me from which page u quoted"
+  },
+  {
+    "role": "assistant",
+    "content": "I can\u2019t give **2 lines on pulleys from the textbook** because the provided textbook context does **not contain any section on pulleys**.\n\nThe given context is from **Page 2**, and it discusses **moment of force/torque**, not pulleys.\n\nPlease send the textbook page that contains **Pulleys**, and I\u2019ll quote exactly **2 lines** from it with the page number."
   }
 ]

@@ -1,0 +1,3416 @@
+
+
+===== PAGE 1 =====
+
+Refraction of Light
+at Plane Surfaces
+
+SYLLABUS
+
+ja Reon of light through a glass block and a triangular prism, qualitative treatment of simple applic
+such as real and apparent depth of objects in water and apparent bending of sticks in water. Application of
+tefraction of light.
+Scope of syllabus : Partial reflection and refraction due to change in medium. Laws of refraction, the effect on |
+speed (V), wavelength (A) and frequency (f) due to refraction of light, conditions for a light ray to pass undeviated.
+Values of speed of light (c) in vacuum, air, water and glass; refractive index 1 = c/V, V = fA. Values of pt for
+common substances such as water, glass and diamond, experimental verification; refraction through glass block;
+lateral displacement; multiple images in thick glass plate/mirror; refraction through a glass prism; simple
+applications: real and apparent depths of object in water; apparent bending of a stick under water. Simple numerical
+problems and approximate ray diagrams required.
+
+(ii) Total internal reflection; Critical angle; examples in triangular glass prisms; comparison with reflection fom
+
+a plane mirror (qualitative only). Application of total internal reflection.
+
+Scope of syllabus : Transmission of light from a denser medium (glass/water) to a rarer medium (air) at if er
+angles of incidence; critical angle S 1. = in C, essential conditions for total internal reflection. bid i
+
+2 , 90°); use of right angle prism to obtain 6 = 90° and 180° (ray diagram); combate of total intemal
+os a prism and reflection from a plane mirror. Le
+
+(A) REFRACTION, LAWS OF REFRACTION AND REFRACTIVE INDEX
+
+In class IX, we have read the reflection of
+light from the plane and spherical mirrors. The
+return of light in the same medium after striking
+a surface is called reflection of light. The
+reflection of a light ray obeys two laws : (i) the
+angle of reflection is equal to the angle of
+incidence, and (ii) the incident ray, the normal at
+the point of incidence and the reflected ray, all
+lie in one plane. Here we shall study the
+refraction of light through the plane and spherical
+surfaces.
+
+Light has the maximum speed in vacuum and
+it travels with different speeds in different media.
+It travels faster in air than in water or
+in glass. The speed of light is 3 x 108 m s* in
+air, 2-25 x 108 m s“! in water and 2 x 108 m $7
+in glass. The speed of light is constant in a
+transparent homogeneous medium.
+
+While passing from one medium to the other,
+if light slows down, the second medium is said
+to be optically denser* than the first medium and
+if light speeds up, the second medium is said to
+be optically rarer than the first medium. Thus
+water and glass are optically denser than air (or
+air is optically rarer than water and glass).
+Similarly, glass is optically denser than water (or
+water is optically rarer than glass).
+
+4.1 REFRACTION OF LIGHT
+
+Partial reflection and refraction at the
+boundary of two different medium : In a
+transparent medium although light travels in a
+
+* Optical density has no relation with the density of medium. Kerosene
+
+is less dense than water (as it floats on water), but it is optically denser
+than water. Optical density of a medium depends on the speed of
+light in that medium, while the density of a medium depends on its
+inter-molecular separation.
+
+
+===== PAGE 2 =====
+
+straight line path, but when a ray of light
+travelling in one transparent medium strikes
+obliquely at the surface of another transparent
+medium, a part of light comes back to the same
+medium obeying the laws of reflection and is
+called the reflected light. The remaining part of
+light passes into the other medium and travels in
+a straight path different from its initial direction
+and is called the refracted light.
+
+Thus, at the boundary separating the two
+media, light suffers a partial reflection and partial
+refraction. Thus
+
+In Fig. 4.1 and Fig. 4.2, SS' is the surface
+separating the two media (say, air and glass).
+When light travelling in one medium falls on the
+surface SS', a small part of it is reflected back
+in the same medium obeying the laws of
+reflection and the rest of it is refracted through
+the other medium i.e., there is a partial reflection
+and partial refraction at the boundary surface.
+The intensity (or the amplitude) of the refracted
+light will obviously be less than that of the
+incident light because a part of the incident light
+has suffered reflection.
+
+In Fig. 4.1 and 4.2, for the incident ray AO,
+the refracted ray is OB, the reflected ray is OC
+and the normal at the point of incidence O is
+NOM. The angle of incidence i is ZAON and the
+angle of refraction r is ZBOM. Note that the
+angle r is not equal to the angle i (i.e., OB is not
+in direction of OA).
+
+It has been experimentally observed that
+
+(1) When a ray of light travels from a
+rarer medium to a denser medium (say, from
+air to glass), it bends towards the normal (i.e.,
+Zr < Zi) as shown in Fig. 4.1. The deviation*
+of the ray (from its initial path) is 8 =i-r.
+
+** Deviation means the angle between the direction of refracted
+
+ray and the direction of incident ray. It is denoted by the letter 8.
+
+Fig. 4.1 Refraction from rarer to denser medium
+
+(2) When a ray of light travels from a
+denser medium to a rarer medium (say, from
+glass to air), it bends away from the normal (i.e.,
+Zr > Zi) as shown in Fig. 4.2. The deviation of
+the ray is then 6 = r—i.
+
+A c
+
+% e
+
+e g
+a |
+GLASS y
+
+(DENSER)
+AIR (RARER) ©
+
+Say,
+
+‘N
+\B
+
+eee 4
+
+=
+
+Fig. 4.2 Refraction from denser to rarer medium
+
+(3) The ray of light incident normally on the
+surface separating the two media, passes
+undeviated (i.e., such a ray suffers no bending at
+the surface). Thus if angle of incidence Zi = 0°,
+then angle of refraction Zr = 0° as shown in
+Fig. 4.3. The deviation of the ray is zero (i.e.,
+() = 0°). A
+
+INCIDENT
+RAY
+
+Zi = 0° | go°
+
+AIR (RARER) MEDIUM 1
+
+GLASS OR O| MEDIUM 2
+WATER Zr=0°
+(DENSER)
+REFRACTED
+RAY
+
+B
+
+Fig. 4.3 Refraction at normal incidence
+
+Note : In discussing refraction now onward,
+the reflected ray from the boundary surface
+will not be shown although it is always there.
+
+
+
+===== PAGE 3 =====
+
+Cause of refraction (or cause of change in
+direction)
+
+When a ray of light passes from one medium
+to another medium, its direction (or path)
+changes because of change in speed of light in
+going from one medium to another. In passing
+from one medium to other, if light slows down,
+it bends towards the normal and if light
+speeds up, it bends away from the normal.
+‘For normal incidence (Zi = 0°), the speed of
+light changes but the direction of light does
+not change.
+
+4.2 LAWS OF REFRACTION
+
+The refraction of light obeys two laws of
+refraction which were given by the Dutch scientist
+Willebrod Snell, so they are known as Snell’s
+laws after his name. They are :
+
+(1) The incident ray, the refracted ray and the
+normal at the point of incidence, all lie in
+the same plane.
+
+(2) The ratio of the sine of the angle of
+incidence i to the sine of the angle of
+refraction r is constant for the pair of given
+media. i.e., mathematically
+
+The constant is called the refractive index
+of the second medium with respect to the first
+medium. It is generally represented by the
+Greek letter ,1, (mew).
+
+w(4.1)
+
+Refractive index
+
+STS
+
+Unit : The refractive index has no unit as it
+is the ratio of two similar quantities.
+
+4.3 SPEED OF LIGHT IN DIFFERENT MEDIA;
+RELATIONSHIP BETWEEN REFRACTIVE
+INDEX AND SPEED OF LIGHT (1 = c/V)
+
+The speed of light is maximum in vacuum
+and is equal to 3 x 108 m s"!*. The speed of
+light in air is nearly same as in vacuum. It is
+denoted by the symbol c. In any other transparent
+media, the speed of light is less than that in air
+(or vacuum).
+
+The refractive index of a medium is generally
+defined with respect to vacuum (or air), and it is
+called the absolute refractive index (or simply the
+refractive index) of the medium. It is denoted by
+the letter p.
+
+The refractive index of a medium is defined
+as the ratio of the speed of light in vacuum
+(or air) to the speed of light in that medium,
+i.e,
+
+(4.2)
+
+The refractive index of a transparent medium
+is always greater than 1 (it can not be less
+than 1), because speed of light in any medium is
+always less than that in vacuum (i.e., V < c).
+
+Examples : (1) The speed of light in air is
+3x 108ms-! and in glass it is 2 x 108 m s“!,
+therefore the refractive index of glass is
+3x108
+2x108
+
+(2) The speed of light in water is 2:25 x 108
+m s~!, so the refractive index of water is
+
+3x108 4
+
+Maer Zasxagh @ 3 7233
+
+(3) The refractive index of diamond is 2-41,
+it means that light travels in air 2-41 times faster
+than in diamond.
+
+glass = 15
+
+The refractive index of some common
+transparent substances are given in the table
+ahead.
+
+* — Precisely the speed of light in vacuum is 299,792,458 m s"'.
+
+
+===== PAGE 4 =====
+
+Refractive index (u) of some common substances
+
+In general, the refractive index of second
+medium with respect to first medium is
+related to the speed of light in the two media as
+follows :
+
+« (4.3)
+
+where ,H, represents the refractive index of
+medium 2 with respect to medium 1.
+
+If V, is the speed of light in medium 1 and V, is
+the speed of light in medium 2, then from eqn. (4.3),
+
+w+ (4.4)
+
+Here 1, and 1, are the absolute refractive indices
+of the medium 1 and 2 respectively.
+
+Examples : (1) Refractive index of glass with
+respect to water is
+_ Speed of light in water
+water"glass = “Speed of light in glass
+_ 225x108
+
+* son
+
+or waterglass =
+
+(2) Refractive index of water with respect to
+glass is
+_ Speed of light in glass
+glass water ~ Speed of light in water
+_ 2-0 x 10°
+
+= = 0-89
+2-25 x 108
+
+Note : If the refractive indices of medium
+1 and medium 2 are same, the speed of light
+will be same in both the media, so a ray of
+light will pass from medium 1 to medium 2
+without any change in its path even when the
+angle of incidence in medium 1 is not zero.
+
+Conditions for a light ray to pass undeviated
+on refraction
+A ray of light passes undeviated from
+medium 1 to medium 2 in either of the following
+two conditions :
+(1) When the angle of incidence at the
+boundary of two media is zero (i.e.,
+Zi = 0°) as shown in Fig. 4.3.
+(2) When the refractive index of medium 2
+is same as that of medium 1 (Fig. 4.4)
+ie); FH %.
+
+Fig. 4.4 No deviation if 1, = 1, = B (say)
+
+Effect on speed (V), wavelength (A) and
+frequency (f) due to refraction of light
+
+1. When a ray of light gets refracted from a
+rarer to a denser medium, the speed of light
+decreases; while if it is refracted from a
+denser to a rarer medium, the speed of light
+increases.
+
+2. The frequency of light depends on the source
+of light, so it does not change on refraction.
+
+If V is the speed of light in a medium and A
+is the wavelength of light in that medium,
+
+the frequency of light is given as f= .
+
+or (4.5)
+
+
+===== PAGE 5 =====
+
+3. When light passes from a rarer to a denser
+medium, the wavelength decreases (since
+speed of light decreases, but its frequency
+remains unchanged). When light passes from
+a denser medium to a rarer medium, the
+speed of light and hence its wavelength
+increases.
+
+If a ray of light of frequency f and
+wavelength A suffers refraction from air (speed of
+light = c) to a medium in which the speed of
+light is V, then the frequency of light in the
+medium remains unchanged (equal to f), but the
+wavelength of light changes to X’ such that in air
+
+c
+ad
+
+and in medium f =
+
+Yd .
+
+Obviously when light passes from a rarer to a
+denser medium (1 > 1), its wavelength decreases
+(\’ < A), but if light passes from a denser to a
+rarer medium ( < 1), its wavelength increases
+(V’ > A).
+
+Note : Due to change in speed of light in
+refraction from one medium to other, the direction
+of ray of light changes except for Zi = 0°.
+
+Factors affecting the refractive index of a
+medium
+
+The refractive index of a medium depends on
+the following three factors :
+
+(1) Nature of the medium i.e. its optical
+density : As smaller the speed of light in a
+medium relative to air, higher is the refractive
+index of that medium. For example
+
+Votass = 2 X 108 m s“!, Hgtass = 1:5 and
+
+Vovater = 2°25 x 108 ms}, Water = 1-33.
+
+Physical condition such as temperature :
+
+With increase in temperature, the speed of
+
+light in medium increases, so the refractive
+
+index of medium decreases.
+
+[Secs
+
+(2)
+
+(3) The colour or wavelength of light : The
+speed of light of all colours is same in air
+(or vacuum), but in any other transparent
+medium, the speed of light is different for
+different colours. In a given medium, the
+speed of red light is maximum and that of
+the violet light is least, therefore the
+refractive index of that medium is maximum
+for violet light and least for red light (i.e.,
+Hy > Hp). The wavelength of red light is
+more than that of violet light, so refractive
+index of a medium decreases with the
+increase in wavelength.
+
+4.4 PRINCIPLE OF REVERSIBILITY OF
+THE PATH OF LIGHT
+
+According to this principle, the path of a light
+ray is reversible.
+
+In Fig. 4.5, a ray of light AO is incident at
+an angle i on a plane surface SS” separating the
+two media 1 and 2. It is refracted along OB at
+an angle of refraction r. The refractive index of
+medium 2 with respect to medium 1 is
+
+_ Hy _ sini VY
+He = Ty = sing = ¥,
+
+Fig. 4.5 Principle of reversibility
+
+Now if the refraction takes place from the
+medium 2 to 1, the principle of reversibility
+requires that the ray of light incident along BO
+at O at an angle of incidence r in medium 2 will
+get refracted only along OA at an angle of
+refraction i in medium 1 and in no other direction
+than OA. The refractive index of medium 1 with
+respect to medium 2 is then
+
+_ th _sinr_ V2
+
+
+===== PAGE 6 =====
+
+From eqns. (i) and (ii),
+
+sin i
+
+sini
+My * oh = Sin *
+
+or ws (4.7)
+
+or « (4.8)
+
+Thus, if refractive index of glass with respect
+to air is 1, = >, the refractive index of air with
+respect to glass will be .u, = ts = 2.
+
+; H F
+Note : From relation jp, = a the refractive
+1
+index of glass with respect to water is
+Me 3/2 _ 9
+
+Hw
+
+w=
+and refractive index of water with respect to glass
+Hy _ 4/3 _ 8
+
+= 43 8
+
+Bbw 3/2
+
+4.5 EXPERIMENTAL VERIFICATION OF
+LAWS OF REFRACTION AND
+DETERMINATION OF REFRACTIVE
+INDEX OF GLASS
+
+Procedure :
+
+(1) Place a rectangular glass block on a white
+
+sheet of paper fixed on a drawing board and
+
+draw its boundary line PQRS with a pencil
+
+as shown in Fig. 4.6.
+
+Remove the block and on the boundary line
+
+PQ, take a point O nearly at its middle and
+
+then draw a normal NOM on the line PQ at
+
+the point O.
+
+Draw a line AO inclined at an angle i (say,
+
+40°) to the normal NOM.
+
+Replace the block exactly on its boundary
+
+line.
+
+Fix two pins a and b vertically on the board,
+
+about 5 cm apart, on the line AO.
+
+Now looking from the other side RS of the
+
+block by keeping the eye close to the plane
+
+oF Or
+
+(2)
+
+(3)
+(4)
+(5)
+
+(6)
+
+of the board, fix two more pins c and d such
+that the base of all the four pins a, b, c and
+d appears to be in a straight line as seen
+through the block.
+
+Then remove the pins one by one and mark
+the position of each pin with a fine pencil
+dot. Remove the block and join the points c
+and d by a line BC to meet the boundary
+line RS at a point B. Join the points O and
+B by a straight line which gives the path of
+light ray inside the glass block.
+
+Here AO represents the incident ray, OB the
+refracted ray through the block and BC the
+emergent ray. NOM is the normal at the
+point of incidence O, ZAON is the angle of
+incidence i and ZBOM is the angle of
+refraction rf.
+
+(7)
+
+Fig. 4.6 Verfication of laws of refraction
+(8) Measure the angles i and r. Read the values
+of sin i and sin r from the sine table and
+calculate the ratio sin i/sin r. This ratio is
+constant and it gives the refractive index of
+glass.
+
+Alternative method ; In order to verfiy the
+law of refraction without measuring the angles i
+and r, draw a circle of suitable radius with the
+point O as centre which intersects the incident ray
+AO at D and the refracted ray OB at E. Draw
+normals DF and EG on NOM from the points D
+and E respectively. Measure the length of the
+
+
+===== PAGE 7 =====
+
+normals DF anu ow rimu vrybu. ims rauo' is ~
+
+constant and it gives the refractive index of glass
+because
+
+In right-angled AOFD, sin i= DE
+and in right-angled AOGE, sin r = £&
+_ sini _ DF/OD
+~ sinr ~ EG/OE
+But OD = OE, being the radii of the same circle.
+_ DE
+t= a6
+
+(9) Repeat the steps (3) to (8) of the experiment
+for different values of angle of incidence i
+equal to 50°, 60°, 70°, 80° and in each case,
+
+- sini DF
+find the ratio snr ° EG"
+(10) Record your observations in a table shown
+
+below :
+
+From the above observation table, we find that
+
+, in i DF
+the ratio ae or FG comes out to be a constant
+
+for each value of angle i. This verifies the second
+law of refraction. The ratio so obtained is equal
+to the refractive index 1 of glass, the material of
+the block. Thus, the refractive index of glass
+can be determined.
+
+Further, the incident ray AO, the normal NOM
+at the point of incidence O and the refracted ray
+OB are in the plane of paper (i.e., in the same
+plane). This verifies the first law of refraction.
+
+4.6 REFRACTION OF LIGHT THROUGH A
+RECTANGULAR GLASS BLOCK
+
+Fig 4.7 shows a rectangular glass block
+PQRS. A light ray AO falls on the surface PQ.
+NOM is the normal to the surface PO at the point
+
+‘Or mcidence VU. At tne surrace PQ, the ray AO
+
+enters from air (rarer medium) to glass (denser
+medium), so it slows down and bends towards the
+normal NOM. It travels inside glass in a
+straight path along OB. At the surface RS, the ray
+OB suffers another refraction. N,BM, is the
+normal to the surface RS at the point of incidence
+B. The ray OB now enters from glass (denser
+medium) to air (rarer medium), so it speeds up
+and bends away from the normal N,BM,. It
+travels along BC in air. The ray AO is called the
+incident ray, OB the refracted ray and BC the
+emergent ray. The ZAON is the angle of
+incidence i, the ZBOM is the angle of
+refraction r and the ZCBM, is the angle of
+emergence e. Since refraction occurs at two
+parallel surfaces PQ and RS, therefore,
+ZMOB = ZN,BO and Zi = Ze i.e., the angle
+of incidence i is equal to the angle of
+emergence e by the principle of reversibility of
+the path of a light ray. Thus, the emergent ray
+BC is parallel to the incident ray AO.
+
+Fig. 4.7 Refraction through a rectangular glass block
+
+Lateral displacement
+
+In Fig. 4.7, we observe that due to refraction
+of light at two parallel surfaces of a parallel sided
+glass block, the angle of incidence is equal to the
+angle of emergence, so the incident ray AO and
+the emergent ray BC are parallel (i.e., they are
+in same direction), but they are not along the
+same line. The emergent ray is laterally displaced
+from the path of incident ray. The path of incident
+ray AO in absence of glass block has been shown
+
+
+===== PAGE 8 =====
+
+in Fig. 4.7 by the dotted line OD. The
+perpendicular distance XY (= x) between the path
+of emergent ray BC and the direction of incident
+ray OD is called the lateral displacement.
+
+The lateral displacement x depends on*
+
+(i) the thickness of block (or medium),
+
+(ii) the angle of incidence, and
+
+(iii) the refractive index of glass, and therefore
+
+also on the wavelength of light used.
+(i) Dependence on the thickness of
+medium : More the thiickness of the
+medium, more is the lateral displacement.
+(ii) Dependence on the angle of incidence :
+More the angle of incidence, more is the
+lateral displacement.
+(iii) Dependence on the refractive index :
+More the refractive index of the medium,
+more is the lateral displacement. Since
+refractive index increases with the
+decrease in wavelength of light, so the
+lateral displacement increases with the
+decrease in wavelength of light (i.e.,
+lateral displacement is more for violet
+light than for red light).
+
+4.7 MULTIPLE IMAGES IN A THICK PLANE
+GLASS PLATE OR THICK MIRROR
+
+If a pin (or an illuminated object) is placed
+in front of a thick plane glass plate (or a thick
+mirror) and is viewed obliquely, a number of
+images are seen. Out of these images, the second
+image is the brightest, while others are of
+decreasing brightness.
+
+In Fig. 4.8, LMNP represents a thick plane
+mirror of which NP is the silvered surface. An
+illuminated object A is kept in front of it.
+
+tsin (i—r)
+cos r
+block, i = angle of incidence, r = angle of refraction.
+
+* — Lateral displacement = where f = thickness of glass
+
+Fig. 4.8 Multiple reflections in a thick mirror
+
+Consider two rays, one falling normally on the
+mirror and the other AB falling obliquely on it.
+When the ray of light AB falls on the surface LM
+of the mirror, a small part of light (nearly 4%)
+is reflected in the direction BP, forming a faint
+virtual image at A,, while a larger part of light
+(nearly 96%) is refracted along BB’ inside the
+glass. The ray BB’ which strikes at B’, is now
+strongly reflected back by the silvered surface PN
+inside glass as B’C. This ray is then partially
+refracted along CQ in air and partially reflected
+along CC’ within the glass. The refracted ray CQ
+forms the virtual image A,. The image A, is the
+brightest image because it is due to the light
+suffering a strong first reflection at the silvered
+surface PN.
+
+The reflected ray CC’ further suffers multiple
+reflections at C’, D, D’, ... and refractions at D,
+E, F, within the thickness of glass plate
+giving rise to multiple virtual images A,, A,, As,
+of gradually decreasing brightness.
+
+Note : (1) In Fig. 4.8 due to drawing, the
+rays BP, CQ, appear to be far separated
+from each other, but actually they enter the eye
+simultaneously.
+
+(2) A thick glass plate also behaves like a
+thick plane mirror.
+
+
+
+===== PAGE 9 =====
+
+1. A ray of light in passing from one transparent
+medium to the other medium having different
+optical density, bends.
+
+(a) Name the phenomenon. Give reason for it.
+
+(b) How do the following quantities change :
+speed, wavelength, frequency and amplitude if
+second medium is denser than the first
+medium.
+
+(c) State whether the ray of light will bend or not,
+if both medium have same optical densities.
+
+(a) Refraction.
+
+The reason of bending (or refraction) is the change
+in speed of light in passing from one medium to
+other of different optical density.
+
+(b) Speed will decrease.
+
+Wavelength will decrease.
+
+Frequency will remain unchanged.
+
+Amplitude will decrease (due to partial reflection at
+the boundary of two media).
+
+(c) The ray will not bend.
+
+2. A ray of light falls normally on a glass slab. Draw
+diagram showing the path of the ray till it
+emerges out of the slab. What is the angle of
+incidence and angle of refraction at each surface
+of slab ?
+
+The ray diagram is shown in Fig. 4.9 in which the
+light ray passes undeviated throught the slab.
+
+Incident ray
+
+Refracted
+
+Emergent ray
+
+Fig. 4.9
+At each surface of glass slab,
+angle of incidence = 0°
+and angle of refraction = 0°
+3. ‘The refractive index of water is 4/3’. Explain the
+meaning of this statement.
+
+It means that the speed of light in water is 3/4" the
+speed of light in vacuum (or air). OR the speed of
+
+light in air (or vacuum) is 4/3 times the speed of
+light in water.
+
+4. Refractive index of water is 4/3. Calculate the
+speed of light in water. Speed of light in vacuum
+is 3x10? ms
+
+Refractive index of water ;
+speed of light in vacuum
+
+speed of light in water
+4 3x10°
+3 ~ Speed of light in water
+
+or Speed of light in water = 3 x (3 x 108)
+= 2-25 x 108 ms.
+
+5. The refractive index of water is ‘ and of glass is
+
+3. What is the refractive index of glass with
+
+respect to water ?
+: 4 3
+
+Given : gl, = 3> ap =
+
+«. Refractive index of glass with respect to water
+
+refractiveindex of glass
+
+wits = refractive index of water
+= tae BIR Be a
+FE Dy, ag ge
+
+6. Orange light of wavelength 6600 A travelling in
+air gets refracted in water. If the speed of light in
+air is 3 x 108 ms“ and refractive index of water
+is 4/3, find : (i) the frequency of light in air, (ii)
+the speed of light in water, and (iii) the
+wavelength of light in water.
+
+Given : A,;, = 6600 A = 6600 x 107! m,
+c=3x 108 mst, p=43
+
+(i) From relation c = f A (in air)
+
+Frequency of light in air f,;, = 7
+
+e -fe 3x108 =
+ar 6600x107
+= 4:54 x 104 Hz.
+(ii) From relation p = 3
+co: ec _ 3x108
+Speed of light in water V = = 4B
+= 2-25 x 108 ms!
+
+(iii) Since the frequency of light remains unchanged in
+refraction, $0 fyater = Sri = 454 x 10!4 Hz
+
+Now speed of light in water V = fyater  Awater
+
+SaaS
+
+
+===== PAGE 10 =====
+
+-. Wavelength of i in water
+
+_ 225.108
+"water = a 4-54 x10!4
+= 4-95 x 10-7 m or 4950 A
+dai 6600 A
+Alternative : Ayater = Tae’ = gq = 4950 A
+
+7. A ray of light strikes a glass slab 5 cm thick,
+
+making an angle of incidence equal to 30°.
+
+(a) Draw a ray diagram showing the emergent
+ray and the refracted ray through the glass
+block. The refractive index of glass is 1-5.
+
+(b) Measure the lateral displacement of the ray.
+Take sin 19-5° = 1/3.
+
+Given : 1 = 1-5, i= 30°
+
+Let us first calculate the angle of refraction r.
+
+=u
+sin30° 1
+sin Tae = 15 = aa = 3
+
+or r= 19-5° (since sin 19-5° = 1/3)
+
+The ray diagram is given in Fig 4.10. The refracted
+
+ray is drawn with angle of refraction 19-5° and
+
+emergent ray is drawn parallel to the incident ray.
+
+From Snell's law, =—
+
+REFRACTED
+RAY
+
+Fig. 4.10 " ateral displacement
+
+(b) Lateral displacement =
+
+8. The diagram below shows a glass block
+suspended in a liquid. A beam of light of single
+colour is incident from liquid on one side of the
+block.
+
+1 cm nearly (on proper scale).
+
+LIQUID LiquID
+
+LIGHT BEAM
+
+Fig. 4.11
+
+Le
+
+(a) Draw diagrams to show how does the light
+bend when it travels from liquid to glass and
+then to liquid if (i) the light slows down in
+glass, and (ii) the light speeds up in glass.
+
+(b) State two conditions under which the light ray
+passing from liquid to glass travels straight
+without bending. Will the glass be visible
+then ?
+
+(a) (i) If light slows down in going from liquid to glass,
+it means that p glass > Vriquiar SO it will bend towards the
+normal at the point of incidence in passing from liquid to
+glass at the first surface, while it will bend away from the
+normal at the second surface in passing from glass to
+liquid. The ray diagram is shown in Fig. 4.12. The light
+beam suffers lateral displacement.
+
+LIQUID
+
+Fig. 4.12
+
+(ii) If light speeds up in going from liquid to glass,
+it means that p glass < Miiquia SO it will bend away from the
+normal at the point of Tncidence on the first surface in
+passing from liquid to glass, while it will bend towards
+the normal at the second surface in passing from glass to
+liquid. The ray diagram is shown in Fig. 4.13. The light
+beam suffers lateral displacement in direction opposite to
+that in case (i).
+
+LIQUID
+
+Fig. 4.13
+
+Note : In both cases, the emergent ray is parallel to
+the incident ray.
+
+(b) A light ray passing from liquid to glass travels
+straight without bending under the following two
+conditions:
+
+(1) When the light ray falls normally on glass from
+liquid (i.e., if Zi = 0°, Zr = 0°).
+
+(2) When refractive index of liquid is same as that of
+glass (or speed of light in glass is same as in liquid).
+In both the above conditions, the glass block will
+not be visible inside the liquid.
+
+
+===== PAGE 11 =====
+
+9.
+
+(i)
+(ii)
+
+(iii)
+
+(i)
+(ii)
+
+The diagram below shows two parallel rays A
+
+and B of red and violet light respectively incident
+
+from air on air-glass boundary. Complete the
+
+diagram showing the refracted rays for them in
+the glass.
+
+A B
+
+RED VIOLET
+
+AIR
+GLASS
+Fig. 4.14
+How do the speeds of the rays differ in glass ?
+
+Are the two refracted rays in glass parallel ?
+Give a reason for your answer.
+
+How does the refractive index of glass differ for
+the two rays ?
+
+The completed ray diagram is shown below in
+Fig. 4.15.
+
+AIR
+
+GLASS
+
+Fig. 4.15
+
+In glass, the speed of violet light is less than that of
+the red light.
+
+The two refracted rays inside glass are not parallel.
+The reason is that the speed of red light in glass is
+less, while it is more for the violet light, so the red
+ray bends less, while the violet ray bends more (i.e.,
+the angle of refraction r, for red ray is more than the
+angle of refraction r, for the violet ray).
+
+What do you understand by refraction of light ?
+Draw diagrams to show the refraction of light
+from (i) air to glass, and (ii) glass to air. In each
+diagram, label the incident ray, refracted ray, the
+angle of incidence (i) and the angle of refraction (7).
+A ray of light is incident normally on a plane glass
+slab. What will be (i) the angle of refraction, and
+(ii) the angle of deviation for the ray ?
+
+Ans. (i) 0°, (ii) 0°
+An obliquely incident light ray bends at the surface
+due to change in speed, when passing from one
+medium to other. The ray does not bend when it is
+
+(iii) Since pp = c/V, so the Tefractive index of glass is
+
+10.
+
+(b)
+
+(c)
+
+more for the violet light than for the red light (i.e.,
+Hy > Hp).
+
+Fig. 4.16 shows a A
+
+ray of light AO
+
+incident on a 0
+rectangular glass
+block PQRS, which
+is silvered at the ¢ R
+surface RS. The ray SILVERED SURFACE
+
+is partly reflected Fig. 4.16
+
+and partly refracted.
+
+Draw the path of the reflected and refracted rays.
+Show at least two rays emerging from the surface
+PQ after reflection from the surface RS.
+
+How many images are formed in the above
+case ? Which image is the brightest ?
+
+The completed
+diagram is shown
+in Fig. 4.17 in
+which OB is the
+reflected ray and
+oc is the
+refracted ray for
+the incident ray
+AO.
+
+Two rays emerging from the surface PQ after
+reflections from the surface RS are labelled as
+1 and 2.
+
+Multiple (or infinite) images are formed. The
+second image formed due to first reflection at C at
+the silvered surface RS, is the brightest. It is seen in
+the direction of ray 1.
+
+SILVERED SURFACE
+Fig. 4.17
+
+incident normally. Will the ray have different speed
+
+in other medium ? Ans. Yes
+
+What is the cause of refraction of light when it
+
+passes from one medium to another ?
+
+A light ray suffers reflection and refraction at the
+
+boundary in passing from air to water. Draw a neat
+
+labelled ray diagram to show it.
+
+A ray of light passes from medium 1 to medium 2.
+
+Which of the following quantities of the refracted
+
+ray will differ from that of the incident ray :
+
+speed, intensity, frequency, and wavelength ?
+
+Ans. Speed, intensity and wavelength
+le nl
+
+a Ee)
+
+
+
+===== PAGE 12 =====
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+State the Snell’s laws of refraction of light.
+Define the term refractive index of a medium. Can
+it be less than 1 ?
+How is the refractive index of a medium related to
+the speed of light in it ?
+A light ray passes from water to (i) air, and
+(ii) glass. In each case, state how does the speed of
+light change.
+Ans. (i) The speed of light increases
+(ii) The speed of light decreases.
+A light ray in passing from water to a medium
+(a) speeds up, (b) slows down. In each case, (i) give
+one example of the medium, (ii) state whether the
+refractive index of medium is equal to, less than or
+greater than the refractive index of water.
+Ans. (i) (a) air (b) glass,
+(ii) (a) less than, (b) greater than
+What do you understand by the statement 'the
+refractive index of glass is 1-5 for white light’ ?
+A monochromatic ray of light passes from air to
+glass. The wavelength of light in air is A, the speed
+of light in air is c and in glass is V. If the refractive
+index of glass is 1:5, write down (a) the relationship
+between c and V, (b) the wavelength of light in glass.
+Ans. (a) c= 1-5 V (b) A/1-5
+In an experiment of finding the refractive index of
+glass, if blue light is replaced by the red light, how
+will the refractive index of glass change ? Give
+reason in support of your answer.
+(a) For which colour of white light, is the refractive
+index of a transparent medium (i) the least,
+(ii) the most ?
+(b) Which colour of light travels fastest in any
+medium except air ?
+Ans. (a) (i) Red (ii) Violet, (b) Red
+Name two factors on which the refractive index of
+a medium depends ? State how does it depend on
+the factors stated by you.
+How does the refractive index of a medium depend
+on the wavelength of light used ?
+Ans. Refractive index of a medium decreases with
+increase in wavelength of light.
+How does the refractive index of a medium depend
+on its temperature ?
+Ans. Refractive index decreases with increase in
+temperature of medium.
+In Fig. 4.18, a ray of light A incident from air suffers
+partial reflection and refraction at the boundary of
+water.
+
+21.
+
+22.
+
+(a) Complete the diagtam a
+showing (i) the
+reflected ray B and :
+(ii) the refracted ray C. AX
+
+(b) How are the angles of Water
+incidence i and
+refraction r related ?
+
+Fig. 4.18
+
+Ans. (b) sin i/sin r =p,
+
+The diagram alongside :
+
+shows the refraction of a
+
+ray of light from air to a
+
+liquid.
+
+(a) Write the values of
+(i) angle ofincidence,
+and (ii) angle of
+refraction.
+
+(b) Use Snell’s law to find the refractive index of
+liquid with respect to air.
+
+3
+Ans. (a) (i) 60°, (ii) 45°, 2 or 1-22
+The refractive index of water with respect to air is
+
+ally and of glass with respect to air is gig. Express
+the refractive index of glass with respect to water.
+
+LIQUID
+
+Fig. 4.19
+
+ally
+aly
+What is lateral displacement ? Draw a ray diagram
+showing the lateral displacement of a ray of light
+when it passes through a parallel sided glass slab.
+A ray of light strikes the surface of a rectangular
+glass slab such that the angle of incidence in air is
+(i) 0°, (ii) 45°. In each case, draw diagram to show
+the path taken by the ray as it passes through the
+glass slab and emerges from it.
+
+Ans. wl =
+
+In the adjacent diagram, AO is
+a ray of light incident on a
+rectangular glass slab.
+
+(a) Complete the path of the
+ray till it emerges out of
+the slab.
+
+(b) In the diagram, mark the
+
+angle of incidence (i) and
+
+the angle of refraction (r) at the first interface.
+
+How is the refractive index of glass related to
+
+the angles i and r?
+
+Mark angle of emergence by the letter e. How
+
+‘are the angles i and e related ?
+
+(d) Which two rays are parallel to each other ?
+Name them.
+
+(e) Indicate in the diagram the lateral displacement
+
+Fig 4.20
+
+(c)
+
+
+===== PAGE 13 =====
+
+between te emergent ray “ana the incident ray: °
+State one factor that affects the lateral
+displacement.
+26. A ray of green light enters a liquid from air, as
+shown in Fig. 4.21. The angle 1 is 45° and angle 2
+is 30°.
+
+PLANE MIRROR
+Fig. 4.21
+
+(a) Find the refractive index of liquid.
+
+(b) Show in the diagram the path of the ray after it
+strikes the mirror and re-enters in air. Mark in
+the diagram the angles wherever necessary.
+
+(c) Redraw the digaram if plane mirror becomes
+normal to the refracted ray inside the liquid.
+State the principle used.
+
+Ans. (a) V2 or 1-41
+
+27. Light of a single colour is passed through a liquid
+having a piece of glass suspended in it. On changing
+the temperature of liquid, at a particular temperature
+the glass piece is not seen.
+
+(i) When is the glass piece not seen ?
+(ii) Why is the light of a single colour used ?
+
+Ans. (i) The glass piece is not seen when the refractive
+index of liquid becomes equal to the refractive
+index of glass.
+
+(ii) Light of a single colour is used because the
+refractive index of a medium (glass or liquid) is
+different for the light of different colours.
+
+28. When an illuminated object is held in front of
+a thick plane glass mirror, several images are seen,
+out of which the second image is brightest. Give
+reason.
+
+29. Fill i we Dranks-to complete the following
+sentences :
+(a) When light travels from a rarer to a denser
+medium, its speed
+(b) When light travels from a denser to a rarer
+medium, its speed
+(c) The refractive index of glass with respect to air
+is 3/2. The refractive index of air with respect to
+glass will be...............+.
+Ans. (a) decreases, (b) increases, (c) 2/3.
+
+MULTIPLE CHOICE TYPE
+1. When a ray of light from air enters a denser
+medium, it :
+(a) bends away from the normal
+(b) bends towards the normal
+(c) goes undeviated
+(d) is reflected back.
+Ans. (b) bends towards the normal.
+2. A light ray does not bend at the boundary in passing
+from one medium to the other medium if the angle
+of incidence is :
+
+(a) O° (b) 45° (c) 60° (d) 90°. Ans. (a) 0°
+3. The highest refractive index is of :
+
+(a) Glass (b) Water
+
+(c) Diamond (d) Ruby. Ans. (c) Diamond
+NUMERICALS
+
+1. The speed of light in air is 3 x 108 m s“!. Calculate
+the speed of light in glass. The refractive index of
+glass is 1-5. Ans. 2 x 108 ms!
+
+2. The speed of light in diamond is 125,000 km s7!.
+What is its refractive index ? (Speed of light in air
+=3x 108 ms"). Ans. 2:4
+
+3. The refractive index of water with respect to air is
+4/3. What is the refractive index of air with respect
+to water ? Ans. 0-75
+
+A ray of light of wavelength 5400 A suffers
+refraction from air to glass. Taking
+the wavelength of light in glass.
+
+abt, = 3/2, find
+Ans. 3600 A
+
+4.8 PRISM
+
+A prism is a transparent medium bounded by
+five plane surfaces with a triangular cross section.
+Two opposite surfaces of prism are identical
+
+parallel triangles, while the other three surfaces
+are rectangular and inclined on each other.
+
+
+
+===== PAGE 14 =====
+
+Fig. 4.22 shows a prism in which the opposite
+surfaces ABC and DEF are triangular. The
+principal section of prism is the triangle ABC. The
+ZBAC is the angle of prism, which is denoted by
+the letter A. The two rectangular surfaces ABED
+and ACFD shown shaded are the refracting
+surfaces. The line AD is the refracting edge and
+the rectangular surface BCFE is the base of the
+prism, which is usually grounded or made rough.
+
+REFRACTING D
+
+EDGE
+A
+
+REFRACTING
+SURFACE
+
+REFRACTING
+SURFACE
+
+8 Cc
+Fig. 4.22 Prism
+Note : In ray diagrams, a prism is shown
+only by its principal section ABC.
+
+4.9 REFRACTION OF LIGHT THROUGH A
+GLASS PRISM
+
+Fig. 4.23 shows the principal section ABC of
+a glass prism. The angle of prism is ZBAC = A.
+A monochromatic ray of light (i.e., a light ray of
+single colour) OP strikes the face AB of the prism
+at an angle of incidence i,. It suffers refraction
+from air (rarer medium) to glass (denser medium)
+at the face AB, so it bends towards the normal PN
+making an angle of refraction r, and travels along
+PQ inside the prism. Thus PQ is the refracted ray.
+The refracted ray PQ strikes the face AC of the
+prism at an angle of incidence r,. It suffers
+refraction from glass (denser medium) to air (rarer
+medium) at the face AC, so it bends away from the
+
+A
+
+Fig. 4.23 Deviation by a prism
+
+normal NQ and emerges out of the prism as QR at
+an angle of emergence i,. Thus QR is the emergent
+
+Note : Due to the principle of reversibility
+of path of a light ray, if a ray directed along RQ
+is considered as the incident ray, it will follow
+the path QPO. It means that for the incident ray
+RQ, the emergent ray will be PO.
+
+Thus in a prism, the ray of light suffers
+refraction at two inclined faces AB and AC of the
+prism. In each refraction, the ray bends towards
+the base of the prism. At the first face AB of the
+prism the ray OP, instead of going along OPM,
+has bent at P along PQ, so suffers a deviation by
+an ZMPQ equal to 5,. At the second face AC, the
+ray PQ has bent at Q along QR which appears to
+be coming along MQR, so suffers a deviation by
+an ZMQP equal to 8,.
+
+In the absence of the prism, the incident ray
+OP would have travelled along OPML. The
+emergent ray QR appears to be coming along
+MQR. Thus the prism has produced a deviation by
+an ZLMQ, which is the angle between the
+direction of incident ray (OP produced forward)
+and the emergent ray (QR produced backward). It
+is called the angle of deviation and is denoted by
+the greek alphabet 6 (delta).
+
+In Fig. 4.23, Z LMQ = Z MPQ + Z MQP
+Angle of deviation 5 = Z MPQ + Z MQP
+
+=8, 46,0 aed (i)
+Since Z MPN = i, (angle of incidence), and
+Z MQN = i, (angle of emergence).*
+Therefore Z MPQ = 6, =(i,-1,)
+and ZMOQP = 8, = (i, -7,)
+-. From eqn. (i), 8 = (i, -7,) + (,- 1)
+or i : (4.9)
+
+Also for the quadilateral APNQ in Fig 4.23,
+ZAPN = ZAQN = 90°
+
+* Sometimes angle of emergence is denoted by the letter e in
+place of i,, then angle of incidence is written i in place of i,.
+
+
+===== PAGE 15 =====
+
+. ZPNQ + Z PAQ = 180°
+
+But Z PAQ =A,
+ZPNQ = 180°-A lan. (ii)
+But in triangle PNQ,
+
+ZPNQ = 180°-(r,+ 75)
+-. From egns. (ii) and (iii),
+[180° - (r, + r,)] = 180°-A
+
+or
+
+5 = (i, +i,)-A
+
+or
+
+Note : In a prism, the refraction of light
+occurs at two inclined faces, so the emergent
+ray is not parallel to the incident ray, but it is
+deviated towards the base of prism. On the
+
+other hand, in a parallel sided glass slab, the
+refraction of light occurs at two parallel faces,
+so the emergent ray is parallel to the incident
+ray with a lateral shift.
+
+Factors affecting the angle of deviation
+The angle of deviation 6 (i.e., the deviation
+
+produced by a prism) depends on the following
+four factors :
+
+(1) the angle of incidence (i),
+
+(2) the material of prism (i.e., on refractive
+
+index \1),
+(3) the angle of prism (A), and
+(4) the colour or wavelength (A) of light used.
+
+(1) Dependence of angle of deviation on the
+
+angle of incidence; i-6 graph ;
+
+It is experimentally observed that as the angle
+
+of incidence increases, the angle of deviation first
+
+decreases, reaches to a minimum value for a
+
+certain angle of incidence and then on further
+
+increasing the angle of incidence, the angle of
+deviation begins to increase.
+
+* If angle of incidence is i and angle of emergence is e, then
+eqn. (4.11) takes the form i+e=A+6.
+
+Note : To get the graph showing the
+variation of angle of deviation with the angle of
+incidence experimentally, the direction of
+incident ray is kept unchanged and the prism is
+rotated. On rotation of prism, the direction of
+normal at the face of prism changes, so the
+angle which the incident ray makes with the
+normal (i.e., the angle of incidence) changes.
+
+The angle of deviation 5 is noted for each angle
+of incidence i and then a graph is drawn for 6 vs i.
+Fig. 4.24 shows the variation in angle of deviation
+(5) with the angle of incidence (i). It is called the
+i-8 curve in which the minimum value of angle of
+deviation is marked as 8nin-
+
+ANGLE OF DEVIATION (5) —>
+
+ANGLE OF INCIDENCE (ij) —>
+Fig. 4.24 i-6 curve
+
+It is found that the angle of deviation becomes
+minimum (8nin) When the angle of incidence is
+equal to the angle of emergence i.e., when i, = i,
+or when r, = r,. In Fig. 4.23, if A ABC is
+equilateral (or equiangular), for r, = r,, the ray PQ
+will be parallel to the base BC.
+
+The position of prism with respect to the
+incident ray at which the incident ray suffers
+minimum deviation is called the position of
+minimum deviation. Thus in the position of
+minimum deviation, the refracted ray inside the
+prism is parallel to its base, if the prism is
+equilateral (or the principal section of prism forms
+an isosceles triangle). In other words,
+
+In the position of minimum deviation,
+i.é., when 8= Spin, i, = i, = i (Say).
+Then from eqn. (4.11),
+
+(4.12)
+
+
+===== PAGE 16 =====
+
+For a given prism ‘ana~giveir corour or rpnit;’
+
+Sin 18 unique since only one horizontal line can be
+drawn parallel to i-axis at the lowest point of i-5
+curve, i.e., only for one value of angle of
+incidence i, the refracted ray inside the prism is
+parallel to its base.
+
+Deviation at different angles of incidence :
+Fig. 4.25 shows the deviation of a light ray by an
+equilateral prism of glass (u = 1-5) at different
+angles of incidence. The values of different angles
+can be calculated using the eqns. (4.1), (4.10) and
+(4.11) with A = 60°. In Fig. 4.25(a), angle of
+incidence i, = 70°, angle of emergence i, = 33°
+and angle of deviation 5 = 43°. In Fig. 4.25(b),
+i, = 48°, i, = 48° and 6 = 36°, while in
+Fig. 4.25(c), i, = 30°, i, = 77° and 6 = 47°.
+
+c
+(b) When i, = 48° B ()Wheni, =30° ©
+Fig. 4.25 Deviation by a equilateral prism
+at different angles of incidence
+From the ray diagrams shown in Fig. 4.25, it
+can easily be inferred that 5 has the minimum
+
+valine “in Fig: "4. Z5(by waren me ‘angle of incidence
+i, is 48° and the refracted ray PQ is parallel to the
+base BC of prism. In this condition, the angle of
+emergence i, is also 48° (equal to the angle of
+incidence i, ). In Fig. 4.25(b), the angle of
+minimum deviation is
+
+8 nin = 21-A = 2 x 48° — 60° = 36°.
+
+(2) Dependence of angle of deviation on the
+material of prism (or refractive index)
+
+It is found that for a given angle of incidence,
+the prism with a higher refractive index produces
+a greater deviation than the prism which has a
+lower refractive index. A flint glass prism
+produces more deviation than a crown glass prism
+of same refracting angle since Lint > Merown’
+
+(3) Dependence of angle of deviation on the
+angle of prism*
+
+It is found that the angle of deviation (8)
+increases with the increase in the angle of
+prism (A).
+
+(4) Dependence of angle of deviation on the
+colour (or wavelength) of light
+
+The refractive index of a given transparent
+medium is different for the light of different
+colours. It decreases with the increase in the
+wavelength of light. Thus the refractive index of
+the material of a prism is maximum for the violet
+light and minimum for the red light. Consequently,
+a given prism deviates the violet light most and the
+red light least (i.€.,8,ije¢ > Seq SINCE Uyiotet > Hea)”
+
+* For small angle of prism A, angle of deviation 8 = (—1)A.
+
+1. Fig. 4.26 alongside shows an equilateral prism
+ABC and the ray QR emerging out from the
+prism after suffering minimum deviation.
+Complete the diagram to show the refracted ray
+PQ inside the prism and the incident ray OP on
+the prism. State in words how have you
+completed the diagram.
+
+
+===== PAGE 17 =====
+
+The completed diagram is shown below in Fig. 4.27.
+
+Fig. 4.27
+
+Way of drawing :
+
+(1) The refracted ray PQ is drawn parallel to the base
+BC of the prism since the emergent ray QR has
+suffered minimum deviation.
+
+After drawing normals on face AB of prism at P and
+on face AC of prism at Q, the incident ray OP is
+drawn such that the angle of incidence i, is equal to
+the angle of emergence i,.
+
+(2)
+
+In Fig. 4.28, a monochromatic point source of
+light S is viewed by an observer O through
+a prism P. Complete the diagram to show the
+image formed by the prism and as seen by the
+observer O. Label the image by the letter I.
+
+mS
+P OBSERVER
+Fig. 4.28
+
+The completed ray diagram is shown in
+Fig. 4.29. Two rays SA and SL from the source of
+light S, are incident on the prism. They are refracted
+along AB and LM respectively from the first face
+of the prism. The rays AB and LM again get
+refracted from the second face of the prism and
+emerge out of the prism along BC and MN
+respectively such that they appear to come from a
+point I. Thus I is the image of the point source S.
+In other words, the observer O sees the source S
+raised to the position I.
+
+Fig. 4.29
+
+Fig. 4.30 shows two identical prisms P and Q placed
+with their faces parallel to each other. A light ray
+of yellow colour AB is incident at the face of
+
+the prism P. Complete the diagram to show the
+path of the ray till it emerges out of the prism Q.
+
+P
+Fig. 4.30
+The completed diagram is shown in Fig. 4.31 in
+which the ray CD emerging out of the prism Q is
+parallel to the ray AB incident on the prism P.
+
+Q
+
+D
+
+P Q
+Fig. 4.31
+
+Fig. 4.32 below shows a light ray of green colour
+incident normally on the prisms A, B and C. In
+each case, draw the path of the ray of light as it
+enters and emerges out of the prism. Mark the
+angle wherever necessary.
+
+(c)
+
+(b)
+Fig. 4.32
+
+The completed diagrams are given in Fig. 4.33.
+
+Note : (i) The light ray incident normally on a
+surface gets refracted without deviation.
+
+(ii) The light ray in passing from air to prism
+obliquely bends towards the normal at the point
+of incidence.
+
+(iii) The light ray in passing from prism to air
+obliquely bends away from the normal at its point
+of incidence.
+
+
+
+===== PAGE 18 =====
+
+1. What is a prism ?
+
+With the help of a diagram of principal section of a
+prism, indicate its refracting surfaces, refracting
+angle and base.
+
+2. The diagrams (a) and (b) in Fig. 4.34 below show
+
+the refraction of a ray of light of single colour
+through a prism and a parallel sided glass slab
+respectively.
+
+(a) (b)
+
+Fig. 4.34
+(i) In each diagram, label the incident, refracted,
+emergent rays and the angle of deviation.
+
+(ii) In what way the direction of emergent ray in the
+two cases differ with respect to the incident
+ray ? Explain your answer.
+
+Define the term angle of deviation.
+
+. Complete the following sentence :
+Angle of deviation is the angle which the
+ray makes with the direction of ............ Tay.
+
+Ans. emergent, incident
+. What do you understand by the deviation produced
+by a prism ? Why is it caused ? State three factors
+on which the angle of deviation depends.
+
+(a) How does the angle of deviation produced by a
+prism change with increase in the angle of
+incidence. Draw a curve showing the variation
+in the angle of deviation with the angle of
+incidence at a prism surface.
+
+Using the curve in part (a) above, how do you
+infer that for a given prism, the angle of
+minimum deviation 6,,,, is unique for the given
+light.
+
+State whether the following statement is ‘true’ or
+‘false’ :
+
+The deviation produced by a prism is independent of
+the angle of incidence and is same for all colours of
+light. Ans. False
+. How does the deviation produced by a prism
+
+depend on (i) the refraction index of its material, and
+(ii) the wavelength of incident light.
+
+(b)
+
+10.
+
+i.
+
+12.
+
+13:
+
+14.
+
+15.
+
+16.
+
+17.
+
+How does the angle of minimum deviation produced
+by a prism change with increase in (i) the
+wavelength of incident light, and (ii) the refracting
+
+angle of prism ? Ans. (i) decreases (ii) increases.
+Write a relation for the angle of deviation (8) for a
+ray of light passing through an equilateral prism in
+terms of the angle of incidence (i,), angle of
+emergence (i,) and angle of prism (A).
+Ans. 8 = (i, + i,)-A
+A ray of light incident at an angle of incidence i,
+passes through an equilateral glass prism such that
+the refracted ray inside prism is parallel to its base
+and emerges at an angle of emergence i,.
+(i) How is the angle of emergence ‘i,’ related to the
+angle of incidence ‘i,’ ? (ii) What can you say about
+the angle of deviation in such a situation ?
+Ans. (i) i, = i; (ii) angle of deviation is minimum.
+
+How is the angle of emergence related to the angle
+of incidence when prism is in the position of
+minimum deviation ? Illustrate your answer with the
+help of a labelled diagram using an equilateral
+prism.
+
+A light ray of yellow colour is incident on an
+equilateral glass prism at an angle of incidence equal
+to 48° and suffers minimum deviation by an angle of
+36°. (i) What will be the angle of emergence ?
+(ii) If the angle of incidence is changed to (a) 30°,
+(b) 60°, state in each case whether the angle of
+deviation will be equal to, less than or more than
+36° ?
+Ans. (i) 48° (ii) (a) more than 36° (b) more than 36°
+
+Name the colour of white light which is deviated
+(i) the most, and (ii) the least, on passing through a
+prism.
+
+Ans. (i) violet (ii) red
+
+Which of the two prisms, A made of crown glass
+and B made of flint glass, deviates a ray of light
+more ? Ans. B made of flint glass
+
+How does the angle of deviation depend on the
+refracting angle of the prism ?
+
+An object is viewed through a glass prism with its
+vertex pointing upwards. Draw a ray diagram to
+show the formation of its image seen by the
+observer.
+
+
+===== PAGE 19 =====
+
+18. A ray of light is normally incident on one face of an
+equilateral glass prism. Answer the following :
+
+(a) What is the angle of incidence on the first face
+of the prism ?
+
+(b) What is the angle of refraction from the first
+face of the prism ?
+
+(c) What will be the angle of incidence at the
+second face of the prism ?
+
+(d) Will the light ray suffer minimum deviation by
+the prism ?
+Ans. (a) 0° (ii) 0° (iii) 60° (iv) No
+
+19. Fig. 4.35 below shows two identical prisms A and B
+placed with their faces parallel to each other. A ray
+of light of single colour PQ is incident at the face of
+the prism A. Complete the diagram to
+show the path of the ray till it emerges out of the
+prism B.
+
+Fig. 4.35
+
+[Hint : The emergent ray out of the prism B will be
+parallel to the incident ray PQ]
+
+MULTIPLE CHOICE TYPE
+
+1. In refraction of light through a prism, the light ray:
+(a) suffers refraction only at one face of the prism
+(b) emerges out from the prism in a direction
+parallel to the incident ray
+(c) bends at both the surfaces of prism towards its
+base
+(d) bends at both the surfaces of prism opposite to
+its base.
+Ans. (c) bends at both the surfaces
+of prism towards its base.
+2. A ray of light suffers refraction through an
+equilateral prism. The deviation produced by the
+prism does not depend on the :
+(a) angle of incidence (b) colour of light
+(c) material of prism (d) size of prism.
+Ans. (d) size of prism.
+NUMERICALS
+
+1. A ray of light incident at an angle of incidence 48°
+on a prism of refracting angle 60° suffers minimum
+deviation. Calculate the angle of minimum deviation.
+[Hint : 5, = 2i- A] Ans. 36°
+
+2. What should be the angle of incidence for a ray of
+light which suffers minimum deviation of 36°
+through an equilateral prism ?
+
+(Hint : A = 60°, i= (A+ 8,,,,)/2] Ans. 48°
+
+(C) SIMPLE APPLICATIONS OF REFRACTION OF LIGHT
+
+4.10 REAL AND APPARENT DEPTH
+
+An object placed in a denser ‘medium when
+viewed from a rarer medium, appears
+
+a depth lesser than its real depth. '
+because of refraction of light.
+
+In Fig. 4.36, consider a point abject € O bin at
+the bottom of a transparent medium (such as water
+or glass) separated from air by the surface PQ. A
+ray of light OA, starting from the object O, is
+incident on the surface PQ normally, so it passes
+undeviated along the path AA’. Another ray OB,
+starting from the object O, strikes the boundary
+surface PQ at B and suffers refraction. Since the
+
+ray travels from a denser medium (water or glass)
+to a rarer medium (air), so it bends away from the
+normal N’BN drawn at the point of incidence B on
+the surface PQ and travels along BC in air.
+
+Fig. 4.36 Real and apparent depth
+
+
+===== PAGE 20 =====
+
+Note : The point B is very close to the point
+A, and both the rays OA’ and BC enter the eye
+simultaneously. In Fig. 4.36, they have been
+shown separately for the sake of clarity of the
+
+ray diagram.
+
+When viewed by the eye, the ray BC appears
+to be coming from a point I which is the virtual
+image of O, obtained on producing A’A and CB
+backward. Thus any object (e.g. a coin) placed at
+O, when seen from above (air), will appear to be
+at I which is at a lesser depth (= AJ) than its actual
+depth (= AO).
+
+In Fig. 4.36, for the incident ray OB, angle of
+incidence i = ZOBN’ and angle of refraction
+r = ZCBN. Since AO and BN’ are parallel and OB
+is a transversal line, so
+
+ZAOB = ZOBN’ = i
+
+Similarly, IA’ and BN are parallel and IC is the
+
+transversal line, so
+
+ZBIA’ = ZCBN =r
+Now in right-angled triangle BAO,
+
+sin i= Be
+*= OB
+and in right-angled triangle IAB,
+sin r= BS
+~ IB
+
+But from the definition of refractive index, the
+refractive index of air with respect to the medium
+- _ BA/OB _ IB
+
+mba = sin r ~ BA/IB ~ OB
+Refractive index of medium with respect to air
+1 OB
+mula
+Since the point B is very close to the point A,
+
+ie., the object is viewed from a point vertically
+above the object O, .. IB = IA and OB = OA.
+
+aim =
+
+Hence
+
+(4.13)
+
+or w(4.14)
+
+Thus,
+
+depth
+
+ie =
+
+raised, depends on :
+
+(1) the refractive index of the medium,
+
+(2) the thickness of the denser medium, and
+
+(3) the colour (or wavelength) of incident light*.
+
+(1) Dependence of shift on the refractive
+index : Higher the refraction index of the
+medium, more is the shift.
+
+(2) Dependence of shift on the thickness of
+medium : Thicker the medium, more is the
+shift.
+
+(3) Dependence on wavelength (or colour) of
+light : The shift decreases with the increase
+in the wavelength of light used. Since ty > Hp,
+therefore the shift is more for the violet light
+than for the red light in a given medium.
+
+Examples
+
+(i) For glass, , Pi 3, therefore the thickness of
+
+glass slab appears only two-third of its real
+thickness when it is viewed from air by
+keeping the eye vertical above the slab.
+
+(ii) For water, .H,, = <, therefore the depth of a
+
+water pond appears three-fourth of its real depth
+on seeing it from air in a nearly vertical direction
+(i.e., it appears shallow). This is why a fish when
+seen from air appears to be nearer the surface
+of water than at its actual depth.
+
+Note : The apparent depth of an object lying
+in a denser medium is always less than its real
+depth when viewed from any direction in the
+
+rarer medium. But the above eqns. (4.13), (4.14)
+and (4.15) are valid only when the object is
+seen from vertically above.
+
+* — The refractive index of a medium increases with the decrease
+
+in wavelength of incident light (Uy, > Up).
+
+
+===== PAGE 21 =====
+
+4.11 APPARENT BENDING OF A STICK
+UNDER WATER
+
+Fig. 4.37 shows a straight stick (or pencil)
+XOP placed obliquely in water. The portion OP
+of the stick (or pencil) under water when seen
+from air appears to be shortened and raised up
+as OP’. This is due to refraction of light from
+water to air. The rays of light coming from tip P
+of the stick (or pencil) when pass from: water to
+air, bend away from the normal and appear to be
+coming from a point P’ which is the virtual
+image of the point P. The same is true for every
+point of the stick (or pencil) inside water from P
+
+to O.
+W EYE
+
+(ease =n P acs ee
+Fig. 4.37 Bending of stick due to refraction
+
+Thus, the part PO of the stick (or pencil)
+appears to be P’O, i.e., the immersed part of the
+stick appears to be raised and therefore bent at
+the point O on the surface of water and the stick
+(or pencil) XOP appears as XOP’.
+
+Note : An object placed in a rarer medium
+when viewed from a denser medium appears to
+be at a greater distance than its real distance.
+In Fig. 4.38, an object O placed in air when
+viewed from water appears to be at 1 which
+is higher than the object O.
+
+Fig. 4.38 An object in rarer medium
+viewed from a denser medium
+
+412 SOME CONSEQUENCES OF THE
+
+REFRACTION OF LIGHT
+
+In our daily life we come across many
+phenomena which are caused by the refraction of
+light. Some of these are given below :
+
+(i) A star appears twinkling in the sky due to
+change in refractive index of air with
+temperature.
+
+The sun is seen a few minutes before it rises
+
+above the horizon in the morning while in
+
+the evening few minutes longer after it sets.
+
+A coin kept in a vessel and not visible when
+
+seen from just below the edge of the vessel,
+
+can be viewed from the same position when
+water is poured into the vessel.
+
+A print appears to be raised when a glass
+
+slab is placed over it.
+
+(v) A piece of paper stuck at the bottom of a
+glass slab appears to be raised when seen
+from above.
+
+(vi) A tank appears shallow than its actual
+depth.
+
+(vii) A person's legs appear to be short when
+standing in a tank.
+
+(ii)
+
+(iii)
+
+(iv)
+
+1, As seen from above, the apparent depth of a
+liquid in a vessel is 15 cm, when its real depth is
+20 cm. Find the refractive index of the liquid.
+
+Given, real depth = 20 cm, apparent depth = 15 cm.
+fs laits real depth
+Refractive index of the liquid = ‘apparent depth depth
+
+als
+
+= 1:33
+
+2. A point source of light O of single colour is seen
+through a rectangular glass slab PQRS. The
+paths of two rays, in and outside the slab, are
+shown in Fig. 4.39.
+
+(i) In the diagram, label the position I of the
+source O where it will appear when seen
+through the surface RS.
+
+
+===== PAGE 22 =====
+
+(ii) Does the source O appear °
+to be nearer or farther
+with respect to the surface ,,
+PQ?
+
+(iii) How does the shift depend
+on the thickness PS or QR
+of the slab ?
+
+(iv) Justify your answer in (ii)
+with the help of an appropriate ray diagram.
+
+(v) For the same rectangular glass slab, which
+colour from the visible spectra (violet to red)
+will produce the maximum shift ?
+
+(i) In Fig. 4.40, I is the
+position of source O when
+seen through the surface
+RS.
+
+(ii) The source O appears to be
+at I, nearer with respect to
+the surface PQ when
+viewed through the surface
+RS.
+
+(iii) The shift OI decreases with the decrease in
+thickness PS or QR of the slab.
+
+(iv) The ray diagram is shown in Fig. 4.40 in which
+for the thickness PS, the image is at I, while for
+the thickness PS’ (< PS), another emergent ray
+(parallel to the given previous emergent ray) is
+drawn and the image is at I’. Now the shift is OI
+which is less than the shift OI for the thickness
+PS of the slab.
+
+(v) The same rectangular glass slab will produce
+
+maximum shift for the violet light incident on
+it for which the refractive index of glass is most.
+
+Fig. 4.39
+
+Fig. 4.40
+
+. How is the refractive index of a medium related to
+the real and apparent depths of an object in that
+medium ?
+
+. Prove that
+
+Refractive index = feal dept,
+
+apparent depth *
+. A tank of water is viewed normally from above.
+(a) State how does the depth of tank appear to
+change.
+
+Draw a labelled ray diagram to explain your
+answer.
+
+(b)
+
+a5
+
+43.
+
+A glass slab is placed over a piece of paper on
+which VIBGYOR is printed with each letter into
+its corresponding colours.
+
+(i) Will the image of all the letters be in the same
+place ?
+
+(ii) The letter of which colour will appear to be
+raised (a) maximum, and (b) minimum ?
+Explain your answer.
+
+(i) No. The image of all the letters will not be in the
+same place.
+
+(ii) (a) The letter of violet colour (i.e., V) appears to
+be raised maximum. (b) The letter of red colour
+(i.e., R) appears to be raised minimum.
+
+teal depth
+refractive index
+refractive index of glass is most for the violet
+
+light while least for the red light, therefore the
+apparent depth is least for the violet letter and
+most for the red letter.
+
+Reason : Apparent depth = and
+
+A coin kept inside water (u = 4/3) when viewed
+from air in a vertical direction, appears to be
+raised by 2-0 mm. Find the depth of coin in
+water.
+
+4
+Given: = 3° shift = 2-0 mm
+Let real depth be x mm. Then
+
+x
+
+4/3
+Shift = real depth — apparent depth
+
+wie Bn BP
+meee Cae
+
+x 3
+Apparent depth = a= =7%
+
+x= 8-0 mm
+
+1
+iLe., ar =2:0mm ..
+
+Thus depth of coin is water = 8-0 mm
+
+Water in a pond appears to be only three-quarter of
+its actual depth. (a) What property of light is
+responsible for this observation ? Illustrate your
+answer with the help of a ray diagram. (b) How is
+the refractive index of water calculated from its real
+and apparent depths ?
+
+Draw a ray diagram to show the appearance of a
+stick partially immersed in water. Explain your
+answer.
+
+A fish is looking at a 1-0 m high plant at the edge
+of a pond. Will the plant appear to the fish shorter
+
+
+===== PAGE 23 =====
+
+or taller than its actual height ? Draw a ray diagram
+
+to support your answer. Ans. Taller
+7. A student puts his pencil into an empty trough and
+observes the pencil from the position as indicated in
+Fig. 4.41.
+NI
+
+Fig. 4.41
+
+(i) What change will be observed in the appearance
+of the pencil when water is poured into the
+trough ?
+
+(ii) Name the phenomenon which accounts for the
+above stated observation.
+
+(iii) Complete the diagram showing how the student’s
+eye sees the pencil through water.
+
+8. An object placed in one medium when seen from the
+other medium, appears to be vertically shifted. Name
+two factors on which the magnitude of shift depends
+and state how does it depend on them.
+
+MULTIPLE CHOICE TYPE
+
+1. A small air bubble in a glass block when seen from
+
+above appears to be raised because of :
+
+(a) refraction of light
+
+(b) reflection of light
+
+(c) reflection and refraction of light
+
+(d) none of the above.
+
+Ans. (a) refraction of light
+
+2. An object in a denser medium when viewed from a
+
+rarer medium appears to be raised. The shift is
+
+maximum for :
+
+(a) red light
+
+(c) yellow light
+
+(b) violet light
+(d) green light.
+
+Ans. (b) violet light
+NUMERICALS
+
+1. A water pond appears to be 2-7 m deep. If the
+refractive index of water is 4/3, find the actual depth
+of the pond. Ans, 3-6 m
+
+2. A coin is placed at the bottom of a beaker containing
+water (refractive index = 4/3) to a depth of 12 cm.
+By what height the coin appears to be raised when
+seen from vertically above ? Ans. 3 cm
+
+3. A postage stamp kept below a rectangular glass slab
+of refractive index 1-5 when viewed from vertically
+above it, appears to be raised by 7-0 mm. Calculate
+the thickness of the glass slab. Ans, 2-1 cm
+
+(D) CRITICAL ANGLE AND TOTAL INTERNAL REFLECTION
+
+4.13 TRANSMISSION OF LIGHT FROM A
+DENSER MEDIUM (GLASS OR WATER)
+TO A RARER MEDIUM (AIR) AT
+DIFFERENT ANGLES OF INCIDENCE
+
+Consider the refraction of light from a denser
+medium to a rarer medium. When a light ray
+travelling in a denser medium falls on the surface
+separating it from a rarer medium, it is partly
+reflected back into the denser medium and partly
+refracted in the rarer medium. The refracted ray
+bends away from the normal on the surface at the
+point of incidence obeying the laws of refraction.
+Now we shall consider this process of reflection
+and refraction at different angles of incidence.
+
+Case (i) when the angle of incidence is
+small (i < C) : In Fig 4.42, a light ray AO
+
+travelling in glass is incident at the glass-air
+interface at a small angle of incidence i. It is
+partly reflected and partly refracted. We get a
+weak reflected ray OC and a strong refracted ray
+OB. Since the incident ray bends away from the
+normal when it suffers refraction from glass to
+
+Fig. 4.42 Refraction from glass to air when i<C
+
+
+===== PAGE 24 =====
+
+air, therefore the angle of refraction r is greater
+than the angle of incidence i.
+
+Now if the angle of incidence i is gradually
+increased, the angle of refraction r also increases,
+but the intensity of refracted ray keeps on
+decreasing. Finally the angle of refraction r
+reaches its maximum value equal to 90° at a
+certain angle of incidence i = C. Here C is called
+the critical angle*.
+
+Case (ii) when the angle of incidence is
+equal to the critical angle (@ = C) : At angle of
+incidence equal to the critical angle (i = C), the
+angle of refraction becomes 90° as shown in
+Fig. 4.43. The refracted ray is along the glass-air
+interface and is very weak.
+
+esoo---Z
+
+r= 90° REFRACTED. RAY
+
+Fig. 4.43 Refraction from glass to air wheni=C
+
+In Fig. 4.43, for the incident ray AO at i = C,
+the refracted ray is OB and the reflected ray is OC.
+
+Case (iii) when the angle of incidence is
+greater than the critical angle (i > C) :
+Fig. 4.44 shows that for the incident ray AO at
+an angle of incidence i greater than the critical
+angle C, no refracted ray is obtained and the
+incident ray is totally reflected as OC.
+
+Fig. 4.43 Total reflection when i > C (no refraction)
+
+* Symbol i, is also used to denote the critical angle.
+
+eg.
+
+= MA
+
+4.14 CRITICAL ANGLE
+
+We have read that when a ray of light passes
+from a denser medium to a rarer medium, at a
+certain angle of incidence i = C, the angle of
+refraction becomes 90°, i.e, at i = C, r = 90°.
+The angle C is called the critical angle. Thus,
+
+a
+
+4.15 RELATIONSHIP BETWEEN THE
+
+CRITICAL ANGLE AND
+REFRACTIVE INDEX (u = 1/sin C)
+
+In Fig. 4.43, AO is an incident ray from
+glass to air at an angle of incidence i = C (critical
+angle) for which the angle of refraction r is 90°.
+Therefore, the refractive index of air with respect
+to glass is
+
+THE
+
+= sin C
+gta = Sin 90°
+But sin 90° = 1 «. gta = sin C
+
+But refractive index of glass with respect to air is
+1
+
+alg iz gla
+
+denser medium with respect to the rarer medium,
+we can calculate the critical angle C for that pair
+of media.
+
+Examples :
+(1) For glass, refractive index 2 3
+ah. = 2
+sin C= a = 3
+But sin 42°= , . C = 42°
+(2) For water, refractive index ,u,, = :
+i poe ee)
+ines =a
+But sin 49° = 3, . C= 49°
+
+
+===== PAGE 25 =====
+
+The table below gives the critical angle for
+some substances with respect to air.
+
+Critical angle for some substances with
+respect to air
+
+Factors affecting the critical angle
+
+The critical angle for a given pair of media
+depends on their refractive indices. But the
+refractive index of a medium is affected by the
+following two factors :
+
+(1) the colour (or wavelength) of light, and
+(2) the temperature.
+
+Therefore the critical angle depends on the
+above two factors.
+
+(1) Dependence on the colour of light : The
+refractive index of a transparent medium
+decreases with the increase of wavelength
+of light (it is most for the violet light and
+least for the red light), therefore the
+critical angle for a pair of media is least
+for the violet light and most for the red
+light ie. the critical angle increases with
+the increase in wavelength of light.
+
+(2) Dependence on temperature : On
+increasing the temperature of medium, its
+refractive index decreases, so the critical
+angle for that pair of media increases.
+Thus critical angle increases with an
+
+increase in temperature.
+
+4.16 TOTAL INTERNAL REFLECTION
+
+When light travels from a rarer to a denser
+medium, at all angles of incidence a part of it is
+reflected and the rest of it is refracted at the
+boundary surface. Thus both the reflection and
+refraction occur simultaneously. On the other
+hand, when light travels from a denser to a rarer
+
+medium, under certain condition (when the angle
+of incidence is greater than the critical angle), no
+part of light is refracted, but the entire light is
+reflected back in the same medium. In Fig. 4.45,
+the light ray AO gets entirely reflected as OC
+obeying the laws of reflection and it does not
+suffer refraction. This phenomenon is called total
+internal reflection.
+
+Fig. 4.45 Total internal reflection when i >C
+Thus,
+
+Essential conditions for the total internal
+reflection
+There are following two necessary conditions
+for the total internal reflection :
+(1) The light must travel from a denser to a rarer
+medium.
+(2) The angle of incidence must be greater than
+the critical angle for the pair of media.
+
+Note : In the process of total internal reflection,
+100% energy (or intensity) is reflected back. No
+other device such as plane mirror, etc. produces
+100% reflection (due to absorption and refraction
+of some part of light). Due to this property, the
+phenomenon of total internal reflection is used in
+the construction of periscope, binocular and certain
+types of camera in which a total reflecting prism
+replaces a plane mirror for the reflection of light.
+
+
+
+===== PAGE 26 =====
+
+Refraction and total internal reflection of
+light rays at different angles of incidence
+
+Fig 4.46 shows the refraction of light rays
+from a point source A kept in a denser medium
+to a rarer medium at different increasing angles
+of incidence.
+
+For the ray AO, the angle of incidence is zero,
+it is refracted as OA’.
+
+For the ray AP, the angle of incidence i is less
+than the critical angle C (i.e., i < C), it is partly
+reflected as PB and partly refracted as PC at an
+angle of refraction r > i.
+
+For the ray AQ, the angle of incidence is
+equal to the critical angle for the pair of media
+(i.e., i = C), so it is partly reflected as QB’
+and partly refracted as QC’ at the angle of
+refraction r equal to 90°.
+
+A’ c
+
+(:
+l
+| RARER
+| MEDIUM
+
+DENSER
+MEDIUM
+
+Fig 4.46 Refraction and total internal reflection
+
+For the ray AR, the angle of incidence is
+greater than the critical angle (i.e., i > C), so it
+is totally reflected as RB” at an angle of
+reflection r = i, and no refraction occurs.
+
+Note : The above phenomenon of refraction
+and total internal reflection can easily be
+demonstrated with the help of a laser pen source.
+The main precaution is taken that the laser source
+is not seen directly as it may damage the eyes.
+
+4.17 TOTAL INTERNAL REFLECTION IN A
+PRISM
+
+Now we shall consider total internal reflection
+
+in three different prisms : (1) 45°, 90°, 45° prism
+
+(i.e., right angled isosceles prism or total
+
+reflecting prism), (2) prism of each angle 60°
+
+, Ss
+
+(i.e., equilateral prism), and (3) 30°, 90°, 60°
+
+prism (i.e., a right-angled prism).
+
+(1) Total internal reflection through a
+45°, 90°, 45° prism (or right-angled
+isosceles prism)
+
+Total reflecting prism : A prism having an
+angle of 90° between its two refracting surfaces
+and the other two angles each equal to 45°, is
+called a total reflecting prism because the light
+incident normally on any of its faces, suffers total
+internal reflection inside the prism. Due to this
+behaviour, a total reflecting prism is used for the
+following three purposes :
+
+(a) to deviate a ray of light through 90°,
+
+(b) to deviate a ray of light through 180°, and
+
+(c) to erect the inverted image without
+
+producing deviation in its path.
+
+(a) To deviate a ray of light through 90°
+
+In Fig. 4.47,
+ABC is a total
+reflecting prism. A
+beam of light is
+incident normally
+at the face AB. It
+passes undeviated
+into the prism and
+strikes at the face
+AC at an angle of Fig. 4.47 Deviation through 90°
+incidence equal to 45°. For glass-air interface, the
+critical angle is about 42°, therefore the beam of
+light suffers total internal reflection at face AC
+because the angle of incidence is greater than the
+critical angle. The reflected beam inside the prism
+then strikes the face BC, where it is incident
+normally and therefore passes undeviated. As a
+result, the incident beam gets deviated through 90°
+emerging out through the prism. Fig. 4.47 shows
+the path of two rays PQ and P’Q’ through the
+prism and then out of it.
+
+Note : By the principle of reversibility of
+path of light, if light is incident normally on
+the face BC of the prism, it will emerge out
+
+from the face AB after suffering total internal
+reflection at the face AC.
+
+
+
+===== PAGE 27 =====
+
+Use : This action of prism is used in a
+periscope where a total reflecting prism is
+preferred over a plane mirror.
+
+(b) To deviate a ray of light through 180°
+
+“In Fig. 4.48,
+the beam of light
+from the object
+PQ falls normally
+on the face AC
+(i.e., hypotenuse)
+of the prism, so it
+enters undeviated
+inside the prism
+and strikes the
+glass-air interface
+AB of the prism. Since the beam of light is
+travelling from glass to air at an angle of
+incidence equal to 45° which is greater than the
+critical angle (= 42° for glass-air), therefore the
+beam of light suffers total internal reflection. The
+reflected beam inside the prism strikes the face
+BC at an angle of incidence equal to 45°, so it
+again suffers total internal reflection. The beam
+of light inside the prism now falls normally on
+the face AC and therefore passes undeviated out
+of the prism, forming the image P’Q’ of the
+object PQ. The beam thus gets deviated by 90°
+at each reflection and the total deviation due to
+two reflections becomes 180°.
+
+Use : This action of prism is used in a
+binocular and camera to invert the image without
+the loss of intensity.
+
+p" Q’
+IMAGE
+
+Q
+OBJECT
+Fig. 4.48 Deviation through 180°
+
+(c) To erect the inverted image without deviation
+
+In Fig 4.49, the beam of light from the object
+PQ is incident parallel to the face AC (i.e.,
+hypotenuse) of the prism and strikes the face AB
+of the prism. It suffers refraction from air to glass
+and strikes the face AC of the prism travelling
+from glass to air at an angle of incidence greater
+than the critical angle (= 42°), therefore it suffers
+total internal reflection. The beam inside the
+prism now strikes the face BC at an angle of
+incidence less than the critical angle hence it
+
+suffers refraction from glass to air and bends
+away from the normal. The beam emerges
+parallel to the face AC. As a result of refraction,
+on emergence the rays are inverted and for the
+inverted object PQ, the erect image P’Q’ is
+obtained. A prism when used in this manner is
+called the erecting prism.
+
+Fig. 4.49 Erecting prism
+
+Use : This action of prism is used in a slide
+projector.
+
+(2) Total internal reflection through a prism
+where each angle is 60° (i.e., equilateral
+prism)
+
+A prism of each angle 60° can be used to
+deviate a light ray through 60° by total internal
+reflection. Fig. 4.50 shows a prism ABC of each
+angle 60°. A light ray PQ incident normally on
+the face AB of the prism passes undeviated as QR
+into the prism and it strikes the face AC at an
+angle of incidence 60° at the point R. Now the
+light ray QR suffers total internal reflection at the
+glass-air interface, since the angle of incidence
+(= 60°) is greater than the critical angle which is
+42°, such that ZQRS is 120°. The ray RS
+obtained after total internal reflection falls
+
+
+
+===== PAGE 28 =====
+
+normally on the face BC of the prism and 50 it
+passes out undeviated through the face BC. Thus
+ST is the emergent ray. From Fig. 4.50, it is clear
+that the incident ray PQ has turned through an
+angle of 60° towards the base from its initial
+direction and it emerges out as ST.
+
+(3) Total internal reflection and refraction of
+light through a 30°, 90°, 60° prism (or right
+angled prism)
+
+A 30°, 90°, 60° prism A
+can be used to deviate +
+a light ray through an
+angle less than 60° by
+total internal reflection.
+Fig. 4.51 shows a prism
+ABC of angles 30°, 90°
+and 60°. A light ray PQ
+incident normally on the
+face BC of the prism
+(opposite to the 30°
+refracting angle) passes
+undeviated as QR into the
+prism and it strikes the face AC at an angle of
+incidence 60° at the point R. Now the light ray
+QR suffers total internal reflection at the
+glass-air interface since the angle of incidence
+(= 60°) is greater than the critical angle which is
+42°. The ray RS obtained after total internal
+reflection is incident at the face AB of the prism
+at an angle of 30°. This angle of incidence at
+glass-air interface is less than the critical angle,
+so the ray RS is refracted from glass to air as ST
+with an angle of refraction greater than 30°. Thus
+the emergent ray ST has turned through an
+angle 5 (which is less than 60°) from the
+direction of incident ray PQ.
+
+P
+
+Fig. 4.51 Deviation through
+
+less than 60° by a 30°, 90°,
+60° prism
+
+Non occurance of total internal reflection
+through a 30°, 90°, 60° prism : Jf a light ray
+PQ is incident normally on the face AB or a part
+of face AC of the prism ABC, it does not suffer
+total internal reflection inside the prism and gets
+refracted as RS obeying the laws of refraction as
+shown in Fig. 4.52 (a) and (b). In each case, the
+angle of incidence at the other face inside the
+
+Fig. 4.52 No total internal reflection
+through a 30°, 90°, 60° prism
+prism is 30° which is less than the critical angle
+(i.e., 42°).
+
+Exception : A ray of
+light incident normally
+on hypotenuse of prism
+below the foot of
+perpendicular on it from
+its opposite corner,
+suffers total internal
+reflection and gets
+deviated by an angle
+greater than 60°. In
+Fig. 4.53, a light ray PQ
+is incident normally on
+the face AC (hypotenuse) of the prism in the
+portion DC such that the point D is the foot of
+perpendicular from B on AC. It passes undeviated
+as QR inside the prism and strikes the face BC
+of the prism at an angle of incidence 60° which
+is greater than the critical angle (= 42°). The ray
+suffers total internal reflection inside the prism as
+RS. The reflected ray RS then strikes the face AB
+at an angle of incidence 30°, so it suffers
+refraction from glass to air and emerges out of
+the prism as ST, bending away from the normal
+at the face AB. Thus the incident ray PQ gets
+deviated through an angle greater than 60°.
+
+418 USE OF A TOTAL INTERNAL
+REFLECTING PRISM IN PLACE OF A
+PLANE MIRROR
+
+A total reflecting prism is used in place of a
+plane mirror to deviate the light ray by 90° in a
+periscope and by 180° in a binocular as well as
+in a camera. The reason is that due to total
+
+Fig. 4.53 Total internal
+reflection through a
+30°, 90°, 60° prism
+
+
+===== PAGE 29 =====
+
+internal reflection in the prism, the entire incident
+light (100%) is reflected back into the denser
+medium, whereas in ordinary reflection from a
+plane mirror, some light is refracted and absorbed,
+so the reflection is not 100%. Thus the image
+obtained by the use of a total reflecting prism, is
+much brighter than that obtained by using a plane
+mirror. Further the brightness of image formed by
+a total reflecting prism always remains unchanged,
+while due to deterioration of silvering of the
+plane mirror after a long use, the image formed
+by it becomes faint.
+
+Distinction between the total internal reflection
+and reflection from a plane mirror
+
+1. It takes place only when _| 1. It takes place when
+
+light passes from a denser light is incident on
+
+medium to a rarer medium a plane mirror from
+at an angle of incidence any medium at any
+
+greater than the critical angle of incidence.
+
+angle for that pair of media.
+
+Only a part of light is
+reflected while rest is
+refracted and absorbed.
+3. There is a loss of
+energy. The energy
+
+2. The entire light is reflected. | 2.
+
+3. There is no loss of energy.
+The energy of reflected
+
+tay is same as that of the of reflected ray is
+incident ray. always less than that
+of the incident ray.
+
+4. The image is much brighter.) 4. The image is less bright
+
+and the brightness remains and the brightness
+unchanged even after the gradually decreases as
+long use of the total the silvering on mirror
+
+reflecting device. becomes old and rough.
+
+4.19 SOME CONSEQUENCES OF TOTAL
+INTERNAL REFLECTION
+
+In our daily life, we observe many
+consequences of total internal reflection. Some of
+these are given below :
+
+(1) On a hot sunny day, a driver may see a
+pool of water (or wet road) in front of
+him at some distance. It is the
+phenomenon of mirage which is often
+observed in desert.
+
+An empty test tube placed in water in a
+beaker with mouth outside the water
+surface, shines like a mirror when seen at
+certain angles.
+
+A crack in a glass vessel often shines like
+a mirror.
+
+A piece of diamond sparkles when viewed
+from certain directions.
+
+An optical fibre is used to transmit a light
+signal over a long distance without the
+loss of energy. However, some energy gets
+lost due to absorption of light in its
+material.
+
+(2)
+
+(3)
+(4)
+
+(5)
+
+1. Fig. 4.54 shows the section of a semi-circular
+glass slab having its centre at O. Three rays of
+light A, B and C of the same colour are incident
+on the slab and strike on the edge XY at the
+point O. The light ray B suffers refraction along
+OB’.
+
+(a) On the diagram, mark the critical angle by C.
+(b) The rays enter the slab undeviated. Give
+reason.
+
+(c) Draw the path of rays A and C after they
+strike the edge XY.
+
+(d) Name the phenomenon which the rays A and
+C exhibit.
+
+(a) In Fig. 4.55, the critical angle has been marked
+as C which is the angle of incidence for the
+ray B.
+
+(b) Each of the ray A, B and C is incident normally
+on the slab along its radius, so it enters the slab
+undeviated.
+
+
+===== PAGE 30 =====
+
+(c) Fig. 4.55 Shows the path of the tays A afid’C | ““ ““(b) State the principle used ‘for completing the
+
+after they strike the edge XY as OA’ and OC’ ray diagram in part (a) above.
+respectively.
+A B
+Fig. 4.57
+(a) The completed ray diagram is given below in
+
+Fig. 4.58.
+
+Fig. 4.55
+
+(d) The ray A suffers refraction from glass to air
+while the ray C suffers total internal reflection.
+
+Note : The partially reflected ray for A and B
+has not been shown in Fig. 4.55.
+
+2. Show with the aid of a ray diagram, how a right
+angled isosceles prism can be used to invert the
+rays. (a) How should the rays fall on the prism ?
+
+(b) Which phenomenon is responsible for this Fig. 4.58
+
+action of prism ? (c) What is the nature of the (b) The following nwo principles have been used :
+teenage te faatien ame object = " 2 (i) The ray of light falling normally on the
+The use of a right-angled isosceles prism to invert glass-air surface or air-glass surface, passes
+the rays is shown in Fig. 4.56. undeviated through it (i.e., i = 0°, r = 0°).
+
+(ii) The ray of light travelling from glass, when
+strikes the glass-air surface at an angle of
+incidence equal to 45° which is greater than
+the critical angle (= 42° for glass-air), suffers
+total internal reflection.
+
+4. The critical angle for material of which the
+equiangular prism ABC shown in Fig. 4.59 is
+made, is 60°. A ray of light incident on the side
+AB of the prism is refracted along DE such that
+the angle it makes with the side AC is 150° and
+ZEDB = 90°. Draw the path of the incident ray
+
+Fig. 456 on the side AB (which travels along DE) and also
+(a) The light rays must fall normally on the the path which the ray DE travels from the point
+hypotenuse of the prism. E onwards.
+(b) It is based on the phenomenon of total internal
+reflection. A
+(c) In Fig. 4.56, for the inverted object PQ, the Df
+image P'Q' is upright.
+3. (a) Fig. 4.57 shows two isosceles right angled ay
+prisms A and B and the light rays incident on 8 c
+the prism A. Complete the diagram to show Fig. 4.59
+
+the rays emerging out of the prism B.
+
+
+===== PAGE 31 =====
+
+The completed diagram is shown in Fig. 4.60. Since
+the refracted ray DE is normal to the surface AB of
+the prism (i.e. Zr = 0°), so the incident ray at the
+point D should also be normal to the surface AB so
+that Zi = 0°. At the point E, the angle of incidence
+for the ray DE is 150° - 90° = 60° which is equal
+to the critical angle, so the ray DE is refracted at
+90°, i.e., it is refracted along EC.
+
+Note : Partial reflection of the ray DE has not been
+shown.
+
+al
+
+N
+
+4.
+
+5.
+
+7.
+
+°
+
+Explain the term critical angle with the aid of a
+labelled diagram.
+
+How is the critical angle related to the refractive
+index of a medium ?
+
+State the approximate value of the critical angle for
+(a) glass-air surface (b) water-air surface.
+Ans. (a) 42° (b) 49°
+
+What is meant by the statement ‘the critical angle
+for diamond is 24°” ?
+
+A light ray is incident from a denser medium on the
+boundary separating it from a rarer medium at an
+angle of incidence equal to the critical angle. What
+is the angle of refraction for the ray ?
+
+Ans. 90°
+
+Name two factors which affect the critical angle for
+a given pair of media. State how do the factors
+affect it.
+
+The critical angle for glass-air is 45° for the light of
+yellow colour. State whether it will be less than,
+equal to, or more than 45° for (i) red light, and
+(ii) blue light ?
+
+Ans. (i) more than 45° (ii) less than 45°
+
+(a) What is total internal reflection ?
+
+(b) State two conditions necessary for the total
+internal reflection to occur.
+
+(c) Draw diagrams to illustrate the total internal
+reflection.
+
+Fill in the blanks to complete the following
+sentences :
+
+(a) Total internal reflection occurs only when a ray
+of light passes from a .......... medium to a
+Sehneesaaaediey medium.
+
+10.
+
+il.
+
+12.
+
+(b) Critical angle is the angle of ........... in denser
+medium for which the angle of ....... in rarer
+medium is ...........
+
+Ans. (a) denser, rarer, (b) incidence, refraction, 90°
+
+State whether the following statement is true or
+false ? If the angle of incidence is greater than the
+critical angle, light is not refracted at all, when it
+falls on the surface from a denser medium to a rarer
+medium. Ans. True
+The refractive index of air with respect to glass is
+sini
+expressed as WL, = ain”
+(a) Write down a similar expression for ally in terms
+of the angles i and r.
+(b) If angle r = 90°, what is the corresponding
+angle i called ?
+(c) What is the physical significance of the angle i
+in part (b) ? ;
+sin r ee
+Ans. (a) aee= Gna? (b) critical angle,
+(c) If angle of incidence exceeds the value of i
+obtained in part (b), total internal reflection occurs.
+
+Fig. 4.61 shows a point source P inside a water
+container. Three rays A, B and C starting from the
+source P are shown up to the water surface.
+(a) Show in the diagram the path of these rays after
+striking the water surface. The critical angle for
+
+
+
+===== PAGE 32 =====
+
+13.
+
+14.
+
+15.
+
+16.
+
+water-air surface is 48°. (b) Name the phenomenon
+which the rays A, B and C exhibit.
+
+In Fig. 4.62, PQ and PR are the two light rays
+emerging from an object P. The ray PQ is refracted
+as QS.
+
+Fig. 4.62
+
+(a) State the special name given to the angle of
+incidence ZPQN of the ray PQ.
+
+(b) What is the angle of refraction for the refracted
+ray QS ?
+
+(c) Name the phenomenon that occurs if the angle
+of incidence ZPQN is increased.
+
+(d) The ray PR suffers partial reflection and
+refraction on the water-air surface. Give reason.
+
+(e) Draw in the diagram the refracted ray for the
+incident ray PR and hence show the position of
+image of the object P by the letter P’ when seen
+vertically from above.
+Ans. (a) Critical angle (b) 90° (c) Total internal
+
+reflection (d) For the ray PR, angle of incidence is
+
+less than ZPQN (i.e., the critical angle).
+
+The refractive index of glass is 1-5. From a point P
+
+inside a glass slab, draw rays PA, PB and PC
+
+incident on the glass-air surface at an angle of
+
+incidence 30°, 42° and 60° respectively.
+
+(a) In the diagram show the approximate direction
+of these rays as they emerge out of the slab.
+
+(b) What is the angle of refraction for the ray PB ?
+(Take sin 42° = 2 ) Ans. (b) 90°
+
+A ray of light enters a
+glass slab ABDC as A ° B
+
+shown in Fig. 4.63 and y
+
+strikes at the centre O of
+
+the circular part AC of the
+
+slab. The critical angle of c D
+glass is 42°. Complete the Fig. 4.63
+
+path of the ray till it
+
+emerges out from the slab. Mark the angles in the
+diagram wherever necessary.
+
+What is a total reflecting prism ? State three actions
+that it can produce. Draw a diagram to show one
+such action of the total reflecting prism.
+
+17. Show with the help of a diagram how a total
+reflecting prism can be used to turn a ray of light
+through 90°. Name one instrument in which such a
+prism is used.
+
+18. A ray of light OP passes
+
+through a right angled prism
+
+as shown in the adjacent
+
+diagram (Fig. 4.64).
+
+(a) State the angles of
+incidence at the faces
+AC and BC.
+
+(b) Name the phenomenon
+which the ray suffers at the face AC.
+
+Ans. (a) Angle of incidence at the face AC = 45°
+and angle of incidence at the face BC = 0°
+(b) The ray suffers total internal reflection at
+
+the face AC.
+
+19. In Fig. 4.65, a ray of light PQ is, P
+
+incident normally on _ the 90°
+
+hypotenuse of an isoceles right
+
+angled prism ABC. (a) Complete
+
+the path of the ray PQ till it B c
+
+emerges from the prism. Mark in Fig. 4.65
+
+the diagram the angle wherever
+
+necessary. (b) What is the angle of deviation of the
+
+ray PQ ? (c) Name a device in which this action is
+
+used. Ans. (b) 180°, (c) Binocular
+20. In Fig. 4.66, a ray of light
+
+PQ is incident normally on
+the face AB of an
+equilateral glass prism.
+Complete the ray diagram
+showing its emergence into
+air after passing through
+the prism. Take critical
+angle for glass = 42°.
+
+(a) Write the angles of incidence at the faces AB
+and AC of the prism.
+
+(b) Name the phenomenon which the ray of light
+suffers at the face AB, AC and BC of the prism.
+Ans. (a) At the face AB, i = 0° and at the face AC,
+i= 60°
+(b) At the face AB — refraction,
+at the face AC — total internal reflection,
+at the face BC — refraction.
+21. Draw a neat labelled ray diagram to show the total
+internal reflection of a ray of light normally incident
+on one face of a 30°, 90°, 60° prism.
+
+Raa ee th
+
+
+===== PAGE 33 =====
+
+22. Two isosceles right-angled glass prisms P and Q are | 25. State one advantage of using a total reflecting prism
+placed near each other as shown in Fig. 4.67. as a reflector in place of a plane mirror.
+
+Complete the path of the light ray entering the
+prism P till it emerges out of the prism Q. MULTIPLE CHOICE TYPE
+
++ 1. The critical angle for glass-air interface is :
+(a) 24° (b) 48° (c) 42°. (dd) 45°.
+Ans. (c) 42°
+2. A total reflecting right angled isosceles prism can be
+P
+Q
+
+used to deviate a ray of light through :
+
+Fig. 4.67 (a) 30° (b) 60° (c) 75° (d) 90°.
+
+23. What device other than a plane mirror can be used Ans. (d) 90°
+to tum a ray of light through 180° ? Draw a diagram | 3, total reflecting equilateral prism can be used to
+in support of your answer. Name an instrument in deviate a ray of light through :
+which this device is used. 5 < me m
+
+24. Mention one difference between the reflection of eer Oe ee we Ans. (d) 60°
+
+light from a plane mirror and total internal reflection
+of light from a prism.
+

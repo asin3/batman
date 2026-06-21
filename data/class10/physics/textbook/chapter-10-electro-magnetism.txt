@@ -1,0 +1,3307 @@
+
+
+===== PAGE 1 =====
+
+(A) MAGNETIC EFFECT OF ELECTRIC CURRENT
+
+10.1 OERSTED’S EXPERIMENT ON THE
+MAGNETIC EFFECT OF ELECTRIC
+CURRENT
+
+Hans Oersted, in 1820, in his experiments
+observed that when an electric current is passed
+through a conducting wire, a magnetic field is
+produced around it. The presence of magnetic field
+at any point around the current carrying wire can
+be detected with the help of a campass needle.
+
+In absence of any magnetic field, the needle
+of compass can rest in any direction. But in
+presence of a magnetic field, the needle of
+compass rests only along the direction of the
+magnetic field. In the earth’s magnetic field alone,
+the needle rests only along the north-south
+direction.
+
+Experiment : In Fig. 10.1, AB is a wire
+lying in the north-south direction and connected
+to a battery through a rheostat and a tapping key.
+A compass needle is placed just below the wire.
+
+Observations : (1) When the key is open i.e.,
+no current passes through the wire, the needle
+points in the N-S direction (i.e.,along the earth’s
+magnetic field) with the north pole of needle
+pointing towards the north direction. In this
+
+w
+BATTERY
+th RHEOSTAT, |
+rw BY N
+E
+
+COMPASS
+
+B
+S\N (a) Key open and compass needle kept
++ below the wire
+
+B
+S*-"(b) Key closed and compass needle kept
++ below the wire
+
+A 5 B
+me N (c) Current reversed and compass needle
++)- kept below the wire
+ALs_§ B
+N (d) Compass needle placed above the
+sol wire
+A f B
+s (d) Current reversed and compass needle
+
+kept above the wire
+Fig. 10.1 Oersted experiment on the magnetic
+effect of current
+
+
+===== PAGE 2 =====
+
+position, the needle is parallel to the wire as
+shown in Fig. 10.1 (a).
+
+(2) When the key is pressed, a current
+passes in the wire in the direction from A to B
+(i.e., from south to north) and the north pole (N)
+of the needle deflects towards the west
+[Fig. 10.1 (b)]. If current in the wire is increased,
+the deflection of the needle also increases.
+
+(3) When the direction of current in the wire
+is reversed by reversing the connections at the
+terminals of the battery, the north pole (N) of the
+needle deflects towards the east [Fig. 10.1 (c)].
+
+(4) If the compass needle is placed just above
+the wire, the north pole (N) deflects towards east
+when the direction of current in wire is from A
+to B [Fig. 10.1(d)], but the needle deflects
+towards west as shown in Fig. 10.1 (e) if the
+direction of current in wire is from B to A.
+
+Explanation : The above observations of the
+experiment suggest that a current carrying
+wire produces a magnetic field around it and
+the magnetic needle of compass experiences
+a torque in this magnetic field, so it deflects to
+align itself in the direction of magnetic field at
+that point. On increasing current in the wire, the
+deflection of the compass needle increases which
+implies that the strength of magnetic field around
+the wire increases. On reversing the direction of
+current in the wire, the direction of deflection of
+the magnetic needle of compass reverses because
+the direction of magnetic field reverses.
+
+Inference : A current (or moving charge)
+produces a magnetic field around it. This is called
+the magnetic effect of current. The strength of
+magnetic field depends on the magnitude of
+current and its direction depends on the direction
+of current.
+
+10.2 MAGNETIC FIELD AND FIELD LINES
+DUE TO CURRENT IN A STRAIGHT
+WIRE
+
+When a current is passed through a
+conducting wire, a magnetic field is produced
+around it. At a point, the direction of magnetic
+
+ae |
+
+field will be along the tangent drawn on the
+magnetic field line at that point. The magnetic
+field lines can be drawn by means of iron filings
+as follows.
+
+Experiment : Take a sheet of smooth
+cardboard with a hole at its centre. Place it
+horizontal and pass a thick copper wire XY
+vertically through the hole. Connect an
+ammeter A, battery B, rheostat Rh and a key K
+between the ends X and Y of the wire as shown
+in Fig. 10.2. Sprinkle some iron filings on the
+cardboard and pass an electric current through the
+wire by inserting the plug in the key K. Gently
+tap the cardboard.
+
+COMPASS
+NEEDLE
+
+CARDBOARD
+
+Fig. 10.2 Magnetic field lines around a straight
+current carrying wire
+It is observed that the iron filings get arranged
+along the concentric circles around the wire as
+shown by the dotted lines in Fig. 10.2.
+
+If a small compass needle is placed anywhere
+on the board near the wire, the direction in which
+the north pole of needle points, gives the direction
+of magnetic field at that point which is marked
+by an arrow on the field line.
+
+From the magnetic field lines patterns, we
+note that
+
+(1) The magnetic field lines form the
+concentric circles around the wire, with
+their plane perpendicular to the straight
+wire and with their centres lying on the
+wire.
+
+When the direction of current in the wire
+is reversed, the pattern of iron filings does
+not change, but the direction of deflection
+of the compass needle gets reversed. The
+
+aero.
+
+(2)
+
+
+===== PAGE 3 =====
+
+north pole of the compass needle now
+points in a direction opposite to the
+previous direction showing that the
+direction of magnetic field has reversed.
+
+(3)
+
+On increasing current in the wire, the
+magnetic field lines become denser and
+the iron filings get arranged in circles up
+to a larger distance from the wire,
+showing that the magnetic field strength
+has increased and it is effective up to a
+larger distance.
+
+Note : The magnetic field at any point is the
+combined effect of the magnetic field due to
+current in the wire and the magnetic field of the
+earth*. At points near the wire, the magnetic
+field due to current in the wire predominates due
+to which iron filings arrange themselves in
+circles, while at points far away from the wire,
+the magnetic field due to earth becomes more
+pronounced as compared to the magnetic field
+due to current in the wire, as a result filings tend
+to arrange themselves in straight lines. The point
+where the two fields are equal and opposite, is
+called a neutral point. At the neutral point, the
+resultant magnetic field is zero and the compass
+needle at this point rests in any direction.
+
+10.3 RULE TO FIND THE DIRECTION OF
+MAGNETIC FIELD
+
+Experimentally the direction of magnetic field
+at a point is determined with the help of compass
+needle. But theoretically the direction of magnetic
+field (or magnetic field lines) produced due to
+flow of current in a conductor can be determined
+by various rules. One such rule is the right hand
+thumb rule.
+
+Right hand thumb rule
+
+If we hold the current carrying conductor in
+our right hand such that the thumb points in the
+direction of flow of current, then the fingers
+encircle the wire in the direction of the magnetic
+field lines (Fig. 10.3).
+
+* The magnetic field of earth in a limited space in a horizontal plane is
+uniform. It is directed from the geographic south to geographic north.
+
+~~) DIRECTION
+= OF MAGNETIC
+FIELD LINES
+
+DIRECTION OF
+t CURRENT
+
+Fig. 10.3 Right hand thumb rule
+
+In Fig. 10.3, the direction of current in the
+conductor XY is upwards (i.e., X to Y). The
+magnetic field lines are anticlockwise around the
+conductor.
+
+10.4 MAGNETIC FIELD DUE TO CURRENT
+IN A LOOP (OR CIRCULAR COIL)
+
+The magnetic field lines due to current in a
+loop (or circular coil) can be obtained by the
+following experiment.
+
+Experiment : Take a piece of thick wire A
+bent in the form of a loop (or coil). It is passed
+at two points P and Q through a horizontal
+cardboard C such that the points P and Q lie in
+a plane through the diameter of the coil. Then
+sprinkle some iron filings on the cardboard.
+Connect a battery through a rheostat and a key
+between the ends X and Y of the loop as shown
+in Fig. 10.4.
+
+LOQP A MAGNETIC
+
+FIELD LINES
+
+CURRENT i.
+
+BATTERY
+Fig. 10.4 Magnetic field due to current in a loop
+When current is passed through the coil by
+closing the key and the cardboard is gently
+tapped, we find that the iron filings get arranged
+
+
+===== PAGE 4 =====
+
+in a definite pattern representing the magnetic
+field lines of the current carrying loop (Fig. 10.4).
+To find the direction of magnetic field lines, a
+compass needle is used. The direction of magnetic
+field at a point is along the needle in direction
+in which its north pole points. An arrow is
+marked on each magnetic field line to indicate the
+direction of magnetic field.
+
+From the pattern of magnetic field lines, it is
+noted that
+
+(1) In the vicinity of wire at P and Q, the
+magnetic field lines are nearly circular.
+
+(2) Within the space enclosed by the wire (i.e.,
+
+between P and Q), the magnetic field lines
+
+are in the same direction.
+
+(3) Near the centre of loop, the magnetic
+
+field lines are nearly parallel to each other,
+
+so the magnetic field may be assumed to be
+
+nearly uniform in a small space near the
+
+centre.
+
+(4) At the centre, the magnetic field lines
+
+are along the axis of loop and normal to its
+
+plane.
+
+(5) The magnetic field lines become denser (i.e.,
+
+the magnetic field strength is increased) if
+
+(i) the strength of current in loop is increased,
+and
+
+(ii) the number of turns in the loop are
+increased.
+
+(6) The magnetic field lines pass through the
+loop in same direction. They appear to come
+out from the face of loop on other side, so
+that face behaves as a north pole, while the
+magnetic field lines appear to enter in at the
+front face of loop, so it behaves as a south
+pole. Thus the loop acts like a dipole and it
+has a magnetic field similar to that of a
+magnetised disc of radius same as that of the
+loop.
+
+The polarity at the two faces of loop depends
+on the direction of current in the loop. On
+reversing the direction of current in loop, the
+polarity at the faces of loop gets reversed. The
+
+polarity at the faces of the loop is determined by
+the clock rule.
+
+Clock rule (clockwise current-south pole
+and se hides piel death Pere)
+
+This can be tested by using a compass needle.
+In Fig. 10.5 (a), current at the face of loop is
+anticlockwise, so it behaves as north pole, while
+in Fig. 10.5(b), current at the face of loop is
+clockwise so it behaves as south pole.
+
+2g
+
+acer CURRENT Se he CURRENT
+
+He r Polarities at the hecs i‘ a
+loop carrying current
+
+10.5 MAGNETIC FIELD DUE TO A
+CURRENT CARYING CYLINDRICAL
+COIL (OR SOLENOID)
+
+If a conducting wire is wound in form of a
+cylindrical coil whose diameter is less in
+comparison to its length, the coil is called a
+solenoid. It looks like a helical spring. To obtain
+the magnetic field lines due to a current carrying
+solenoid, the following experiment is performed.
+
+Experiment : Take a cardboard having two
+slits PQ and P’Q’ parallel to each other, at a small
+separation and parallel to its length. Wind a
+uniform spiral of an insulated thick copper wire
+through the two slits such that the axis of spiral
+is in the plane of the cardboard. Connect a
+battery through a rheostat and a key between the
+ends X and Y of the solenoid. Sprinkle some iron
+filings on the cardboard and pass current through
+the solenoid by closing the key. Gently tap the
+cardboard.
+
+
+===== PAGE 5 =====
+
+SLIT IN
+CARD
+BOARD
+
+BATTERY RHEOSTAT
+
+Fig. 10.6 Magnetic field lines due to a solenoid
+carrying current
+
+It is found that the iron filings on the
+cardboard get arranged in a definite pattern as
+shown by the dotted lines in Fig. 10.6,
+representing the pattern of magnetic field lines
+due to the current carrying solenoid. The direction
+of magnetic field at a point is determined by
+using a compass needle and arrows are marked
+on these lines in the direction in which the north
+pole of the compass needle points.
+
+From the pattern of magentic field lines, it is
+found that
+
+(1) The magnetic field lines inside the solenoid
+are nearly straight and parallel to the axis of
+solenoid i.e., the magnetic field is uniform
+inside the solenoid.
+
+(2) The magnetic field lines become denser (i.e.,
+a strong magnetic field is obtained) on
+increasing current in the solenoid.
+(3) The magnetic field is increased, if the number
+of turns in the solenoid of given length is
+increased.
+(4) The magnetic field is also increased, if a soft
+iron rod (core) is placed along the axis of
+solenoid. The soft iron increases the
+strength of magnetic field of the solenoid
+since soft iron has a high magnetic
+permeability.
+
+In Fig. 10.6, the end P at which the direction
+
+of current is anticlockwise behaves as a
+
+north pole (N), while the end Q at which
+
+the direction of current is clockwise behaves
+
+(5)
+
+as a south pole (S). On reversing the direction
+of current in the solenoid, the polarities at
+the ends of solenoid are reversed because the
+direction of magnetic field has reversed.
+
+Similarities between a current carrying
+solenoid and a bar magnet
+
+(1) The magnetic field lines of a current carrying
+solenoid are similar to the magnetic field
+lines of a bar magnet*. Thus a current
+carrying solenoid behaves just like a bar
+magnet.
+
+(2) A current carrying solenoid when suspended
+
+freely sets itself in the north-south direction
+
+exactly in the same manner as a bar magnet
+does.
+
+(3) A current carrying solenoid also acquires the
+
+attractive property of a magnet. If iron filings
+
+are brought near the current carrying
+solenoid, it attracts them.
+
+Dissimilarities between a current carrying
+solenoid and a bar magnet
+
+(1) The strength of magnetic field due to a
+solenoid can be changed by changing the
+current in it, while the strength of magnetic
+field due to a bar magnet cannot be changed.
+
+(2) The direction of magnetic field due to a
+
+solenoid can be reversed by reversing the
+
+direction of current in it, but the direction of
+magnetic field due to a bar magnet cannot
+be reversed.
+
+10.6 ELECTROMAGNET
+
+An electromagnet is a temporary . ‘strong magnet
+made by passing current in a coil wound
+around a a of soft iron. It is an artificia .
+magnet. — a Pee =4 Be
+
+meee!
+
+An electromagnet can be made in any sheds,
+but usually the following two shapes of
+electromagnet are in use :
+
+(1) Eshape (or bar) magnet, and
+(2) U-shape (or horse-shoe) magnet.
+* Refer Vol. I, Chapter X.
+
+
+
+===== PAGE 6 =====
+
+(1) Construction of I-shaped (or bar)
+
+electromagnet
+
+To construct an I-shaped electromagnet, a thin
+insulated copper wire XY is wound in form of a
+solenoid around a straight soft iron bar PQ. A
+battery B through an ammeter A, a rheostat Rh
+and a key K, is connected between the ends
+X and Y of the wire as shown in Fig 10.7.
+
+@
+
+Fig. 10.7 I-shaped electromagnet
+
+When current is passed through the winding -
+
+of solenoid by closing the key K, the end P of
+the bar becomes the south pole (S) since current
+at this face is clockwise, while the end Q at
+which the current is anticlockwise, becomes the
+north pole (N). Thus the bar PQ becomes a
+magnet. The bar remains magnetised so long the
+electric current flows through the solenoid, but it
+gets demagnetised as soon as the current is
+switched off (since soft iron has a low
+retentivity), thus it is a temporary magnet.
+
+Use : A bar shaped electromagnet is commonly
+used in relay.*
+
+(2) Construction of U-shaped (or horse-
+shoe) electromagnet
+
+To construct a horse-shoe electromagnet, a
+thin insulated copper wire XY is spirally wound
+on the two arms of a U-shaped soft iron core,
+such that the winding as seen from the ends, is
+in opposite sense on the two arms. In Fig. 10.8,
+winding on the arm P starts from the front and
+it is in the clockwise direction (when viewed
+from the bottom). On reaching the upper end of
+the arm P, winding starts from the back at the top
+of the arm Q and it is in anticlockwise direction.
+Between the ends X and Y of the wire, a battery
+
+* A relay is a switching device.
+
+through an ammeter, rheostat and a key, is
+connected.
+
+Fig. 10.8 Horse-shoe electro-magnet
+
+When current is passed through the winding
+by closing the key, the end of the arm P becomes
+the south pole S (current at this face is clockwise)
+and the end of the arm Q becomes the north
+pole N (current at this face is anti-clockwise).
+Thus we get a very strong magnetic field in
+gap between the two poles. The magnetic field
+in gap vanishes as soon as current in the
+circuit is switched off. Thus it is a temporary
+magnet.
+
+Use : Horse shoe magnets are used in gadgets
+like d.c. motor, a.c. generator, electric bell, etc.
+
+Note : For sending current in the coil, the
+source must be the d.c. source (i.e., battery).
+With an a.c. source of frequency 50 Hz,
+
+although the soft iron core gets magnetised as
+long the current is passed, but its polarity at
+the ends changes 50 times in each second.
+
+Ways of increasing the magnetic field of an
+electromagnet
+
+The magnetic field of an electromagnet
+(I or U-shaped) can be increased by the following
+two ways :
+(1) by increasing the number of turns of winding
+in the solenoid, and
+by increasing the current through the
+solenoid.
+
+(2)
+
+
+===== PAGE 7 =====
+
+10.7 PERMANENT MAGNET
+
+A permanent magnet is a naturally occuring
+magnet. Since it is not strong enough and of
+required shape for many purposes, so a strong
+permanent magnet is made like an electromagnet
+using the piece of steel, instead of soft iron. A
+coil of insulated copper wire is wound around the
+steel piece and then current is passed in the coil.
+Once magnetised, it does not lose its magnetism
+easily (since steel has more retentivity than the
+soft iron) so it becomes a permanent magnet.
+
+Use : The permanent magnets are used in
+electric meters (e.g., galvanometer, ammeter,
+voltmeter) and in magnetic compass, etc.
+
+10.8 COMPARISON OF AN ELECTRO
+MAGNET WITH A PERMANENT
+MAGNET
+
+1. It is made of soft iron.
+
+2. It produces the magnetic
+field so long as current
+flows in its coil. ie., it
+produces the temporary
+magnetic field.
+
+3. The magnetic field
+
+strength can be changed.
+
+1, It is made of steel.
+2. It produces a permanent
+magnetic field.
+
+Ww
+
+. The magnetic field
+strength cannot be
+changed.
+
+4. The magnetic field of a
+permanent magnet is not
+so strong.
+
+. The polarity of a
+
+permanent magnet can
+
+not be reversed.
+
+4. The magnetic field of an
+electromagnet can be
+very strong.
+
+. The polarity of an
+electromagnet can be
+reversed.
+
+wn
+wn
+
+6.It can easily be | 6, It can not be easily
+demagnetised by demagnetised.
+switching off the current.
+
+10.9 ADVANTAGES OF AN ELECTRO-
+MAGNET OVER A PERMANENT
+MAGNET
+
+An electromagnet has the following
+advantages over a permanent magnet :
+(1) An electromagnet can produce a strong
+magnetic field.
+(2) The strength of the magnetic field of an
+electromagnet can easily be changed by
+
+changing the current (or the number of turns)
+in its solenoid.
+(3) The polarity of the electromagnet can be
+reversed by reversing the direction of current
+
+in its solenoid.
+
+10.10 USES OF ELECTROMAGNET
+
+Electromagnets are mainly used for the
+following purposes :
+
+(1) For lifting and transporting heavy iron scrap,
+girders, plates, etc. particularly when it is not
+convenient to take the help of human labour.
+Electromagnets are used to lift as much as
+20,000 kg of iron in a single lift. To unload
+the iron objects at the desired place, the
+current in the electromagnet is switched off
+so that the electromagnet gets demagnetised
+and the iron objects get detached.
+
+(2) For loading the furnaces with iron.
+
+(3) For separating the iron pieces from debris and
+ores, where iron exists as impurities (e.g., for
+separating iron from the crushed copper ore
+in copper mines).
+
+(4) For removing the pieces of iron from
+wounds.
+
+(5) In scientific research, to study the magnetic
+properties of a substance in a magnetic field.
+
+(6) In several electrical devices such as electric
+
+bell, telegraph, electric tram, electric motor,
+relay, microphone, loud speaker, etc.
+Use of electromagnet in an electric bell
+An electric bell is one of the most commonly
+used application of an electromagnet.
+Construction and wiring : An electric bell is
+shown in Fig. 10.9.
+The main parts of the bell are :
+(i) a horse-shoe electromagnet M, having a
+soft iron core,
+a soft iron armature A,
+a hammer H,
+a gong G
+a metallic spring strip SS,
+
+(ii)
+(iii)
+(iv)
+(v)
+
+
+===== PAGE 8 =====
+
+ADJUSTING
+Seneyk ELECTROMAGNET
+ARMATURE
+
+METALLIC STRIP
+
+K
+SWITCH
+Fig. 10.9 Electric bell and its wiring
+
+(vi) an adjusting screw S’,
+(vii) a switch (or bell-push) K, and
+(viii) a battery.
+
+The armature A is fixed to the spring strip SS.
+The hammer H is attached at the upper end of
+the armature A. When the switch K is not
+pressed, the strip SS makes contact with the
+adjusting screw S’ and there is a gap between the
+armature A and the poles of the electromagnet.
+
+The coil CC is wound on the two arms of the
+electromagnet in the opposite direction as shown
+in the diagram. One end of the coil is connected
+to the terminal T, through the strip SS and the
+screw S’, while the other end is connected to the
+terminal T,. A battery is provided in series with
+the switch K across the terminals T, and T,,.
+
+Working and function of each part : The
+working of an electric bell is based on the
+
+1. Why does a magnetic needle show a deflection
+when brought close to a current carrying
+conductor ?
+
+A current carrying conductor produces a magnetic
+field around it and the magnetic needle in this magnetic
+field experiences a torque due to which it deflects to align
+itself in the direction of magnetic field.
+
+2. A straight conductor passes vertically through a
+cardboard having some iron filings sprinkled on
+it.
+
+magnetic effect of current. As the electric circuit
+is closed by pressing the switch K, the current
+flows through the coil CC and the core of the
+electromagnet gets magnetised and therefore it
+attracts the armature A as shown by the arrow in
+Fig. 10.9. Due to movement of the armature A,
+the hammer H strikes the gong G and the bell
+rings.
+
+At the moment, when the armature A moves
+towards the electromagnet due to magnetic
+attraction, the connection between the strip SS
+and the screw S’ breaks due to which the flow
+of current in the coil stops. Consequently, the
+electromagnet gets demagnetised and the
+armature A flies back to its original position due
+to the spring effect of the strip SS. Now the
+armature again touches the screw S’, which
+results in the flow of current in the coil. The
+electromagnet regains its magnetism and the
+armature A is again attracted, so the hammer H
+again strikes the gong G. This process continues.
+
+The process of make and break of the circuit
+goes on and the hammer strikes the gong
+repeatedly so the bell rings as long the switch K
+is kept pressed.
+
+Note : If an a.c. source is used in place of
+the battery, the core of electromagnet will
+get magnetised, but the polarity at its ends
+will change. Since attraction of armature
+
+does not depend on the polarity of the
+electromagnet, so the bell will still ring on
+pressing the switch K.
+
+r= 2
+(a) A current is passed in the conductor in
+downward direction and the cardboard is
+gently tapped. Show the setting of iron filings
+on the card board and draw arrows to
+represent the direction of magnetic field lines.
+(b) What changes occur in the arrangement of
+iron filings in part (a) if
+(i) the strength of current is increased ?
+(ii) the single conductor is replaced by several
+parallel conductors each carrying the same
+
+Ss Ge +
+
+
+===== PAGE 9 =====
+
+(b)
+
+(c)
+
+(a)
+
+current flowing in the same direction ?
+Give reason in each case (i) and (ii).
+(c) Name the law used by you to find the direction
+of magnetic field lines.
+
+Fig. 10.10 shows the pattern in which the
+iron filings will set themselves. The arrows show the
+direction of the magnetic field lines.
+
+CONDUCTOR
+
+CARDBOARD
+
+Fig. 10.10
+
+(i) The arrangement of iron filings remains
+unchanged, but they become denser and get
+arranged up to a larger distance from the conductor
+when the strength of current is increased. This is
+because on increasing the strength of current, the
+strength of magnetic field is increased and it is
+effective up to a larger distance from the conductor.
+(ii) The magnetic field at a point due to each
+conductor will be in same direction, so they will be
+added up. Thus the magnetic field strength is
+increased and it is effective up to a large distance so
+the magnetic field lines come closer and iron filings
+get arranged up to a larger distance.
+
+Right hand thumb rule.
+In Fig. 10.11, A and B represent two straight
+
+wires carrying equal currents in a direction
+normal to the plane of paper inwards.
+
+x e x
+A K B
+Fig. 10.11
+
+(a) Sketch separately the magnetic field lines
+produced by each current.
+
+(b) What will be the magnetic field at mid point K
+of the line joining A and B. Give reason.
+
+(c) How will the magnetic needle of compass rest
+if it is placed at the point K ?
+
+(d) What will be the effect on the magnetic field
+at the point K if the current in wire B is
+reversed ?
+
+Fig 10.12 shows the sketch of magnetic field lines
+produced by the current in wires A and B.
+
+la a
+
+(b)
+
+(c)
+
+(d)
+
+(a)
+
+Magnetic field
+due to A
+
+-
+eK
+Hi
+
+Magnetic field
+due to B
+Fig. 10.12
+The net magnetic field at the point K is zero.
+Reason : The point K is equidistant from the wires
+A and B, and the wires A and B carry equal currents,
+so the magnetic fields at the point K due to current
+in the wires A and B are equal in magnitude, but
+opposite in direction. Due to current in the wire A,
+it is downwards in the plane of paper, while due to
+current in the wire B, it is upwards in the plane of
+paper. The two fields cancel each other.
+The magnetic needle of compass at the point K will
+rest in geographic north-south direction due to the
+earth’s magnetic field.
+On reversing the direction of current in the wire B,
+the direction of magnetic field due to current in it is
+reversed at the point K’i.e., it becomes downwards
+in the plane of paper. Then both the magnetic fields
+due to currents in wires A and B at the point K get
+added, so the net magnetic field at the point K is
+downwards in the plane of paper.
+
+The diagram in Fig. 10.13 shows a current
+carrying loop passing through a sheet of stiff
+cardboard at the points P and Q.
+
+—p>—>
+CURRENT
+Fig. 10.13
+
+(a) Draw three magnetic field lines on the
+cardboard, one each at points P and Q, and
+one at the centre of loop. Draw arrows to
+show the direction of magnetic field lines.
+
+(b) State two factors on which the magnitude of
+magnetic field at the centre of loop depends.
+
+Fig. 10.14 represents three magnetic field lines due
+to the current carrying loop. Two magnetic field
+lines are shown, one each at points P and Q where
+the loop passes through the card board, and one
+magnetic field line is shown at the centre of loop. At
+P, current is upwards, so magnetic field line is
+
+
+===== PAGE 10 =====
+
+(b)
+
+$s.
+
+LOOP
+
+CARDBOARD
+
+Ss
+CURRENT
+Fig. 10.14
+
+anticlockwise. At Q, current is downwards, so
+magnetic field line is clockwise. Since current in
+loop is clockwise, magnetic field line at the centre
+is along the axis of loop inwards.
+
+The magnitude of the magnetic field at the centre of
+loop depends on (i) the strength of current in the
+loop, and (ii) the radius of loop.
+
+Draw a labelled diagram to make an
+electromagnet from a soft iron bar AB. Mark the
+polarity at its ends A and B. State one precaution
+which you will observe.
+
+The labelled diagram is shown in Fig. 10.15. The
+polarity at the end A where the current is clockwise,
+is south (S), while at the end B where the current
+is anticlockwise, is north (N).
+
+BATTERY
+ie RHEOSTAT| SOFT IRON BAR
+
+Fig. 10.15
+
+Precaution ; The source of current must be the d.c.
+source.
+
+By using a compass needle describe how can you
+demonstrate that there is a magnetic field around a
+current carrying conductor.
+
+Draw a diagram showing the direction of three
+magnetic field lines due to a straight wire carrying
+a current. Also show the direction of current in the
+wire.
+
+How is the magnetic field due to a straight
+current carrying wire affected if current in the wire
+is (a) decreased, (b) reversed ?
+
+State a law which determines the direction of
+magnetic field around a current carrying wire.
+
+A straight wire lying in a horizontal plane carries a
+
+|
+
+6. (a) Draw a diagram representing the magnetic
+
+field lines inside and outside a solenoid
+through which a current is flowing and mark
+the direction of current in the solenoid and the
+direction of magnetic field lines. Also mark
+the polarity at the faces of solenoid.
+
+(b) A bar of soft iron is placed inside the solenoid
+parallel to its length in part (a). Describe what
+happens.
+
+(a) Fig. 10.16 shows the magnetic field lines inside and
+
+outside, due to a current carrying solenoid. The
+direction of current in the solenoid at the face A is
+clockwise, so it will have the south polarity (S) and
+the face B of solenoid at which the current is
+
+Fig. 10.16
+
+anticlockwise will have the north polarity (N).
+Inside the solenoid, the magnetic field lines are
+closer, while they become farther outside the
+solenoid.
+
+If a bar of soft iron is placed inside the solenoid
+parallel to its length, the magnetic field lines inside
+the solenoid become still closer i.e., the magnetic
+field inside the solenoid is increased.
+
+current from north to south. (a) What will be the
+direction of magnetic field at a point just underneath
+it ? (b) Name the law used to arrive at the answer in
+part (a).
+
+Ans. (a) towards east (b) right hand thumb rule
+
+. What will happen to a compass needle when the
+
+compass is placed below a wire with needle
+parallel to it and a current is made to flow through
+the wire ? Give a reason to justify your answer.
+Draw a labelled diagram showing three magnetic
+field lines of a loop carrying current. Mark the
+direction of current and the direction of magnetic
+field by arrows in your diagram.
+
+
+===== PAGE 11 =====
+
+8.
+
+10.
+
+11.
+
+12.
+
+A wire, bent into a circle, carries a current in an
+anticlockwise direction. What polarity does this face
+of the coil exhibit ? Ans. north
+What is the direction of magnetic field at the
+centre of a coil carrying current in (i) the clockwise,
+(ii) the anticlockwise direction ?
+Ans. (i) along the axis of cail inwards
+(ii) along the axis of coil outwards.
+Draw a diagram to represent the magnetic field lines
+along the axis of a current carrying solenoid. Mark
+arrows to show the direction of current in the
+solenoid and the direction of magnetic field lines.
+Name and state the rule by which the polarity at the
+ends of a current carrying solenoid is determined.
+The diagram in Fig. 10.17 shows a small magnet
+placed near a solenoid AB with its north pole N near
+the end A. Current is switched on in the solenoid by
+pressing the key K.
+MAGNET
+
+SOLENOID
+
+ts
+Fig. 10.17
+
+(a) State the polarity at the ends A and B. (b) Will
+
+the magnet be attracted or repelled ? Give a reason
+
+for your answer.
+
+Ans. (a) A —north pole, B—south pole
+
+13.
+
+(b) repelled because the end A of the solenoid
+becomes the north pole as current at this face is anti-
+clockwise and it repels the north pole of the magnet.
+
+The diagram in Fig. 10.18 shows a spiral coil wound
+on a hollow cardboard tube AB. A magnetic compass
+is placed close to it. Current is switched on by
+closing the key. (a) What will be the polarity at the
+ends A and B ? (b) How will the compass needle be
+affected ? Give reason.
+
+COMPASS a COIL
+As 10.18
+
+Ans. (a) A—north pole, B—south pole (b) the north
+pole of compass needle will deflect towards west.
+Reason : End A of the coil behaves like north
+
+pole which repels the north pole of the
+
+compass needle towards west.
+
+14.
+
+IS:
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+State two ways by which the magnetic field due to
+a current carrying solenoid can be made stronger.
+Why does a current carrying freely suspended
+solenoid rest along a particular direction ? State the
+direction in which it rests.
+
+Ans. a current carrying solenoid behaves like a bar
+magnet. It rest in geographic north-south direction.
+
+What effect will there be on a .magnetic compass
+when it is brought near a current carrying
+solenoid ?
+Ans. the needle of the compass will rest in the
+direction of magnetic field due to the solenoid at that
+point.
+How is the magnetic field due to a solenoid carrying
+current affected if a soft iron bar is introduced inside
+the solenoid ?
+
+Ans. the strength of magnetic field increases
+
+Complete the following sentences :
+(a) When current flows in a wire, it creates
+(b) On reversing the direction of current in a wire,
+the magnetic field produced by it gets .............
+(c) A current carrying solenoid behaves like a........
+
+(d) A current carrying solenoid when freely
+suspended, it always rests in
+
+direction.
+Ans. (a) a magnetic field around it (b) reversed
+(c) bar magnet (d) north-south
+You are required to make an electromagnet from a
+soft iron bar by using a cell, an insulated coil of
+copper wire and a switch. (a) Draw a circuit diagram
+to represent the process. (b) Label the poles of the
+electromagnet.
+
+The diagram in Fig. 10.19 shows a coil wound
+around a soft iron bar XY. (a) State the polarity at
+the ends X and Y as the switch is pressed.
+(b) Suggest one way of increasing the strength of
+
+electromagnet so formed.
+COIL
+
+RHEOSTAT
+
+SWITCH
+
+BATTERY
+Fig. 10.19
+
+Ans. (a) X-north pole, Y-south pole.
+(b) by reducing the resistance of circuit by means
+of rheostat to increase current in the coil.
+
+
+===== PAGE 12 =====
+
+21. (a) What name is given to a cylindrical coil of
+diameter less than its length ?
+
+(b) Ifa piece of soft iron is placed inside the coil
+mentioned in part (a) and current is passed in
+the coil from a battery, what name is then given
+to the device so obtained ?
+
+Give one use of the device mentioned in
+part (b).
+Ans. (a) solenoid, (b) electromagnet, (c) electric relay.
+
+(c)
+
+22. Show with the aid of a diagram how a wire is
+wound on a U-shaped piece of soft iron in order to
+make it an electromagnet. Complete the circuit
+diagram and label the poles of the electromagnet.
+What is an electromagnet ? Name two factors on
+which the strength of magnetic field of an electro-
+magnet depends and state how does it depend on
+the factors stated by you.
+
+Fig. 10.20 shows the current flowing in the coil of
+wire wound around the soft iron horse shoe core.
+State the polarities developed at the ends A and B.
+
+Fig. 10.20
+
+Ans. at A—south and at B—north
+
+State two ways by which the strength of an
+electromagnet can be increased.
+
+25.
+
+26. Name one device that uses an electromagnet.
+
+Ans. electric bell.
+
+27. State two advantages of an electromagnet over a
+
+permanent magnet.
+
+28. State two differences between an electromagnet
+
+and a permanent magnet.
+
+29. Why is soft iron used as the core of the
+
+electromagnet in an electric bell ?
+
+How is the working of an electric bell affected, if
+alternating current be used instead of direct
+current ?
+
+31. The incomplete diagram of an electric bell is given
+in Fig 10.21. Draw winding of coil on the core and
+
+complete the electric circuit in the diagram
+
+40)
+
+G-Gong
+
+H-Hammer
+
+A-—Armature A c
+
+C-Core
+
+B-Battery of 1,8,
+Fig. 10.21
+
+32. Name the material used for making the armature of
+an electric bell. Give a reason for your answer.
+
+MULTIPLE CHOICE TYPE
+
+1. The presence of magnetic field at a point can be
+detected by means of :
+(a) a strong magnet
+(c) a compass needle:
+
+(b) a solenoid
+(d) a current carrying wire.
+Ans. (c) a compass needle.
+2. On reversing the direction of current in a wire, the
+magnetic field produced by it :
+(a) gets reversed in direction
+(b) increases in strength
+(c) decreases in strength
+(d) remains unchanged in strength and direction.
+Ans. (a) gets reversed in direction.
+
+10.11 FORCE ON A CURRENT CARRYING
+CONDUCTOR IN A MAGNETIC FIELD
+
+Lorentz found that a charge moving in a
+magnetic field, in a direction other than the
+direction of magnetic field, experiences a force.
+It is called the Lorentz force. Since charge in
+motion constitutes a current, therefore a conductor
+carrying moving charges (or current) placed in a
+
+=
+
+r=
+
+magnetic field, in direction other than the
+direction of magnetic field, will also experience
+a force and can produce motion in the conductor.
+This can be demonstrated by the following
+experiment.
+
+Experiment : Fig. 10.22(a) shows a thick
+copper wire AC suspended at its ends A and C
+from a support by means of threads. A magnetic
+
+ae >
+
+Vas es
+
+
+===== PAGE 13 =====
+
+field B is applied by keeping the wire AC in
+between the poles N and S of a horse shoe
+magnet, with length AC of wire normal to the
+magnetic field lines of the magnet. Between the
+ends A and C of the wire, a rheostat, key
+and battery are connected. In Fig. 10.22, the
+magnetic field B is in the plane of paper in
+upward direction (i.e., in Y direction) and the
+wire also lies in the plane of paper with its length
+AC in X direction.
+
+22S >
+I, B and F are mutually per-
+pendicular to each other.
+
+(b) Direction of I, B and F
+Fig. 10.22 Force on a current carrying conductor
+
+Rheostat
+
+(a) Experimental set up
+
+Experimentally, it is observed that
+
+(1) When no current flows in the wire, no force
+acts on the wire and the wire does not move.
+
+(2) When current J is passed in the wire in
+direction from A to C (i.e., in X direction), a
+force F acts on the wire in a direction
+perpendicular to both the direction of
+current J and the direction of magnetic
+field B, as shown in Fig. 10.22 (b). Due to
+the force F, the conductor begins to move
+normal to the plane of paper in outward
+
+direction (i.e., in Z direction).
+
+(3) If the direction of current through the wire
+is reversed by interchanging the terminals of
+the battery, the direction of force (i.e., the
+direction of movement of the wire) is also
+reversed i.e., now it moves normal to the
+plane of paper in inward direction (or in
+
+— Z direction).
+
+(4) On reversing the direction of magnetic
+field (i.e., on reversing the polarities N and
+S of the horse shoe magnet), the direction
+
+of force (i.e., the direction of movement
+
+of wire) is reversed i.e., now it moves in
+— Z direction.
+
+Note : If wire is short enough and is
+placed between the poles of magnet with its
+length AC in Y direction such that the current
+
+in it is in the direction parallel to the direction
+of magnetic field, no force acts on the wire
+and it does not move.
+
+Magnitude of force : Experimentally it is
+found that the magnitude of force acting on a
+current carrying wire placed in a magnetic field
+in the direction perpendicular to its length,
+depends on the following three factors :
+
+(a) The force F is directly proportional to
+the current J flowing in the wire, i.e.,
+
+FJ (i)
+(b) The force F is directly proportional to the
+strength of magnetic field B, i.e.,
+. FoB (di)
+(c) The force F is directly proportional to the length /
+of the wire (within the magnetic field), i.e.,
+
+Fx] w+e(iii)
+Combining the eqns. (i), (ii) and (iii),
+
+F cc JBI
+or F = KIBI
+
+where K is a constant whose value depends on
+the choice of the unit. In S.I. units, the unit of
+B is such that K = 1. Then
+
+.-(10.1)
+
+Unit of magnetic field : From eqn. (10.1),
+
+F
+Bers
+newton
+ampere X metre
+tesla (symbol T) or weber/metre? (symbol Wb m~~).
+
+so the S.I. unit of magnetic field is
+
+or N A7 m1. It is also named as
+
+Fleming’s left hand rule for the direction of
+force
+
+The direction of force on a current carrying
+conductor placed in a magnetic field is obtained
+by the Fleming's left hand rule.
+
+a ea]
+
+
+===== PAGE 14 =====
+
+Central finger—Current t MOTION (FORCE)
+
+Fore finger—Field
+
+Thumb—Motion MAGNETIC
+; ; FIELD
+
+Fig. 10.23 Fleming’s left hand rule
+
+10.12 SIMPLE D.C. MOTOR
+
+We know that in electric gadgets such as fan,
+washing machine, juicer, mixer, grinder, etc., an
+electric motor is used to produce rotational
+motion by the use of electricity. Thus
+
+Principle : A d.c. motor works on the
+principle that when an electric current is passed
+through a conductor placed normally in a
+magnetic field, a force acts on the conductor as
+a result of which the conductor begins to move
+and thus mechanical energy (or work) is obtained.
+The direction of force on the conductor is
+obtained with the help of Fleming’s left hand rule.
+
+Construction and its main parts : The basic
+construction of an electric motor is shown in
+Fig. 10.24. The main parts of an electric motor
+are :
+
+me)
+
+CURRENT
+
+the armature coil ABCD mounted on an
+axle,
+
+(2) the split parts S, and S, of a ring (i.e, a
+copper slip ring being divided in two
+parts S, and S,) which is known as split ring
+commutator,
+
+(3) a pair of carbon (or copper) brushes B, and B,,
+
+Axle _, Armature coil
+
+s Horse shoe
+electromagnet
+
+Split ring commutator
+
+Soft iron core
+
+Horse shoe
+electromagnet
+
+5
+Key Battery
+
+Rheostat
+
+Fig. 10.24 A d.c. motor
+
+(4) a horse-shoe electromagnet NS, and
+(5) a d.c. source (i.e., battery).
+
+The armature coil ABCD is wound around a
+soft iron core and it is placed in between the pole
+pieces of a strong horse-shoe electromagnet NS.
+The coil is free to rotate about its axis. The ends
+A and D of the coil are connected respectively
+to the split parts S, and S, of a ring. The brush
+B, presses gently against the split ring S, and the
+brush B, presses gently against the split ring S,.
+A d.c. source (i.e., battery) is connected across the
+brushes B, and B, through a key and rheostat.
+When the coil rotates, the split parts of ring
+rotate with it, while the brushes which are fixed,
+remain at their position so as to remain in
+contact with the split ring.
+
+A wheel can be mounted on the axle attached
+to the armature coil along its axis so as to rotate
+the desired part of the machine where the motor
+is used.
+
+Working : In Fig. 10.25 (a), the plane of the
+coil is horizontal and the split ring S, touches the
+brush B,, while the split ring S, touches the brush
+B,. The brush B, is connected to the + ve
+terminal of d.c. battery, while the brush B, is
+connected to its — ve terminal. When key is
+closed, the current flows in the coil in direction
+ABCD. The current in arms BC and DA is
+parallel to the magnetic field, so these arms
+experience no force. The current in arms AB and
+CD is perpendicular to the magnetic field, so each
+
+
+===== PAGE 15 =====
+
+arm experiences a force F (= JBI). Here J is the
+current in the coil, B is the magnetic field
+strength and / is the length AB or CD. According
+to Fleming’s left hand rule, the force F on the
+arm AB is in inward direction perpendicular to
+the plane of paper and the force F on the arm
+CD is in outward direction perpendicular to the
+plane of paper. The forces on the arms AB
+and CD being equal and opposite, form an
+anti-clockwise couple due to which the coil
+begins to rotate such that the arm AB goes in and
+the arm CD comes out.
+
+(b) After 90° rotation, coil normal
+
+(a) Initial position, coil in
+to the plane of magnetic field.
+
+plane of magnetic field
+
+(d) After 270° rotation, coil normal
+to the plane of magnetic field.
+
+(c) After 180° rotation, coil
+in plane of magnetic field
+
+Fig. 10.25 Working of a d.c. motor
+
+When the coil reaches the vertical position
+after 90° rotation (i.e., perpendicular to the plane
+of paper with the arm CD out and the arm AB
+in) as shown in Fig. 10.25 (b), momentarily there
+is no contact between the brush B, and split ring
+
+in a ral
+
+S, or between the brush B, and split ring S,. So
+at this moment, no current flows through the coil
+and thus no force acts on the coil. Due to the
+inertia of rotational motion, the coil does not stop
+in this position, but it continues to rotate.
+
+As the coil passes from its vertical position,
+the split ring S, comes in contact with the
+brush B, , while the split ring S$, comes in contact
+with the brush B, [Fig. 10.25 (c)]. Now the
+current flows through the coil in direction DCBA.
+The arms CB and AD being parallel to the
+magnetic field, experience no force. On the arm
+DC, a force acts in inward direction perpendicular
+to the plane of paper and on the arm BA, an
+equal force acts in outward direction
+perpendicular to the plane of paper. The force is
+maximum (i.e. F = JBI) when the coil turns by
+180° from the initial position. The forces acting
+on the arms DC and BA of the coil again form
+an anticlockwise couple due to which the coil
+remains rotating in the same direction.
+
+After rotation by 270°, the coil reaches to the
+vertical position as shown in Fig. 10.25(d). Again
+for a moment, there is no contact between the brush
+B, and split ring S, or between the brush B, and
+split ring S,, hence no current flows in the coil. But
+due to inertia of motion, the coil continues to rotate
+and again it reaches back to its initial position.
+
+Note : (1) The deflecting couple on the coil
+of the motor is maximum when the plane of
+coil is parallel to the direction of magnetic
+field, while the deflecting couple is zero (or
+minimum) when the plane of the coil is
+perpendicular to the magnetic field.
+
+(2) The speed of rotation of coil, obviously,
+depends on the magnitude of deflecting couple
+
+formed by the forces acting on the arms AB
+and CD of the coil. Deflecting couple is BAnI
+where B = strength of magnetic field, A = area
+
+of coil, n = number of turns in coil, and
+I = current in coil. Hence the speed of rotation
+of coil is directly proportional to these factors.
+
+
+
+===== PAGE 16 =====
+
+Ways of increasing the speed of rotation of
+coil
+
+The speed of rotation of coil can be increased
+by the following four ways :
+(1) by increasing the strength of current in the
+coil, f
+by increasing the number of turns in the coil,
+by increasing the area of the coil, and
+by increasing the strength of magnetic field.
+To increase the strength of magnetic field, a
+soft iron core is inserted within the coil. The
+insertion of core makes the magnetic field strong
+and radial. Due to radial field, the couple acting
+on the coil remains almost constant during the
+
+(2)
+(3)
+(4)
+
+1. A rectangular coil ABCD having a battery
+connected between its ends A and D is placed in
+between the pole pieces of a horseshoe magnet as
+shown in Fig. 10.26.
+
+Fig. 10.26
+
+(i) What is the direction of current in the coil ?
+(ii) What is the direction of force on each arm ?
+(iii) What is the effect of the forces on coil ?
+
+(iv) How is the effect of forces on coil changed if
+the connections at the terminals of battery are
+interchanged ?
+
+(i) In Fig. 10.26, the current in coil is in direction
+DCBA.
+
+(ii) By Fleming’s left hand rule, on the arm AB, the
+force is outwards normal to the plane of coil. On
+the arm BC, no force acts. On the arm CD, the
+force is inwards perpendicular to the plane of
+coil. On the arm DA, no force acts.
+
+(iii) The forces on the arms AB and CD are equal in
+magnitude, but opposite in direction. They form
+
+rotation of coil, except in the vertical position of
+coil when the couple is zero.
+
+Function of split ring commutator :
+Whenever the coil passes from the vertical
+position, the direction of current through the coil
+has to be reversed, so that the coil continues to
+rotate in the same direction. This is achieved by
+the two split parts S, and S, of a conducting ring
+which reverses the direction of current in the coil.
+They are called the split ring commutator.
+
+Transformation of energy in a d.c. motor :
+In a d.c. motor, the electrical energy supplied by
+the battery to the coil is transferred to the
+mechanical energy which rotates the coil.
+
+a clockwise couple. So the coil rotates clockwise
+with the arm AB.coming out and the arm CD
+going in.
+On interchanging the connections at the terminals
+of battery, the direction of current in the coil is
+reversed, so the forces on the arms AB and CD
+of the coil also get reversed and the coil rotates
+2. Fig. 10.27 shows a rectangular coil ABCD placed
+in between the pole pieces of a horse-shoe magnet
+with its plane perpendicular to the magnetic field.
+A battery is connected between the ends A and D
+of the coil.
+
+(iv)
+
+B
+ie}
+!
+N ! s
+'
+1
+A 1
+D
+Fig. 10.27
+
+(i) What is the direction of current in the coil ?
+
+(ii) What is the direction of force on each arm of
+the coil ?
+
+(iii) Will the coil rotate due to the forces on its
+arms ?
+
+
+===== PAGE 17 =====
+
+(i) In Fig. 10.27, the current in coil is in direction
+DCBA.
+
+On the arm AB, the force is outwards in the plane
+of coil i.e., away from the arm CD. On the arm BC,
+the force is outwards in the plane of coil i.e., away
+from the arm AD. On the arm CD, the force is
+outwards in the plane of coil i.e., away from the
+arm AB. On arm DA, the force is outwards in the
+plane of coil i.e., away from the arm BC.
+
+The coil will not rotate (because all the arms
+experience an outward pull) and no couple is
+formed.
+
+3. State the function of split ring in a d.c. motor.
+
+The split ring act as a commutator in a d.c. motor.
+With the split ring, the direction of current through the
+coil is reversed after each half rotation of coil and thus
+the direction of couple rotating the coil remains
+unchanged and the coil continues to rotate in the same
+direction.
+
+4. Ad.c. motor is rotating in a clockwise direction.
+How can its direction of rotation be reversed ?
+
+(ii)
+
+(iii)
+
+1. Name three factors on which the magnitude of force
+on a current carrying conductor placed in a magnetic
+field depends and state how does the force depend
+on the factors stated by you.
+
+Ans. (i) on strength of magnetic field B (F « B)
+(ii) on current J in the conductor (F J) and
+(iii) on length / of conductor (F « J)
+
+State condition in each case for the magnitude of
+
+force on a current carrying conductor placed in a
+
+magnetic field to be (a) zero, and (b) maximum.
+
+Ans. (a) when current in conductor is in the direction of
+magnetic field.
+
+(b) when current in conductor is normal to the
+magnetic field.
+
+3. How will the direction of force be changed, if the current
+is reversed in the conductor placed in a magnetic
+field ? Ans. direction of force is reversed.
+
+4. Name and state the law which is used to determine
+the direction of force on a current carrying
+conductor placed in a magnetic field.
+
+5. State Fleming’s left hand rule.
+
+6. State the unit of magnetic field in terms of the force
+
+experienced by a current carrying conductor placed
+in a magnetic field.
+Ans. newton / ampere x metre (or N A7! m"!)
+
+a
+
+The direction of rotation of motor can be reversed by
+reversing the direction of current in the coil i.e., by
+interchanging the connections at the terminals of the
+battery joined to the brushes of the motor.
+
+5.
+
+State with reason in a d.c. motor, the effect of
+(i) inserting a soft iron core within the coil,
+(ii) increasing the area of the coil, and
+(iii) increasing the strength of current in the coil.
+
+On inserting a soft iron core within the coil of a d.c.
+motor, the speed of rotation of coil increases. The
+reason is that on inserting the soft iron core in the
+coil, the strength of magnetic field between the pole
+pieces of magnet increases due to which the
+deflecting couple on the coil increases.
+
+(i)
+
+On increasing the area of coil, the deflecting couple
+on the coil increases, so the speed of rotation of
+coil increases.
+
+(ii)
+
+(iii) By increasing the strength of current in the coil, the
+deflecting couple on the coil increases, so the speed
+of rotation of the coil increases.
+
+A flat coil ABCD is freely suspended between the
+poles of a U-shaped permanent magnet with the
+plane of coil parallel to the magnetic field.
+
+(a) What happens when a current is passed in the coil ?
+
+(b) When will the coil come to rest ?
+
+(c) When will the couple acting on the coil be
+(i) maximum, and (ii) minimum ?
+
+(d) Name an instrument which makes use of the
+principle stated above.
+
+Ans. (a) the coil experiences a torque due to which it rotates.
+
+(b) the coil will come to rest when its plane
+becomes normal to the magnetic field.
+
+(c) (i) when the plane of coil is parallel to the
+magnetic field, (ii) when the plane of coil is
+normal to the magnetic field.
+
+(d) d.c. motor.
+
+A coil ABCD mounted on an axle is placed between
+
+the poles N and S of a permanent magnet as shown
+in Fig. 10.28.
+
+
+
+===== PAGE 18 =====
+
+(a) In which direction will the coil begin to rotate
+when current is passed through the coil in
+direction ABCD by connecting a battery
+between the ends A and D of the coil ?
+
+(b) Why is a commutator necessary for the
+continuous rotation of coil ?
+
+(c) Complete the diagram with commutator, etc.
+for the flow of current in the coil.
+
+Ans. (a) anticolckwise (b) after half rotation, the arms AB
+and CD get interchanged, so the direction of
+torque on coil reverses. To keep the coil rotating
+in the same direction, a commutator is needed
+to reverse the direction of current in the coil
+after each half rotation of coil.
+
+9, What is an electric motor ? State its principle.
+
+10. Draw a labelled diagram of a d.c. motor showing its
+main parts.
+
+What energy conversion does take place during the
+working of a d.c. motor ?
+
+State two ways by which the speed of rotation of an
+electric motor can be increased.
+
+Name two appliances in which an electric motor is
+used.
+
+il.
+
+12.
+
+13.
+
+MULTIPLE CHOICE TYPE
+1. In an electric motor, the energy transformation is :
+(a) from electrical to chemical
+(b) from chemical to light
+(c) from mechanical to electrical
+
+(d) from electrical to mechanical.
+Ans. (d) from electrical to mechanical.
+
+10.13 ELECTROMAGNETIC INDUCTION
+
+We have read that when an electric current is
+passed through a conductor, a magnetic field is
+produced around the conductor. Faraday thought
+since a magnetic field is produced by an electric
+current, it should be possible to produce an
+electric current by the magnetic field. He
+performed a number of experiments and observed
+that whenever there is a change in the number of
+magnetic field lines linked with a conductor*, an
+electromotive force (e.mf.) is developed between
+the ends of the conductor which lasts as long
+as there is a change in the number of magnetic
+field lines. This phenomenon is called the
+electromagnetic induction.
+
+Demonstration of the phenomenon of
+electromagnetic induction
+
+Experiment : Wind an insulated copper wire
+in form of a spiral on a paper (or wooden)
+cylinder so as to form a coil in the form of a
+solenoid. Connect a centre zero galvanometer G
+between the two ends of the solenoid. Then place
+
+* The number of magnetic field lines linked with a conductor
+is called the magnetic flux linked with it.
+
+PAPER (OR WOODEN) .
+CYLINDER
+"s)
+
+STATIONARY
+TT
+
+N Ss
+
+s TTR) ——3
+i. ae
+
+@
+WT) 2°
+(c) B | gs A
+
+NCU///// 8 ~~}
+"L_@et
+
+NULL US -¥s
+o *t ost
+
+Fig. 10.29 Demonstration of electromagnetic induction
+a magnet NS at some distance, along the axis of
+solenoid as shown in Fig. 10.29.
+
+Observations : It is observed that
+
+(1) When the magnet is stationary (v = 0), there
+is no deflection in galvanometer and its
+pointer reads zero [Fig. 10.29 (a)].
+
+
+===== PAGE 19 =====
+
+(2) When the magnet with its north pole facing
+the solenoid is moved towards it, the
+galvanometer shows a deflection towards
+right showing that a current flows in
+solenoid in the direction B to A as shown in
+
+Fig. 10.29 (b).
+
+As the motion of magnet is stopped, the
+pointer of galvanometer comes to zero
+position [Fig. 10.29 (c)]. This shows that the
+current in solenoid flows as long as the
+magnet remains moving.
+
+(3)
+
+(4) If the magnet is moved away from the
+solenoid, the pointer of galvanometer deflects
+towards left [Fig. 10.29 (d)] showing that the
+current in solenoid flows again, but now in
+direction A to B which is opposite to that
+
+shown in Fig. 10.29 (b).
+
+If the magnet is moved away rapidly, the
+deflection in the galvanometer increases
+although the direction of deflection
+remains same. It shows that now more current
+flows.
+
+(5)
+
+(6) If the magnet is brought towards the solenoid
+by keeping its south pole towards it, the
+pointer of galvanometer deflects towards
+left [Fig. 10.29 (e)] showing that the
+current in solenoid flows in direction A to
+B which is opposite to that shown in
+Fig. 10.29 (b).
+
+Exactly similar observations are made in
+galvanometer if magnet is kept stationary and the
+solenoid is moved. It implies that it is the relative
+motion between the solenoid and magnet which
+produces a current, irrespecitive of whether the
+magnet moves or the solenoid moves.
+
+Conclusions : From the above observations
+Faraday made the following three conclusions :
+
+(1) A current flows in the coil only when there
+is a relative motion between the coil and
+magnet.
+
+(2) The direction of current is reversed if the
+
+direction of motion (or polarity of the
+
+magnet) is reversed.
+
+(3) The current in the coil is increased
+(i) by the rapid motion of magnet (or coil),
+(ii) by the use of a strong magnet, and
+
+(iii) by increasing the area of cross section
+of coil and by increasing the number
+of turns in the coil.
+
+Faraday’s explanation
+
+When there is no relative motion between the
+magnet and coil, total number of magnetic field
+lines of the magnet passing through the coil (i.e.,
+the magnetic flux linked with the coil) remains
+constant, therefore no e.m.f. is induced in the coil
+and no current flows in it.
+
+When there is a relative motion between the
+coil and magnet, magnetic flux linked with the
+coil changes. For example in Fig. 10.30, the coil
+is moved towards the north pole of magnet, so
+the magnetic flux through the coil increases.
+similarly if the coil:is moved away from the north
+pole of magnet, the magnetic flux through the coil
+decreases. Due to change in the magnetic flux
+
+ee
+G
+(a)
+
+<—— MOTION OF COIL
+
+Fig. 10.30 Change of magnetic flux
+through a coil
+
+linked with the coil, an e.mf. is induced in the
+coil. The induced e.m.f. causes a current to flow
+in the coil if the circuit of coil is closed. Thus,
+
+In electromagnetic induction, the mechanical
+energy spent (i.e., the work done) in moving the
+coil or the magnet, to change the magnetic flux
+
+="
+
+
+===== PAGE 20 =====
+
+is transformed into the electrical energy in the
+form of current in the coil.
+
+10.14 FARADAY’S LAWS OF ELECTRO-
+MAGNETIC INDUCTION
+
+On the basis of the above experimental
+observations, Faraday formulated the following
+two laws of electromagnetic induction :
+
+(1) Whenever there is a change in magnetic
+flux linked with a coil, an emf. is induced.
+The e.m.f. induced lasts so long there is a
+change in magnetic flux linked with the coil.
+
+The magnitude of e.mf. induced is directly
+proportional to the rate of change of
+magnetic flux linked with the coil. If magnetic
+flux changes at a constant rate, a steady e.m.f.
+is produced.
+
+If the circuit of coil is closed, a current flows
+in it due to the e.m.f. induced across its ends.
+
+Factors affecting the magnitude of induced
+e.m.f.
+
+The magnitude of e.m.f. induced in a coil is
+equal to the product of rate of change of magnetic
+flux linked with each turn of the coil and the
+number of turns in the coil. ie.,
+
+(2)
+
+...(10.2)
+Thus, for a given coil and magnet, it depends
+on the following two factors :
+(1) on the rate of change of magnetic flux with
+each turn, and
+(2) on the number of turns in the coil.
+
+Direction of induced e.m.f.
+
+The direction of induced e.m.f. (and hence the
+direction of induced current) depends on whether
+there is an increase or decrease in magnetic
+flux. It can be obtained by any of the following
+two rules : (1) Fleming’s right hand rule, and
+(2) Lenz’s law.
+
+eS
+
+MOTION OF CONDUCTOR
+
+t Fore finger—Field
+Central finger—Induced
+current
+
+Thumb—Motion
+MAGNETIC FIELD
+<——_
+INDUCED soon
+CURRENT
+
+Fig. 10.31 Fleming’s right hand rule
+
+te =
+
+In Fig. 10.29 (b), when north pole of the
+magnet is brought towards the end A of solenoid,
+the induced current flows in solenoid in direction
+B to A i.e., at the end A, the current is
+anticlockwise, so the end A of solenoid becomes
+a north pole to repel the magnet. Thus it opposes
+the motion of north pole of magnet towards the
+solenoid which is the cause of producing it.
+
+Similarly, in Fig. 10.29 (d), when north pole
+of magnet recedes from end A of the solenoid, the
+direction of induced current in the solenoid is
+from B to A i.e., it is clockwise at the end A,
+and it becomes the south pole so as to oppose the
+motion of north pole of the magnet away from
+the solenoid which is the cause of producing it.
+
+Lenz’s law is based on the law of
+conservation of energy. It shows that the
+mechanical energy spent in doing work against
+the opposing force experienced by the moving
+magnet, is transformed into the electrical energy
+due to which current flows in the solenoid.
+
+
+===== PAGE 21 =====
+
+10.15 A.C. GENERATOR
+
+We know the use of an a.c. generator in our
+house (or factory) as an alternative source of
+electricity when electric supply from mains is not
+available.
+
+Principle : In a generator, a coil is rotated in
+a magnetic field. Due to rotation, the magnetic
+flux linked with the coil changes and therefore an
+e.m.f. is induced between the ends of the coil.
+Thus a generator acts as a source of current in
+an external circuit containing load when it is
+joined between the ends of its coil.
+
+Construction and its main parts : The basic
+construction of an a.c. generator is shown in
+Fig. 10.32.
+
+Load
+Fig. 10.32 A.C. generator
+
+The main parts of an a.c. generator are :
+(1) A horse shoe electromagnet NS,
+(2) the armature coil ABCD,
+(3) the slip rings S,, S,, and
+(4) the brushes B,, B,.
+(1) A horse shoe electromagnet NS : It is a
+strong magnet with poles N and S.
+
+(2) Armature coil ABCD : There is a soft iron
+core on which a coil ABCD having a large
+
+number of turns of insulated copper wire is
+wound. The coil is rotated rapidly in the
+magnetic field between the poles of the field
+magnet, by an axle fixed to it.
+
+Slip rings S, and S, : There are two coaxial
+metallic rings S, and S, which rotate along
+with the coil. One end of the coil is
+connected to the slip ring S, and the other
+end of the coil is connected to the slip ring
+S,. Each ring slips against a brush which is
+stationary
+
+Brushes B, and B, : There are two brushes
+B, and B, made of carbon, which press
+gently against the slip rings S, and S,
+respectively. The other ends of brushes act
+as terminals of the generator across which
+the external circuit containing load is
+connected. The brushes B, and B, do not
+rotate along with the coil and the slip rings.
+
+Working : The working of an a.c. generator
+is shown in Fig. 10.33. Let the magnetic field be
+in the plane of paper from north pole N to the
+south pole S. Initially let the plane of coil be
+perpendicular to the magnetic field (i.e., 6 = 0°)
+so maximum magnetic field lines pass through the
+coil. In this position, the arm AB of coil is
+below the plane of paper, while the arm CD of
+coil is above the plane of paper as shown in
+Fig. 10.33(a). The end A of coil is connected to
+the slip ring S, and the end D to the slip ring
+S,. The brush B, touches the slip ring S, and the
+brush B, touches the slip ring S,. No e.m.f. is
+induced in the coil when it is at rest.
+
+(3)
+
+(4)
+
+Let the coil be rotated clockwise by the
+handle attached to the axle. As the coil starts
+rotating, the magnetic flux through the coil
+decreases and therefore an e.m.f. is induced
+between the ends of coil due to which an induced
+current flows in the coil. By Fleming’s right hand
+tule, the direction of induced current in coil is
+along ABCD. This is because when the coil
+rotates clockwise, the arm AB moves upwards
+(i.e., from below to the plane of paper) so the
+induced current in the arm AB is from
+
+
+===== PAGE 22 =====
+
+(a) Plane of coil normal to (b) Plane of coil parallel to
+magnetic field (initial position) magnetic field (after 90° rotation)
+
+(c) Plane of coil normal to
+magnetic field
+(after 180° rotation)
+
+Fig. 10.33 Working of a.c. generator
+
+(d) Plane of coil parallel to
+magnetic field
+(after 270° rotation)
+
+A to B, while in the arm CD which moves
+inwards (or from above into the plane of paper),
+the induced current is from C to D. Therefore in
+the external circuit, the current flows from the
+brush B, to the brush B, through the load. When
+the coil gets rotated by 90° (i.e., the plane of coil
+becomes parallel to the magnetic field or
+@ = 90°) as shown in Fig. 10.33(b), no magnetic
+field line passes through the coil, so the magnetic
+flux linked with coil becomes zero. At this
+instant, the e.m.f. induced in coil is maximum
+because the rate of change of magnetic flux is
+maximum at this instant.
+
+On rotation of coil by 180°, the plane of coil
+again becomes normal to the magnetic field as
+shown in Fig. 10.33(c). Now the magnetic field
+lines passing through the coil becomes maximum.
+At this position of coil, the rate of change of
+magnetic flux is zero, therefore no e.m.f. is
+induced in the coil.
+
+When the coil gets rotated further, the
+magnetic flux linked with the coil decreases and
+the e.m.f. again increases to the same maximum
+value, but in opposite direction. When the coil
+gets turned by 270° from its initial position as
+shown in Fig. 10.33(d), the e.m.f. induced in the
+coil is maximum because the rate of change of
+magnetic flux is again maximum at this
+instant. Now the arms of coil AB and CD have
+interchanged their position. As a result, an
+induced current flows in the coil in direction
+DCBA (i.e. in the external circuit from the brush
+B, to the brush B,).
+
+On further rotation of the coil, the induced
+e.m.f. reduces to zero and the magnetic flux
+linked with coil becomes maximum when the
+plane of coil gets rotated by 360° and becomes
+normal to the magnetic field as shown in
+Fig. 10.33(a).
+
+Thus as the coil rotates in the magnetic field
+between the poles of field magnet, an induced e.m.f.
+is produced between the ends of the coil. The
+e.m.f. so produced between the ends of the coil
+changes its polarity as well as magnitude in each
+rotation of the coil, so it is called an alternating
+e.m.f. Due to this induced e.m.f., an alternating
+current flows in the external circuit connected
+between the brushes B, and B,. The direction of
+current reverses after each half rotation of the coil.
+
+Fig. 10.34 represents the variation in e.m.f.
+induced between the ends of coil with angle 0
+which the normal to the plane of coil makes with
+the magnetic field.
+
+a lar
+
+af
+N]| °F [-
+Picls: ae wi
+
+Direction of magnetic field ——>
+Fig. 10.34 Generation of e.mf. in the coil
+
+‘ah
+
+
+===== PAGE 23 =====
+
+Note : (1) The magnitude of induced e.mf.
+becomes maximum when the magnetic flux linked
+with coil reduces to zero from its maximum
+value. This happens when the plane of coil lies
+in direction of the magnetic field.
+
+(2) The induced e.m.f. becomes zero when the
+magnetic flux linked with coil is maximum. This
+happens when the plane of coil is normal to the
+magnetic field.
+
+Frequency of alternating current
+
+In one complete rotation of coil, we get one
+cycle of alternating current in the external circuit.
+Thus the alternating current has the frequency
+equal to the frequency of rotation of coil.
+
+If the coil makes n rotations per second, the
+magnitude of induced e.m.f. at any instant ¢ is
+
+given as
+and the current is expressed as
+
+where e, and i, represent the maximum values of
+e.m.f. and current respectively*. The alternating
+current is abbraviated as a.c.
+
+Note : (1) By increasing the speed of rotation
+of coil, the frequency of a.c. generated will also
+increase, along with the increase in the
+maximum value é, of the induced e.m.f.
+
+(2) The magnitude of alternating current changes
+continuously with time in a periodic manner.
+
+* e, = 2nnBAN where B = strength of magnetic field, A = area of cross
+section of coil, N = number of turns in coil, and n = number of rotations
+of coil per second. i, = ¢,/R if R is the resistance of load connected in the
+external circuit.
+
+- 10.16 FREQUENCY OF a.c. IN HOUCEHOLD
+
+SUPPLIES
+
+In our houses, we have electric supply of
+frequency 50 Hz (n = 50 Hz) ie., the polarity at
+the supply terminal changes 100 times a second
+(50 times + and 50 times —).
+
+Difference between the d.c. and a.c.
+
+If a resistor is connected across the terminals
+of a battery, a current flows in the circuit, the
+magnitude of which remains constant and it
+always flows in a direction from positive terminal
+of the battery to its negative terminal. But if a
+resistor is connected at the output terminals of an
+a.c. generator (or mains in our house), the
+magnitude of current in resistor changes
+periodically (the current repeats its value after
+
+each time interval equal to a s) and its direction
+also changes (it is in one direction for Too S and
+then in reverse direction for the next a”
+
+A current of constant magnitude and unique
+direction, is called d.c., while a current changing
+its magnitude as well as direction periodically, is
+called a.c. A battery is a d.c. source, while the
+a.c. generator and mains are the a.c. sources.
+
+DISTINCTION BETWEEN D.C. AND A.C.
+
+Advantage of a.c. over d.c.
+
+In India, we use 220 volt a.c. in our houses
+and factories. The use of a.c. is advantageous over
+d.c. because only the voltage of a.c. can be
+increased by the use of step up transformer at the
+power generating station and then can be
+decreased by the use of step down transformer for
+transmission in the city. It reduces the loss of
+
+
+===== PAGE 24 =====
+
+electrical energy as heat in the transmission line
+wires. If d.c. is generated at the power generating
+station, its voltage cannot be increased for
+transmission, and so due to passage of high
+current in the transmission line wires, there will
+be a huge loss of electrical energy as heat in the
+line wires.
+
+10.17 DISTINCTION BETWEEN AN A.C.
+GENERATOR AND D.C. MOTOR
+
+A.C. generator | | D.C. motor
+
+1. A generator is adevice | 1. Ad.c. motor is a device
+which converts the which converts the electrical
+mechanical energy into energy into the mechanical
+the electrical energy. energy.
+
+2. A generator works on the | 2. A d.c. motor works on the
+principle of electro- principle of force acting
+magnetic induction. on a current carrying
+
+conductor placed in a
+magnetic field.
+
+3. In a generator, the coil is | 3. In a d.c. motor, the current
+
+rotated in a magnetic from a d.c. source flows
+field so as to produce an in the coil placed in a
+electric current. magnetic field due to which
+the coil rotates.
+4. A generator makes use | 4. A d.c. motor makes use of
+of two separate coaxial two parts of a slip ring
+
+slip rings. (ie., split ring) which
+
+acts as a commutator.
+
+Similarities between an A.C. generator and
+a D.C. motor
+
+(1) Both in an a.c. generator and d.c. motor, a
+coil rotates in a magnetic field between the
+pole pieces of a powerful electromagnet.
+
+(2) Both in an a.c. generator and d.c. motor, there
+is a transformation of energy from one form
+
+to the other form.
+
+10.18 TRANSFORMER
+
+In our daily life, we use various electrical
+appliances which require working voltage
+different from the voltage of mains (i.e., 220 V)
+e.g. a door bell needs 6 V, while the cathode ray
+tube in a_ television needs nearly 10,000 V. To
+provide suitable voltage to different appliances
+from the mains, we use transformers with them.
+
+Thus, ”
+
+Transformer is a device by which the magnitude
+
+of an alternating e.m.f. can be increased or
+decreased.
+
+A transformer does not affect the frequency of
+the alternating voltage. The frequency remains
+unchanged (= 50 Hz).
+
+Principle : A transformer works on the
+principle of electromagnetic induction and makes
+use of two coils having different number of turns.
+The two coils are : (1) the primary coil, and
+(2) the secondary coil. The given alternating
+e.m.f., of which magnitude is to be changed, is
+applied across the primary coil and the appliance
+in which output is to be obtained is connected
+across the secondary coil. When there is a change
+in the magnetic field lines due to varying current
+in the primary coil, the number of magnetic field
+lines linked with the secondary coil changes and
+so an induced varying current of same frequency,
+but of different magnitude flows in the secondary
+coil.
+
+A transformer cannot be used with the direct
+current (d.c.) source because if current in primary
+coil is constant (i.e., d.c.), then there will be no
+change in the number of magnetic field lines
+linked with the secondary coil and hence no
+e.m.f. will be induced in the secondary coil.
+
+Construction : A transformer consists of a
+rectangular soft iron core made up from the thin
+laminated sheets of soft iron of T and U shape,
+placed alternately one above the other and
+insulated from each other by a paint (or varnish)
+coating over tem as shown in Fig. 10.35. This
+forms a simple rectangular core.
+
+Fig. 10.35 Laminated iron core
+
+
+===== PAGE 25 =====
+
+On one arm of the core, the primary coil P
+of insulated copper wire is wound. This coil is
+connected with the source of alternating e.m.f.
+(i.e., at the ends of this coil, the input is given).
+On the other arm of the core, secondary coil S
+of insulated copper wire is wound. The induced
+alternating e.m.f. is obtained across the terminals
+of this coil (i.e., output is obtained at the ends
+of this coil). The ratio of number of turns N, in
+secondary coil to the number of turns N, in
+primary coil (i.e., N,/ N,) is called the turns
+ratio. i.é.,
+
+...(10.5)
+
+Note : (1) The laminated core prevents the
+loss of energy due to induced (or eddy)
+currents in the core. (2) The advantage of
+using a closed core is that it gives a closed
+path for the magnetic field lines and therefore
+almost all the magnetic field lines, caused due
+
+to current in the primary coil, remain linked
+with the secondary coil (i.e., the flux linkage
+is nearly perfect) and loss of energy is avoided.
+(3) The core is made of soft iron (or hysteresis)
+so that the loss of energy in the core gets
+minimised.
+
+Working : When the terminals of primary coil
+are connected to the source of alternating e.m-f.,
+a varying current flows through the primary coil.
+This varying current produces a varying magnetic
+field in the core of transformer. Thus the number
+of magnetic field lines linked with the secondary
+coil vary due to which an e.m.f. induces in it.
+The induced e.m.f. varies in the same manner as
+the applied e.m.f. in the primary coil varies
+and thus has the same frequency as that of the
+applied e.m.f.
+
+For a transformer,
+
+e.m.f. across the secondary coil (E,)
+
+e.m.f. across the primary coil (Ep)
+number of turns in the secondary coil (Ns)
+
+= number of turns in the primary coil (Np)
+
+or | ...(10.6)
+
+Thus the magnitude of e.m.f. induced in the
+
+secondary coil depends on the following two
+factors :
+
+(1) the ratio of the number of turns in the
+secondary coil to the number of turns in the
+primary coil (i.e., turns ratio), and
+
+(2) the magnitude of e.mf. applied. in the primary
+
+coil.
+
+For an ideal transformer, when there is no
+energy loss, the output power will be equal to the
+input power. i.e.,
+
+power in secondary coil = power in primary coil
+
+or
+
+Types of transformers : There are two types
+of transformers : (1) step up transformer, and
+(2) step down transformer.
+
+(1) Step up transformer : The transformer used
+to change a low alternating voltage to a high
+alternating voltage (of same frequency) is
+called a step up transformer (i.e., E,; > Ep).
+In a step up transformer, the number of turns
+in the secondary coil is more than
+the number of turns in the primary coil
+(N,> N,) i.e., turns ratio n > | as shown in
+Fig. 10.36. Since current in primary coil is
+
+Fig. 10.36 Step up and step down transformers
+
+
+===== PAGE 26 =====
+
+more than in secondary coil (or J, > /,), so
+the wire in the primary coil is thicker than
+in the secondary coil.
+
+Step down transformer : The transformer
+used to change a high alternating voltage to
+a low alternating voltage (of same frequency)
+is called a step down transformer (E, < E,).
+In a step down transformer, the number of
+turns in the secondary coil are less than
+the number of turns in the primary coil
+(N,< N,) ie., turns ratio n < 1 as shown in
+
+(2)
+
+Fig. 10.37. Since current in secondary
+coil is more than in the primary coil (ie.,
+I, > Ip) so the wire in secondary coil is
+thicker than in the primary coil.
+
+P|] PRIMARY P
+Fig. 10.37 Step down transformer
+
+Note : The use of thicker wire in a coil
+reduces its resistance and therefore reduces the
+
+loss of energy as heat in that coil (This energy
+loss due to heat is known as copper loss).
+
+Examples : (1) If we want to transmit
+1-1 kW, 220 V electric power at 11 kV, we use
+a step up transformer which will step up
+
+= 220 V to E, = 11 kV (= 11000 V). The
+turns ratio for this transformer will be
+
+11000 50
+
+n= = = = =
+
+>] ee
+
+i.e., the number of turns in the secondary coil will
+be 50 times that of the primary coil. The current in
+P 111000 W
+
+primary coil will be J, = v= mov =5A
+while for the same output power (= 1-1 kW), current
+in secondary coil will be 1, = *427000W = 0.1 a.
+
+Hence the primary winding has to be of a thicker
+wire as compared to that of the secondary winding
+to reduce the heat (or copper) loss.
+
+(2) If we want to run a 6 W, 12 V bulb with
+our mains supply of 240 V, we use a step down
+transformer which will step down E, = 240 V to
+E, = 12 V. The turns ratio for this transformer
+will be
+
+Ns Es _ 12 1
+
+n= =
+Np Ep
+
+240 20
+
+i.e., the number of turns in the secondary coil will
+be one-twentieth of that in the primary coil. Further
+as the output power is 6 W, the input power will
+also be 6 W. Therefore current in primary coil is
+
+sv = 0-025 A = 25 “ while current in
+
+secondary coil will be J, = Ss = 0-5 A. Hence
+the secondary winding has to be of a thicker wire
+as compared to that of the primary winding to
+reduce the heat (or copper) loss.
+
+Uses of transformers : In our houses, both
+type of transformers are used with electrical
+appliances which operate at a voltage other
+than the voltage supplied by the mains (e.g., a
+door bell needs 6 V, mils a T.V. requires nearly
+10,000 V).
+
+(A) Uses of step up transformers :
+
+(1) In transmission of electric power at the
+power generating station to step up the
+voltage.
+
+(2) With television.
+
+(3) With wireless sets.
+
+(4) With X-ray tubes to provide a high
+accelerating voltage.
+
+(B) Uses of step down transformers :
+
+(1) With electric bells, night electric bulbs,
+mobile phones, computers, etc.
+
+(2) At the power sub-stations to step down the
+voltage before its distribution to the
+consumers.
+
+
+===== PAGE 27 =====
+
+Distinction between the step bia and = down transformers
+
+1. Fig. 10.38 shows a coil AB connected to a centre
+zero galvanometer G and a magnet NS.
+
+i
+
+Fig. 10.38
+
+(i) What will you observe when : (a) the magnet
+is inserted into the coil, (b) the magnet is taken
+out of the coil ?
+
+(ii) How will your observation in part (i) change
+if the number of turns in the coil is increased?
+
+(iii) State the direction of current in the coil in
+
+part (i) (a).
+
+(iv) State the law by which you arrived to the
+
+answer in part (iii).
+
+(i) (a) As the magnet enters the coil, a momentary
+deflection is observed in the galvanometer so
+long the magnetic field lines linked with the
+coil increases. As the magnet completely
+enters inside the coil, the deflection becomes
+zero.
+
+(b) On taking the magnet out of the coil, again a
+momentary deflection is observed in the
+galvanometer in a direction opposite to that in
+part (a) above. The deflection lasts so long as
+the magnetic field lines linked with the coil
+decreases.
+
+(ii) On increasing the number of turns in the coil, the
+deflection observed in part (i) will increase.
+
+(iii) In part (i) (a), the current in coil will be from
+
+A to B (i.e. anticlockwise as seen from above, so
+that the end of the coil near the N pole of the
+magnet becomes the north pole).
+
+(iv) According to Lenz’s law, the current induced in
+the coil is such that it opposes the cause of its
+origin.
+
+. Two coils P and Q are placed as shown in
+
+Fig. 10.39. The coil A is connected to a battery B
+and a key K, while the coil Q is connected to a
+centre zero galvanometer G.
+What will you observe in the galvanometer G
+when
+(i) the key K is closed ?
+(ii) the key K is opened ?
+(iii) with the key K closed, the coil P is moved
+rapidly towards the coil Q ?
+(iv) with the key K closed, the coil Q is moved
+rapidly towards the coil P ?
+(v) with the key K closed, the coils P and Q are
+moved away from each other ?
+(vi) with the key K closed, the coils P and Q
+are moved with the same speed in same
+direction ?
+
+J 0000
+
+a(t)
+
+Fig. 10.39
+
+(i) As the key K is closed, the galvanometer needle
+deflects for a moment and then returns to zero.
+
+RS, cae ceenn
+
+
+===== PAGE 28 =====
+
+(ii) As the key K is opened, again a momentary
+deflection (but more) is observed in the
+galvanometer in the opposite direction.
+
+(iii) With the key K closed, if the coil P is moved
+rapidly towards the coil Q, a deflection is
+obtained in the galvanometer in the direction
+same as in case (i). But the deflection lasts so
+long as the coil P moves.
+
+(iv) With the key K closed, if the coil Q is moved
+rapidly towards the coil P, again a deflection is
+observed in the galvanometer in direction same
+as in case (i). The deflection lasts so long as the
+coil Q moves.
+
+(v) With the key K closed, if the coils P and Q are
+moved away from each other, a deflection is
+obtained in the galvanometer in direction same as
+in case (ii). The deflection lasts so long as there
+is relative motion between the coils.
+
+(vi) With the key K closed, if the coils P and Q are
+moved with the same speed in the same direction,
+there is no deflection in the galvanometer.
+
+3. The diagram in Fig. 10.40 shows two coils X and Y.
+The coil X is connected to a battery B and a key
+K. The coil Y is connected to a galvanometer G.
+
+Fig. 10.40 S
+
+When the key K is closed, state the polarity
+
+(i) at the end Q of the coil X,
+
+(ii) at the end R of the coil Y,
+
+(iii) at the end R of the coil Y if the coil Y is
+(a) moved towards the coil X, (b) moved away
+from the coil X.
+
+(i) On closing the key K, the current at the end Q of
+the coil X is anticlockwise, therefore at this end
+there is a north pole.
+
+(ii) While closing the key, polarity at the end R of
+the coil Y will be north. But there will be no
+polarity at the end R of the coil Y when the
+current becomes steady in the coil X after the key
+has been closed.
+
+(iii)(a) With the key K closed, while the coil Y is
+moved towards the coil X, the polarity at the
+end R of the coil Y is north.
+
+(b) With the key K closed, while the coil Y is
+
+moved away from the coil X, the polarity at
+the end R of the coil Y is south.
+
+4. A coil has 50 turns and the magnetic flux linked
+with the coil increases by 0-5 weber in 10-0 s.
+Calcualte the e.m.f. induced in the coil.
+
+Given : increase in magnetic flux = 0-5 weber,
+time t = 10-0 s, N = 50.
+e.m.f. induced e
+= N x rate of increase of magnetic flux
+05
+= 50x 100 = 0-25 V
+
+5. A flat rectangular coil is rotated between the pole
+pieces of a horse-shoe magnet. (a) In which
+position of coil with respect to the magnetic field,
+will the e.m.f. be (i) maximum, and (ii) zero. (b)
+When does the e.m.f. change its direction ?
+
+(a) (i) The e.m.f. is maximum when the plane of coil
+is parallel to the magnetic field.
+(ii) The e.m.f. is zero when the plane of coil is
+normal to the magnetic field.
+(b) The e.m.f. will change its direction when the
+
+plane of coil passes from the position normal
+to the magnetic field.
+
+6. (i) Name the principle on which a transformer
+works.
+
+(ii) What is the function of a step up transformer ?
+
+(iii) Draw a simple labelled diagram of a
+step down transformer.
+
+(iv) Can a transformer work when it is
+connected to a d.c. source ? Give a reason.
+
+(v) Draw a simple labelled diagram of a step up
+transformer.
+
+(i) A transformer works on the principle of
+electromagnetic induction.
+
+(ii) The function of a step up transformer is to
+convert a low a.c. voltage to a high a.c.
+voltage.
+
+(iii) Fig 10.41 shows a simple labelled diagram of
+a step down transformer.
+
+SOFT IRON LAMINATED CORE
+
+Fig. 10.41 Step down transformer
+
+ae
+
+
+===== PAGE 29 =====
+
+SOFT IRON LAMINATED CORE
+
+(iv) No. A wanstormer ‘camrot work wnen mt 1s’
+connected to a d.c. source because there will
+then be no change in the magnetic flux linked
+with the secondary coil.
+
+(v) Fig 10.42 shows a simple labelled diagram of
+a step up transformer.
+
+Fig. 10.42 Step up transformer
+
+1. (a) What is electromagnetic induction ? (ii) The current is switched off in a wire held near
+(b) Describe one experiment to demonstrate the a loop of wire.
+phenomenon of electromagnetic induction. (iii) A magnet is moved through a loop of wire.
+2. State Faraday’s laws of electromagnetic induction. (iv) A loop of wire is held near a magnet.
+
+3. State two factors on which the magnitude of induced Ans. In cases (i), (ii) and (iii)
+e.m.f. in a coil depend. 9. A conductor is moved in a varying magnetic field.
+Name the law which determines the direction of
+
+current induced in the conductor.
+Ans. Fleming’s right hand rule
+
+Ans. (i) rate of change in magnetic flux with each turn
+of coil, (ii) the number of turns in the coil.
+
+4. (a) What kind of energy change takes place when a ‘ ;
+magnet is moved towards a coil having | 10. State Fleming's right hand rule.
+
+a galvanometer between its ends ? li. What is Lenz’s law ?
+(b) Name the phenomenon. 12. Why does it heocme more difficult to move a
+Ans. (a) mechanical energy changes to the magnet towards a coil when the number of turns in
+electrical energy. a coil have been increased ?
+(b) electromagnetic induction. (Hint : e.m.f. induced in the coil becomes more
+5. (a) How would you demonstrate that a momentary when the number of turns in the coil are increased.
+current can be obtained by the suitable use of a The e.m.f. induced opposes the motion of the
+magnet, a coil of wire and a galvanometer ? magnet towards the coil).
+(b) What is the source of energy associated with the | 15. Explain why an induced current must flow in such
+current obtained in part (a) ? a direction so as to oppose the change producing it.
+Ans. (a) by moving the magnet towards the coil Ans, so that some mechanical energy is spent in
+connected to the galvanometer (b) mechanical producing the change, which changes into the
+energy spent in moving the magnet towards the electrical energy in form of the induced current.
+coil. 14. Explain how does the Lenz’s law show the
+6. (a) Describe briefly one way of producing an conservation of energy in the phenomenon of
+induced e.mf. electromagnetic induction.
+(b) State one factor that determines the magnitude | 15. The diagram in Fig.10.43 shows a coil of several
+of induced e.m.f. in part (a) above. turns of copper wire near a magnet NS. The coil is
+(c) What factor determines the direction of induced moved in the direction of arrow shown in the
+e.m.f. in part (a) above ? diagram.
+
+MAGNET
+
+7. Complete the following sentence : ae
+The current is induced in a closed circuit only if nae [Ns]
+COTE IB! Sissi otiseesiss
+Ans. change in number of magnetic field 4 i
+
+lines linked with the circuit.
+
+8. In which of the following cases e.m.f. is induced ? Fig. 10.43
+(i) A current is started in a wire held near a loop (i) In what direction does the induced current flow
+of wire. in the coil ?
+
+
+===== PAGE 30 =====
+
+16.
+
+17.
+
+18.
+
+19.
+
+(ii) Name the law used to arrive at the conclusion in part (i).
+
+(iti) How would the current in coil be altered if
+(a) the coil has twice the number of turns,
+(b) the coil was made to move three times fast ?
+Ans. (i) A to B, (ii) Lenz’s law (iii) (a) current
+becomes twice (b) current becomes thrice.
+The diagram in Fig. 10.44 shows a fixed coil of
+several turns connected to a centre zero
+galvanometer G and a magnet NS which can move
+in the direction shown in the diagram.
+
+(a) Describe the observation in the galvanometer if
+(i) the magnet is moved rapidly, (ii) the magnet
+is kept stationary after it has moved into the
+coil, (iii) the magnet is then rapidly pulled out
+of the coil.
+
+COIL = 4 ___ DIRECTION OF MOTION
+
+OOOO) Sa
+
+MAGNET
+
+®)
+
+Fig. 10.44
+
+(b) How would the observation in (i) of part (a)
+change if a more powerful magnet is used ?
+
+Ans. (a) (i) a deflection is observed in the
+galvanometer towards the right, (ii) the deflection
+becomes zero, (iii) the deflection again occurs in
+opposite direction. (b) the deflection is increased.
+
+The diagram in Fig. 10.45 shows a coil X connected
+to a sensitive centre-zero galvanometer G and a
+coil Y connected to a battery through a switch S.
+
+Y BATTERY
+
+Ss
+Fig. 10.45
+
+(a) Describe the observation when the switch S
+is (i) closed suddenly, (ii) then kept closed,
+and (iii) finally opened.
+
+(b) Name and state the law which explains the
+above observations.
+Name and state the principle of a simple a.c.
+generator. What is its use ?
+What determines the frequency of a.c. produced in
+a generator ?
+Ans, the number of rotations of the coil in one
+second (or the speed of rotation of the coil).
+a
+
+wW..
+
+21.
+
+22.
+
+Rf
+
+27.
+
+29.
+
+31.
+
+32.
+
+Draw a labelled diagram of a simple a.c. generator.
+
+In an a.c. generator, the speed at which the coil
+rotates is doubled. How would this affect (a) the
+frequency of the output voltage, (b) the maximum
+output voltage.
+
+Ans. (a) frequency is doubled (b) maximum output
+voltage is doubled.
+
+State two ways to produce a higher e.m.f. in an a.c.
+generator.
+
+Ans. (i) by increasing the speed of rotation of coil,
+(ii) by increasing the number of turns in the coil.
+What energy conversion does take place in a
+generator when it is in use ?
+
+Ans. the mechanical energy changes into the
+electrical energy.
+
+State (i) two dis-similarities, and (ii) two similarities
+between a d.c. motor and an a.c. generator.
+
+State one advantage of using an a.c. over the d.c..
+
+For what purpose are the transformers used ? Can
+they be used with a direct current source ?
+
+Ans. to step up or step down the a.c. voltage. No, a
+transformer cannot be used with a d.c. source.
+State two factors on which the magnitude of an
+induced e.m.f. in the secondary coil of a transformer
+depends.
+
+Ans. (i) turns ratio, and (ii) the input voltage
+How are the e.m.f. in the primary and secondary
+coils of a transformer related with the number of
+turns in these coils ?
+
+Ans. (b) E,/E, = N,/N,
+
+Draw a labelled diagram to show the various
+components of a step up transformer.
+
+Name the device used to transform 12 V a.c. to
+200 V a.c. Name the principle on which it works.
+
+Ans. step up transformer, electromagnetic induction
+
+Draw a labelled diagram of a step up transformer
+and explain how does it work. State two
+characteristics of the primary coil as compared to its
+secondary coil.
+
+Draw a labelled diagram of a device you would
+use to transform 200 V a.c. to 15 V a.c. Name
+the device and explain how does it work. Give its
+two uses.
+
+Name the coil of which the wire is thicker in a
+(i) step up, (ii) step down transformer. Give reason
+to your answer.
+
+
+===== PAGE 31 =====
+
+a
+
+36.
+
+37.
+
+(a) Complete the following diagram in Fig. 10.46
+of a transformer and name the parts labelled A
+and B.
+
+(b) Name the part you have drawn to complete the
+diagram in part (a).
+
+(c) What is the material of the part named above ?
+
+(d) Is this transformer a step-up or stepdown ? Give
+reason.
+
+INPUT A je OUTPUT
+
+Fig. 10.46
+
+The diagram in Fig. 10.47 shows the core of a
+transformer and its input and output connections.
+
+7 CORE
+
+er r 3 output
+
+A.C. MAINS 1s ey VAG
+Fig. 10.47
+
+(a) State the material used for the core and
+describe its structure.
+
+(b) Complete the diagram of the transformer
+and connections by labelling all parts joined by
+you.
+
+(c) Name the transformer : step up or step down ?
+The out put current of a transformer in which the
+voltage is stepped down is usually higher than the
+input current. Explain why.
+
+Why is the iron core of a transformer made
+laminated (thin sheets) instead of being in one solid
+piece ?
+
+Ans. to reduce the energy losses due to eddy currents.
+38.
+
+Complete the following sentences :
+
+(i) In a step up transformer, the number of turns
+in the primary are .......... than the number of
+turns in the secondary.
+
+(ii) The transformer is used in
+circuits.
+
+current
+
+(iii) In a tranformer, the frequency of a.c. voltage
+aaceeasinataeaasas (increase/decreases/remains same)
+Ans. (i) less (ii) alternating (iii) remains same
+
+29:
+
+41.
+
+42.
+
+How do the input and output powers in a transformer
+compare ? State the assumption made.
+Name one kind of energy loss in a transformer. How
+is it minimised ?
+Give two points of difference between a step up and
+a step down transformer.
+Name the material of the core in (a) an electric bell,
+(b) electromagnet, (c) a d.c. motor, (d) an a.c.
+generator, and (e) a transformer.
+
+Ans. soft iron, in each
+Name the tranformer used in the (i) power
+generating station, (ii) power sub-station.
+
+State the function of each transfomer.
+
+MULTIPLE CHOICE TYPE
+
+1.
+
+2.
+
+The direction of induced current is obtained by :
+(a) Fleming’s left hand rule
+(b) Clock rule
+(c) Right hand thumb rule
+(d) Fleming’s right hand rule.
+Ans. (d) Fleming’s right hand rule.
+In a step up transformer :
+(a) N,=N, (b) N,<N,
+(c) N,> N, (d) nothing can be said.
+Ans. (c) N, > N,
+
+NUMERICALS
+
+1.
+
+The magnetic flux through a coil having 100 turns
+decreases from 5 milli weber to zero in 5 second.
+Calculate the e.m.f. induced in the coil.
+
+Ans. 100 mV
+
+The primary coil of a transformer has 800 turns
+and the secondary coil has 8 turns. It is connected to
+a 220 V a.c. supply. What will be the output
+voltage ? Ans, 2:2 volt
+
+A transformer is designed to give a supply of 8 V to
+ring a house-bell from the 240 V a.c. mains. The
+primary coil has 4800 turns. How many turns will be
+in the secondary coil ?
+
+Ans. 160
+The input and output voltages of a transformer are
+220 V and 44 V respectively. Find : (a) the turns
+ratio, (b) the current in input circuit if the output
+current is 2 A. Ans. (a) 1:5 (b)0-4A

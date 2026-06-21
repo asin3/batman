@@ -1,0 +1,2728 @@
+
+
+===== PAGE 1 =====
+
+Chapter
+
+1 2 Radioactivity
+
+SYLLABUS
+
+adioactivity and changes in the nucleus; background radiation and safety precautions.
+
+| Scope of syllabus : Brief introduction (qualitative only) of the nucleus, nuclear structure, atomic number O, :
+“mass number (A), radioactivity as spontaneous disintegration. a, B and y - their nature and properties; changes _
+
+within the nucleus. One example each of o and B decay with equations showing changes in Z and A. Uses of
+“radioactivity - tadio isotopes. Harmful effects. Safety precautions. Background radiation.
+| Radiation : X-rays, radioactive fall out from nuclear plants and other sources.
+
+Nuclear energy : Working on safe disposal of waste. Safety measures to be strictly reinforced.
+
+Gi) Nuclear fission and fusion; basic introduction and equations.
+
+(A) ATOMIC STRUCTURE AND RADIOACTIVITY
+
+12.1. STRUCTURE OF THE ATOM AND
+
+NUCLEUS
+
+The discovery of electrons by Sir J.J.
+Thomson towards the end of the nineteenth
+century and the scattering experiments of alpha
+particles by Rutherford and others led to the
+following structure of an atom and its nucleus.
+
+Structure of an atom : An atom consists of
+electrons, protons and neutrons. The protons and
+neutrons reside inside the nucleus of the atom
+which is at its centre, while the electrons revolve
+around the nucleus in some specific orbits in
+which they do not radiate out energy. Such orbits
+are called the stationary orbits (or staionary
+shells). In each stationary shell, the electron has
+a definite energy. The number of shells varies in
+atoms of different elements, depending upon the
+total number of electrons present in the atom of
+that element. The maximum number of electrons
+in a shell can be 2n?, where n is the number of
+that shell. The various shells around the nucleus
+for n = 1, 2, 3, 4, 5, 6, 7, ... are named as
+K, L, M, N, O, P, Q, ... respectively and these
+shells can accommodate at the most 2, 8, 18, 32,
+50, 72, 98, ... electrons respectively. The
+
+electrons in different shells have different
+energy which increases with the increase in the
+number n of that shell.
+
+The size of an atom is determined by the
+radius of the shell of its outermost electron and
+it is of the order of 10-!° m. The electron has a
+negative charge equal to — 1-6 x 107! C (or - e)
+and its mass (m,) is nearly 9-1 x 10°! kg which
+is approximately 1/1840 times the mass of a
+proton.
+
+Structure of nucleus : The nucleus is at the
+centre of atom whose size is of the order of
+10-5 m to 10-4 m (i.e, 10° to 10% times the
+size of the atom). It consists of protons and
+neutrons. The proton has a positive charge equal
+to + 1-6 x 10°!9 C (or + e) and its mass (m_) is
+nearly 1-67 x 10-27 kg. The total number of
+protons in the nucleus determines the place of the
+atom in the periodic table and is called the
+atomic number of the element of that atom. The
+atomic number of an element is denoted by the
+symbol Z. The neutron is an electrically neutral
+particle (i.e., charge = 0) and its mass (m,) is also
+nearly 1-67 x 10-77 kg which is equal to that of
+
+
+===== PAGE 2 =====
+
+a proton*. The protons and neutrons which are
+the main constituents of the nucleus, are called
+the nucleons. The total number of nucleons in the
+nucleus is called the mass number of the element
+and it is denoted by the symbol A. The nucleus
+is thus positively charged and its total charge is
++ Ze. The mass of nucleus is approximately A
+times the mass of a proton.
+
+Note : The mass of an electron is negligible
+as compared to that of a proton (or a neutron).
+
+Hence total mass of an atom can be considered
+to be same as the mass of its nucleus.
+
+Thus we can define the atomic number and
+man numbers as follows.
+
+Symbol, charge and mass of electron, proton and neutron
+
+12.2 ATOMIC MODEL
+
+An atom is electrically neutral, therefore the
+number of protons in the nucleus of an atom are
+equal to the number of electrons revolving around
+the nucleus of the atom.
+
+If Z is the atomic number and A is the mass
+number of an atom, then the atom contains
+
+‘number of electrons = Z
+
+number of protons = Z
+
+number of neutrons = A — Z.
+
+(12.1)
+
+* m, = 16726 x 1077 kg;_m, = 1-6749 x 10” kg
+
+The atom is specified by the symbol 4X
+where X is the chemical symbol for the element.
+
+The actual size of an atom is very small
+(nearly 107! m) which is invisible, but just to
+understand the distribution of its consitutents, we
+can draw the model of an atom not to the scale.
+
+Examples : (1) The: lightest atom is hydrogen
+whose mass number A is 1 and atomic number Z
+is also 1. It is represented as |H and it has one
+proton in the nucleus and one electron in the
+K shell as shown in Fig. 12.1.
+
+Fig. 12.1 Model of hydrogen atom
+
+(2) The helium atom has the mass number
+A = 4 and the atomic number Z = 2. It is
+represented as 5 He. It has 2 neutrons and
+2 protons inside the nucleus and 2 electrons in
+the K shell.
+
+4
+are
+Helium
+
+Fig. 12.2 Model of helium atom
+
+(3) The sodium atom has atomic number
+Z = 11 and mass number A = 23. It will have
+Z = 11 protons and A —Z = 23 -11 = 12 neutrons
+inside the nucleus and Z = 11 electrons distributed
+
+Fig. 12.3 Model of the sodium atom
+
+
+===== PAGE 3 =====
+
+in the K, L and M shells (2 in the K shell, 8 in
+the L shell and 1 in the M shell) as shown in
+Fig. 12.3. It is represented as 7} Na.
+
+Note : (1) If an atom undergoes a chemical
+change, there is a change in the number of
+orbital electrons of the atom, whereas if the
+atom undergoes a nuclear change, there is a
+change in the number of nucleons inside the
+nucleus of the atom.
+
+(2) A nuclear change requires much higher
+energy, of the order of few MeV, which is
+nearly 10° times as compared to the energy
+required for a chemical change, which is of the
+order of few eV only.
+
+(3) In a nuclear reaction, the atomic
+number (or number of protons) and the mass
+number (or total number of protons and
+neutrons) remain conserved. In other words,
+the total sum of atomic numbers of the
+reactants is equal to the sum of atomic
+numbers of the products. Similarly, the total
+sum of mass numbers of the reactants is equal
+to the sum of mass numbers of the products.
+
+12.3 ISOTOPES
+
+Obviously, the isotopes have the same place
+in the periodic table as it depends on the atomic
+number Z.
+
+The atoms of isotopes have the same number
+of protons (Z), but different number of neutrons
+(A -Z) in their nucleus. Since they have the same
+number of electrons outside the nucleus, so their
+chemical properties are also same.
+
+In nature, different isotopes of an element
+occur in different proportion. In most of the cases,
+the relative abundance of one isotope is very high
+as compared to the others.
+
+Examples : (1) Hydrogen has three isotopes,
+namely, protium }H (or ordinary hydrogen
+which is most abundent), deuterium 7H (or heavy
+
+hydrogen) and tritium +H. Each isotope in its
+nucleus has one proton (Z = 1), but protium (1H)
+has no neutron, deuterium (7H) has one neutron
+and tritium (7H) has two neutrons. There is one
+electron outside the nucleus in each isotope.
+
+The table below gives the number of protons
+and neutrons in the nucleus of isotopes of
+hydrogen.
+
+(2) Carbon has three isotopes 12C, '?C and
+4C, out of which 2C is most abundant. Each
+isotope in its nucleus has 6 protons (Z = 6).
+The isotope 1?C has 6 neutrons, the isotope '?C
+has 7 neutrons and the isotope ‘$C has
+8 neutrons inside the nucleus. The number of
+electrons outside the nucleus in each isotope is 6.
+
+(3) Chlorine has two isotopes *3Cl and 3Cl.
+Their relative abundance in nature is in
+the ratio 3 : 1. Each isotope in its nucleus, has
+17 protons. The isotope *3Cl has 18 neutrons,
+while ?7Cl has 20 neutrons inside the nucleus.
+The number of electrons outside the nucleus of
+each isotope is 17.
+
+Note : (1) Tin (Sn) has the largest number
+(= 10) of isotopes.
+
+(2) The isotopes are of two kinds:
+(a) stable isotopes which have the number of
+neutrons nearly equal to the number of protons
+in their nucleus, and (b) unstable or radioactive
+isotopes which have number of neutrons much
+more than the number of protons in their
+nucleus. They undergo radioactive decay and
+are of great medical and industrial use.
+
+Example : In *3U and *°8,U, each isotope
+has 92 protons inside the nucleus, but 7%U has
+143 neutrons while %8U has 146 neutrons
+inside the nucleus. In both isotopes, the
+number of neutrons are more than the number
+
+
+
+===== PAGE 4 =====
+
+of protons, so both are the radio isotopes.
+Similarly '4C is a radio isotope out of the
+three isotopes '2C, 3C and '4C of carbon.
+
+12.4 ISOBARS
+
+The atoms of isobars have the same number of
+nucleons (A) in their nucleus, but different number
+of protons (Z) and different number of neutrons
+(A — Z). The number of electrons outside the
+nucleus is always equal to the number of protons,
+so isobars have different number of electrons.
+
+Examples : (1) 7}Na and ?3Mg are isobars.
+Na contains 11 protons and 12 neutrons inside
+its nucleus, and 11 electrons outside the nucleus,
+while br Mg contains 12 protons and 11 neutrons
+inside its nucleus and 12 electrons outside the
+nucleus. The total number of protons and neutrons
+
+is 23 in each.
+
+(2) Similarly '$C and '$N are isobars. '4C has
+6 protons and 8 neutrons inside its nucleus
+and 6 electrons outside the nucleus, while '4N
+has 7 protons and 7 neutrons inside the nucleus
+and 7 electrons outside the nucleus.
+
+Note : If the number of protons and
+
+neutrons get interchanged inside the nucleus,
+
+they are called mirror isobars e.g. 73Na and
+23Mg are the mirror isobars.
+
+13.5 ISOTONES
+
+Examples : (1) 7}\Na and *4Mg are the isotones.
+
+1
+Each nucleus has 12 neutrons. “Na nucleus has
+
+11 protons, while *$Mg_ nucleus has 12 protons.
+
+(2) 33K and Ar are the isotones (each having
+20 neutrons in its nucleus).
+
+12.6 RADIOACTIVITY
+
+Henry Becquerel discovered the phenomenon
+of radioactivity in 1896. In a dark room he once
+left a uranium salt placed on a photographic plate
+wrapped in a black paper. After some days, he
+was surprised to found that the photographic plate
+had been affected. Later on, the same observation
+was made with the other salts of uranium. From
+these observations, he concluded that uranium and
+its salts by themselves emit some kind of
+radiations which can pass through the cover (i.e.,
+black paper, glass or wood, etc.) of the
+photographic plate and affect it. These radiations
+were called the Becquerel rays. On further
+investigation, these radiations were found to be of
+three types : (1) positively charged, (2) negatively
+charged, and (3) uncharged which were named
+as o (alpha), B (beta) and y (gamma) radiations
+respectively. The substances which emit
+these radiations were called the radioactive
+
+substances. Thus
+
+The isotopes of nearly all the elements of
+atomic number higher than 82 (i.e., after lead in
+the periodic table) are radioactive because in their
+nucleus, the number of neutrons is much more
+than the number of protons. These are called the
+natural radioactive substances.
+
+Any physical change (such as change in
+pressure and temperature) or chemical change
+(such as excessive heating, freezing, action of
+strong electric and magnetic fields, chemical
+treatment, oxidation etc.) does not change the
+nature of radiation emitted by the substnace and
+its rate of decay. This clearly shows that the
+phenomenon of radioactivity cannot be due to the
+orbital electrons which could easily be affected by
+such changes. The radioactivity should therefore
+be the property of the nucleus. Thus
+
+
+===== PAGE 5 =====
+
+Note : From a radioactive substance
+containing a very large number of atoms, there
+
+is no way to know (or predict) when or which
+nucleus of the atom will decay at any moment,
+hence the radioactive decay is a random
+phenomenon i.e., there is no law by which the
+disintegration of an individual nucleus can be
+known (or predicted).
+
+12.7 RADIOACTIVITY AS EMISSION OF
+ALPHA (a), BETA (B) AND GAMMA (7)
+RADIATIONS
+
+In 1903, Rutherford experimentally studied the
+nature of radiations emitted by the radioactive
+substances. He found that on subjecting the
+radiations given out by a radioactive substance to
+a magnetic field in a direction perpendicular to
+their path, they separate out into three distinct
+constituents as shown in Fig. 12.4 in which
+magnetic field is normal to the plane of paper
+inwards. Those which turn to the left* must be
+positively charged and are called the alpha (or a)
+particles. Those which turn to the right must be
+negatively charged and are called the beta (or f)
+particles. The B particles are deviated more than
+the & particles. Those which pass undeviated, must
+be the uncharged (or neutral) and are called the
+gamma (or Y) radiations. Gamma radiations are
+
+Y MAGNETIC FIELD
+INWARDS
+
+x
+x
+x
+
+xxx XxX xX
+
+RADIOACTIVE
+
+SUBSTANCE LEAD BOX
+
+Fig. 12.4 Deflection of radioactive
+radiations in a magnetic field
+
+* The direction of deflection in a magnetic field is given by
+Fleming’s left hand rule.
+
+the electromagnetic waves similar to light waves and
+are therefore not affected by the magnetic field.
+
+Similarly, if the radiations given out by a
+radioactive substance are subjected to an electric
+field in a direction perpendicular to their path, they
+again separate out into the three constituents as
+shown in Fig. 12.5. Those which turn towards the
+negative plate, are the positively charged alpha (a)
+particles. Those which turn towards the positive
+plate, are the negatively charged beta (B) particles.
+Those which pass undeviated, are the uncharged
+gamma (vy) radiations. The beta particles are
+deviated more than the alpha particles.
+
+«— ELECTRIC FIELD
+
+rapioactive &
+
+SUBSTANCE LEAD BOX
+
+Fig. 12.5 Deflection of radioactive
+radiations in an electric field
+12.8 PROPERTIES OF ALPHA PARTICLES
+
+Some properties of alpha particles are given
+below.
+
+(1) An alpha particle consists of two protons and
+two neutrons. It is same as a doubly ionised
+helium atom*, i.e., a helium nucleus
+containing two protons and two neutrons.
+
+It is represented as 4He or He?*. Fig. 12.6 (a)
+and (b) respectively represent the model of
+
+(a) HELIUM ATOM (b) ALPHA PARTICLE
+Fig. 12.6 Helium atom and alpha particle
+
+* A helium atom which has lost its both the orbitat electrons, is
+called a doubly ionised helium atom.
+
+
+===== PAGE 6 =====
+
+a neutral helium atom and the helium
+nucleus (or the alpha particle).
+If an alpha particle (He*) gains one electron,
+it changes to a singly ionised helium atom
+(He*) and if it gains two electrons, it changes
+to the helium atom (He). :
+(2) The mass of an alpha particle is roughly
+four times the mass of a proton (= 4m,)
+i.e., 6-68 x 10-77 kg and its charge
+is twice the charge of a proton i.e.,
++ 3-2 x 107! C (or + 2e). Thus its specific
+
+charge (i.e., 4 value) is 4-79 x 107 C kg".
+
+(3) The speed of a-particles is of the
+order of 107 m s~!, It is different for
+a-particles emitted from the different
+radioactive substances. Further, all the
+Q-particles emitted from the nucleus of the
+same radioactive substance do not have the
+same energy (or speed), but they have energy
+distributed in a small range.
+
+(4) An alpha particle strongly ionises* the gas
+through which it passes. The ionising power
+of a-particles is roughly 100 times that of
+B-particles and roughly 104 times that of
+y-radiations.
+
+(5) An a-particle rapidly dissipates its energy as
+it moves through a medium and therefore its
+penetrating power is quite small. It can
+penetrate only through 3 to 8 cm in air. It can
+easily be stopped by a thin card sheet or a
+thick paper. Its penetrating power is roughly
+10-* times that of a B-particle and
+10+ times that of y radiation.
+
+Alpha particles are positively charged, so they
+are deflected by the electric and magnetic
+fields. The deflection of o-particle is less as
+compared to that of B-particle, because
+-particle is of more mass than the B-particle.
+
+(6)
+
+(7) Q-particles affect a photographic plate.
+
+* Anenergetic particle when suffers collision with the atom of a
+gas, it knocks out the electron from the atom which now
+becomes a positive ion. This process is called ionisation.
+
+(8)
+(9)
+
+Alpha particles cause fluorescence on striking
+a fluorescent material.
+
+Alpha particles have large kinetic energy
+and momentum with them. They are used
+to bombard the nucleus of an atom of one
+element to convert it into another element
+(i.e., for transmutation).
+
+Alpha particles destroy the living cells and
+also cause biological damage.
+
+a-particles get scattered while passing
+through the thin mica (or gold) foils.
+
+12.9 PROPERTIES OF BETA PARTICLES
+
+Some properties of beta particles are given
+below :
+
+(1)
+
+(10)
+
+qd)
+
+B-particles are the fast moving electrons
+emitted from the nucleus* of an atom. It is
+
+represented as 8B or 3 e.
+
+The rest mass of a B-particle is 9-1 x 103! kg
+(= m,) and its charge is -1-6 x 107°C
+(or—e). Thus the specific charge (or g/m value)
+of B-particle is 1-76 x 10!!C kg".
+
+Although both the B-particles and cathode
+rays are the fast moving electrons, but they
+differ in their origin. B-particles are given out
+from the nucleus of the atom, while cathode
+rays are given out from its orbital electrons.
+
+(2)
+
+(3)
+
+(4) The speed of beta particles is of the
+order of 108 m s~! (but always less than
+3 x 108 ms"). Different B-particles emitted
+from the same radioactive substance have
+different speeds**.
+
+(5) Beta particles ionise the gas through
+which they pass. The ionising power of
+B-particles is roughly 1/100th times that of
+the a-particles, but nearly 100 times that of
+
+the y-radiation.
+
+* Inside the nucleus, the change of a neutron into a proton causes
+the emission of a B-particle (jn — |p + 9 e). The beta
+particles do not reside inside the nucleus of atom in the form
+of electrons.
+
+** 8B-particles emitted from a radioactive substance have energy
+distributed in a range from zero to a certain maximum value.
+
+
+===== PAGE 7 =====
+
+(6) The penetrating power of B-particles is
+more than that of o-particles but less than
+that of y-particles. They can travel through
+nearly 5 m in air and pass through thin card
+sheet, and even through thin aluminium foil,
+but a 5 mm thick aluminium sheet can stop
+the B-particles.
+
+(7) Beta particles are negatively charged, so
+they get deflected by the electric and
+magnetic fields. The deflection of a
+B-particle is in a direction opposite to that
+of an a-particle since the charge on
+B-particle is negative, while the charge on
+@-particle is positive. The deflection of
+B-particle is more than that of the o-particle
+since a B-particle is much lighter than an
+a-particle.
+
+(8) Beta particles affect a photographic plate.
+
+(9) Beta particles cause fluorescence on striking
+a fluorescent material.
+
+(10) Beta particles produce X-rays when they are
+stopped by the metals (such as tungsten)
+of high atomic number and high melting
+point.
+
+(11) Beta particles cause more biological
+damage than the a-particles as they can
+easily pass through the skin of our body.
+
+12.10 PROPERTIES OF GAMMA RADIATIONS
+
+Some properties of gamma radiations are
+given below :
+
+(1) Gamma radiations are the electromagnetic
+waves like X-rays and light, but they differ
+from X-rays and light in wavelength. The
+wavelength of gamma radiations is of
+the order of 10+ nm (or 10- m), whereas
+the wavelength of X-rays is in the range of
+10? nm to 10 nm and that of light is in range
+of 400 nm to 800 nm.
+
+(2) The speed of y-radiations is same as the
+speed of light (i.e., 3 x 108 m s7! in
+vacuum or air).
+
+Saas
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+The ionising power of y-radiations is very
+low. It is 10+ times that of o-particles and
+107 times that of B-particles.
+
+The penetrating power of y-radiations
+is high. It is about 10* times that of
+-particles and 10? times that of B-particles.
+They can travel through 500 m in air and
+pass through 30 cm thick sheet of iron. A
+thick sheet of lead is required to stop them.
+
+Like X-rays and light, gamma radiations are
+not deflected by the electric and magnetic
+fields since they are not the charged
+particles.
+
+Gamma radiations affect a photographic
+plate.
+
+Gamma radiations cause fluorescence when
+they strike a fluorescent material.
+
+Gamma radiations are also diffracted by
+crystals like X-rays.
+
+Although X-rays and gamma radiations are
+similar in properties, but their origin is quite
+different. X-rays are emitted when there is
+transition of electrons in the inner orbits of
+an atom, whereas gamma radiations are
+given out from the nucleus.
+
+Gamma radiations can easily pass through
+the human body, therefore they cause
+immense biological damage.
+
+Gamma radiations are very useful in
+the treatment of cancer.
+
+Note : Out of the three radiations a, B and
+y, the y-radiations are most energetic and
+therefore they have a smaller rate of collisions
+with the atoms (or molecules) of the medium
+through which they pass. Thus they have least
+ionising power, but maximum penetrating
+
+power. On the other hand, o-particles are least
+energetic and therefore they suffer more
+collisions. Thus they have maximum ionising
+power, but least penetrating power. Their
+energy is soon dissipated.
+
+as
+
+
+===== PAGE 8 =====
+
+12.11 DISTINCTION BETWEEN THE PROPERTIES OF a, B AND y RADIATIONS
+
+4. Charge
+
+5. Specific
+charge (g/m)
+
+8. Tonising power Maximum (10,000 times of )
+
+11. Biological damage
+
+12.12 CHANGES WITHIN THE NUCLEUS
+IN ALPHA, BETA AND GAMMA
+EMISSION
+
+We have read that the radioactive substances
+are not stable. Their nucleus undergoes
+spontaneous decay by the self emission of either
+alpha (a), beta (8), or gamma (y) radiation to
+form a more stable nucleus. The emission of
+a (alpha), B (beta) and y (gamma) radiation is a
+nuclear change. In the emission of alpha and beta
+radiation, there is a change in the number of
+protons and neutrons inside the nucleus, while in
+the emission of gamma radiation, there is only a
+change in the energy of the nucleus, and no
+change in the number of protons and neutrons
+inside the nucleus.
+
+(1) Alpha emission : If an unstable nucleus
+contains much more neutrons than the number of
+protons, it may emit a particle containing two
+protons and two neutrons tightly bound together,
+
+1. Nature Stream of positively charged particles Stream of negatively charged | Highly energetic electromagnetic
+ie., helium nucleus. particles, i.e., energetic radiations.
+electrons.
+2. Speed Nearly 107 m s+ About 90% of the speed 3 x 108 m s“! (in vacuum)
+of light or 2:7 x 10° ms? .
+3. Rest mass Four times the mass of proton. Equal to the mass of electron | No mass (rest mass is zero)
+i.e., 6-68 x 107 kg ie., 9-1 x 103! kg
+. Positive charge (two times that of a proton) | Negative charge No charge
+= + 3-2 x 1079 C (or + 2e) © =~-1-6 x 10-9 C (or - e)
+4-79 x 107 C kg!
+
+: Less deflected
+and magnetic fields
+
+aaa Cae Tae
+
+Range in cm 3 to 8 cm in air
+10. Stopping Thin paper, human skin
+substance
+
+1-76 x 10! C kg?
+
+More deflected than alpha
+particles, but in a direction
+opposite to those of a-particles
+Less than alpha particle
+(100 times of ¥)
+
+Large
+
+Very large
+up to few metre in air up to a few hundred metre in air
+About 1 mm thick lead or About 30 cm thick iron or few
+
+about 5 mm thick aluminium | metre thick concrete
+
+known as alpha particle. A stream of o-particles
+is called o-rays.
+
+If the nucleus X of a radioactive element of
+mass number A and atomic number Z emits an
+a-particle, the daughter nucleus Y of a new
+element is formed which has mass number equal
+to (A—4) and atomic number equal to (Z — 2).
+Thus due to emission of an alpha particle, atomic
+number Z decreases by 2 units and mass number A
+decreases by 4 units. This change can be
+expressed in the form of a reaction as follows :
+
+A= -4
+=> 7.9
+
+Daughter nucleus
+
+4
+He
+(a-particle)
+
+A
+ze
+
+Parent nucleus
+
+Thus, the resulting nucleus has 2 protons and
+2 neutrons (total 4 nucleons) less than the original
+(or parent) nucleus.
+
+Example : When a radioactive uranium
+nucleus *38U emits an o-particle, a new
+
+
+===== PAGE 9 =====
+
+nucleus thorium 7 Th is formed and the change is
+represented as follows :
+
+su Oh + He
+(92 protons and (90 protons and (2 protons and
+146 neutrons) 144 neutrons) 2 neutrons)
+
+(2) Beta emission : When an unstable nucleus
+contains neutrons more than the protons, a
+neutron may change into a proton by emitting an
+electron (for charge conservation). The electron
+given out from the nucleus at a high speed is
+called a beta particle.
+
+The change can be represented by the
+following equation :
+
+1
+0
+
+(neutron)
+
+1 0
+1P + Te
+
+(proton) (B-particle)
+
+n —_
+
+A stream of B-particles is called B-rays.
+
+Note : Later on, to keep the number of
+particles either odd or even on both sides,
+another partice called anti-neutrino (0), was also
+assumed to be emitted along with the B-particle.
+This particle is uncharged and its rest mass is
+
+zero. Then the complete transformation equation
+becomes
+
+Thus in emitting a B-particle, the number of
+nucleons in the nucleus (i.e., sum of protons and
+neutrons) remains same, but the number of
+neutrons is decreased by one and the number of
+protons is increased by one. In other words, by
+the emission of a B-particle, the mass number A
+does not change, but the atomic number Z is
+increased by one. It changes into a new nucleus
+of element with properties similar to those of an
+element one place higher in the periodic table.
+The daughter product is thus an isobar (same
+mass number, but different atomic number) of the
+parent atom.
+
+If a radioactive nucleus P with mass number A
+and atomic number Z emits a beta-particle to
+form a daughter nucleus Q with mass number A
+
+and atomic number Z + 1, the change can be
+represented as follows :
+
+Example : A radioactive carbon nucleus 14C,
+having 14 nucleons (6 protons and 8 neutrons) emits
+a B-particle and changes to a new nucleus nitrogen
+14N having 14 nucleons (7 protons and 7 neutrons).
+The change is represented as follows:
+
+0
+e
+
+-1
+
+2 fos UN +
+(3) Gamma emission : In many cases an alpha
+or beta emission is found to be followed by the
+y-emission. It occurs when the daughter or the
+parent nucleus is in a state of excitation (i.e., it has
+an excess of energy). This extra energy is released
+in the form of electromagnetic radiation known as
+y-radiation (or y-ray photon). The y-ray takes no
+mass and no electric charge from the nucleus i.e.,
+no neutrons or protons are lost, hence the nucleus
+does not decay into a different nucleus, i.e., there
+is no change in the mass number A and atomic
+number Z of the nucleus in gamma emission.
+
+The gamma emission is represented as
+follows :
+
+Bt 2. some“ bags bi
+
+Here the star indicates the excited state of the
+nucleus. Thus in gamma emission, the excited
+nucleus comes to its ground state.
+
+Note : (i) The electron emitted in B-decay does
+not exist in the nucleus. It.is created as a result
+of decay of one neutron into a proton inside the
+nucleus and is instantaneously emitted. It is not
+possible for electron to stay inside the nucleus.
+
+(2) In a single radioactive decay, « and
+B particles are never emitted simultaneously.
+There will be either an G-emission or a
+B-emission, which may be accompanied by the
+‘y-emission.
+
+
+
+===== PAGE 10 =====
+
+(3) The daughter product after the emission of
+either a-particle or B-particle, may again be
+
+radioactive and it may further decay by emitting
+either the a-particle or the B-particle. This
+process continues till a stable nucleus is formed.
+
+The table below shows the effect on atomic
+number Z and mass number A due to emission of
+o, B and y radiations.
+
+Effect on atomic number (Z) and mass number (A)
+due to a, B and y emision
+
+12.13 USES OF RADIOACTIVITY — RADIO
+ISOTOPES
+
+The isotopes of some elements with atomic
+number Z < 82 are also found to be radioactive.
+They are called the radio isotopes. The nucleus of
+an atom becomes radioactive when number of
+neutrons in the nucleus exceeds the number of
+protons inside it. For example, cobalt ° Co
+(Z = 27, A = 60), carbon '4C (Z = 6, A = 14),
+potassium {9K (Z = 19, A = 40), phosphorus *2P
+(Z = 15, A = 32), etc. are the radio isotopes. The
+radio isotopes are also prepared artificially by the
+nuclear transmutation. They find their vital use in
+(1) medical, (2) scientific, and (3) industrial fields.
+
+(1) Medical use : (i) Many diseases such as
+leukemia, cancer, etc. are cured by radio therapy.
+Gamma radiations obtained from cobalt-60 (89Co)
+are used to treat cancer by killing the cells in the
+malignant tumour of the patient. For radio-therapy,
+radiations must be able to penetrate the human
+skin.
+
+(ii) The salts of weak radioactive isotopes such
+as radio-sodium chloride, radio-iron, radio-iodine
+are used for diagnosis. Such radio isotopes are
+called the tracers. These tracers are used to detect
+the suspected brain tumours and blood clots before
+they become dangerous.
+
+The tracers are also used to study the natural
+process in the human body. For example, radio-
+sodium chloride is injected with common sodium
+chloride in the human body and the radioactivity
+of the blood at different parts of the body is tested
+to study the blood circulation. The process is called
+radio cardiology.
+
+(iii) y-rays emitted by the radio isotopes are
+used to sterilize bandages, dressings, syringes and
+other equipments to make them free of germs. This
+method is quicker, more reliable and cheaper than
+the process of sterilization by heat.
+
+(2) Scientific use : (i) Alpha particles emitted
+from the radio isotopes are used as projectiles for
+nuclear reactions. The scattering of alpha particles
+from the nucleus helps us in estimating the size
+of the nucleus and in understanding the nature of
+nuclear forces.
+
+(ii) The radioactive tracers are used in
+agriculture science to study the growth of plants
+by using a particular chemical manure (e.g. to
+know how readily a plant takes in phosphate and
+to which part of the plant, the phosphate goes).
+
+(iii) The age of excavated material of
+archaeological importance, rocks and hence of
+buried plants is estimated by the study of rate of
+decay of carbon -14(/4C) in the remains of dead
+plants. The process is called carbon dating.
+
+(3) Industrial use : (i) Radio isotopes such as
+35U are used as fuel for the atomic energy
+reactors.
+
+(ii) Radio isotopes are used by engineers in
+factories to avoid the accumulation of charge on
+the moving parts of machines due to friction. The
+radiations emitted by the isotope ionise the air. The
+ions so produced take away with them the charge
+accumulated on the moving parts.
+
+(iii) The ionising effect of radiations from the
+radio isotopes is used in making certain
+luminescent signs.
+
+(iv) Knowing the penetrating power of the
+B-radiations emitted from the radio isotopes, they
+are used to control the thickness of paper, plastic
+and metal sheets during their manufacture.
+
+
+===== PAGE 11 =====
+
+12.14 SOURCES OF HARMFUL RADIATIONS
+
+The main sources of harmful radiations are :
+(1) Radioactive fall out from the nuclear plants
+and other similar sources, (2) Nuclear waste, and
+(3) other sources e.g. cosmic radiation and
+X-rays.
+
+(1) Radioactive fall out from the nuclear
+plants and other sources : The nuclear power
+plants are now a major source of electricity in the
+world. If somehow, there is an accident in the
+reactor of a power plant, a large amount of
+radioactive material and radiations will escape
+into the atmosphere. This will not only affect the
+population around the plant, but will also affect
+the life at far off places where they will reach due
+to air currents. Three such accidents have already
+occurred — (i) in U.S.A. on 28 March, 1979,
+(ii) in Ukraine in U.S.S.R. on 26 April, 1986, and
+(iii) in Japan on 11 March, 2011. These accidents
+caused damage to the reactor buildings and
+injuries to the persons working in the plants as
+well as in their vicinity.
+
+(2) Nuclear waste : The fuel rods used in the
+nuclear power reactors are rejected when their
+activity decreases below a certain level. They then
+become a nuclear waste. These rods are still quite
+radioactive and are the source of harmful
+radiations therefore they should not be dumped in
+open garbage. They can contaminate water and
+soil and affect the human and living organisms.
+
+(3) Other sources e.g. cosmic radiation and
+X-ray : The cosmic radiations from the sun enter
+the earth’s atmosphere from the outer space. They
+contain a large number of high energy particles,
+out of which although the charged particles are
+deviated by the earth’s magnetic field, but a
+substantial amount of uncharged radiations such
+as y-rays and X-rays etc. reach the earth’s
+atmosphere. These radiations are harmful for the
+human beings.
+
+Apart from this, the high energy particle
+accelerators also produce the harmful
+X-rays.
+
+12.15 HARMFUL EFFECTS OF RADIATION
+
+The radiations produced in nuclear reaction
+includes alpha radiations, beta radiations,
+neutrons, gamma rays and X-rays. They interact
+with the living tissues within 10-!+s and cause
+biological damage.
+
+The biological effects of nuclear radiations are
+of three types : (1) short term recoverable effects,
+like diarrhea, sore throat, loss of hair, nausea,
+etc. (2) long term irrecoverable effects like
+leukemia and cancer, and (3) genetic effects. The
+first and second effects are limited to the
+individuals who are actually exposed to the
+radiations, while the third effect appears in the
+later generations of the person exposed to the
+radiation. The genes in his cell get modified (or
+mutated).
+
+The exposure to radiations can be acute if
+there is an accidental burst of radiations from
+an unshielded source. Similarly, it is chronic in
+case of persons working in atomic energy
+establishments when they get exposed to such
+radiations.
+
+The exposure of pregnant woman to X-rays
+for a long time may affect the child in the womb.
+It increses the risk of cancer by 40%, of tumor
+and nervous system by 50% and of lukemia
+by 70%. The exposure of upper part of the body
+to X-rays may damage thyroid glands and can
+cause cancer.
+
+The exposure to y-rays destroys the cells of
+the body and affects the blood cells, gestro
+intestinal track, reproductive and hair cells. It can
+harm the DNA and RNA of the living cells also.
+
+The uncharged neutrons also cause biological
+damage.
+
+12.16 SAFETY PRECEDUTURE WHILE
+USING NUCLEAR ENERGY
+
+We have read that now a days electricity is
+
+also generated by the use of nuclear energy
+
+obtained from the nuclear power plants. In a
+
+nuclear power plant, a radioactive source such as
+
+
+===== PAGE 12 =====
+
+uranium-235 or plutonium-239 is used and
+the controlled chain fission reaction is
+carried out. Following require special care :
+(1) establishment of nuclear power plants,
+(2) handling of radioactive materials, and
+(3) safe disposal of nuclear waste.
+
+(1) Safety measures while establishing a
+nuclear power plant : While establishing a nuclear
+power plant to generate electricity following
+precautions must be taken.
+
+(i) Ensure that the people working in it are not
+exposed to nuclear radiations and in case of
+any accident there is a minimum spread of
+radiations.
+
+The nuclear reactor of the power plant must
+be shielded with lead and steel walls so as
+to stop radiations from escaping out to the
+environment during its normal operation.
+
+(ii)
+
+The nuclear reactor must be housed in an
+airtight building of strong concrete structure
+which can withstand the earthquakes, fires
+and explosions.
+
+(iii)
+
+(iv) There must be a back-up of cooling system
+for the reactor core, so that in case of failure
+of one system, the other cooling system could
+take its place and the core is saved from over
+
+heating and melting.
+
+(2) Safety measures while handling radio-
+active materials : People working with
+radioactive materials are required to follow strictly
+the safety measures given below :
+
+(i) They should put on special lead lined aprons
+and lead gloves.
+
+They should handle the radioactive materials
+with long lead tongs.
+
+(ii)
+(iii) The safety limit for each type of radiation is
+known, therefore care must be taken to ensure
+that no one is exposed beyond the safety limit
+in any case. For this, special film badges are
+used which are tested from time to time to
+know the amount of radiations to which a
+particular person has been exposed.
+
+(iv) The radioactive substance must be kept in a
+thick lead container with a very narrow
+opening, so as to stop radiations coming out
+from other directions. A container should be
+such that it absorbs the radiations which
+strike on its walls from inside. Alpha particles
+can easily be stopped by a thin metal sheet,
+but for B-particles we need a thick metal
+sheet, whereas gamma radiations need the
+very thick lead sheets.
+
+(3) Safety measures in safe disposal of
+nuclear waste : The radioactive material after its
+use is known as nuclear waste. The nuclear waste
+obtained from laboratories, hospitals, scientific
+establishments or power plants must be first kept
+in thick casks and then they must be buried in
+the specially constructed deep underground stores.
+These stores must be made quite far from the
+populated areas. The casks can also be buried in
+useless mines and these mines must be sealed
+after storing the casks.
+
+12.17 BACKGROUND RADIATIONS
+
+The background radiations are the radioactive
+radiations (such as a, B and y) to which we all
+are exposed, even in the absence of an actual
+radioactive source.
+
+Sources : There are two sources of
+background radiations : (1) the internal source —
+the radioactive substances such as potassium
+(K-40), carbon (C-14), and radium present inside
+our body*, and (2) external source — cosmic
+rays, naturally occurring radioactive elements such
+as radon = 222 and solar radiations.
+
+It is not possible for us to keep ourselves
+away from the background radiations. But the
+total background radiations from both the internal
+and external sources not exceed the maximum
+permissible dose** for human safety, so we need
+not worry.
+
+* K-40 and C-14 are present in our entire body and they affect
+all parts equally, while radium is largely found in bones and
+so it affects only the bones and the reproductive organs.
+
+** The effect of different radiations on human tissue is measured
+
+in unit sieverts (Sv) dose. In one exposure of X-rays for chest,
+the patient receives 0-2 milli sieverts dose of radiations.
+
+=
+
+
+===== PAGE 13 =====
+
+saincpmomeresarseanicapmgea PXAMPES lo. urge eRe
+
+1. State two differences between a chemical change
+and a nuclear change.
+
+(i) A chemical change is due to change in orbital
+electrons, while a nuclear change is due to
+change in nucleons inside the nucleus.
+
+(ii) A nuclear change requires much higher energy
+than a chemical change.
+
+2. How is the radioactivity of an element affected
+when it undergoes a chemical change to form a
+chemical compound ? Give reason for your
+answer.
+
+The radioactivity of the element remains unaffected.
+
+Reason : Radioactivity is a nuclear phenomenon.
+
+3. Compare the ionising power of a, B and
+y radiations.
+a-particles have the maximum ionising power, it is
+about 10? times that of B-particles and 10‘ times that
+of y-radiation.
+
+4. State the penetrating range in air for the o, B and
+Y radiations.
+
+The penetrating range of o-particles is 3 cm to
+
+8 cm of air, of B-particles is about 5 m of air and of
+
+y-radiations is about 500 m of air. Thus the
+
+penetrating range of o-particles is the least and of
+y-radiations is the most.
+
+5. State the nature of infrared and y-rays. How
+do they differ in their (i) wavelength, and
+(ii) penetrating power ?
+
+Both infrared and y-rays are the electromagnetic
+
+radiations.
+
+Differences :
+
+(1) y-rays have much shorter wavelength
+(=10-3 m) as compared to the infrared rays
+whose wavelength is nearly 10° m or more.
+
+(2) y-rays are much more penetrating as compared
+to the infrared radiations.
+
+6. State two similarities and two dissimilarities
+between the y-rays and X-rays.
+Similarities :
+
+(1) Both the y-rays and X-rays are the
+electromagnetic waves.
+
+(2) Both the y-rays and X-rays travel with a speed
+3 x 108 ms“ in air (or vaccum).
+
+Dissimilarities :
+(1) The wavelength of y-rays is shorter than that of
+X-rays. The wavelength of y-rays is 10> A,
+while that of X-rays is 1 A.
+
+(2) y-rays are more penetrating than X-rays.
+7. Which of the radiations a, B and y is similar to
+a beam of electrons ?
+B-radiation is similar to a beam of electrons.
+
+8. (a) State three properties which are common to
+both the beta rays and cathode rays.
+
+(b) How do beta rays differ from cathode rays ?
+(a) Common properties :
+(1) Both are negatively charged with charge and
+mass equal to that of an electron.
+
+(2) Both are deflected by the electric and
+magnetic fields.
+
+(3) Both cause fluorescence on striking a
+fluorescent material.
+
+(b) Difference :
+
+Beta rays differ from cathode rays in their
+origin. Beta rays are given out from the nucleus
+of the atom, while cathode rays are given out
+from the orbital electrons.
+
+9. One isotope of uranium has a mass number 235
+and atomic number 92.
+(i) What is the number of electrons in the
+neutral atom of this isotope ?
+(ii) What is the number of protons and number
+of neutrons in its nucleus ?
+
+(iii) Do all isotopes have the same number of
+neutrons ?
+
+(iv) What is the number of protons and
+neutrons in 738U ?
+(i) Given : A = 235, Z= 92
+Atomic number Z = number of protons
+= number of electrons = 92.
+. The neutral atom of _ U will have 92
+electrons.
+(ii) The number of protons =Z = 92
+The number of neutrons = A — Z
+= 235 — 92 = 143.
+
+
+===== PAGE 14 =====
+
+The nucleus of i U contains 92 protons and
+143 neutrons.
+
+(iii) No. Isotopes of an element have same atomic
+number, but different mass number as they
+have the same number of protons, but different
+number of neutrons.
+
+(iv) In a U, number of protons = Z = 92 and
+number of neutrons = A — Z = 238 — 92 = 146.
+
+10. A certain nucleus P has a mass number 15 and
+
+11.
+
+atomic number 7.
+
+(a) Find the number of neutrons.
+
+(b) Write the symbol for the nucleus P.
+
+(c) The nucleus P loses (i) one proton, (ii) one
+B-particle, (iii) one a-particle. Write the
+symbol of the new nucleus in each case and
+express each change by a reaction.
+
+Given : For the nucleus P, A = 15, Z=7
+
+(a) Mass number A
+
+= number of protons + number of neutrons
+and atomic number Z = number of protons.
+-. Number of neutrons
+= mass number A — atomic number Z
+=15-7=8
+
+(b) The nucleus P can be written as 13P.
+
+(c) (i) After the loss of 1 proton, the mass number
+
+and atomic number of the nucleus 14P will
+
+decrease by 1. The new nucleus will be 14Q
+(say). The change can be written as :
+SP 4Q 4! p
+(ii) After the loss of one B-particle, the mass
+number will remain the same, but the
+atomic number will increase by 1. The
+nucleus !3P changes to !3R (say) as follows:
+
+15 15 0
+7P— gk Me Te
+
+After the loss of one a-particle, the mass
+number decreases by 4 and the atomic
+number decreases by 2. The nucleus !3P
+changes to 'JS (say) as follows :
+
+(iii)
+
+15 ll 4
+7p 5S + > He
+Uranium nucleus - U undergoes several
+sian gOS and ultimately decays to lead
+nucleus 2 82 06 Ph. How many alpha and beta
+particles are emitted ?
+
+12.
+
+AX
+13,
+
+When ae U decays to 2% Pb, the mass number
+decreases from 238 to 206 i.e., it decreases by 32.
+Since the emission of beta particle does not change
+the mass number and with the emission of one
+alpha particle, mass number decreases by 4, so total
+
+number of alpha particles emitted will be 2 =8;
+
+In the decay of 28 U to 2 Pb, the atomic number
+has decreased by 10. But due to emission of 8 alpha
+particles, the atomic number would have decreased
+by 2 x 8 = 16. Thus there is an increase in atomic
+number by 16 — 10 = 6, hence 6 beta particles will
+be emitted (because in emission of one beta particle,
+atomic number increases by 1).
+
+Thus = U decays to 206 Pb with the emission of
+8 a-particles and 6 B-particles.
+
+Complete the following nuclear changes :
+
+Ps a, a Aa ee
+
+Due to emission of a B-particle, the atomic number
+increase by 1, but the mass number is unchanged.
+Due to emission of an o-particle, the atomic number
+decrease by 2 and the mass number decreases by 4.
+Due to emission of a y-particle, there is no change
+in the atomic number and mass number.
+
+The complete nuclear changes are :
+
+B
+
+Ay Y As B
+et ths 7, =
+
+wax.
+— 7%
+Complete the following nuclear changes :
+
+». SEND Fh at, &, F yx. —o, 06x,
+
+The daughter nucleus §2X, is formed after a decay
+of X,, so atomic number of X, will be 2 units more
+and its mass number will be 4 units more i.e., X; is
+210%
+343°
+
+The nucleus 7!°X, is formed after the B decay of X,,
+so atomic number of X, will be 1 unit less while its
+mass number will be same i.e., X, is 74)X,.
+
+The nucleus 7!,X, is formed after the ‘y decay of X,,
+so X, will have no change in atomic number and
+mass number, but X, will be in excited state i.e., X,
+is 710X°.
+
+The nucleus ?\2.X‘ is the daughter product of
+a decay of X, so atomic number of X will be 2 units
+more and its mass number will be 4 units more i.e.,
+X will be 74x.
+
+
+===== PAGE 15 =====
+
+214 G . 20y* _Y
+asx > “gX, —
+
+14.
+
+15.
+
+Thus the complete nuclear change is :
+B
+
+7x, Ps 8x, 2, BK,
+
+A radioactive sample is kept at the centre of an
+
+evacuated spherical vessel.
+
+(a) Out of the a, B and y radiations, name the
+radiations which are (i) safe and (ii) unsafe.
+
+(b) Suggest two ways for more safety.
+
+(c) Does evacuation of vessel help in safety ?
+
+(a) (i) & radiations have a less penetrating power
+and therefore they are stopped by the walls of
+vessel. Thus the vessel is safe for the a
+radiations. (ii) The B and y radiations are not
+
+stopped by the walls of vessel, so the vessel is
+unsafe for the B and y radiations.
+
+(b) Suggestions :
+(1) The sphere must have lead walls.
+(2) The sphere must be of large radius.
+
+(c) No. The vessel should not be evacuated. The air
+in it will help in absorbing the radiations.
+
+(a) A mass of lead is embedded in a block of
+
+wood. Radiations from a radioactive source
+incident on the side of block produce a
+
+16.
+
+shadow on a fluorescent screen placed beyond
+the block. The shadow of wood is faint, but
+the shadow of lead is dark. Give reason for
+the difference.
+
+(b) If the block of wood is replaced by a block of
+aluminium, will there be any change in the
+shadow?
+
+(a) Reason : The shadow of wood is faint because
+only the & radiations are stopped by the wood
+(since @ radiations are least penetrating).
+The shadow of lead is dark because B and
+radiations are also stopped by lead.
+
+(b) If wood is replaced by aluminium (or any other
+light metal), the shadow of aluminium block will
+remain faint because aluminium will not stop the
+y radiations.
+
+State one use and one harmful effect of the
+
+radioactivity.
+
+Use : The radiations given out in the decay process
+
+are used to cure certain diseases, like cancer.
+
+Harmful effect : The radiations can damage the
+living tissues.
+
+Name the three constituents of an atom and state
+mass and charge of each. How are they distributed
+in an atom ?
+
+Define the terms :
+
+(a) atomic number, and (b) mass number.
+
+What is nucleus of an atom ? Compare its size with
+that of the atom. Name its constitutents. How is the
+number of these constituents determined by the
+atomic number and mass number of the atom ?
+State the atomic number and mass number of 7}Na
+and draw its atomic model.
+
+What are isotopes ? Give one example.
+
+What are isobars ? Give one example.
+
+Name the atoms of a substance having same atomic
+number, but different mass numbers. Give one
+example of such a substance. How do the structures
+of such atoms differ ?
+
+What is meant by radioactivity ? Name two
+radioactive substances.
+
+10.
+
+11.
+
+A radioactive substance is oxidised. What changes
+would you expect to take place in the nature of
+radioactivity ? Explain your answer.
+Ans. no change because radioactivity is a
+nuclear phenomenon
+A radioactive source emits three type of radiations.
+(a) Name the three radiations.
+(b) Name the radiations which are deflected by the
+electric field.
+(c) Name the radiation which is most penetrating.
+(d) Name the radiation which travels with the
+speed of light.
+(e) Name the radiation which has the highest
+ionising power.
+(f) Name the radiation consisting of the same kind
+of particles as the cathode rays.
+A radioactive source emits three type of radiations.
+(a) Name the radiation of zero mass.
+(b) Name the radiation which has the lowest
+
+ionising power.
+
+
+===== PAGE 16 =====
+
+= |
+
+12.
+
+13.
+
+14.
+
+(c) Name the radiation which has the lowest
+penetrating power.
+
+(d) Give the charge and mass of particles
+composing the radiation in part (c).
+
+(e) When the particle referred to in part (c)
+becomes neutral, it is found to be the atom of
+a rare gas. Name this rare gas and draw a
+model of its neutral atom.
+
+(f) From which part of the atom do these
+The diagram in Fig. 12.7 shows a
+radioactive source S placed in a
+thick lead walled container. The
+radiations given out are allowed
+to pass through a magnetic field.
+The magnetic field (shown as x)
+acts perpendicular to the plane of
+paper inwards. Arrows show the
+paths of the radiations A, B and
+Cc
+
+A
+
+(a) Name the radiations
+labelled A, B and C.
+
+(b) Explain clearly how you used the diagram to
+arrive at the answer in part (a).
+
+Fig. 12.7
+
+Fig. 12.8 shows a mixed source RR x x x x x
+of alpha and beta particles DB 5a ae ae
+thick lead walled container. The See ee
+particles pass through a magnetic
+
+field in a direction perpendicular to SESE
+the plane of paper inwards as * * | * *
+shown by x. (a) Show in the
+
+diagram how the particles get
+
+affected. (b) Name the law used in R
+part (a).
+
+[Hint : alpha particles will deflect
+
+to the left while beta particles to the Fig. 12.8
+
+right]
+
+Fig. 12.9 shows a radioactive
+source § in a thick lead walled
+container having a narrow
+opening. The radiations pass
+through an electric field between
+
+the plates A and B. s
+(a) Complete the diagram to show
+the paths of a, B and y Fig. 12.9
+
+radiations.
+
+(b) Why is the source S kept in a thick lead walled
+container with a narrow opening ?
+
+15:
+
+16.
+
+[Hint : o radiations will deflect towards the negative
+plate, B radiations towards the positive plate and
+y radiations remain undeflected]
+
+Explain why alpha and beta particles are deflected in
+an electric or a magnetic field, but gamma rays are
+not deflected in such a field.
+
+[Hint : alpha and beta particles are charged, but
+gamma rays are uncharged]
+
+Is it possible to deflect y radiations in a way similar
+to « and B-particles, using the electric or magnetic
+field ? Give reason.
+
+Ans. No. The reason is that y radiations are uncharged
+
+17.
+
+18.
+
+19.
+
+20.
+
+22.
+
+State following four properties each of o, B and y
+radiations : (a) nature, (b) charge, (c) mass, and
+(d) effect of electric field.
+Arrange the a, B and y radiations in ascending order
+of their (i) ionising power, and (ii) penetrating
+power. Ans. (i) ¥< B< ai) a<B<y
+State the speed of each of a, B and y radiations.
+Ans. 107 ms, 2 x 108ms"!, 3 x 108 ms
+(a) What is the composition of o, B and y radiations?
+(b) Which one a, B or y radiation has the least
+penetrating power ?
+Ans, (a) @ radiation is composed of 2p and 2n,
+B radiation is composed of electron, while
+y radiation is photon or electromagnetic wave.
+(b) & radiation has the least penetrating power.
+
+. How are y radiations produced ? Mention two
+
+common properties of the gamma radiations and
+
+visible light.
+
+An a-particle captures (i) one electron, (ii) two
+
+electrons. In each case, what does it change to ?
+Ans. (i) singly ionised helium He*
+
+(ii) neutral helium atom
+‘Radioactivity is a nuclear phenomenon’. Comment
+on this statement.
+
+24. What kind of change takes place in a nucleus
+
+25.
+
+when a B-particle is emitted ? Express it by an
+equation. State whether (a) atomic number, and
+(b) mass number are conserved in a radioactive
+B-decay ?
+A certain radioactive nucleus emits a particle that
+leaves its mass unchanged, but increases its atomic
+number by one. Identify the particle and write its
+symbol.
+: 0, 0
+Ans. beta particle, fe or _)B
+
+
+===== PAGE 17 =====
+
+26. What happens to the (i) atomic number, (ii) mass
+number of an element when (a) an -particle, (b) a
+B-particle, and (c) y radiation, is emitted ?
+
+Ans. (i) (a) decreases by 2, (b) increases by 1,
+(c) no change
+(ii) (a) decreases by 4 (b) no change (c) no change
+
+27. What happens to the position of an element in the
+periodic table when it emits (a) an o-particle,
+(b) a B-particle and (c) y radiation ? Give reason for
+your answer.
+
+Ans. (a) changes to two places earlier
+(b) changes to one place after, (c) no change
+
+Reason : (a) atomic number decreses by 2.
+
+(b) atomic number increases by 1.
+
+(c) no change in atomic number.
+
+28. What changes occur in the nucleus of a radioactive
+
+element when it emits (a) an alpha particle, (b) a
+
+beta particle, (c) gamma radiation ? Give one
+
+example, in each case (a) and (b) in support of your
+answer.
+
+29. (a) An atomic nucleus A is composed of 84 protons
+and 128 neutrons. The nucleus A emits an
+@-particle and is transformed into a nucleus B.
+What is the composition of B ?
+
+(b) The nucleus B emits a B-particle and is
+transformed into a nucleus C. What is the
+composition of C ?
+
+(c) What is the mass number of the nucleus A ?
+
+(d) Does the composition of nucleus C change if it
+emits the y radiation ?
+Ans. (a) 82 protons and 126 neutrons
+(b) 83 protons and 125 neutrons (c) 212 (d) no
+A certain nucleus A (mass number 238 and atomic
+number 92) is radioactive and becomes a nucleus B
+(mass number 234 and atomic number 90) by the
+emission of a particle.
+(a) Name the particle emitted.
+(b) Explain how you arrived at your answer.
+(c) State the change in the form of a reaction.
+Ans. (a) & (b) atomic number has decreased by 2 and
+mass number has decreased by 4
+
+(c) 8A + 7OB + 3He
+31. State whether the following nuclear disintegrations
+
+are allowed or not (star indicates an excited state).
+Given reason if it is not allowed.
+
+(a) AX* > 4x+y
+
+(b) 7X > 73X+ 4He
+Ans. (a) allowed (b) not allowed
+Reason : mass number is not conserved in (b)
+
+32. A nucleus ?{Na is B-radioactive.
+(a) What are the numbers 24 and 11 called ?
+(b) Write the equation representing B-decay.
+(c) What general name is given to the product
+nucleus with respect to 74Na ?
+Ans. (a) 24 — mass number, 11 — atomic number
+(b) *4Na > *bMg + Se (c) isobar
+33. A nucleus of stable phosphorus has 15 protons and
+16 neutrons.
+(a) What is its atomic number and mass number ?
+(b) The nucleus of radio phosphorus has one
+neutron more than the stable nucleus. What
+will be its atomic number and mass number ?
+(c) What will be the atomic number and mass
+number of new nucleus formed by the decay of
+a B- particle by the radio phosporus in part (b) ?
+Ans. (a) atomic number = 15, mass number = 31
+(b) atomic number = 15, mass number = 32
+(c) atomic number = 16, mass number = 32
+
+34. An element P disintegrates by & emission and the
+
+new element suffers two further disintegrations, both
+by B emission, to form an element Q. Explain the
+fact that P and Q are isotopes.
+Ans. The atomic number of P decreases by 2 due to
+the emission of one a-partcle and then increases
+by 1 due to the emission of each B-particle, so the
+atomic number of Q formed after the emission of
+one « and two B particles is same as that of P.
+Hence P and Q are isotopes. The mass number of Q
+is less by 4 than that of P.
+
+35. Anucleus 4X emits 2 ©. particles and 1 particle to
+form a nucleus 722R. Find the atomic number and
+mass number of X.
+
+Ans. atomic number Z = 88, mass number A = 230
+36. Complete the following sentences :
+
+(a) The mass number and atomic number of an
+element are not changed when it emits
+The atomic number of a radioactive element is
+not changed when it emits ...........scsecseseseeenees
+During the emission of a beta particle, the
+... number remains same.
+
+Ans. (a) y radiations (b) y radiations (c) mass
+
+
+
+===== PAGE 18 =====
+
+x Complete the following nuclear changes :
+
+() £P—>Q+ %
+
+(>) SU —> Th+
+
+8
+© Ze Soa5ir4s
+A 2 Y 3B
+() 7X 4X5 X, 5X,
+
+5
+(e) X > X, > X, +5 "Bx,
+
+Ams (2) 2.Q (b) He (c) 4Q 74R, 345
+
+(8) 222Xp 2-2Xx “2X ©) "HX
+What are radio isotopes ? Give one example of a
+tatho isotope. State one use of radio isotopes.
+Why are the alpha particles not used in radio
+therapy ?
+[Himt : alpha particles cannot penetrate the human
+skin]
+Why do we usually use isotopes emitting gamma
+radiations as radioactive tracers in medical science ?
+[Hint : gamma radiations are most penetrating]
+When does the nucleus of an atom become
+radioactive ?
+Which of the following is the radio isotope in each
+pair (a), (b) and (c) ?
+@i 4G UC. by RP BP’ (Co) BKK
+Give reason for your answer.
+Ans. (a) '{C, (b) *7P, (©) “kK
+Reason : The number of neutrons exceeds the
+number of protons.
+. State the medical use of radioactivity.
+. Arrange the a, B and y radiation in ascending order
+of their biological damage. Give reason.
+Ans.a<B<y
+Reason : y radiation has the penetrating
+power more than the B radiation and the penetrating
+power of 8 radiation is more than that of the
+© radiation.
+
+180 180
+7B 72x
+
+».
+
+41.
+
+£6
+
+oe he CAL
+
+12.18 NUCLEAR ENERGY
+
+In a nuclear change due to a radioactive
+phenomena (such as decay, fission or fusion), the
+total sum of masses of product nuclei is always
+
+Name two main sources of nuclear radiations. How
+are the nuclear radiations harmful ?
+
+45.
+
+46. State two safety measures to be taken while
+
+establishing a nuclear power plant.
+
+47. What is meant by nuclear waste ? State one way for
+
+the safe disposal of nuclear waste.
+
+48. State three safety precautions that you would take
+
+while handling the radioactive substances.
+Why should a radioactive substance not be touched
+by hand ?
+
+What do you mean by background radiations ?
+Name its two sources. Is it possible for us to keep
+ourselves away from it ?
+
+49.
+
+50.
+
+MULTIPLE CHOICE TYPE
+1. A radioactive substance emits radiations :
+(a) a, B and y simultaneously
+(b) in the order a, B and y one by one
+(c) X-rays and y-rays
+
+(d) @ or B. Ans. (d) a or B
+2. In B-emission from a radioactive substance, an
+electron is ejected. This electron comes from :
+(a) the outermost orbit of atom
+(b) the inner orbits of atom
+(c) the surface of substance
+(d) the nucleus of atom.
+Ans. (d) the nucleus of atom
+3. The least penetrating radiation is :
+(a) a-particles (b) B-particles
+(c) X-rays (d) y radiations.
+Ans. (a) a-particles
+4, The radiation suffering the maximum deflection in a
+
+magnetic field is :
+(a) a-particles
+(c) X-rays
+
+(b) B-particles
+(d) y radiations.
+Ans. (b) B-particles
+
+less than the total sum of the masses of reactant
+nuclei. Thus there is a loss in mass. In 1905, on
+the basis of theory of relativity Einstein suggested
+that mass and energy are interchangeable. Due
+
+
+
+===== PAGE 19 =====
+
+to loss in mass Am, the energy released is £
+where
+E = (Am)c?
+Here Am is the loss in mass in kg, c is the
+speed of light (3 x 108 m s“) and E is the energy
+in joule (J).
+When 1 kg mass is lost, the amount of energy
+released is
+E = (Am) 2 = 1x (3 x 108)? = 9 x10! J
+Since 1 kWh = 3-6 x 10° J
+_ 9x10"
+~ 3.6x10°
+Thus, 1 kg mass is equivalent to 9 x 10!6 J
+or 2:5 x 10!° kWh of energy. The energy so
+obtained is called the. nuclear energy.
+
+‘kWh = 2:5 x 10! kWh.
+
+In class IX, we have read that the mass of
+atomic particles is expressed in atomic mass
+unit (a.m.u) or unified unit (u) where
+
+1
+1 ‘amau,= DR x mass of one atom of
+carbon-12.
+1 12x107 kg
+or l amu. =
+
+72 *~ 602x10™ per kg mol
+1-66 x 10-7 kg
+
+Due to loss in mass Am = 1 a.m.u., the energy
+released is
+
+I
+
+E = (1-66 x 10-7) x (3 x 108) J
+
+= 1-49 x 10° J
+But 1 MeV = 1-6 x 10° J
+4 -10
+E= a MeV = 931 MeV
+
+Thus, 1 a.m.u. of mass is equivalent to
+931 MeV of energy.
+Note : The mass of an electron, proton and
+neutron in terms of kg, a.m.u. and MeV are as
+follow :
+Mass of electron =
+
+(12.3)
+
+9-1091 x 107! kg
+0-00055 a.m.u.
+= 0-511 MeV
+
+Mass of proton = 1-6725 x 10-7” kg
+
+1:00727 a.m.u.
+
+938-3 MeV
+
+1-6748 x 10°27 kg
+
+= 1-00865 a.m.u.
+939 MeV
+
+Mass of neutron
+
+12.19 NUCLEAR FISSION
+
+The reason for the release of energy is that the
+sum of masses of the product nuclei is less than
+the sum of mass of the parent nucleus and
+neutron, i.e., there is a loss of mass in this
+reaction. This loss in mass is converted into
+energy by the Einsten’s mass-energy relation
+E = (Am)c?.
+
+In 1939, Strassman and Otto-Hann found that
+when a slow neutron strikes the 735U nucleus, it
+gets absorbed in it and a most unstable isotope
+236U. is formed which splits into two nuclei
+(i) barium (!44Ba) and (ii) krypton (&Kr),
+with the release of three neutrons and a
+tremendous amount of energy, as shown in
+Fig. 12.10. The fission reaction is expressed as
+follows :
+
+Fig. 12.10 Fission of *}U nucleus
+
+Later on, it was found that 734U isotope
+decays not only into “4Ba and §?Kr fragments,
+
+
+===== PAGE 20 =====
+
+but it can decay in different pairs of nuclei such
+as (1#Ba, Kr); ('48La, 83Br), etc. for which
+nuclear reactions are :
+
+SU + fp > CHU) > 'EBa + $2kr +3 dn + energy
+
+*3U + kn > CU) > 'SLa + 8Br + 3 dn + energy
+
+Note : (1) In each fission reaction, the
+atomic number (Z) and mass number (A)
+remain conserved.
+
+(2) The two fragments obtained on fission
+of one U-235 nucleus are unstable and they
+
+emit icles and y rays to become stable.
+
+Nuclear energy obtained in one fission
+reaction of 35U nucleus : Due to fission of one
+uranium nucleus, nearly 190 MeV energy is
+released. The cause of emission of this energy is
+the loss in mass i.e., the sum of masses of
+product nuclei is less than the sum of mass of the
+parent nucleus and neutron. Consider the fission
+reaction of 733U nucleus as :
+
+23U + In > '¥Ba + &Kr + 3 dn + energy
+If we take the mass of neutron = 1-01 a.m.u.,
+mass of uranium-235 nucleus = 234-99 a.m.u.,
+
+mass of barium-144 nucleus = 143-87 a.m.u.,
+mass of krypton-89 nucleus = 88-90 a.m.u., then
+
+Loss in mass in fission reaction of one
+nucleus
+
+Am = (mass of *33U nucleus + mass of
+1 neutron) — (mass of '44Ba nucleus
++ mass of §%Kr nucleus + mass of
+3 neutrons)
+= [(234-99 + 1-01) — (143-87 + 88-90
++3 x 1-01)] a.m.u.
+= (236-00 — 235-80) a.m.u = 0-20 a.mu.
+But from the mass-energy equivalence
+E = (Am)c*
+1 am.u. = 931 MeV
+Energy released E = 0:20 x 931 MeV
+= 190 MeV
+
+Thus in the fission of one 73°,U nucleus,
+92
+
+nearly 190 MeV energy is released. The major
+part of this energy is obtained in form of the
+kinetic energy of the fragments obtained from the
+fission and the remaining part is obtained in the
+form of.the kinetic energy of the neutrons
+emitted, y-rays, heat and light.
+
+Due to fission of 1 g of 33U (= 2-56 x 107!
+nucleus), nearly 4-8 x 1073 MeV energy is
+released from which 2-1 x 104 kWh electrical
+energy can be obtained. Actually this much energy
+is generated due to the explosion of nearly
+20 tonne of trinitrotoluene (TNT).
+
+Note : The ore of uranium found in nature
+contains two isotopes (99-3% 738U and 0:7%
+235U). Although both the isotopes are
+fissionable, but experimentally it is found that
+the isotope 733U is more easily fissionable than
+the isotope 738U. The reason is that the fission
+of 38U nucleus is possible only by the fast
+
+neutrons, while the fission of 735U nucleus can
+
+be even by the slow neutrons.
+
+Controlled and uncontrolled chain reactions
+
+We have read that when slow neutrons are
+bombarded on uranium-235 (733,U), each uranium
+nucleus splits into two nearly equal fragments
+(44Ba and &Kr), with a release of three new
+neutrons and tremendous amount of energy
+(nearly 190 MeV). These new neutrons can
+fission the other uranium nuclei under the suitable
+conditions. Thus a chain of fission of nuclei is
+formed which once started, continues till the
+entire uranium is consumed. Hence the energy
+obtained from the nuclear fission continuously
+increases. Due to such a chain reaction, a strong
+explosion of entire uranium occurs in a very short
+interval of time and tremendously high energy is
+released which can be very harmful. This is
+the uncontrolled chain reaction. A nuclear bomb
+is based on it.
+
+
+===== PAGE 21 =====
+
+If the chain reaction is controlled by absorbing
+some of the neutrons emitted in the fission
+process by means of moderators (such as graphite,
+heavy water, etc.), the energy obtained in fission
+can be utilised for the constructive purposes. This
+is the Aaarcak of a nuclear reactor.
+
+: The tremendous amount of
+energy released in the process of fission can be
+used in two ways : (1) for the destructive use,
+and (2) for the constructive use.
+
+ION BETWE
+
+=EN THE RADIOACTIVE DECAY ANI
+
+(1) For the destructive use : The fission
+process is used in a nuclear bomb
+(sometimes also called an atom bomb, but
+the word atom bomb is a misnomer) where
+the enérgy released is fast and uncontrolled.
+
+For the constructive use : The fission
+process is used in a nuclear reactor where
+the rate of release of energy is slow and
+controlled. This energy is used to generate
+the electric power’.
+
+(2)
+
+NUCLEAR FISSION
+
+ahhoust both the radioactive decay and nuclear fission are the nuclear phenomena, but ‘hy differ
+
+as follows.
+
+Radioactive decay _
+
+Nuclear fission
+
+dQ) It
+
+It is a self process.
+(2) The nucleus emits either the a or B
+particles with the emission of energy in
+form of rays which is not very large.
+
+| (3) The rate of radioactive decay can not be
+controlled.
+
+Te
+
+Nuclear fusion is the pi Process in which two 0 light
+| nuclei combine to form a heavy nucleus. In
+| this process also, huge amount of energy is
+
+released.
+
+The reason for the release of energy is that
+the mass of the product nucleus is less than the
+sum of masses of the two combining nuclei. This
+loss in mass is released in form of energy
+according to the mass-energy equivalence relation
+
+E = (Am)c?.
+
+Example : When two deuterium nuclei (2H)
+fuse, 3-3 MeV energy is released and the nucleus
+of helium isotope (3He) is formed. This helium
+isotope again gets fused with one deuterium
+
+nucleus to form a helium nucleus (4He) and
+
+(1) It does not-occur by itself. For it, neutrons
+are bombarded on a heavy nucleus.
+(2) On bombardment of a heavy nucleus with
+neutrons, a tremendous amount of energy |
+is released and the nucleus splits in two
+nearly equal fragments.
+(3) The rate of nuclear fission can be |
+controlled.
+
+18-3 MeV energy is released in this process. The
+nuclear reactions are :
+
+7H 6+ «67H
+
+(deuterium) (deuterium)
+
+3 0.
+>He + yt
+(neutron)
+
++ 3:3 MeV
+(helium isotope)
+
+3He + 7H 3 + 18-3 MeV
+
+(helium isotope) (deuterium)
+
+Thus in all, three deuterium nuclei fuse
+to form a helium nucleus with a release of
+21-6 MeV energy. A part of this energy is
+obtained in form of the kinetic energy of neutron
+(4m) and proton (}H).
+
+4 1
+sHe + jH
+
+(helium) (proton)
+
+reaction
+
+2H + 0-42 MeV
+
+(deuterium)
+
+(i) 1H +
+
+(proton)
+
+‘Hq >
+(proton)
+
+
+===== PAGE 22 =====
+
+2 7H + 7H > 7H + 1H + 40 MeV
+deuterium) (deuterium) (titium) (proton)
+
+3) FH + 7H > {He + In + 17-6 MeV
+(deuterium) (tritium) (helium) (neutron) :
+
+(4) 7H + 7H > 3He + In + 3-3 MeV
+(deuterium) (deuterium) (helium (neutron)
+
+isotope)
+
+(5) 3He + 7H ~ jHe + 1H + 18-3 MeV
+(belium (deuterium) (helium) (proton)
+tsotope)
+
+Nuclear fusion is not possible at ordinary
+temperature and ordinary pressure. The reason is
+that when two nuclei approach each other, due to
+their positive charge, the electrostatic force of
+repulsion between them becomes too strong that
+they do not fuse. Hence to make the fusion
+possible, a high temperature (~ 107 K) and high
+pressure is required. At such a high temperature,
+both nuclei due to thermal agitations acquire
+sufficient kinetic energy so as to overcome the
+force of repulsion between them when they
+approach each other, and so they get fused. This
+is why the fusion reaction is also called the
+thermo-nuclear reaction.
+
+(1) The source of energy in sun and
+stars is the nuclear fusion of light nuclei (such
+as hydrogen) present in them in their inner part
+at a very high temperature (~ 107 K) and high
+pressure, as a result of which helium nucleus
+is formed with a release of tremendous amount
+of energy. The reaction is :
+
+VCCN
+
+oa : Nuclear fission
+(1) In fission when neutrons are bombarded
+on a heavy nucleus, it splits in two nearly
+
+equal light fragments.
+
+(2)
+
+This reaction is possible at ordinary
+temperature and ordinary pressure.
+
+(3)
+
+In one fission reaction nearly 190 MeV
+energy is released.
+
+'H+\H+1H +1H > jHe + 298 + 2u+ energy (26-7 MeV)
+
+‘+1
+
+(four hydrogen) (helium) (positron) (neutrino)
+
+Thus in this process, four hydrogen nuclei
+fuse to form a helium nucleus with a release
+of 26:7 MeV energy.
+
+(2) The working of hydrogen bomb is
+based on nuclear fusion in which a high
+temperature (~ 10’ K) required for the fusion
+reaction is obtained by the bombardment of the
+nuclear bomb.
+
+(3) Although it appears that the energy
+released in nuclear fusion is much less than
+that released in nuclear fission, but indeed it
+is not so. For a given mass, the energy
+released due to fusion of light nuclei is much
+more than the energy released due to fission
+of same mass of a heavy nucleus. The reason
+is that for the same mass, the number of light
+nucleus is much more than the number of
+heavy nucleus. Hence the energy obtained per
+unit mass in fusion is much larger than the
+energy obtained per unit mass in fission. This
+is why scientist are engaged in getting energy
+by the process of fusion of deuterium which
+can be obtained in abundance from the sea
+water at a very low cost. But the main
+difficulty is that at 107 K, the substance get
+
+ionised i.e., it is in the plasma state and it is
+
+very difficult to store it.
+
+Nuclear fusion
+
+(1) In fusion, at very high temperature and
+
+high pressure two light nuclei combine to |
+
+form a heavy nucleus.
+
+(2) This reaction is possible only at a very
+high temperature (~ 107 K) and a very
+
+high pressure.
+(3)
+
+In one fusion reaction nearly 24-7 MeV
+energy is released.
+
+
+===== PAGE 23 =====
+
+(4) For the same mass, the energy released in (4)
+the fission process is less than that in the
+fusion process.
+
+(5) The fissionable substance is radioactive, so (5)
+it gives out the harmful radiations and it
+creates problem in disposal of its waste.
+
+(6) The fissionable substance is found within (6)
+limit.
+
+(7) Fission process can be controlled. Nuclear | (7)
+reactor is based on the controlled fission
+reaction.
+
+(8) Nuclear bomb is based on _ the (8)
+uncontrolled fission reaction.
+
+i
+
+Calculate the amount of energy released in MeV
+due to a loss of mass of 1 kg.
+
+Given : Am = 1-0 kg, c=3 x 108 ms"!
+
+According to Einstein’s mass-energy equivalence
+
+E = (Am)c*
+= 1:0 x (3 x 108)? = 9 x 10!6 joule
+9x10'° per i
+= 16x10 MeV = 5-625 x 1079 MeV
+
+(since 1 MeV = 1-6 x 10-9 joule)
+
+Calculate the loss in mass equivalent to the
+
+energy 1-0 x 106 kWh.
+
+Given : E = 1-0 x 10° kWh = 10° x 3-6 x 10° joule
+= 3-6 x 10!? joule
+
+(since 1 kWh = 3-6 x 10° joule)
+
+From Einstein’s mass-energy equivalence, loss in
+
+E
+mass equivalent to energy E is Am = —
+c
+
+36x10" ’
+T =4x 105 kg
+
+on = (3x08)
+
+If in nuclear fission of a piece of uranium, 0°5 g |
+
+mass is lost, how much energy in kWh is
+obtained ?
+Given : loss in mass Am = 0-5 g = 0-5 x 10° kg
+The energy released in fission
+E = (Am)c? = (0-5 x 10) x 3 x 108? J
+= 4-5 x 10! joule
+Since 1 kWh = 3-6 x 10° joule,
+
+For the same mass, the energy released in
+fusion process is much more than that in |
+fission process.
+
+The fusionable substance is not |
+radioactive, so it does not give out any |
+harmful radiation and disposal of its waste |
+is also not difficult.
+The fusionable substance is found in
+abundance.
+Fusion reaction cannot be controlled. This
+is why fusion reactor could not be
+constructed so far.
+Hydrogen bomb is based on the
+uncontrolled fusion reaction.
+
+= —
+
+_ 45x10
+~ 3.6x10°
+If 190 MeV energy is released due to fission of
+each nucleus of U-235, what mass of U-235
+undergoes fission per hour in a reactor of power
+300 MW ?
+Take 1 a.m.u. = 1-66 x 10-77 kg.
+Given : power of reactor = 300 MW = 300 x 10° W
+Energy obtained in one hour (or 3600 s) from the
+
+kWh = 1-25 x 107 kWh
+
+reactor = power x time
+= (300 x 10°) x (3600) = 1-08 x 10! J
+-(i)
+Energy released due to fission of one U-235 nucleus
+= 190 MeV
+= 190 x 1-6 x 10°38 J = 3-04 x 10! J
+(ii)
+
+From eqns. (i) and (ii),
+
+Number of U-235 nuclei fissioned per hour
+_ _108x10
+~ 304x107"
+
+Since mass of 6-02 x 1073 U-235 nuclei is 235 g
+
+.. Mass of 3-55 x 10 nuclei
+
+235
+ae a 2 = 13.9 o
+er x 3-55 x 10% = 13-9 g
+
+= 3-55 x 107
+
+In a nuclear fusion reaction, the loss in mass is
+0-3%. How much energy is released in the fusion
+of 1 kg mass ?
+
+
+===== PAGE 24 =====
+
+od
+
+Given : mass lost in fusion reaction Am = 0-3%
+.. Loss in mass in fusion of 1 kg mass
+
+03
+= 500 x 1 kg = 0-003 kg
+
+1. What do you mean by nuclear energy ? What is
+responsible for its release ?
+
+2. Write down the Einstein’s mass-energy equivalence
+relation, explaining the meaning of each symbol
+used in it.
+
+3. (a) What is am.u ? Express 1 a.m.u. in MeV.
+
+(b) Write the approximate mass of a proton,
+neutron and electron in a.m.u.
+
+4. What is nuclear fission ? Name the particle used for
+it. Write one fission reaction.
+
+5. (a) Name two isotopes of uranium.
+
+(b) Which of the isotope mentioned in part (a)
+above is easily fissionable ? Give reason.
+(c) State whether the neutron needed for
+fission reaction of the isotope mentioned in
+part (b) above, is slow or fast ?
+
+6. Write the approximate value of the energy released
+in the fission of one nucleus of 733U. What is the
+reason for it ?
+
+7. Complete the following nuclear fission reactions :
+
+(a) 3U+ln > ,Ba+"Kr +3 jp +......
+
+(b) 33U + In > “8La + Br +...... in + energy
+
+Ans. (a) 33U + in — 1'Ba +$2Kr + 3 [yr + energy
+
+(b) 3U+ln > 48La + SBr + 3in + energy
+
+8. What do you mean by the chain reaction in nuclear
+fission ? How is it controlled ?
+
+9. State two uses of nuclear fission.
+
+10. Give two differences between the radioactive decay
+and nuclear fission.
+ll. (a) What is nuclear fusion ? Give one example
+and write its nuclear reaction.
+
+(b) What other name is given to nuclear fusion ?
+Give reason.
+
+12. Why is a very high temperature required for the
+process of nuclear fusion ? State the approximate
+temperature required.
+
+(a) Write one nuclear fusion reaction.
+
+(b) State the approximate value of energy released
+in the reaction mentioned in part (a).
+
+(c) Give reason for the release of energy stated in
+part (b).
+
+13.
+
+Energy released E = (Am)c* = 0-003 x (3 x 108)?
+= 2-7 x 10" joule.
+
+14. Complete the following fusion reactions :
+(a) 3He +7H — ,He + ,H + energy
+(b) 73H+7H — He +'n + energy
+Ans. (a) 3He + 7H — $He + /H + energy
+(b)?7H+7H -» 3He + hn + energy
+15. (a) Name the process, nuclear fission or nuclear
+
+fusion, in which the energy released per unit
+mass is more ?
+
+(b) Name the process, fission or fusion which is
+possible at ordinary temperature.
+
+16. (a) State one similiarity in the process of nuclear
+
+fission and fusion.
+
+(b) State two differences between the process of
+nuclear fission and fusion.
+
+17. Give two examples of nuclear fusion.
+18.
+19. Name the following nuclear reactions :
+
+(a) 3U + in + BSr+'BXe+3 n+y
+
+What is the source of energy of sun or stars ?
+
+(vb) 3H+7H — fHe+In+y
+Ans. (a) fission (b) fusion
+MULTIPLE CHOICE TYPE
+
+1. The particle used in nuclear fission for bombardment
+is:
+(a) alpha particle (b) proton
+(c) beta particle (d) neutron. Ans. (d) neutron
+2. The temperature required for the process of nuclear
+fusion is nearly :
+
+(a) 1000 K (b) 10*K
+(c) 10°K (d) 107K Ans. (d) 107 K
+NUMERICALS
+
+1. In fission of one uranium-235 nucleus, the loss in
+mass is 0-2 a.m.u. Calculate the energy released.
+
+Ans. 186-2 MeV
+
+2. When four hydrogen nuclei combine to form
+
+a helium nucleus in the interior of sun, the loss in
+
+mass is 0-0265 a.m.u. How much energy is
+
+released ? Ans. 24-7 MeV

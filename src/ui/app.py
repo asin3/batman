@@ -10,6 +10,10 @@ sys.path.append(
 
 from batman_engine import ask_batman
 
+# -----------------------------------
+# PAGE
+# -----------------------------------
+
 st.set_page_config(
     page_title="Batman Student",
     page_icon="🦇",
@@ -17,7 +21,70 @@ st.set_page_config(
 )
 
 # -----------------------------------
-# SESSION STATE
+# STYLING
+# -----------------------------------
+
+st.markdown("""
+<style>
+
+.main {
+    background-color: #020617;
+}
+
+.block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 2rem !important;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.user-card {
+    background: #111827;
+    border-radius: 14px;
+    padding: 14px 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.assistant-card {
+    background: #0F172A;
+    border: 1px solid #1E293B;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.student-badge {
+    background: #1E3A5F;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    color: #CBD5E1;
+    font-size: 1.25rem;
+    margin-top: -10px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+# -----------------------------------
+# SESSION
 # -----------------------------------
 
 if "messages" not in st.session_state:
@@ -33,37 +100,103 @@ if "messages" not in st.session_state:
 # HEADER
 # -----------------------------------
 
-st.markdown("""
-# 🦇 Batman Student
-### Learn. Think. Understand.
-""")
-
 col1, col2 = st.columns([5, 1])
 
+with col1:
+
+    st.markdown(
+        "# 🦇 Batman Student"
+    )
+
+    st.markdown(
+        '<div class="hero-subtitle">AI Tutor for Class 10 Physics</div>',
+        unsafe_allow_html=True
+    )
+
 with col2:
-    st.info("STD001")
+
+    st.markdown(
+        """
+        <div class="student-badge">
+        👨‍🎓 STD001
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 st.divider()
+
+# -----------------------------------
+# QUIZ STATUS
+# -----------------------------------
+
+try:
+
+    from quiz_manager import (
+        is_quiz_active,
+        get_quiz_state
+    )
+
+    if is_quiz_active():
+
+        state = get_quiz_state()
+
+        current_q = (
+            state["current_question"] + 1
+        )
+
+        total_q = (
+            state["total_questions"]
+        )
+
+        score = (
+            state["score"]
+        )
+
+        topic = (
+            state["topics"][0]
+            if state["topics"]
+            else "Quiz"
+        )
+
+        st.info(
+            f"🎯 {topic.title()} Quiz | Question {current_q}/{total_q} | Score: {score}"
+        )
+
+except:
+    pass
 
 # -----------------------------------
 # CHAT
 # -----------------------------------
 
-st.subheader("Conversation")
+st.markdown(
+    "## Conversation"
+)
 
-chat_container = st.container()
+for msg in st.session_state.messages:
 
-with chat_container:
+    if msg["role"] == "user":
 
-    for msg in st.session_state.messages:
+        st.markdown(
+            f"""
+            <div class="user-card">
+            🔴 {msg["content"]}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
-        with st.chat_message(
-            msg["role"]
-        ):
+    else:
 
-            st.markdown(
-                msg["content"]
-            )
+        st.markdown(
+            f"""
+            <div class="assistant-card">
+            🦇 {msg["content"]}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 # -----------------------------------
 # INPUT
@@ -91,7 +224,9 @@ if question:
 
     except Exception as e:
 
-        answer = f"ERROR:\n\n{str(e)}"
+        answer = (
+            f"ERROR:\n\n{str(e)}"
+        )
 
     st.session_state.messages.append(
         {
@@ -101,35 +236,3 @@ if question:
     )
 
     st.rerun()
-
-# -----------------------------------
-# FEATURES
-# -----------------------------------
-
-st.divider()
-
-st.subheader(
-    "What can Batman do?"
-)
-
-c1, c2 = st.columns(2)
-
-with c1:
-
-    st.info(
-        "📘 Concept Teacher\n\nExplain textbook concepts in simple language."
-    )
-
-    st.info(
-        "🎯 Insta Quiz\n\nGenerate quizzes directly from textbook content."
-    )
-
-with c2:
-
-    st.info(
-        "📝 Homework Guide\n\nGuide students without revealing answers immediately."
-    )
-
-    st.info(
-        "📚 Study Coach\n\nCreate revision plans and exam preparation schedules."
-    )
