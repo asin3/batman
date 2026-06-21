@@ -1,0 +1,406 @@
+[
+  {
+    "role": "user",
+    "content": "What is force?"
+  },
+  {
+    "role": "user",
+    "content": "What is acceleration?"
+  },
+  {
+    "role": "user",
+    "content": "what is momentum?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Momentum** is the **quantity of motion** possessed by a moving body.\n\nIn textbook terms, it is called **linear momentum** and is defined as:\n\n\\[\np = mv\n\\]\n\nwhere:\n\n* \\(p\\) = momentum  \n* \\(m\\) = mass of the body  \n* \\(v\\) = velocity of the body  \n\nSo, momentum depends on **two things**:\n\n1. **Mass** of the object  \n2. **Velocity** of the object  \n\n---\n\n### Simple idea\n\nA moving object is harder to stop if:\n\n* it is very heavy, or\n* it is moving very fast.\n\nThat \u201cdifficulty to stop\u201d is related to its **momentum**.\n\n---\n\n### Examples\n\n#### Example 1: Cricket ball vs tennis ball\n\nA cricket ball and a tennis ball may move with the same speed, but the cricket ball has more mass.\n\nSo:\n\n\\[\np = mv\n\\]\n\nThe cricket ball has more momentum and is harder to stop.\n\n---\n\n#### Example 2: Slow truck vs fast bicycle\n\nA truck moving slowly can still have large momentum because its mass is very large.\n\nA bicycle moving fast may have less momentum than the truck because its mass is small.\n\n---\n\n### Important points\n\n* Momentum is a **vector quantity**.\n* Its direction is the same as the direction of velocity.\n* Its S.I. unit is:\n\n\\[\n\\text{kg m s}^{-1}\n\\]\n\nor\n\n\\[\n\\text{kg m/s}\n\\]\n\n---\n\n### Link with force\n\nForce is related to momentum because:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nThis means force is the **rate of change of momentum**.\n\nIf mass is constant, this becomes:\n\n\\[\nF = ma\n\\]\n\nSo, when a force acts on a body, it changes the body\u2019s momentum."
+  },
+  {
+    "role": "user",
+    "content": "what is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\nIn physics, force is the cause that can:\n\n1. **Change the state of motion** of a body  \n   - Example: A football at rest starts moving when you kick it.\n   - Example: A moving bicycle slows down when brakes are applied.\n\n2. **Change the direction of motion**  \n   - Example: A bat changes the direction of a moving cricket ball.\n\n3. **Change the shape or size** of a body  \n   - Example: Stretching a rubber band changes its shape.\n   - Example: Pressing a sponge changes its shape.\n\nTextbook definition:\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(F\\) = force\n- \\(m\\) = mass of the body\n- \\(a\\) = acceleration produced\n\nForce is a **vector quantity**, which means it has both:\n\n- **magnitude**: how large the force is\n- **direction**: where the force acts\n\nThe S.I. unit of force is the **newton**, written as **N**.\n\nAnother unit sometimes used is **kilogram-force**, written as **kgf**.\n\n\\[\n1 \\text{ kgf} = 9.8 \\text{ N}\n\\]\n\nSimple example:\n\nIf you push a ball, the ball moves in the direction of your push. Here, your push is a **force**."
+  },
+  {
+    "role": "user",
+    "content": "what's force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\nIn physics, force is something that can:\n\n1. **Change the state of motion** of a body  \n   - start a stationary object moving  \n   - stop a moving object  \n   - speed it up  \n   - slow it down  \n   - change its direction  \n\n2. **Change the shape or size** of a body  \n   - like stretching a rubber band or compressing a spring  \n\n### Textbook definition\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force causes acceleration in a body.\n\n### Example 1: Pushing a ball\n\nIf you push a ball lying on the floor, it starts moving.  \nYour push is the **force**, and the ball gets **translational motion**, meaning it moves in a straight path.\n\n### Example 2: Opening a door\n\nWhen you push the handle of a door, the door rotates about its hinges.  \nHere, force produces a **turning effect**, called the **moment of force**.\n\n### Important points\n\n- Force is a **vector quantity**.  \n  That means it has both **magnitude** and **direction**.\n\n- The S.I. unit of force is **newton**, written as **N**.\n\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1 \\text{ kgf} = 9.8 \\text{ N}\n\\]\n\n### Simple way to remember\n\nForce = **push or pull that can change motion or shape**."
+  },
+  {
+    "role": "user",
+    "content": "What is its SI unit?"
+  },
+  {
+    "role": "assistant",
+    "content": "The **S.I. unit of moment of force** (or **torque**) is:\n\n\\[\n\\textbf{newton metre}\n\\]\n\nIt is written as:\n\n\\[\n\\textbf{N m}\n\\]\n\n### Why?\nMoment of force is calculated as:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{Perpendicular distance}\n\\]\n\nIn S.I. units:\n\n- Force is measured in **newton (N)**\n- Distance is measured in **metre (m)**\n\nSo,\n\n\\[\n\\text{Unit of moment of force} = N \\times m = \\textbf{N m}\n\\]\n\n### Important note:\nEven though \\(N m\\) is also the unit of work, for **moment of force/torque** we write it as **N m**, not joule, because torque is related to turning effect."
+  },
+  {
+    "role": "user",
+    "content": "What is force?"
+  },
+  {
+    "role": "user",
+    "content": "What is its SI unit?"
+  },
+  {
+    "role": "user",
+    "content": "Who discovered it?"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting.  \nKeep studying\u2014Batman out. \ud83e\udd87"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting. Keep studying like Batman. \ud83e\udd87"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay. Study session ended.  \nCome back anytime if you want to continue learning."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting.  \nKeep revising \u2014 you\u2019re doing well."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting.  \nCome back anytime if you want to learn more!"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting the session.  \nKeep revising\u2014Batman Student out. \ud83e\udd87"
+  },
+  {
+    "role": "user",
+    "content": "What is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\nIn physics, force is something that can:\n\n1. **Change the state of motion** of a body  \n   - Example: A stationary football starts moving when you kick it.\n\n2. **Change the speed of a moving body**  \n   - Example: A bicycle speeds up when you pedal harder.\n\n3. **Change the direction of motion**  \n   - Example: A bat changes the direction of a moving cricket ball.\n\n4. **Change the shape or size of a body**  \n   - Example: Pressing a rubber ball changes its shape.\n\n### Textbook definition\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can also be understood as the cause that produces **acceleration** in a body.\n\n### Important points\n\n- Force is a **vector quantity** because it has both **magnitude and direction**.\n- The S.I. unit of force is **newton**, written as **N**.\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1 \\text{ kgf} = 9.8 \\text{ N}\n\\]\n\n### Simple example\n\nIf you push a ball lying on the floor, the ball starts moving in the direction of your push.  \nHere, your push is the **force**, and the motion produced is the effect of the force."
+  },
+  {
+    "role": "user",
+    "content": "What is its SI unit?"
+  },
+  {
+    "role": "assistant",
+    "content": "The **S.I. unit of force** is the **newton**, written as **N**.\n\n### Definition\nA force of **1 newton** is the force that produces an acceleration of **1 m/s\u00b2** in a body of mass **1 kg**.\n\n\\[\n1\\,N = 1\\,kg \\times 1\\,m/s^2\n\\]\n\nSo,\n\n\\[\n1\\,N = 1\\,kg\\,m/s^2\n\\]\n\n### Example\nIf you push a box and apply a force of **5 N**, it means you are applying five times the force needed to give a 1 kg mass an acceleration of 1 m/s\u00b2.\n\n**Note:** If you meant the S.I. unit of **moment of force/torque**, then it is **newton metre**, written as **N m**."
+  },
+  {
+    "role": "user",
+    "content": "Who discovered it?"
+  },
+  {
+    "role": "assistant",
+    "content": "The S.I. unit of force, **newton (N)**, is named after **Sir Isaac Newton**.\n\nBut important point: Newton did not exactly \u201cdiscover force\u201d like discovering a planet.  \nHe **explained force scientifically** through his **laws of motion**.\n\n### Why is it named after Newton?\n\nNewton gave the famous relation:\n\n\\[\nF = ma\n\\]\n\nThis means:\n\n**Force = mass \u00d7 acceleration**\n\nSo, if a force acts on a body, it can change the body\u2019s motion by producing acceleration.\n\n### About torque / moment of force\n\nIf you mean **moment of force or torque**, its unit is:\n\n\\[\n\\text{newton metre} = N\\,m\n\\]\n\nThis also uses the unit **newton**, named after **Sir Isaac Newton**.\n\nHistorically, ideas about turning effects and levers were studied by **Archimedes**, but the modern unit of force is named after **Newton**."
+  },
+  {
+    "role": "user",
+    "content": "quiz me"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 Quiz Mode on. \ud83e\udd87  \nI\u2019ll ask **one question at a time**. You answer, then I\u2019ll give feedback.\n\n### Question 1\nIn textbook terminology, force is defined as the rate of change of what quantity?\n\nA) Velocity  \nB) Linear momentum  \nC) Acceleration  \nD) Distance"
+  },
+  {
+    "role": "user",
+    "content": "a)"
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\nThink about the formula from the textbook:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nHere, \\(p\\) stands for **linear momentum**.\n\nSo force is the rate of change of **which quantity**?\n\nTry again: A, B, C, or D?"
+  },
+  {
+    "role": "user",
+    "content": "c"
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\n**C) Acceleration** is related to force, because when mass is constant:\n\n\\[\nF = ma\n\\]\n\nBut the **textbook definition** of force is:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nHere, \\(p\\) means **linear momentum**.\n\nSo force is the **rate of change of linear momentum**.\n\nThe correct choice was **B) Linear momentum**.\n\n---\n\n### Question 2\nThe S.I. unit of **moment of force** is:\n\nA) newton  \nB) joule  \nC) newton metre  \nD) metre per second squared"
+  },
+  {
+    "role": "user",
+    "content": "c"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\nThe S.I. unit of **moment of force** is:\n\n\\[\n\\text{newton metre} = N\\,m\n\\]\n\nBecause:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance}\n\\]\n\nSo:\n\n\\[\nN \\times m = N\\,m\n\\]\n\n**Important textbook note:** For moment of force/torque, we write **N m**, not joule, even though \\(N m\\) is also used in work/energy. Torque is a **vector**, while work/energy is **scalar**.\n\nMistake tracker so far:  \n- Q1: missed once  \n- Q2: correct \u2705\n\n---\n\n### Question 3\nIf the turning effect of a force is **anticlockwise**, the moment of force is taken as:\n\nA) negative  \nB) positive  \nC) zero  \nD) scalar only"
+  },
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\nFor **moment of force**, the usual textbook sign convention is:\n\n- **Anticlockwise moment** = **positive**\n- **Clockwise moment** = **negative**\n\nSo the correct choice was:\n\n**B) positive**\n\n### Why?\nIf a force tends to rotate a body anticlockwise about a pivot, its moment is taken as **positive** by convention.\n\nMistake tracker so far:  \n- Q1: missed  \n- Q2: correct \u2705  \n- Q3: missed  \n\n---\n\n### Question 4\nThe turning effect of a force depends on:\n\nA) only the mass of the body  \nB) only the speed of the body  \nC) magnitude of force and distance of line of action from pivot  \nD) only the shape of the body"
+  },
+  {
+    "role": "user",
+    "content": "c"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\nThe turning effect of a force depends on:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance from pivot}\n\\]\n\nSo it depends on:\n\n1. **Magnitude of the force**\n2. **Perpendicular distance of the line of action of force from the pivot**\n\nMistake tracker so far:  \n- Q1: missed  \n- Q2: correct \u2705  \n- Q3: missed  \n- Q4: correct \u2705  \n\n---\n\n### Question 5\nFor moment of force, which sign is conventionally assigned to a **clockwise moment**?\n\nA) Positive  \nB) Negative  \nC) Zero  \nD) No sign assigned"
+  },
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\nFor **moment of force**, the usual sign convention is:\n\n- **Anticlockwise moment** = **positive**\n- **Clockwise moment** = **negative**\n\nSo the correct choice was:\n\n**B) Negative**\n\n### Why?\nIf a force tends to rotate a body in the **clockwise direction**, its moment is taken as **negative** by convention.\n\nMistake tracker so far:  \n- Q1: missed  \n- Q2: correct \u2705  \n- Q3: missed  \n- Q4: correct \u2705  \n- Q5: missed  \n\n---\n\n### Question 6\nThe moment of a force is calculated using which formula?\n\nA) \\(F = ma\\)  \nB) \\(p = mv\\)  \nC) Moment of force = Force \u00d7 perpendicular distance from pivot  \nD) Work = Force \u00d7 displacement"
+  },
+  {
+    "role": "user",
+    "content": "Lets start a quiz"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 Quiz Mode on. \ud83e\udd87  \nWe\u2019ll start a **fresh quiz** based on your textbook context.\n\n### Question 1\nWhen a force acts on a stationary rigid body that is free to move, the body starts moving in a straight path. This motion is called:\n\nA) Rotational motion  \nB) Linear or translational motion  \nC) Circular motion  \nD) Vibrational motion  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "b"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\n**B) Linear or translational motion** is right.\n\nIn textbook terms, when a rigid body is free to move and a force makes it move in a straight path, it is called **translational motion**.\n\n---\n\n### Question 2\nWhen a force is applied to a body pivoted at a point, and the body turns about that point, the effect is called:\n\nA) Momentum  \nB) Moment of force or torque  \nC) Acceleration  \nD) Linear motion  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "b"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\n**B) Moment of force or torque** is right.\n\nWhen a body is **pivoted at a point** and a force makes it turn about that point, the force produces a **turning effect**. This turning effect is called the **moment of force** or **torque**.\n\nExample:  \nWhen you push a door, it rotates about its hinges. The hinges act like the **pivot**.\n\nMistake tracker:  \n- Q1: correct \u2705  \n- Q2: correct \u2705  \n\n---\n\n### Question 3\nAccording to the textbook, the turning effect of a force depends on:\n\nA) only the mass of the body  \nB) only the speed of the body  \nC) magnitude of force and distance of line of action from the pivot  \nD) only the shape of the body  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "c"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\n**C) magnitude of force and distance of line of action from the pivot** is right.\n\nIn textbook terms:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance from pivot}\n\\]\n\nSo the turning effect becomes greater if:\n\n1. The **force is larger**\n2. The **perpendicular distance from the pivot is larger**\n\nExample: A door is easier to open when you push near the handle, far from the hinges, because the distance from the pivot is greater.\n\nMistake tracker:  \n- Q1: correct \u2705  \n- Q2: correct \u2705  \n- Q3: correct \u2705  \n\n---\n\n### Question 4\nThe S.I. unit of moment of force is:\n\nA) newton  \nB) joule  \nC) newton metre  \nD) kilogram-force  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\n**A) newton** is the S.I. unit of **force**, not moment of force.\n\nFor **moment of force**, the formula is:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance}\n\\]\n\nSo the unit is:\n\n\\[\nN \\times m = N\\,m\n\\]\n\nThe correct answer was:\n\n**C) newton metre**\n\nMistake tracker:  \n- Q1: correct \u2705  \n- Q2: correct \u2705  \n- Q3: correct \u2705  \n- Q4: missed  \n\n---\n\n### Question 5\nA force produces a greater turning effect when:\n\nA) the force is smaller  \nB) the distance from the pivot is smaller  \nC) the force is larger and applied farther from the pivot  \nD) the body has no pivot  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "force, easy, 2"
+  },
+  {
+    "role": "assistant",
+    "content": "I\u2019m not fully sure which option you mean. \ud83e\udd87\n\nFor **Question 5**, please answer with **A, B, C, or D**:\n\nA) the force is smaller  \nB) the distance from the pivot is smaller  \nC) the force is larger and applied farther from the pivot  \nD) the body has no pivot  \n\nHint: Turning effect depends on **two factors**:\n\n1. Magnitude of force  \n2. Distance from the pivot  \n\nSo which option matches both?"
+  },
+  {
+    "role": "user",
+    "content": "didnt understand the question"
+  },
+  {
+    "role": "assistant",
+    "content": "No problem. Let\u2019s break the question down. \ud83e\udd87\n\n### Question 5 means:\n\nA **turning effect** happens when a force makes something rotate about a **pivot**.\n\nExample: **Opening a door**\n\n- The **hinges** are the pivot.\n- Your hand applies the force.\n- The door turns because of the **moment of force** or **torque**.\n\nTextbook formula:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance from pivot}\n\\]\n\nSo the turning effect becomes greater when:\n\n1. The **force is larger**\n2. The force is applied **farther from the pivot**\n\n### Door example\n\nIf you push a door near the **hinges**, it is hard to open.\n\nIf you push the door near the **handle**, it is easier to open because the handle is farther from the pivot.\n\nSo the question is asking:\n\n**When will the turning effect be greatest?**\n\nA) the force is smaller  \nB) the distance from the pivot is smaller  \nC) the force is larger and applied farther from the pivot  \nD) the body has no pivot  \n\nNow try again: **A, B, C, or D?**"
+  },
+  {
+    "role": "user",
+    "content": "c"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\n**C) the force is larger and applied farther from the pivot** is right.\n\nBecause:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance from pivot}\n\\]\n\nSo the turning effect increases when:\n\n- the **force is greater**, and\n- the **distance from the pivot is greater**\n\nExample: A door opens more easily when you push near the **handle** than near the **hinges**.\n\nMistake tracker:  \n- Q1: correct \u2705  \n- Q2: correct \u2705  \n- Q3: correct \u2705  \n- Q4: missed  \n- Q5: correct \u2705  \n\n---\n\n### Question 6\nConventionally, an **anticlockwise moment** is taken as:\n\nA) negative  \nB) positive  \nC) zero  \nD) scalar  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "b"
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\nAn **anticlockwise moment** is taken as **positive** by convention.\n\nSo:\n\n- Anticlockwise moment = **positive**\n- Clockwise moment = **negative**\n\nMistake tracker:  \n- Q1: correct \u2705  \n- Q2: correct \u2705  \n- Q3: correct \u2705  \n- Q4: missed  \n- Q5: correct \u2705  \n- Q6: correct \u2705  \n\n---\n\n### Question 7\nA **clockwise moment** is conventionally taken as:\n\nA) positive  \nB) negative  \nC) zero  \nD) kilogram-force  \n\nWhat\u2019s your answer?"
+  },
+  {
+    "role": "user",
+    "content": "answer is b, i asked for only 2 question quiz..this is third question"
+  },
+  {
+    "role": "assistant",
+    "content": "You\u2019re right \u2014 my mistake. \ud83e\udd87  \nI should have stopped after the number of questions you wanted.\n\nAlso, your answer **B) negative** is correct.\n\nA **clockwise moment** is taken as **negative** by convention.\n\nQuiz stopped here. \u2705  \nIf you want later, you can say: **\u201cQuiz me 2 questions only\u201d** and I\u2019ll stick to exactly 2."
+  },
+  {
+    "role": "user",
+    "content": "so whats my score?"
+  },
+  {
+    "role": "assistant",
+    "content": "Your score depends on what we count:\n\n### If we count only the **2-question quiz you wanted**:\n\u2705 **2/2 = 100%**\n\n### If we count all the questions we actually did:\nYou got:\n\n- Q1 \u2705\n- Q2 \u2705\n- Q3 \u2705\n- Q4 \u274c\n- Q5 \u2705\n- Q6 \u2705\n- Q7 \u2705\n\nSo your score is:\n\n\\[\n\\frac{6}{7}\n\\]\n\n\u2705 **6/7 = about 86%**\n\nYou only missed the S.I. unit of moment of force. Remember:\n\n\\[\n\\text{Moment of force unit} = N\\,m\n\\]\n\nNot just **N**, because moment of force = force \u00d7 distance."
+  },
+  {
+    "role": "user",
+    "content": "whats newton?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **newton** is the **S.I. unit of force**.\n\nIt is written as:\n\n\\[\nN\n\\]\n\n### Textbook meaning\n\nOne **newton** is the force that produces an acceleration of:\n\n\\[\n1 \\, m/s^2\n\\]\n\nin a body of mass:\n\n\\[\n1 \\, kg\n\\]\n\nSo,\n\n\\[\n1N = 1kg \\times 1m/s^2\n\\]\n\n\\[\n1N = 1kg\\,m/s^2\n\\]\n\n### Simple example\n\nIf you apply a force of **1 N** on a **1 kg** object, and there is no friction, it will accelerate at:\n\n\\[\n1m/s^2\n\\]\n\n### Why is it called newton?\n\nThe unit **newton** is named after **Sir Isaac Newton**, who gave the laws of motion and the formula:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Also from your textbook\n\nAnother unit of force is **kilogram-force**, written as **kgf**.\n\n\\[\n1kgf = 9.8N\n\\]\n\nSo, **newton is the standard S.I. unit used to measure force**."
+  },
+  {
+    "role": "user",
+    "content": "what is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Simple meaning\nWhen you **push** a door or **pull** a bag, you are applying a force.\n\nA force can:\n\n1. **Change the motion** of a body  \n   - Example: A ball starts moving when you push it.\n\n2. **Change the speed or direction** of a body  \n   - Example: A moving ball changes direction when you hit it with a bat.\n\n3. **Change the shape or size** of a non-rigid body  \n   - Example: Pressing a sponge changes its shape.\n\n---\n\n### Textbook definition\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(p\\) = linear momentum  \n- \\(t\\) = time  \n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.  \n  That means it has both **magnitude** and **direction**.\n\n- The S.I. unit of force is **newton**, written as:\n\n\\[\nN\n\\]\n\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1 \\, kgf = 9.8 \\, N\n\\]\n\n---\n\n### Example\n\nIf you push a ball lying on the floor, it starts moving in the direction of your push.  \nHere, your push is the **force**, and the ball shows **linear or translational motion**."
+  },
+  {
+    "role": "user",
+    "content": "what is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\nFrom your textbook, a force can affect a body in different ways:\n\n### 1. On a rigid body\nA force can cause **motion**.\n\nExample:  \nIf you push a ball lying on the floor, it starts moving in the direction of the force. This is called **linear or translational motion**.\n\n### 2. On a non-rigid body\nA force can cause:\n\n- **motion**, and\n- change in **size or shape**\n\nExample:  \nPressing a sponge changes its shape.\n\n---\n\n### Textbook definition\n\nIn mathematical form, force is defined as the **rate of change of linear momentum**.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(p\\) = linear momentum  \n- \\(t\\) = time  \n\nIf mass is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.\n- Its S.I. unit is **newton**, written as **N**.\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Simple memory line\n\n**Force = push or pull that can change motion or shape.**"
+  },
+  {
+    "role": "user",
+    "content": "what is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook meaning\nAccording to your textbook, when a force is applied:\n\n- On a **rigid body**, it can cause **motion**.\n  - Example: Pushing a ball makes it move.\n\n- On a **non-rigid body**, it can cause **motion** and also change its **size or shape**.\n  - Example: Pressing a sponge changes its shape.\n\n---\n\n### Mathematical definition\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(p\\) = linear momentum  \n- \\(t\\) = time  \n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.  \n  This means it has both **magnitude** and **direction**.\n\n- The S.I. unit of force is **newton**, written as:\n\n\\[\nN\n\\]\n\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n---\n\n### Simple example\n\nIf you push a ball lying on the floor, the ball starts moving in the direction of your push.  \nHere, your push is the **force**."
+  },
+  {
+    "role": "user",
+    "content": "What is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Simple meaning\nWhen you push a ball, pull a door, kick a football, or stretch a rubber band, you are applying a **force**.\n\n### According to your textbook\nA force can have different effects:\n\n1. **On a rigid body**  \n   It can cause **motion**.  \n   Example: Pushing a ball makes it move in a straight line.\n\n2. **On a non-rigid body**  \n   It can cause **motion** and also change the **shape or size**.  \n   Example: Pressing a sponge changes its shape.\n\n---\n\n### Mathematical definition\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(p\\) = linear momentum  \n- \\(t\\) = time  \n\nIf mass is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**, so it has both **magnitude** and **direction**.\n- Its S.I. unit is **newton**, written as **N**.\n- Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Easy memory line\n**Force = push or pull that can change motion, shape, or size.**"
+  },
+  {
+    "role": "user",
+    "content": "Explain Newton's First Law"
+  },
+  {
+    "role": "assistant",
+    "content": "### Newton\u2019s First Law of Motion\n\n**Newton\u2019s First Law** states that:\n\n> A body remains in its state of **rest** or **uniform motion in a straight line** unless an **external unbalanced force** acts on it.\n\n---\n\n### Simple meaning\n\nAn object will not change its motion by itself.\n\n- If it is **at rest**, it will stay at rest.\n- If it is **moving with constant speed in a straight line**, it will keep moving like that.\n- It changes only when a **force** acts on it.\n\nThis law is also called the **Law of Inertia**.\n\n---\n\n### What is inertia?\n\n**Inertia** is the tendency of a body to resist any change in its state of rest or motion.\n\nIn simple words:\n\n> Inertia means an object does not want to change what it is already doing.\n\nIf it is resting, it wants to stay resting.  \nIf it is moving, it wants to keep moving.\n\n---\n\n### Examples\n\n#### Example 1: Book on a table\n\nA book lying on a table stays at rest.\n\nIt does not start moving by itself because no unbalanced force is acting on it.\n\nIf you push the book, it moves. Your push is the external force.\n\n---\n\n#### Example 2: Passenger in a bus\n\nWhen a bus suddenly starts moving, passengers fall backward.\n\nWhy?\n\nTheir feet move with the bus, but the upper part of the body tends to remain at rest due to **inertia of rest**.\n\n---\n\n#### Example 3: Moving ball\n\nIf you roll a ball on the ground, it eventually stops.\n\nBut according to Newton\u2019s First Law, it should keep moving unless a force acts on it.\n\nThe ball stops because of external forces like:\n\n- friction from the ground\n- air resistance\n\n---\n\n### Important textbook terms\n\n- **Rest**: When a body does not change its position with time.\n- **Uniform motion**: Motion with constant speed in a straight line.\n- **External force**: A force acting on a body from outside.\n- **Unbalanced force**: A force that changes the state of rest or motion of a body.\n- **Inertia**: Tendency of a body to resist change in motion.\n\n---\n\n### Easy memory line\n\n**Newton\u2019s First Law says: Objects keep doing what they are doing unless a force changes it.**"
+  },
+  {
+    "role": "user",
+    "content": "force"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook definition\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Effects of force\n\nA force can:\n\n1. **Cause motion**\n   - Example: Pushing a ball makes it move.\n\n2. **Change speed or direction**\n   - Example: Hitting a moving ball with a bat changes its direction.\n\n3. **Change shape or size** of a non-rigid body\n   - Example: Pressing a sponge changes its shape.\n\n### Types of motion caused by force\n\nAccording to your textbook, force can produce:\n\n- **Translational motion**: motion in a straight line  \n  Example: A ball moving when pushed.\n\n- **Rotational motion**: turning motion about a pivot  \n  Example: A door rotating about its hinges.\n\n### Important points\n\n- Force is a **vector quantity**.\n- It has both **magnitude** and **direction**.\n- Its S.I. unit is **newton**, written as:\n\n\\[\nN\n\\]\n\nAnother unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Easy memory line\n\n**Force = push or pull that can change motion, direction, shape, or size.**"
+  },
+  {
+    "role": "user",
+    "content": "what is momentum?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Momentum** is the **quantity of motion** possessed by a moving body.\n\nUsing general physics textbook definition:\n\n\\[\np = mv\n\\]\n\nwhere:\n\n- \\(p\\) = momentum  \n- \\(m\\) = mass of the body  \n- \\(v\\) = velocity of the body  \n\nSo, momentum depends on **mass** and **velocity**.\n\n---\n\n### Simple meaning\n\nA moving object has momentum.  \nThe heavier and faster it is, the more momentum it has.\n\n### Example\n\nA **truck** moving slowly can have more momentum than a **bicycle** moving fast because the truck has much greater mass.\n\nA **cricket ball** moving fast has more momentum than the same ball moving slowly.\n\n---\n\n### Important points\n\n- Momentum is a **vector quantity** because velocity has direction.\n- Its direction is the same as the direction of velocity.\n- The S.I. unit of momentum is:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\n---\n\n### Link with force\n\nYour textbook says force is the **rate of change of linear momentum**:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nThis means a force changes the momentum of a body.  \nFor example, when you kick a football, you apply force and change its momentum."
+  },
+  {
+    "role": "user",
+    "content": "what is centripetal force?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Centripetal force** is the force that acts on a body moving in a **circular path** and is directed **towards the centre of the circle**.\n\n### Simple meaning\n\nWhen an object moves in a circle, its direction keeps changing.  \nTo keep changing its direction, a force is needed. This force is called **centripetal force**.\n\nThe word **centripetal** means **centre-seeking**.\n\nSo:\n\n> **Centripetal force = force towards the centre that keeps an object moving in a circle.**\n\n---\n\n### Example 1: Stone tied to a string\n\nIf you tie a stone to a string and whirl it in a circle, the stone moves in a circular path.\n\nThe **tension in the string** pulls the stone towards the centre.\n\nThat tension acts as the **centripetal force**.\n\n---\n\n### Example 2: Moon around Earth\n\nThe Moon moves around Earth in an almost circular path.\n\nThe **gravitational force** of Earth pulls the Moon towards Earth.\n\nHere, gravity provides the **centripetal force**.\n\n---\n\n### Example 3: Car taking a turn\n\nWhen a car turns on a curved road, friction between the tyres and the road helps pull the car towards the centre of the curve.\n\nThis friction acts as the **centripetal force**.\n\n---\n\n### Formula\n\nUsing general physics knowledge, the formula for centripetal force is:\n\n\\[\nF = \\frac{mv^2}{r}\n\\]\n\nwhere:\n\n- \\(F\\) = centripetal force  \n- \\(m\\) = mass of the body  \n- \\(v\\) = speed of the body  \n- \\(r\\) = radius of the circular path  \n\n---\n\n### Direction of centripetal force\n\nCentripetal force always acts:\n\n\\[\n\\textbf{towards the centre of the circular path}\n\\]\n\nIt does **not** act along the direction of motion.\n\nThe velocity is along the tangent, but the centripetal force is towards the centre.\n\n---\n\n### Important point\n\nCentripetal force is not a new separate kind of force.  \nIt can be provided by different forces, such as:\n\n- tension\n- gravity\n- friction\n- normal reaction\n\n### Easy memory line\n\n**Centripetal force is the inward force that keeps an object moving in a circle.**"
+  },
+  {
+    "role": "user",
+    "content": "what is force"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook definition\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Effects of force\n\nA force can:\n\n1. **Cause motion**\n   - Example: Pushing a ball makes it move.\n\n2. **Change the direction of motion**\n   - Example: Hitting a cricket ball with a bat changes its direction.\n\n3. **Change the size or shape of a non-rigid body**\n   - Example: Pressing a sponge changes its shape.\n\n---\n\n### On rigid and non-rigid bodies\n\nAccording to your textbook:\n\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and also change **shape or size**.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.\n- It has both **magnitude** and **direction**.\n- Its S.I. unit is **newton**, written as:\n\n\\[\nN\n\\]\n\nAnother unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Easy memory line\n\n**Force = push or pull that can change motion, direction, shape, or size.**"
+  },
+  {
+    "role": "user",
+    "content": "what is force"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook definition\n\nIn mathematical form, force is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Effects of force\n\nAccording to your textbook:\n\n1. **On a rigid body**, force can cause **motion**.  \n   Example: Pushing a ball makes it move in a straight line.\n\n2. **On a non-rigid body**, force can cause:\n   - motion\n   - change in shape or size  \n\n   Example: Pressing a sponge changes its shape.\n\n---\n\n### Types of motion due to force\n\nA force can produce:\n\n- **Linear or translational motion**  \n  Example: A ball moving in the direction of push.\n\n- **Rotational motion**  \n  Example: A door rotating about its hinges when pushed.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.  \n  It has both **magnitude** and **direction**.\n\n- The S.I. unit of force is **newton**, written as:\n\n\\[\nN\n\\]\n\n- Another unit is **kilogram-force**, written as:\n\n\\[\nkgf\n\\]\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Easy memory line\n\n**Force = push or pull that can change motion, shape, or size.**"
+  },
+  {
+    "role": "user",
+    "content": "What is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### According to your textbook\n\nA force can produce different effects:\n\n1. **On a rigid body**  \n   A force can cause **motion**.  \n   Example: If you push a ball lying on the floor, it starts moving.\n\n2. **On a non-rigid body**  \n   A force can cause:\n   - motion\n   - change in **size or shape**  \n   Example: Pressing a sponge changes its shape.\n\n---\n\n### Mathematical definition\n\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(p\\) = linear momentum  \n- \\(t\\) = time  \n\nIf the mass of the body is constant, then:\n\n\\[\nF = ma\n\\]\n\nwhere:\n\n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\nSo, force can produce **acceleration** in a body.\n\n---\n\n### Important points\n\n- Force is a **vector quantity**.  \n  That means it has both **magnitude** and **direction**.\n\n- The S.I. unit of force is **newton**, written as:\n\n\\[\nN\n\\]\n\n- Another unit is **kilogram-force**, written as:\n\n\\[\nkgf\n\\]\n\n\\[\n1\\,kgf = 9.8\\,N\n\\]\n\n### Easy memory line\n\n**Force = push or pull that can change motion, shape, or size.**"
+  },
+  {
+    "role": "user",
+    "content": "What is momentum?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Momentum** is the **quantity of motion** possessed by a moving body.\n\nIn textbook terminology, it is called **linear momentum**.\n\n\\[\np = mv\n\\]\n\nwhere:\n\n- \\(p\\) = momentum  \n- \\(m\\) = mass of the body  \n- \\(v\\) = velocity of the body  \n\nSo, momentum depends on **mass** and **velocity**.\n\n---\n\n### Simple meaning\n\nA moving object has momentum.  \nAn object has more momentum if:\n\n1. it has **more mass**, or  \n2. it moves with **greater velocity**.\n\n---\n\n### Example\n\nA slow-moving **truck** can have more momentum than a fast-moving **bicycle** because the truck has much more mass.\n\nAlso, a cricket ball moving fast has more momentum than the same cricket ball moving slowly.\n\n---\n\n### Important points\n\n- Momentum is a **vector quantity** because velocity has direction.\n- Its direction is the same as the direction of velocity.\n- Its S.I. unit is:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\n---\n\n### Link with your textbook\n\nYour textbook says force is the **rate of change of linear momentum**:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nThis means a force changes the momentum of a body."
+  },
+  {
+    "role": "user",
+    "content": "What is momentum?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Momentum** is the **quantity of motion** possessed by a moving body.\n\nIn textbook terminology, it is called **linear momentum**.\n\n\\[\np = mv\n\\]\n\nwhere:\n\n- \\(p\\) = momentum  \n- \\(m\\) = mass of the body  \n- \\(v\\) = velocity of the body  \n\nSo, momentum depends on:\n\n1. **Mass**\n2. **Velocity**\n\n---\n\n### Simple meaning\n\nA moving object has momentum.  \nIf an object is **heavier** or moving **faster**, it has more momentum.\n\n---\n\n### Examples\n\n#### Example 1: Truck and bicycle\n\nA truck moving slowly may have more momentum than a bicycle moving fast because the truck has much more mass.\n\n#### Example 2: Cricket ball\n\nA cricket ball moving fast has more momentum than the same ball moving slowly.\n\n---\n\n### Important points\n\n- Momentum is a **vector quantity**.\n- Its direction is the same as the direction of velocity.\n- Its S.I. unit is:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\n---\n\n### Link with your textbook\n\nYour textbook says force is the **rate of change of linear momentum**:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nThis means a force changes the momentum of a body."
+  },
+  {
+    "role": "user",
+    "content": "What is its SI unit?"
+  },
+  {
+    "role": "assistant",
+    "content": "Do you mean the S.I. unit of **momentum** or **moment of force/torque**?\n\n- **Momentum** has S.I. unit:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\nbecause:\n\n\\[\np = mv\n\\]\n\nmass unit = kg, velocity unit = m/s.\n\n---\n\n- **Moment of force / torque** has S.I. unit:\n\n\\[\nN\\,m\n\\]\n\nbecause:\n\n\\[\n\\text{Moment of force} = \\text{Force} \\times \\text{perpendicular distance}\n\\]\n\nforce unit = newton \\(N\\), distance unit = metre \\(m\\).\n\n**Textbook note:** For torque, we write **N m**, not joule, because torque is a **vector quantity**."
+  },
+  {
+    "role": "user",
+    "content": "what is force defination? one liner"
+  },
+  {
+    "role": "assistant",
+    "content": "**Force is defined as the rate of change of linear momentum of a body.**\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nSimple one-liner: **Force is a push or pull that can change the motion, shape, or size of a body.**"
+  },
+  {
+    "role": "user",
+    "content": "whats force"
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook definition\nForce is the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf mass is constant:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Effects of force\n\nA force can:\n\n- make a body move  \n- change its speed or direction  \n- change the shape or size of a non-rigid body  \n\n### Example\nIf you push a ball lying on the floor, it starts moving in the direction of your push. That push is a **force**.\n\n### Unit\nThe S.I. unit of force is **newton**, written as **N**."
+  },
+  {
+    "role": "user",
+    "content": "What is momentum?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Momentum** is the **quantity of motion** possessed by a moving body.\n\nIn textbook terms, it is called **linear momentum**.\n\n\\[\np = mv\n\\]\n\nwhere:\n\n- \\(p\\) = momentum  \n- \\(m\\) = mass of the body  \n- \\(v\\) = velocity of the body  \n\n### Simple meaning\n\nA moving object has momentum.  \nAn object has more momentum if:\n\n1. it has **more mass**, or  \n2. it moves with **greater velocity**\n\n### Example\n\nA slow-moving **truck** can have more momentum than a fast-moving **bicycle** because the truck has much greater mass.\n\n### Important points\n\n- Momentum is a **vector quantity** because velocity has direction.\n- Its direction is the same as the direction of velocity.\n- S.I. unit of momentum is:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\n### Link with force\n\nYour textbook says force is the **rate of change of linear momentum**:\n\n\\[\nF = \\frac{dp}{dt}\n\\]\n\nSo, force changes the momentum of a body."
+  },
+  {
+    "role": "user",
+    "content": "What is its SI unit?"
+  },
+  {
+    "role": "assistant",
+    "content": "Do you mean the S.I. unit of **momentum** or **moment of force/torque**?\n\n- **Momentum**:\n\n\\[\nkg\\,m/s\n\\]\n\nor\n\n\\[\nkg\\,m\\,s^{-1}\n\\]\n\n- **Moment of force / torque**:\n\n\\[\nN\\,m\n\\]\n\nFrom your textbook context, the S.I. unit of **moment of force** is **newton metre**, written as **N m**.  \nIt is **not written as joule**, because torque is a **vector quantity**."
+  },
+  {
+    "role": "user",
+    "content": "exit"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, exiting the study session. \ud83e\udd87  \nKeep revising \u2014 Batman Student out."
+  }
+]
