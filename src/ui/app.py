@@ -9,6 +9,10 @@ sys.path.append(
 )
 
 from batman_engine import ask_batman
+from learn_manager import (
+    get_subjects,
+    get_workspace_sections
+)
 
 # -----------------------------------
 # PAGE
@@ -21,7 +25,7 @@ st.set_page_config(
 )
 
 # -----------------------------------
-# STYLING
+# STYLE
 # -----------------------------------
 
 st.markdown("""
@@ -32,52 +36,47 @@ st.markdown("""
 }
 
 .block-container {
-    padding-top: 2rem;
     max-width: 1200px;
+    padding-top: 2rem;
 }
 
-h1 {
-    font-size: 3rem !important;
-    font-weight: 700 !important;
+.pillar-card {
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #1E293B;
+    background: #0F172A;
+    margin-bottom: 15px;
 }
 
-h2 {
-    font-size: 2rem !important;
+.subject-card {
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #1E293B;
+    background: #111827;
 }
 
-p {
-    font-size: 1rem;
+.workspace-card {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    background: #0F172A;
+    text-align: center;
 }
 
 .user-card {
     background: #111827;
     border-radius: 14px;
-    padding: 14px 18px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding: 14px;
+    margin-bottom: 10px;
 }
 
 .assistant-card {
     background: #0F172A;
+    border-radius: 14px;
+    padding: 18px;
     border: 1px solid #1E293B;
-    border-radius: 16px;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 18px;
-}
-
-.student-badge {
-    background: #1E3A5F;
-    padding: 12px;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.hero-subtitle {
-    color: #CBD5E1;
-    font-size: 1.25rem;
-    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
 </style>
@@ -86,6 +85,15 @@ p {
 # -----------------------------------
 # SESSION
 # -----------------------------------
+
+if "page" not in st.session_state:
+    st.session_state.page = "HOME"
+
+if "subject" not in st.session_state:
+    st.session_state.subject = None
+
+if "section" not in st.session_state:
+    st.session_state.section = "Learn"
 
 if "messages" not in st.session_state:
 
@@ -100,139 +108,273 @@ if "messages" not in st.session_state:
 # HEADER
 # -----------------------------------
 
-col1, col2 = st.columns([5, 1])
+col1, col2 = st.columns([5,1])
 
 with col1:
 
-    st.markdown(
-        "# 🦇 Batman Student"
-    )
-
-    st.markdown(
-        '<div class="hero-subtitle">AI Tutor for Class 10 Physics</div>',
-        unsafe_allow_html=True
+    st.title(
+        "🦇 Batman Student"
     )
 
 with col2:
 
-    st.markdown(
-        """
-        <div class="student-badge">
-        👨‍🎓 STD001
-        </div>
-        """,
-        unsafe_allow_html=True
+    st.info(
+        "STD001"
     )
 
 st.divider()
 
-# -----------------------------------
-# QUIZ STATUS
-# -----------------------------------
+# ===================================
+# HOME
+# ===================================
 
-try:
+if st.session_state.page == "HOME":
 
-    from quiz_manager import (
-        is_quiz_active,
-        get_quiz_state
+    st.subheader(
+        "What would you like help with today?"
     )
 
-    if is_quiz_active():
+    c1, c2 = st.columns(2)
 
-        state = get_quiz_state()
+    with c1:
 
-        current_q = (
-            state["current_question"] + 1
+        if st.button(
+            "📚 Learn",
+            use_container_width=True
+        ):
+            st.session_state.page = "LEARN"
+            st.rerun()
+
+        st.button(
+            "🎯 Study Planner",
+            use_container_width=True,
+            disabled=True
         )
 
-        total_q = (
-            state["total_questions"]
+        st.button(
+            "📈 Progress",
+            use_container_width=True,
+            disabled=True
         )
 
-        score = (
-            state["score"]
+    with c2:
+
+        st.button(
+            "📝 Quiz",
+            use_container_width=True,
+            disabled=True
         )
 
-        topic = (
-            state["topics"][0]
-            if state["topics"]
-            else "Quiz"
-        )
+        if st.button(
+            "💬 Super Chat",
+            use_container_width=True
+        ):
+            st.session_state.page = "SUPER_CHAT"
+            st.rerun()
+
+# ===================================
+# LEARN
+# ===================================
+
+elif st.session_state.page == "LEARN":
+
+    st.subheader(
+        "Choose Subject"
+    )
+
+    cols = st.columns(4)
+
+    subjects = get_subjects()
+
+    for i, subject in enumerate(subjects):
+
+        with cols[i]:
+
+            if st.button(
+                subject,
+                use_container_width=True
+            ):
+
+                st.session_state.subject = subject
+                st.session_state.page = "WORKSPACE"
+
+                st.rerun()
+
+    if st.button("⬅ Back"):
+
+        st.session_state.page = "HOME"
+        st.rerun()
+
+# ===================================
+# WORKSPACE
+# ===================================
+
+elif st.session_state.page == "WORKSPACE":
+
+    st.subheader(
+        f"📚 {st.session_state.subject}"
+    )
+
+    cols = st.columns(4)
+
+    sections = get_workspace_sections()
+
+    for i, section in enumerate(sections):
+
+        with cols[i]:
+
+            if st.button(
+                section,
+                use_container_width=True
+            ):
+
+                st.session_state.section = section
+
+    st.divider()
+
+    if st.session_state.section != "Learn":
 
         st.info(
-            f"🎯 {topic.title()} Quiz | Question {current_q}/{total_q} | Score: {score}"
-        )
-
-except:
-    pass
-
-# -----------------------------------
-# CHAT
-# -----------------------------------
-
-st.markdown(
-    "## Conversation"
-)
-
-for msg in st.session_state.messages:
-
-    if msg["role"] == "user":
-
-        st.markdown(
-            f"""
-            <div class="user-card">
-            🔴 {msg["content"]}
-            </div>
-            """,
-            unsafe_allow_html=True
+            f"{st.session_state.section} Module Coming Soon"
         )
 
     else:
 
-        st.markdown(
-            f"""
-            <div class="assistant-card">
-            🦇 {msg["content"]}
-            </div>
-            """,
-            unsafe_allow_html=True
+        for msg in st.session_state.messages:
+
+            if msg["role"] == "user":
+
+                st.markdown(
+                    f"""
+                    <div class="user-card">
+                    {msg["content"]}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+
+            else:
+
+                st.markdown(
+                    f"""
+                    <div class="assistant-card">
+                    {msg["content"]}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+
+        question = st.chat_input(
+            f"Ask Batman about {st.session_state.subject}"
         )
 
-# -----------------------------------
-# INPUT
-# -----------------------------------
+        if question:
 
-question = st.chat_input(
-    "Ask Batman anything..."
-)
+            full_question = (
+                f"{st.session_state.subject}: "
+                f"{question}"
+            )
 
-if question:
+            st.session_state.messages.append(
+                {
+                    "role": "user",
+                    "content": question
+                }
+            )
 
-    st.session_state.messages.append(
-        {
-            "role": "user",
-            "content": question
-        }
+            try:
+
+                answer = ask_batman(
+                    "STD001",
+                    full_question
+                )
+
+            except Exception as e:
+
+                answer = str(e)
+
+            st.session_state.messages.append(
+                {
+                    "role": "assistant",
+                    "content": answer
+                }
+            )
+
+            st.rerun()
+
+    if st.button("⬅ Back to Subjects"):
+
+        st.session_state.page = "LEARN"
+        st.rerun()
+
+# ===================================
+# SUPER CHAT
+# ===================================
+
+elif st.session_state.page == "SUPER_CHAT":
+
+    st.subheader(
+        "💬 Super Chat"
     )
 
-    try:
+    for msg in st.session_state.messages:
 
-        answer = ask_batman(
-            "STD001",
-            question
-        )
+        if msg["role"] == "user":
 
-    except Exception as e:
+            st.markdown(
+                f"""
+                <div class="user-card">
+                {msg["content"]}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-        answer = (
-            f"ERROR:\n\n{str(e)}"
-        )
+        else:
 
-    st.session_state.messages.append(
-        {
-            "role": "assistant",
-            "content": answer
-        }
+            st.markdown(
+                f"""
+                <div class="assistant-card">
+                {msg["content"]}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+    question = st.chat_input(
+        "Ask Batman anything..."
     )
 
-    st.rerun()
+    if question:
+
+        st.session_state.messages.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
+
+        try:
+
+            answer = ask_batman(
+                "STD001",
+                question
+            )
+
+        except Exception as e:
+
+            answer = str(e)
+
+        st.session_state.messages.append(
+            {
+                "role": "assistant",
+                "content": answer
+            }
+        )
+
+        st.rerun()
+
+    if st.button("⬅ Back Home"):
+
+        st.session_state.page = "HOME"
+        st.rerun()

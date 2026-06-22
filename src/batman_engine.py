@@ -3,9 +3,12 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from behavior.intent_classifier import classify_intent
+from behavior.batman_router import choose_skill
+
 from behavior.concept_teacher import get_prompt as concept_prompt
 from behavior.homework_guide import get_prompt as homework_prompt
 from behavior.study_coach import get_prompt as study_prompt
+from behavior.solved_example import get_prompt as solved_example_prompt
 
 from retrieval.retrieval_router import should_retrieve
 
@@ -217,20 +220,15 @@ def ask_batman(
         count = parsed["count"]
 
         if not topics:
-
             return "Which topic?"
 
         if not difficulty:
-
             return "Difficulty? Easy / Medium / Hard"
 
         if count == 0:
-
             return "How many questions?"
 
-        start_quiz(
-            topics
-        )
+        start_quiz(topics)
 
         set_difficulty(
             difficulty
@@ -256,7 +254,7 @@ def ask_batman(
         )
 
     # ---------------------------------
-    # NORMAL CHAT
+    # HISTORY
     # ---------------------------------
 
     history.append(
@@ -266,7 +264,15 @@ def ask_batman(
         }
     )
 
+    # ---------------------------------
+    # BATMAN BRAIN
+    # ---------------------------------
+
     intent = classify_intent(
+        question
+    )
+
+    skill = choose_skill(
         question
     )
 
@@ -274,22 +280,32 @@ def ask_batman(
         intent
     )
 
-    if intent == "CONCEPT":
+    # ---------------------------------
+    # SKILL SELECTION
+    # ---------------------------------
+
+    if skill == "CONCEPT_TEACHER":
 
         behavior_prompt = (
             concept_prompt()
         )
 
-    elif intent == "HOMEWORK":
+    elif skill == "HOMEWORK_GUIDE":
 
         behavior_prompt = (
             homework_prompt()
         )
 
-    elif intent == "STUDY_PLAN":
+    elif skill == "STUDY_COACH":
 
         behavior_prompt = (
             study_prompt()
+        )
+
+    elif skill == "SOLVED_EXAMPLE":
+
+        behavior_prompt = (
+            solved_example_prompt()
         )
 
     else:
@@ -297,6 +313,10 @@ def ask_batman(
         behavior_prompt = (
             concept_prompt()
         )
+
+    # ---------------------------------
+    # RETRIEVAL
+    # ---------------------------------
 
     if retrieve:
 
@@ -315,6 +335,10 @@ def ask_batman(
             "No textbook context needed."
         )
 
+    # ---------------------------------
+    # HISTORY CONTEXT
+    # ---------------------------------
+
     history_text = ""
 
     for msg in history:
@@ -324,7 +348,15 @@ def ask_batman(
             f"{msg['content']}\n"
         )
 
+    # ---------------------------------
+    # PROMPT
+    # ---------------------------------
+
     prompt = f"""
+
+BATMAN SKILL:
+
+{skill}
 
 BATMAN BEHAVIOR:
 
@@ -353,9 +385,7 @@ CURRENT STUDENT QUESTION:
         input=prompt
     )
 
-    answer = (
-        response.output_text
-    )
+    answer = response.output_text
 
     history.append(
         {

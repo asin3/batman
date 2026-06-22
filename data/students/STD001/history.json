@@ -478,5 +478,29 @@
   {
     "role": "assistant",
     "content": "The context gives moment values such as 6000 gf cm, 5000 gf cm, and 1000 gf cm, so the unit used is gf cm."
+  },
+  {
+    "role": "user",
+    "content": "what is force"
+  },
+  {
+    "role": "assistant",
+    "content": "According to **Page 1** of your textbook:\n\n**Force** is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf mass is constant, then:\n\n\\[\nF=ma\n\\]\n\n### Simple meaning\nA force is a **push or pull** that can cause motion or change the shape/size of a body.\n\n### Effects of force\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and change in **shape or size**.\n\n### Unit\nForce is a **vector quantity**, and its S.I. unit is **newton (N)**."
+  },
+  {
+    "role": "user",
+    "content": "solve 2x + 5 = 15"
+  },
+  {
+    "role": "assistant",
+    "content": "Let\u2019s solve it step by step, but you do the final step. \ud83e\udd87\n\nGiven:\n\n\\[\n2x + 5 = 15\n\\]\n\n### Step 1: Remove \\(+5\\)\n\nSubtract 5 from both sides:\n\n\\[\n2x + 5 - 5 = 15 - 5\n\\]\n\nSo:\n\n\\[\n2x = 10\n\\]\n\n### Step 2: Find \\(x\\)\n\nNow divide both sides by 2:\n\n\\[\nx = \\frac{10}{2}\n\\]\n\nWhat is \\(10 \\div 2\\)?"
+  },
+  {
+    "role": "user",
+    "content": "Physics: What is force?"
+  },
+  {
+    "role": "assistant",
+    "content": "According to your textbook **Page 1**:\n\n**Force** is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Simple meaning\n\nA **force** is a **push or pull** acting on a body.\n\n### Effects of force\n\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and also change its **shape or size**.\n\n### Unit\n\nForce is a **vector quantity**, and its S.I. unit is **newton**, written as:\n\n\\[\nN\n\\]"
   }
 ]
