@@ -1,0 +1,28 @@
+[
+    {
+        "question_number": "1",
+        "question": "The particle used in nuclear fission for bombardment\nis:",
+        "options": {
+            "A": "alpha particle",
+            "B": "proton",
+            "C": "beta particle",
+            "D": "neutron."
+        },
+        "correct_answer": "D",
+        "explanation": "neutron",
+        "source": "textbook"
+    },
+    {
+        "question_number": "2",
+        "question": "The temperature required for the process of nuclear\nfusion is nearly :",
+        "options": {
+            "A": "1000 K",
+            "B": "10*K",
+            "C": "10\u00b0K",
+            "D": "107K"
+        },
+        "correct_answer": "D",
+        "explanation": "107 K\nNUMERICALS",
+        "source": "textbook"
+    }
+]

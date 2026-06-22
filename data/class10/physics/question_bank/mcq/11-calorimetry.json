@@ -1,0 +1,28 @@
+[
+    {
+        "question_number": "1",
+        "question": "The S.I. unit of specific latent heat is :",
+        "options": {
+            "A": "cal g!",
+            "B": "cal g! K\"",
+            "C": "kg?",
+            "D": "Jkg! K\""
+        },
+        "correct_answer": "C",
+        "explanation": "J kg?",
+        "source": "textbook"
+    },
+    {
+        "question_number": "2",
+        "question": "The specific latent heat of fusion of water is :",
+        "options": {
+            "A": "80 cal g!",
+            "B": "2260 J g1",
+            "C": "803 g?",
+            "D": "336 J kg?"
+        },
+        "correct_answer": "A",
+        "explanation": "80 cal g\nNUMERICALS",
+        "source": "textbook"
+    }
+]

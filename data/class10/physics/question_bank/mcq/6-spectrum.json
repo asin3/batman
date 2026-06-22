@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "2",
+        "question": "In the white light of sun, maximum scattering by\nthe air molecules present in the earth\u2019s atmosphere\n\nis for :",
+        "options": {
+            "A": "red colour",
+            "B": "yellow colour\n(d) blue colour.\n\nAns. (d) blue colour.",
+            "C": "green colour\n\nTo an astronaut in a space-ship, the earth appears :\n(a) white\n(c) blue\n\n(b) red",
+            "D": "black"
+        },
+        "correct_answer": "C",
+        "explanation": "blue\n\nas\nst\nWN",
+        "source": "textbook"
+    }
+]

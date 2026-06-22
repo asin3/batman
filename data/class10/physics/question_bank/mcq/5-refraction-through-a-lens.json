@@ -1,0 +1,28 @@
+[
+    {
+        "question_number": "1",
+        "question": "A magnifying glass forms :",
+        "options": {
+            "A": "a real and diminished image",
+            "B": "a real and magnified image",
+            "C": "a virtual and magnified image",
+            "D": "a virtual and diminished image."
+        },
+        "correct_answer": "C",
+        "explanation": "a virtual and magnified image.",
+        "source": "textbook"
+    },
+    {
+        "question_number": "2",
+        "question": "The maximum magnifying power of a convex lens\n\nof focal length 5 cm can be :",
+        "options": {
+            "A": "25",
+            "B": "10",
+            "C": "1",
+            "D": "6"
+        },
+        "correct_answer": "D",
+        "explanation": "6",
+        "source": "textbook"
+    }
+]

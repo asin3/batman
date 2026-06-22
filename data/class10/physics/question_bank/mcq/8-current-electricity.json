@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "1",
+        "question": "2.\n\nWhen a current / flows through a resistance R for\ntime f, the electrical energy spent is given by :",
+        "options": {
+            "A": "IRr",
+            "B": "Rr",
+            "C": "IR*t",
+            "D": "PR/t Ams. (b) Re\nAn electrical appliance has a rating 100 W, 120 V.\nThe resistance of element of appliance when in use\nis :\n\n(a) 122\n\n(c) 12002\n\n(b) 144.9\n\n(d) 100 0 Ans, (b) 144 Q\n\nNUMERICALS\n\n1.\n\nA current of 2 A is passed through a coil of\nresistance 75 Q for 2 minates. (a) How much heat\nenergy is produced ? (b) How much charge is passed\nthrough the resistance ?"
+        },
+        "correct_answer": "A",
+        "explanation": "36000 J (b) 240 C\nCalculate the current through a 60 W lamp rated for\n250 V. If the line voltage falls to 200 V, how is the\npower consumed by the bulb affected ?\nAns, 0:24 A, power consumed reduces to 38-4 W\n\nAn electric bulb is rated \u2018100 W, 250 V\". How much\ncurrent will the bulb draw if connected to a 250 V\nsupply ? Ans.0-4.4\nAn electric bulb is rated \u2018220 V, 100 W\". (a) What\nis its resistance ? (b) What safe current can be\npassed through it ? Ans. (a) 484 Q, (b) 0-45 A\nA bulb of power 40 W is used for 12-5 h each day\nfor 30 days. Calculate the electrical energy\nconsumed. Ans, 15 kWh\nAn electric iron is rated \u201c750 W, 230 V\u2019. Calculate\nthe electrical energy consumed by the iron in\n16 hours. Ans. 12 kWh\n\n. An electrical appliance having a resistance of 200 Q\n\nis operated at 200 V. Calculate the energy consumed\n\n\n===== PAGE 37 =====",
+        "source": "textbook"
+    }
+]

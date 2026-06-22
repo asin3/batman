@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "1",
+        "question": "Which of the following quantity remains constant in\n\na uniform circular motion :",
+        "options": {
+            "A": "velocity",
+            "B": "speed",
+            "C": "acceleration",
+            "D": "both velocity and speed."
+        },
+        "correct_answer": "B",
+        "explanation": "speed\nThe centrifugal force is :\n(a) a real force\n(b) the force of reaction of centripetal force\n(c) a fictitous force\n(d) directed towards the centre of circular path\nAns. (c) a fictitous force",
+        "source": "textbook"
+    }
+]

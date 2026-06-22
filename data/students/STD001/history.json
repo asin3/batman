@@ -426,5 +426,21 @@
   {
     "role": "assistant",
     "content": "I can\u2019t give **2 lines on pulleys from the textbook** because the provided textbook context does **not contain any section on pulleys**.\n\nThe given context is from **Page 2**, and it discusses **moment of force/torque**, not pulleys.\n\nPlease send the textbook page that contains **Pulleys**, and I\u2019ll quote exactly **2 lines** from it with the page number."
+  },
+  {
+    "role": "user",
+    "content": "what is centrifugal force?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Centrifugal force** is a force that appears to act on a body **away from the centre of a circular path**.\n\n### Textbook definition\n> A force acting on a body **away from the centre of circular path** is called the **centrifugal force**.\n\n### Important points\n\n- It acts in the direction **opposite** to centripetal force.\n- Its magnitude is the **same as centripetal force**.\n- It is **not a real force**.\n- It is a **fictitious force** felt by an observer moving in a circular path with the body.\n- It is **not the reaction force** of centripetal force, because action and reaction forces act on **different bodies**, not the same body.\n\n### Simple example\n\nWhen you are sitting in a car taking a sharp turn, you feel like you are being pushed **outward**.  \nThat outward feeling is due to **centrifugal force**.\n\n### Easy memory line\n\n**Centrifugal force is the apparent outward force felt by a body moving in a circular path.**"
+  },
+  {
+    "role": "user",
+    "content": "its SI unit"
+  },
+  {
+    "role": "assistant",
+    "content": "If you mean **centrifugal force**, its S.I. unit is:\n\n\\[\n\\textbf{newton} \\; (N)\n\\]\n\nBecause centrifugal force is a **force**, and the S.I. unit of all force is **newton**.\n\n\\[\n1N = 1kg\\,m/s^2\n\\]\n\nNote: This is from general physics knowledge; the given textbook context mainly shows units of **work** and **moment of force**."
   }
 ]

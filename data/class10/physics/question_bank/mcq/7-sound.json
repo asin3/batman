@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "1",
+        "question": "3.\n\nBy reducing the amplitude of a sound wave, its :",
+        "options": {
+            "A": "pitch increases",
+            "B": "loudness decreases",
+            "C": "loudness increases",
+            "D": "pitch decreases."
+        },
+        "correct_answer": "B",
+        "explanation": "loudness decreases\nTwo sounds of same loudness and same pitch\nproduced by the two different instruments differ in\ntheir :\n(a) amplitudes (b) frequencies\n(c) wave forms (d) all the above.\nAns. (c) wave forms\nTwo sounds A and B are of same amplitudes, same\nwave forms but of frequencies f and 2f respectively.\nThen :\n(a) B differ in quality from A\n(b) B is grave, A is shrill\n(c) B is shrill, A is grave\n(d) B is louder than A.\nAns. (c) B is shrill, A is grave.",
+        "source": "textbook"
+    }
+]

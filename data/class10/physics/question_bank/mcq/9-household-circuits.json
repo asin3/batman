@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "3",
+        "question": "How are the two bulbs joined : in series or in\nparallel ?\nAns. (b) 1-neutral, blue, 2-earth, green,\n3-live, brown (c) parallel\n\n1.\n\n2.\n\nThe rating of a fuse connected in the lighting circuit\nis :",
+        "options": {
+            "A": "ISA",
+            "B": "SA",
+            "C": "10A",
+            "D": "zero."
+        },
+        "correct_answer": "B",
+        "explanation": "5A\nA switch must be connected in the :\n\n(a) live wire (b) neutral wire\n\n(c) earth wire\n\n(d) either earth or neutral wire.\nAns. (a) live wire.",
+        "source": "textbook"
+    }
+]

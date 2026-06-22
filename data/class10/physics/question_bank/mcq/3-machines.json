@@ -1,0 +1,28 @@
+[
+    {
+        "question_number": "1",
+        "question": "2.\n\nA single fixed pulley is used because it :",
+        "options": {
+            "A": "has the mechanical advantage greater than 1",
+            "B": "has the velocity ratio less than 1",
+            "C": "gives 100% efficiency",
+            "D": "helps to apply the effort in a convenient\ndirection."
+        },
+        "correct_answer": "D",
+        "explanation": "helps to apply the effort in a\nconvenient direction.\nThe mechanical advantage of an ideal single\nmovable pulley is :\n(a) 1 (b) 2\n(c) less than 2 (d) less than 1.\nA movable pulley is used as :\n(a) a force multiplier\n(b) a speed multiplier\n(c) a device to change the direction of effort\n(d) an energy multiplier\nAns. (a) a force multiplier\n\nAns. (b) 2\n\nNUMERICALS",
+        "source": "textbook"
+    },
+    {
+        "question_number": "1",
+        "question": "2.\n\nA woman draws water from a well using a\nfixed pulley. The mass of bucket and water\ntogether is 6 kg. The force applied by the woman\nis 70 N. Calculate the mechanical advantage.\n(Take g = 10 ms) Ans. 0-857\nA fixed pulley is driven by a 100 kg mass falling at\na rate of 8-0 m in 4-0 s. It lifts a load of 75-0 kgf.\nCalculate :",
+        "options": {
+            "A": "the power input to the pulley taking the force of\ngravity on 1 kg as 10 N.",
+            "B": "the efficiency of the pulley, and",
+            "C": "the height to which the load is raised in 4-0 s.\nAns. (a) 2000 W, (b) 0-75, (c) 8-0 m\nIn a block and tackle system consisting of 3 pulleys,\na load of 75 kgf is raised with an effort of 25 kgf.\nFind : (i) the mechanical advantage, (ii) the velocity\nratio, and (iii) the efficiency.\nAns. (i) 3, (ii) 3, (iii) 100%\nA block and tackle system has 5 pulleys. If an effort\n\nof 1000 N is needed in the downward direction to\nraise a load of 4500 N, calculate :\n\n(a) the mechanical advantage,\n(b) the velocity ratio, and\n(c) the efficiency of the system.\nAns. (a) 45 (b) 5 (c) 90%\n\n. In Fig. 3.32, draw a tackle to lift the\n\nload by applying the force in the\ndownward direction.\n\n(a) Mark in the diagram the direction of\nload and effort.\n\n(b) If the load is raised by 1 m, through\n\nwhat distance will the effort move ?\n\n(c) State the number of strands of tackle\nsupporting the load.",
+            "D": "What is the mechanical advantage of\nthe system ?\nLOAD"
+        },
+        "correct_answer": "B",
+        "explanation": "5m (c)5 (d) 5\n\nFig. 3.32\n\n. A pulley system has a velocity ratio 3 and an\n\nefficiency of 80%. Draw a labelled diagram of this\npulley system. Calculate :\n\n(a) the mechanical advantage of the system, and\n\n(b) the effort required to raise a load of 300 N.\nAns. (a) 2-4, (b) 125 N\n\n. Fig. 3.33 shows a system of four pulleys.\n\nThe upper two pulleys are fixed and the\n\nlower two are movable.\n\n(a) Draw a string around the pulleys.\nAlso show the point of application\nand direction in which the effort is\n\napplied.\n\n(b) What is the velocity ratio of the\nsystem ?\n\n(c) How are load and effort of the pulley\nsystem related ?\n\nl \\&XS\nCIF\n\n(d) What assumption do you make in 4\narriving at your answer in part (c)?\nAns. (b) 4 (c) load = 4 x effort\nAssumption: (1) There is no friction in the\npulley bearings, (2) Weight of lower block of\npulleys is negligible, (3) The effort is applied\ndownwards.\n\nFig. 3.33\n\n. Fig. 3.34 shows a block and tackle system of pulleys\n\nused to lift a load.\n\n(a) How many strands of tackle are supporting the\nload ?\n\n(b) Draw arrows to represent tension in each strand.\n\n(c) What is the mechanical advantage of the\nsystem ?\n\n\n===== PAGE 22 =====\n\n(d) When load is pulled up by a\ndistance 1 m, how far does the\neffort end move ?\n\n(e) How much effort is needed to lift\na load of 100 N ?\n\nAns. (a) 4 (c)4 (d)4m (e\u20ac)25N\n\nEFFORT\n\nLOAD\nFig. 3.34",
+        "source": "textbook"
+    }
+]

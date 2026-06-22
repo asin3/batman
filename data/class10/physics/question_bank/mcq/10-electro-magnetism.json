@@ -1,0 +1,15 @@
+[
+    {
+        "question_number": "1",
+        "question": "2.\n\nThe direction of induced current is obtained by :",
+        "options": {
+            "A": "Fleming\u2019s left hand rule",
+            "B": "Clock rule",
+            "C": "Right hand thumb rule",
+            "D": "Fleming\u2019s right hand rule."
+        },
+        "correct_answer": "D",
+        "explanation": "Fleming\u2019s right hand rule.\nIn a step up transformer :\n(a) N,=N, (b) N,<N,\n(c) N,> N, (d) nothing can be said.\nAns. (c) N, > N,\n\nNUMERICALS",
+        "source": "textbook"
+    }
+]

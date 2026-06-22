@@ -1,12 +1,5 @@
-from openai import OpenAI
-from dotenv import load_dotenv
-import os
+from llm.provider_router import ask_llm
 
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
 
 def classify_intent(question):
 
@@ -25,9 +18,6 @@ Question:
 {question}
 """
 
-    response = client.responses.create(
-        model="gpt-5.5",
-        input=prompt
-    )
+    response = ask_llm(prompt)
 
-    return response.output_text.strip()
+    return response.strip()

@@ -8,7 +8,9 @@ quiz_state = {
     "setup_stage": "",
     "setup_data": {},
     "current_answer": "",
-    "current_explanation": ""
+    "current_explanation": "",
+    "asked_questions": [],
+    "asked_concepts": []
 }
 
 
@@ -16,6 +18,8 @@ def start_quiz(topics):
 
     quiz_state["active"] = True
     quiz_state["topics"] = topics
+    quiz_state["asked_questions"] = []
+    quiz_state["asked_concepts"] = []
 
     return quiz_state
 
@@ -105,6 +109,8 @@ def end_quiz():
     quiz_state["score"] = 0
     quiz_state["current_answer"] = ""
     quiz_state["current_explanation"] = ""
+    quiz_state["asked_questions"] = []
+    quiz_state["asked_concepts"] = []
 
     return quiz_state
 
@@ -140,6 +146,32 @@ def get_current_explanation():
 
     return quiz_state["current_explanation"]
 
+
+def add_asked_question(question):
+
+    quiz_state["asked_questions"].append(
+        question
+    )
+
+    return quiz_state
+
+
+def get_asked_questions():
+
+    return quiz_state["asked_questions"]
+
+def add_asked_concept(concept):
+
+    quiz_state["asked_concepts"].append(
+        concept
+    )
+
+    return quiz_state
+
+
+def get_asked_concepts():
+
+    return quiz_state["asked_concepts"]
 
 def check_answer(student_answer):
 

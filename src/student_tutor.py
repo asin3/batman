@@ -14,7 +14,17 @@ from conversation_manager import load_history
 from conversation_manager import save_history
 
 from quiz_parser import parse_quiz_request
-from quiz_generator import generate_mcq
+
+from quiz_generator import (
+    generate_mcq,
+    extract_concept
+)
+
+from question_bank import (
+    save_question
+)
+
+from llm.provider_router import ask_llm
 
 from quiz_manager import (
     start_quiz,
@@ -26,7 +36,13 @@ from quiz_manager import (
     get_quiz_state,
     set_current_answer,
     check_answer,
-    is_quiz_complete
+    is_quiz_complete,
+    set_current_explanation,
+    get_current_explanation,
+    add_asked_question,
+    get_asked_questions,
+    add_asked_concept,
+    get_asked_concepts
 )
 
 import chromadb
@@ -203,19 +219,80 @@ while True:
 
         context = "\n".join(results["documents"][0])
 
-        mcq = generate_mcq(context, difficulty)
+        mcq = generate_mcq(
+            context,
+            difficulty,
+            get_asked_questions(),
+            get_asked_concepts()
+        )
 
         import re
 
-        match = re.search(
+        question_match = re.search(
+            r"QUESTION:\s*(.*?)\s*A\)",
+            mcq,
+            re.DOTALL
+        )
+
+        correct_match = re.search(
             r"CORRECT:\s*([ABCD])",
             mcq
         )
 
-        if match:
-            set_current_answer(
-                match.group(1)
+        explanation_match = re.search(
+            r"EXPLANATION:\s*(.*)",
+            mcq,
+            re.DOTALL
+        )
+
+        if question_match:
+
+            question_text = (
+                question_match.group(1)
+                .strip()
             )
+
+            add_asked_question(
+                question_text
+            )
+
+            concept = extract_concept(
+                question_text
+            )
+
+            add_asked_concept(
+                concept
+            )
+
+        else:
+
+            question_text = ""
+
+        if correct_match:
+
+            set_current_answer(
+                correct_match.group(1)
+            )
+
+        if explanation_match:
+
+            set_current_explanation(
+                explanation_match.group(1).strip()
+            )
+
+        save_question(
+            difficulty=difficulty,
+            question=question_text,
+            options={},
+            correct_answer=correct_match.group(1)
+            if correct_match
+            else "",
+            explanation=
+            explanation_match.group(1).strip()
+            if explanation_match
+            else "",
+            provider="current_provider"
+        )
 
         question_only = re.split(
             r"CORRECT:",
@@ -241,9 +318,20 @@ while True:
         correct = check_answer(answer)
 
         if correct:
+
             print("\n✅ Correct")
+
         else:
+
             print("\n❌ Wrong")
+
+        print(
+            "\nExplanation:\n"
+        )
+
+        print(
+            get_current_explanation()
+        )
 
         if is_quiz_complete():
 
@@ -277,20 +365,78 @@ while True:
 
         mcq = generate_mcq(
             context,
-            state["difficulty"]
+            state["difficulty"],
+            get_asked_questions(),
+            get_asked_concepts()
         )
 
         import re
 
-        match = re.search(
+        question_match = re.search(
+            r"QUESTION:\s*(.*?)\s*A\)",
+            mcq,
+            re.DOTALL
+        )
+
+        correct_match = re.search(
             r"CORRECT:\s*([ABCD])",
             mcq
         )
 
-        if match:
-            set_current_answer(
-                match.group(1)
+        explanation_match = re.search(
+            r"EXPLANATION:\s*(.*)",
+            mcq,
+            re.DOTALL
+        )
+
+        if question_match:
+
+            question_text = (
+                question_match.group(1)
+                .strip()
             )
+
+            add_asked_question(
+                question_text
+            )
+
+            concept = extract_concept(
+                question_text
+            )
+
+            add_asked_concept(
+                concept
+            )
+
+        else:
+
+            question_text = ""
+
+        if correct_match:
+
+            set_current_answer(
+                correct_match.group(1)
+            )
+
+        if explanation_match:
+
+            set_current_explanation(
+                explanation_match.group(1).strip()
+            )
+
+        save_question(
+            difficulty=difficulty,
+            question=question_text,
+            options={},
+            correct_answer=correct_match.group(1)
+            if correct_match
+            else "",
+            explanation=
+            explanation_match.group(1).strip()
+            if explanation_match
+            else "",
+            provider="current_provider"
+        )
 
         question_only = re.split(
             r"CORRECT:",
@@ -413,10 +559,7 @@ while True:
     # GPT
     # -----------------------------
 
-    response = client.responses.create(
-        model="gpt-5.5",
-        input=prompt
-    )
+    response = ask_llm(prompt)
 
     print("\n")
     print("=" * 70)
@@ -424,14 +567,12 @@ while True:
     print("=" * 70)
     print("\n")
 
-    print(
-        response.output_text
-    )
+    print(response)
 
     history.append(
         {
             "role": "assistant",
-            "content": response.output_text
+            "content": response
         }
     )
 

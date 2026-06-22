@@ -1,0 +1,47 @@
+[
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "Which change would make the moment of a given force about a given axis greater?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "The moment of a force depends on the force and its distance from the axis of rotation. Increasing this distance gives a greater moment.",
+        "source": "generated",
+        "created_by": "current_provider",
+        "timestamp": "2026-06-22T18:50:32.895271"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "Why is it easier to open a door by applying the force at the free end?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "A greater moment is obtained when the force is applied farther from the axis of rotation. The free end of a door is far from the axis, so the same force produces a greater turning effect.",
+        "source": "generated",
+        "created_by": "current_provider",
+        "timestamp": "2026-06-22T18:52:02.288209"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "Why is the handle of a hand flour grinder placed near its rim?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "Placing the handle near the rim increases the distance from the axis of rotation, so the same force produces a greater moment.",
+        "source": "generated",
+        "created_by": "current_provider",
+        "timestamp": "2026-06-22T18:52:30.566159"
+    }
+]
