@@ -36,12 +36,42 @@
         "topic": "",
         "question_type": "INSTA_QUIZ",
         "difficulty": "easy",
-        "question": "Why is the handle of a hand flour grinder placed near its rim?",
+        "question": "For a given force, how can its moment about a given axis of rotation be increased?",
         "options": {},
         "correct_answer": "A",
-        "explanation": "Placing the handle near the rim increases the distance from the axis of rotation, so the same force produces a greater moment.",
+        "explanation": "The moment of a force increases when the force is applied farther from the axis of rotation. This is why a spanner has a long handle and a door is easier to open by applying force at its free end.",
         "source": "generated",
-        "created_by": "current_provider",
-        "timestamp": "2026-06-22T18:52:30.566159"
+        "created_by": "openai",
+        "timestamp": "2026-06-22T20:42:56.941804"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "According to the context, the gravitational force exerted by the Earth on a particle acts towards the:",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "The context states that the Earth attracts every particle towards its centre by the force of gravity.",
+        "source": "generated",
+        "created_by": "openai",
+        "timestamp": "2026-06-22T21:14:48.924287"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "According to the context, what unit is used for the moment of force in the numerical answers?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "The context gives moment values such as 6000 gf cm, 5000 gf cm, and 1000 gf cm, so the unit used is gf cm.",
+        "source": "generated",
+        "created_by": "openai",
+        "timestamp": "2026-06-22T21:15:07.417784"
     }
 ]

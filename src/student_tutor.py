@@ -24,7 +24,10 @@ from question_bank import (
     save_question
 )
 
-from llm.provider_router import ask_llm
+from llm.provider_router import (
+    ask_llm,
+    get_current_provider
+)
 
 from quiz_manager import (
     start_quiz,
@@ -185,7 +188,18 @@ while True:
     # -----------------------------
 
     if question.lower().startswith("quiz"):
+    
+        history.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
 
+        save_history(
+            student_id,
+            history
+        )
         parsed = parse_quiz_request(question)
 
         topics = parsed["topics"]
@@ -291,7 +305,7 @@ while True:
             explanation_match.group(1).strip()
             if explanation_match
             else "",
-            provider="current_provider"
+            provider=get_current_provider()
         )
 
         question_only = re.split(
@@ -302,18 +316,44 @@ while True:
         print("\n")
         print(question_only)
 
+        history.append(
+            {
+                "role": "assistant",
+                "content": question_only
+            }
+        )
+
+        save_history(
+            student_id,
+            history
+        )
+
         continue
 
-    history.append(
-        {
-            "role": "user",
-            "content": question
-        }
-    )
+    if not is_quiz_active():
+
+        history.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
 
     if is_quiz_active():
 
         answer = question.strip()
+
+        history.append(
+        {
+            "role": "user",
+            "content": answer
+        }
+        )
+
+        save_history(
+            student_id,
+            history
+        )
 
         correct = check_answer(answer)
 
@@ -331,6 +371,19 @@ while True:
 
         print(
             get_current_explanation()
+        )
+
+        history.append(
+            {
+                "role": "assistant",
+                "content":
+                    get_current_explanation()
+            }
+        )
+
+        save_history(
+            student_id,
+            history
         )
 
         if is_quiz_complete():
@@ -425,7 +478,7 @@ while True:
             )
 
         save_question(
-            difficulty=difficulty,
+            difficulty=state["difficulty"],
             question=question_text,
             options={},
             correct_answer=correct_match.group(1)
@@ -435,7 +488,7 @@ while True:
             explanation_match.group(1).strip()
             if explanation_match
             else "",
-            provider="current_provider"
+            provider=get_current_provider()
         )
 
         question_only = re.split(
@@ -445,6 +498,18 @@ while True:
 
         print("\n")
         print(question_only)
+
+        history.append(
+            {
+                "role": "assistant",
+                "content": question_only
+            }
+        )
+
+        save_history(
+            student_id,
+            history
+        )
 
         continue
 

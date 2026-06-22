@@ -15,3 +15,7 @@ def ask_llm(prompt):
         return gemini_response(prompt)
 
     return openai_response(prompt)
+
+def get_current_provider():
+
+    return LLM_PROVIDER

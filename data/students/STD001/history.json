@@ -442,5 +442,41 @@
   {
     "role": "assistant",
     "content": "If you mean **centrifugal force**, its S.I. unit is:\n\n\\[\n\\textbf{newton} \\; (N)\n\\]\n\nBecause centrifugal force is a **force**, and the S.I. unit of all force is **newton**.\n\n\\[\n1N = 1kg\\,m/s^2\n\\]\n\nNote: This is from general physics knowledge; the given textbook context mainly shows units of **work** and **moment of force**."
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on force easy 2 questions"
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the context, the gravitational force exerted by the Earth on a particle acts towards the:\n\nA)\nCentre of the Earth\n\nB)\nSurface of the Earth\n\nC)\nAxis of rotation\n\nD)\nFree end of a body\n\n"
+  },
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that the Earth attracts every particle towards its centre by the force of gravity."
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the context, what unit is used for the moment of force in the numerical answers?\n\nA)\ngf cm\n\nB)\nnewton metre per second\n\nC)\nkilogram metre\n\nD)\ncentimetre per gram\n\n"
+  },
+  {
+    "role": "user",
+    "content": "b"
+  },
+  {
+    "role": "user",
+    "content": "b"
+  },
+  {
+    "role": "assistant",
+    "content": "The context gives moment values such as 6000 gf cm, 5000 gf cm, and 1000 gf cm, so the unit used is gf cm."
   }
 ]

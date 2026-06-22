@@ -73,5 +73,50 @@
         "source": "generated",
         "created_by": "current_provider",
         "timestamp": "2026-06-22T20:11:00.355206"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "A 250 gf weight hangs at a distance of 20 cm from point O on a metre rule. What is the moment of this force about O?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "Moment of force is found by multiplying the force by its distance from the axis. So, moment = 250 gf \u00d7 20 cm = 5000 gf cm.",
+        "source": "generated",
+        "created_by": "openai",
+        "timestamp": "2026-06-22T20:25:27.291023"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "For a given force about a given axis of rotation, how can its moment be increased?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "The moment of a force depends on the force and its perpendicular distance from the axis of rotation. For the same force, increasing this distance gives a greater moment.",
+        "source": "generated",
+        "created_by": "openai",
+        "timestamp": "2026-06-22T20:32:59.265628"
+    },
+    {
+        "grade": "10",
+        "subject": "Physics",
+        "chapter": "",
+        "topic": "",
+        "question_type": "INSTA_QUIZ",
+        "difficulty": "easy",
+        "question": "According to the context, what is stated about gravitational force?",
+        "options": {},
+        "correct_answer": "A",
+        "explanation": "The context states that gravitational force is always attractive, and the earth attracts every particle towards its centre.",
+        "source": "generated",
+        "created_by": "openai",
+        "timestamp": "2026-06-22T20:34:25.216824"
     }
 ]

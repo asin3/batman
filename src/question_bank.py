@@ -4,9 +4,13 @@ from datetime import datetime
 
 
 QUESTION_BANK_FILE = Path(
-    "data/class10/physics/question_bank/insta_quiz.json"
+    "data/class10/physics/question_bank/generated/generated_questions.json"
 )
 
+QUESTION_BANK_FILE.parent.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
 def load_questions():
 
