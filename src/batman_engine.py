@@ -257,8 +257,35 @@ def ask_batman(
     # HISTORY
     # ---------------------------------
 
+    mode = "SUPER_CHAT"
+    subject = ""
+
+    if ":" in question:
+
+        possible_subject = (
+            question.split(":")[0]
+            .strip()
+            .upper()
+        )
+
+        if possible_subject in [
+            "PHYSICS",
+            "CHEMISTRY",
+            "MATHS",
+            "BIOLOGY"
+        ]:
+
+            mode = "LEARN"
+
+            subject = (
+                possible_subject
+                .title()
+            )
+
     history.append(
         {
+            "mode": mode,
+            "subject": subject,
             "role": "user",
             "content": question
         }
@@ -343,7 +370,19 @@ def ask_batman(
 
     for msg in history:
 
+        msg_mode = msg.get(
+            "mode",
+            "SUPER_CHAT"
+        )
+
+        msg_subject = msg.get(
+            "subject",
+            ""
+        )
+
         history_text += (
+            f"[{msg_mode}] "
+            f"[{msg_subject}] "
             f"{msg['role']}: "
             f"{msg['content']}\n"
         )
@@ -389,6 +428,8 @@ CURRENT STUDENT QUESTION:
 
     history.append(
         {
+            "mode": mode,
+            "subject": subject,
             "role": "assistant",
             "content": answer
         }

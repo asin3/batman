@@ -1,0 +1,131 @@
+/* ---------------------------------
+   GLOBAL
+---------------------------------- */
+
+.stApp {
+    background: #F8FAFC;
+}
+
+.main {
+    background: #F8FAFC;
+}
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+/* ---------------------------------
+   SIDEBAR
+---------------------------------- */
+
+section[data-testid="stSidebar"] {
+    width: 220px !important;
+    background: #FFFFFF;
+    border-right: 1px solid #E2E8F0;
+}
+
+/* ---------------------------------
+   HEADER
+---------------------------------- */
+
+.drona-header {
+    margin-bottom: 20px;
+}
+
+.drona-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0B2545;
+}
+
+.drona-subtitle {
+    font-size: 16px;
+    color: #64748B;
+}
+
+/* ---------------------------------
+   DASHBOARD
+---------------------------------- */
+
+.dashboard-card {
+
+    background: white;
+
+    border: 1px solid #E2E8F0;
+
+    border-radius: 16px;
+
+    padding: 16px;
+
+    min-height: 100px;
+
+    margin-bottom: 12px;
+
+    box-shadow:
+        0 2px 6px rgba(0,0,0,0.05);
+}
+
+.dashboard-title {
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    color: #0B2545;
+
+    margin-bottom: 10px;
+}
+
+.dashboard-value {
+
+    color: #475569;
+
+    font-size: 15px;
+}
+
+/* ---------------------------------
+   CHAT
+---------------------------------- */
+
+.user-card {
+
+    background: #DBEAFE;
+
+    color: #0B2545;
+
+    padding: 14px;
+
+    border-radius: 14px;
+
+    margin-bottom: 10px;
+}
+
+.assistant-card {
+
+    background: white;
+
+    border: 1px solid #E2E8F0;
+
+    color: #0B2545;
+
+    padding: 18px;
+
+    border-radius: 14px;
+
+    margin-bottom: 12px;
+}
+
+/* ---------------------------------
+   BUTTONS
+---------------------------------- */
+
+.stButton button {
+
+    height: 44px;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+}

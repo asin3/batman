@@ -16,7 +16,10 @@ def get_history_path(student_id):
         student_id
     )
 
-    os.makedirs(student_folder, exist_ok=True)
+    os.makedirs(
+        student_folder,
+        exist_ok=True
+    )
 
     return os.path.join(
         student_folder,
@@ -26,22 +29,66 @@ def get_history_path(student_id):
 
 def load_history(student_id):
 
-    file_path = get_history_path(student_id)
+    file_path = get_history_path(
+        student_id
+    )
 
     if not os.path.exists(file_path):
 
-        with open(file_path, "w", encoding="utf-8") as f:
+        with open(
+            file_path,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
             json.dump([], f)
 
         return []
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        history = json.load(f)
+
+    # -------------------------
+    # Backward Compatibility
+    # -------------------------
+
+    for msg in history:
+
+        if "mode" not in msg:
+
+            msg["mode"] = (
+                "SUPER_CHAT"
+            )
+
+        if "subject" not in msg:
+
+            msg["subject"] = ""
+
+    return history
 
 
-def save_history(student_id, history):
+def save_history(
+    student_id,
+    history
+):
 
-    file_path = get_history_path(student_id)
+    file_path = get_history_path(
+        student_id
+    )
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(history, f, indent=2)
+    with open(
+        file_path,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            history,
+            f,
+            indent=2
+        )

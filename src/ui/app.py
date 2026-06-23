@@ -1,5 +1,6 @@
 import streamlit as st
 import sys
+import json
 from pathlib import Path
 
 sys.path.append(
@@ -9,205 +10,231 @@ sys.path.append(
 )
 
 from batman_engine import ask_batman
-from learn_manager import (
-    get_subjects,
-    get_workspace_sections
+
+from ui.components import (
+    render_header,
+    render_home_card,
+    render_topic_strip,
+    render_chat_history
 )
 
-# -----------------------------------
+# ---------------------------------
 # PAGE
-# -----------------------------------
+# ---------------------------------
 
 st.set_page_config(
-    page_title="Batman Student",
-    page_icon="🦇",
+    page_title="DRONA",
+    page_icon="🎓",
     layout="wide"
 )
 
-# -----------------------------------
-# STYLE
-# -----------------------------------
-
-st.markdown("""
-<style>
-
-.main {
-    background-color: #020617;
-}
-
-.block-container {
-    max-width: 1200px;
-    padding-top: 2rem;
-}
-
-.pillar-card {
-    padding: 25px;
-    border-radius: 16px;
-    text-align: center;
-    border: 1px solid #1E293B;
-    background: #0F172A;
-    margin-bottom: 15px;
-}
-
-.subject-card {
-    padding: 18px;
-    border-radius: 14px;
-    border: 1px solid #1E293B;
-    background: #111827;
-}
-
-.workspace-card {
-    padding: 15px;
-    border-radius: 12px;
-    border: 1px solid #334155;
-    background: #0F172A;
-    text-align: center;
-}
-
-.user-card {
-    background: #111827;
-    border-radius: 14px;
-    padding: 14px;
-    margin-bottom: 10px;
-}
-
-.assistant-card {
-    background: #0F172A;
-    border-radius: 14px;
-    padding: 18px;
-    border: 1px solid #1E293B;
-    margin-bottom: 15px;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
-# -----------------------------------
-# SESSION
-# -----------------------------------
+# ---------------------------------
+# STATE
+# ---------------------------------
 
 if "page" not in st.session_state:
     st.session_state.page = "HOME"
 
 if "subject" not in st.session_state:
-    st.session_state.subject = None
+    st.session_state.subject = "Physics"
 
-if "section" not in st.session_state:
-    st.session_state.section = "Learn"
+if "learn_messages" not in st.session_state:
 
-if "messages" not in st.session_state:
-
-    st.session_state.messages = [
+    st.session_state.learn_messages = [
         {
             "role": "assistant",
-            "content": "Hello. I am Batman. What would you like to learn today?"
+            "content": "Hello. I am Drona. What would you like to learn today?"
         }
     ]
 
-# -----------------------------------
-# HEADER
-# -----------------------------------
+if "superchat_messages" not in st.session_state:
 
-col1, col2 = st.columns([5,1])
+    st.session_state.superchat_messages = [
+        {
+            "role": "assistant",
+            "content": "Hello. I am Drona. How can I help you today?"
+        }
+    ]
 
-with col1:
+# ---------------------------------
+# HISTORY
+# ---------------------------------
 
-    st.title(
-        "🦇 Batman Student"
-    )
+def load_history():
 
-with col2:
+    try:
 
-    st.info(
-        "STD001"
-    )
-
-st.divider()
-
-# ===================================
-# HOME
-# ===================================
-
-if st.session_state.page == "HOME":
-
-    st.subheader(
-        "What would you like help with today?"
-    )
-
-    c1, c2 = st.columns(2)
-
-    with c1:
-
-        if st.button(
-            "📚 Learn",
-            use_container_width=True
-        ):
-            st.session_state.page = "LEARN"
-            st.rerun()
-
-        st.button(
-            "🎯 Study Planner",
-            use_container_width=True,
-            disabled=True
+        history_path = (
+            Path(__file__).resolve().parent.parent.parent
+            / "data"
+            / "students"
+            / "STD001"
+            / "history.json"
         )
 
-        st.button(
-            "📈 Progress",
-            use_container_width=True,
-            disabled=True
-        )
+        with open(
+            history_path,
+            "r",
+            encoding="utf-8"
+        ) as f:
 
-    with c2:
+            return json.load(f)
 
-        st.button(
-            "📝 Quiz",
-            use_container_width=True,
-            disabled=True
-        )
+    except:
 
-        if st.button(
-            "💬 Super Chat",
-            use_container_width=True
-        ):
-            st.session_state.page = "SUPER_CHAT"
-            st.rerun()
+        return []
 
-# ===================================
-# LEARN
-# ===================================
 
-elif st.session_state.page == "LEARN":
+def get_last_learning():
 
-    st.subheader(
-        "Choose Subject"
+    history = load_history()
+
+    for item in reversed(history):
+
+        if item.get("mode") == "LEARN":
+
+            return item.get(
+                "content",
+                ""
+            )
+
+    return "No learning yet"
+
+
+def get_last_chat():
+
+    history = load_history()
+
+    for item in reversed(history):
+
+        if item.get("mode") == "SUPER_CHAT":
+
+            return item.get(
+                "content",
+                ""
+            )
+
+    return "No discussion yet"
+
+# ---------------------------------
+# SIDEBAR
+# ---------------------------------
+
+with st.sidebar:
+
+    st.markdown("## 🎓 DRONA")
+
+    st.caption(
+        "Learn. Think. Understand."
     )
 
-    cols = st.columns(4)
+    st.divider()
 
-    subjects = get_subjects()
-
-    for i, subject in enumerate(subjects):
-
-        with cols[i]:
-
-            if st.button(
-                subject,
-                use_container_width=True
-            ):
-
-                st.session_state.subject = subject
-                st.session_state.page = "WORKSPACE"
-
-                st.rerun()
-
-    if st.button("⬅ Back"):
-
+    if st.button(
+        "🏠 Home",
+        use_container_width=True
+    ):
         st.session_state.page = "HOME"
         st.rerun()
 
-# ===================================
+    st.markdown("### 📚 Learn")
+
+    if st.button(
+        "   Physics",
+        use_container_width=True
+    ):
+        st.session_state.subject = "Physics"
+        st.session_state.page = "WORKSPACE"
+        st.rerun()
+
+    if st.button(
+        "   Chemistry",
+        use_container_width=True
+    ):
+        st.session_state.subject = "Chemistry"
+        st.session_state.page = "WORKSPACE"
+        st.rerun()
+
+    if st.button(
+        "   Maths",
+        use_container_width=True
+    ):
+        st.session_state.subject = "Maths"
+        st.session_state.page = "WORKSPACE"
+        st.rerun()
+
+    if st.button(
+        "   Biology",
+        use_container_width=True
+    ):
+        st.session_state.subject = "Biology"
+        st.session_state.page = "WORKSPACE"
+        st.rerun()
+
+    st.divider()
+
+    if st.button(
+        "💬 Super Chat",
+        use_container_width=True
+    ):
+        st.session_state.page = "SUPER_CHAT"
+        st.rerun()
+
+    st.button(
+        "📝 Quiz (Coming Soon)",
+        disabled=True,
+        use_container_width=True
+    )
+
+    st.button(
+        "📈 Progress (Coming Soon)",
+        disabled=True,
+        use_container_width=True
+    )
+
+# ---------------------------------
+# HEADER
+# ---------------------------------
+
+render_header()
+
+# ---------------------------------
+# HOME
+# ---------------------------------
+
+if st.session_state.page == "HOME":
+
+    st.subheader("Welcome Back")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        render_home_card(
+            "📚 Continue Learning",
+            get_last_learning()
+        )
+
+        render_home_card(
+            "📢 Announcements",
+            "Coming Soon"
+        )
+
+    with col2:
+
+        render_home_card(
+            "💬 Latest Discussion",
+            get_last_chat()
+        )
+
+        render_home_card(
+            "📅 Schedule",
+            "Coming Soon"
+        )
+
+# ---------------------------------
 # WORKSPACE
-# ===================================
+# ---------------------------------
 
 elif st.session_state.page == "WORKSPACE":
 
@@ -215,157 +242,43 @@ elif st.session_state.page == "WORKSPACE":
         f"📚 {st.session_state.subject}"
     )
 
-    cols = st.columns(4)
-
-    sections = get_workspace_sections()
-
-    for i, section in enumerate(sections):
-
-        with cols[i]:
-
-            if st.button(
-                section,
-                use_container_width=True
-            ):
-
-                st.session_state.section = section
+    render_topic_strip(
+        subject=st.session_state.subject,
+        topic="Last Topic",
+        chapter="Current Chapter",
+        grade="10"
+    )
 
     st.divider()
 
-    if st.session_state.section != "Learn":
-
-        st.info(
-            f"{st.session_state.section} Module Coming Soon"
-        )
-
-    else:
-
-        for msg in st.session_state.messages:
-
-            if msg["role"] == "user":
-
-                st.markdown(
-                    f"""
-                    <div class="user-card">
-                    {msg["content"]}
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-            else:
-
-                st.markdown(
-                    f"""
-                    <div class="assistant-card">
-                    {msg["content"]}
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-        question = st.chat_input(
-            f"Ask Batman about {st.session_state.subject}"
-        )
-
-        if question:
-
-            full_question = (
-                f"{st.session_state.subject}: "
-                f"{question}"
-            )
-
-            st.session_state.messages.append(
-                {
-                    "role": "user",
-                    "content": question
-                }
-            )
-
-            try:
-
-                answer = ask_batman(
-                    "STD001",
-                    full_question
-                )
-
-            except Exception as e:
-
-                answer = str(e)
-
-            st.session_state.messages.append(
-                {
-                    "role": "assistant",
-                    "content": answer
-                }
-            )
-
-            st.rerun()
-
-    if st.button("⬅ Back to Subjects"):
-
-        st.session_state.page = "LEARN"
-        st.rerun()
-
-# ===================================
-# SUPER CHAT
-# ===================================
-
-elif st.session_state.page == "SUPER_CHAT":
-
-    st.subheader(
-        "💬 Super Chat"
+    render_chat_history(
+        st.session_state.learn_messages
     )
 
-    for msg in st.session_state.messages:
-
-        if msg["role"] == "user":
-
-            st.markdown(
-                f"""
-                <div class="user-card">
-                {msg["content"]}
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        else:
-
-            st.markdown(
-                f"""
-                <div class="assistant-card">
-                {msg["content"]}
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
     question = st.chat_input(
-        "Ask Batman anything..."
+        f"Ask Drona about {st.session_state.subject}"
     )
 
     if question:
 
-        st.session_state.messages.append(
+        st.session_state.learn_messages.append(
             {
                 "role": "user",
                 "content": question
             }
         )
 
-        try:
+        full_question = (
+            f"{st.session_state.subject}: "
+            f"{question}"
+        )
 
-            answer = ask_batman(
-                "STD001",
-                question
-            )
+        answer = ask_batman(
+            "STD001",
+            full_question
+        )
 
-        except Exception as e:
-
-            answer = str(e)
-
-        st.session_state.messages.append(
+        st.session_state.learn_messages.append(
             {
                 "role": "assistant",
                 "content": answer
@@ -374,7 +287,43 @@ elif st.session_state.page == "SUPER_CHAT":
 
         st.rerun()
 
-    if st.button("⬅ Back Home"):
+# ---------------------------------
+# SUPER CHAT
+# ---------------------------------
 
-        st.session_state.page = "HOME"
+elif st.session_state.page == "SUPER_CHAT":
+
+    st.subheader(
+        "💬 Super Chat"
+    )
+
+    render_chat_history(
+        st.session_state.superchat_messages
+    )
+
+    question = st.chat_input(
+        "Ask Drona anything..."
+    )
+
+    if question:
+
+        st.session_state.superchat_messages.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
+
+        answer = ask_batman(
+            "STD001",
+            question
+        )
+
+        st.session_state.superchat_messages.append(
+            {
+                "role": "assistant",
+                "content": answer
+            }
+        )
+
         st.rerun()
