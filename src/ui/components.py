@@ -2,7 +2,7 @@ import streamlit as st
 
 
 # ---------------------------------
-# APP HEADER
+# HEADER
 # ---------------------------------
 
 def render_header():
@@ -23,16 +23,30 @@ def render_home_card(
     value
 ):
 
+    preview = str(value)
+
+    preview = preview.replace(
+        "\n",
+        " "
+    )
+
+    if len(preview) > 80:
+
+        preview = (
+            preview[:80]
+            + "..."
+        )
+
     with st.container(
         border=True
     ):
 
-        st.subheader(
-            title
+        st.markdown(
+            f"### {title}"
         )
 
         st.write(
-            value
+            preview
         )
 
 
@@ -42,32 +56,36 @@ def render_home_card(
 
 def render_topic_strip(
     subject,
-    topic="Not Started",
-    chapter="Not Available",
+    topic="Force",
+    chapter="Motion",
     grade="10"
 ):
 
-    col1, col2, col3, col4 = st.columns(4)
+    c1, c2, c3, c4 = st.columns(4)
 
-    with col1:
+    with c1:
+
         st.metric(
             "Subject",
             subject
         )
 
-    with col2:
+    with c2:
+
         st.metric(
             "Topic",
             topic
         )
 
-    with col3:
+    with c3:
+
         st.metric(
             "Chapter",
             chapter
         )
 
-    with col4:
+    with c4:
+
         st.metric(
             "Grade",
             grade
@@ -75,7 +93,7 @@ def render_topic_strip(
 
 
 # ---------------------------------
-# LEARN CHAT
+# CHAT HISTORY
 # ---------------------------------
 
 def render_chat_history(

@@ -89,16 +89,29 @@ def get_last_learning():
 
     history = load_history()
 
+    subject = "Unknown"
+    topic = "Not Started"
+
     for item in reversed(history):
 
         if item.get("mode") == "LEARN":
 
-            return item.get(
-                "content",
-                ""
+            subject = item.get(
+                "subject",
+                "Unknown"
             )
 
-    return "No learning yet"
+            topic = item.get(
+                "content",
+                "Not Started"
+            )
+
+            break
+
+    return (
+        f"{subject} → "
+        f"{topic}"
+    )
 
 
 def get_last_chat():

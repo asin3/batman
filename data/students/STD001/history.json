@@ -790,5 +790,41 @@
     "subject": "",
     "role": "assistant",
     "content": "According to your textbook **Page 1**:\n\n**Force** is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf mass is constant:\n\n\\[\nF=ma\n\\]\n\n### Simple meaning\nA **force** is a **push or pull** acting on a body.\n\n### Effects of force\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and change in **shape or size**.\n\n### Unit\nForce is a **vector quantity**, and its S.I. unit is **newton (N)**."
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "user",
+    "content": "what subject am i studying now"
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "assistant",
+    "content": "You are studying **Physics**.\n\nMore specifically, the current textbook section is about **Electricity** \u2014 topics like:\n\n- **Electric current**\n- **Charge**\n- **Potential**\n- **Resistance**\n- **Ohm\u2019s Law**\n\nThe page heading says: **\u201cCurrent, Potential, Resistance; Ohm\u2019s Law.\u201d**"
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "user",
+    "content": "what was the last question i asked you?"
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "assistant",
+    "content": "The last question you asked me was:\n\n**\u201cwhat subject am i studying now\u201d**"
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "user",
+    "content": "No, last question in physics?"
+  },
+  {
+    "mode": "SUPER_CHAT",
+    "subject": "",
+    "role": "assistant",
+    "content": "Your last **Physics** question was:\n\n**\u201cwhat is force\u201d**hiqizo"
   }
 ]
