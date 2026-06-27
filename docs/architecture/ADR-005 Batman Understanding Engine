@@ -1,0 +1,223 @@
+# ADR-005: Batman Understanding Engine
+
+Status: Accepted
+
+Date: 2026-06-27
+
+---
+
+# Context
+
+Batman Student is not a chatbot.
+
+Batman is an educational operating system that must understand students, validate requests, preserve learning context, and continuously improve while minimizing dependence on external AI providers.
+
+Early implementations relied on rule-based parsing (regex, if/else) and direct LLM calls.
+
+As the product grows across tutoring, quizzes, homework, planning and scheduling, this approach becomes difficult to maintain.
+
+Batman requires a dedicated Understanding Layer.
+
+---
+
+# Decision
+
+Batman adopts a Python-first Understanding Engine.
+
+Python owns decision making.
+
+LLMs assist only when Python cannot confidently interpret a request.
+
+Every successful LLM interpretation becomes structured knowledge that Batman can reuse locally.
+
+---
+
+# Responsibilities
+
+## Python Owns
+
+• Workflow
+• State Management
+• Validation
+• Governance
+• Student Memory
+• Knowledge Memory
+• Routing
+• Safety Rules
+• Decision Making
+
+Python is the final authority.
+
+---
+
+## LLM Owns
+
+• Natural language understanding
+• Semantic interpretation
+• Ambiguity resolution
+• Explanation generation
+• Educational reasoning
+
+LLM never owns workflow.
+
+---
+
+# Understanding Pipeline
+
+Student
+
+↓
+
+Understanding
+
+↓
+
+Validation
+
+↓
+
+Memory
+
+↓
+
+Execution
+
+↓
+
+Response
+
+---
+
+# Validation Principles
+
+Batman never assumes.
+
+Every interpreted request is validated.
+
+Examples
+
+Topic exists?
+
+Difficulty supported?
+
+Question count valid?
+
+Chapter available?
+
+If validation fails, Batman asks for clarification.
+
+---
+
+# Clarification
+
+Batman asks only for missing information.
+
+Example
+
+Student
+
+Quiz me on Light
+
+↓
+
+Batman
+
+Which difficulty would you like?
+
+Easy / Medium / Hard
+
+Batman never asks questions whose answers are already known.
+
+---
+
+# Learning
+
+Batman learns through structured memory.
+
+Not through model retraining.
+
+Examples
+
+Optics → Light
+
+Quick Test → Quiz
+
+Challenge Me → Quiz
+
+Practice → Quiz
+
+Every confirmed mapping becomes reusable knowledge.
+
+Future requests should avoid another LLM call whenever possible.
+
+---
+
+# Confidence
+
+Every understanding result carries confidence.
+
+High confidence
+
+Proceed.
+
+Medium confidence
+
+Clarify.
+
+Low confidence
+
+Ask again.
+
+Batman never guesses.
+
+---
+
+# Future Components
+
+src/understanding/
+
+intent_understander.py
+
+entity_extractor.py
+
+validator.py
+
+clarification_engine.py
+
+language_memory.py
+
+decision_router.py
+
+---
+
+# Benefits
+
+• Lower API cost
+
+• Offline capability
+
+• Predictable behaviour
+
+• Continuous local learning
+
+• Smaller code complexity
+
+• Easier testing
+
+• Vendor independence
+
+---
+
+# Consequences
+
+Batman becomes progressively more capable without increasing LLM dependence.
+
+Every future feature shall use the Understanding Engine before business logic executes.
+
+---
+
+# Status
+
+Accepted.
+
+Frozen for Product 1.0.

@@ -1,0 +1,128 @@
+{
+    "version": "1.0",
+    "board": "ICSE",
+    "grade": "10",
+    "subject": "Physics",
+    "chapters": [
+        {
+            "id": "PHY-01",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 1,
+            "name": "Force",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-02",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 2,
+            "name": "Work, Energy and Power",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-03",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 3,
+            "name": "Machines",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-04",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 4,
+            "name": "Refraction of Light at Plane Surfaces",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-05",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 5,
+            "name": "Refraction Through a Lens",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-06",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 6,
+            "name": "Spectrum",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-07",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 7,
+            "name": "Sound",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-08",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 8,
+            "name": "Current Electricity",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-09",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 9,
+            "name": "Household Circuits",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-10",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 10,
+            "name": "Electromagnetism",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-11",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 11,
+            "name": "Calorimetry",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        },
+        {
+            "id": "PHY-12",
+            "board": "ICSE",
+            "grade": "10",
+            "subject": "Physics",
+            "number": 12,
+            "name": "Radioactivity",
+            "document": "physics-textbook.txt",
+            "source": "textbook"
+        }
+    ]
+}

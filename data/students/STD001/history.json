@@ -826,5 +826,229 @@
     "subject": "",
     "role": "assistant",
     "content": "Your last **Physics** question was:\n\n**\u201cwhat is force\u201d**hiqizo"
+  },
+  {
+    "role": "user",
+    "content": "what is centripetal force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "**Centripetal force** is the force that keeps a body moving in a **circular path** and acts **towards the centre** of the circle.\n\n### From your textbook context:\n- The **moon** moves around the Earth because the **gravitational force of Earth** provides the centripetal force.\n- A **stone tied to a string** moves in a circle because the **tension in the string** provides the centripetal force.\n\n### Simple meaning:\n**Centripetal force is the inward force needed for circular motion.**\n\nIf this force is absent, the body will not continue moving in a circular path.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "What is centripetal force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "**Centripetal force** is the force that acts on a body moving in a **circular path** and is directed **towards the centre** of the circle.\n\n### From your textbook context\n- The **moon** moves around the Earth because the **gravitational force of Earth** provides the centripetal force.\n- A **stone tied to a string** moves in a circular path because the **tension in the string** provides the centripetal force.\n\n### Simple meaning\n**Centripetal force is the inward force needed to keep an object moving in a circle.**\n\nIf this force is not present, the body will not continue moving in the circular path.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "What is centrifugal force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "**Centrifugal force** is a force acting on a body **away from the centre of a circular path**.\n\n### Textbook definition\n> A force acting on a body away from the centre of circular path is called the **centrifugal force**.\n\n### Important points\n\n- It acts **opposite** to centripetal force.\n- Its magnitude is the **same as centripetal force**.\n- It is **not the reaction force** of centripetal force.\n- It is **not a real force**; it is a **fictitious force** felt by an observer moving in the circular path with the body.\n\n### Simple example\nWhen you sit in a car taking a sharp turn, you feel as if you are being pushed **outward**. That outward feeling is due to **centrifugal force**.\n\n### Easy memory line\n**Centrifugal force is the apparent outward force felt by a body moving in a circular path.**",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "what is force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "A **force** is a **push or pull** acting on a body.\n\n### Textbook definition  \nForce is defined as the **rate of change of linear momentum** of a body:\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf mass is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Effects of force\n\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and change in **size or shape**.\n\n### Unit  \nForce is a **vector quantity**, and its S.I. unit is **newton**, written as **N**.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on current easy, 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit for electric current?\n\nA) Ampere\nB) Volt\nC) Ohm\nD) Coulomb\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states, \"current is measured in coulomb per second which has been given the name ampere (symbol A)\". Therefore, Ampere is the S.I. unit for electric current.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy, 2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nA man opens a nut by applying a force of 150 N using a lever handle of length 0.4 m. If he wants to open it by applying a force of 60 N, what should be the length of the handle according to the provided context?\n\nA) 1 m\nB) 0.4 m\nC) 2 m\nD) 0.8 m\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "d",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states, \"When effort = 150 N, effort arm = 0-4 m. When effort = 60 N, effort arm = ? Load and load arm remains same in both cases. 150 x 0-4 = 60 x effort arm or Effort arm (i.e., length of handle) = 150x0-4 / 60 = 1m.\"",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the provided text, what two kinds of motion can a rigid body have when acted upon by a force?\n\nA) Translational and Vibrational motion\nB) Rotational and Oscillatory motion\nC) Linear and Rotational motion\nD) Linear and Curvilinear motion\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "d",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The text explicitly states under section 1.1 TRANSLATIONAL AND ROTATIONAL MOTIONS: \"A rigid body when acted upon by a force, can have two kinds of motion : (1) linear or translational motion, and (2) rotational motion.\"",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on current easy 2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the provided context, current is defined as the rate of flow of what?\n\nA) Energy\nB) Power\nC) Charge\nD) Resistance\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "c",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states: \"Current is defined as the rate of flow of charge.\"",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nThe current in a circuit is measured by which instrument?\n\nA) ammeter\nB) voltmeter\nC) ohmmeter\nD) thermometer\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The provided text states, \"The current in a circuit is measured by an ammeter by connecting it in series in that circuit...\"",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the provided text, what is the effect of applying a force on a rigid body?\n\nA) It causes a change in its size or shape.\nB) It causes only motion in it.\nC) It causes both motion and a change in size or shape.\nD) It causes neither motion nor a change in size or shape.\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "c",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context explicitly states: \"a force when applied on a rigid body can cause only the motion in it\".",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "what is force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "According to your textbook **Page 1**:\n\n**Force** is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass of the body is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Simple meaning\n\nA **force** is a **push or pull** acting on a body.\n\n### Effects of force\n\n-   On a **rigid body**, force can cause **only motion** in it.\n    -   *Example*: Pushing a ball makes it move.\n\n-   On a **non-rigid body**, force can cause **both** a change in its **size or shape** and **motion** in it.\n    -   *Example*: Pressing a sponge changes its shape.\n\n### Types of motion (from Page 2)\n\nA force can cause two kinds of motion in a rigid body:\n\n1.  **Linear or translational motion** (moving in a straight line)\n2.  **Rotational motion** (turning about a point)\n\n### Important points (from Page 1)\n\n-   Force is a **vector quantity**.\n-   Its S.I. unit is **newton**, written as **N**.\n-   Another unit is **kilogram-force**, written as **kgf**.\n\n\\[\n1\\,kgf = g\\,N\n\\]\n\n(where \\(g\\) is the acceleration due to gravity, usually \\(9.8\\,m/s^2\\))",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on light"
+  },
+  {
+    "role": "user",
+    "content": "easy"
+  },
+  {
+    "role": "assistant",
+    "content": "It sounds like you're ready to finish for now!\n\nIf you have any more questions about physics or anything else you're studying, just let me know. I'm here to help you understand things clearly.\n\nUntil next time, keep learning!"
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It was good working with you, Student.\n\nFeel free to come back if you have more questions about machines or any other concepts. Keep learning!"
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. If you have any more questions or need help with your studies, just let me know. I'm ready to assist when you are!"
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It was a pleasure learning with you, student!\n\nIf you need any more help understanding concepts or tackling tough problems, just let me know. Batman is always ready to assist!"
+  },
+  {
+    "role": "assistant",
+    "content": "Understood! If you need help with anything else, just let me know. I'm always ready to assist."
+  },
+  {
+    "role": "assistant",
+    "content": "Understood, Student.\n\nIt was good working with you. If you need my help again, just call!"
   }
 ]

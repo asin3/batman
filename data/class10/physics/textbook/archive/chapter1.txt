@@ -1,0 +1,190 @@
+
+
+===== PAGE 1 =====
+
+forces concept; moment of a force; forces in equilibrium; centre of gravity, (discussions using sme
+
+and aie direct a
+
+mn using a metre rule suspended by two spring balances with slotted weights fags from it; simple m
+centre of gravity (qualitative only) with examples of some regular bodies and irregular lamina. 3
+
+In class IX, we have read that a force when applied on a rigid body can cause only the motion
+in it, while when applied on a non-rigid body can cause both the change in its size or shape and
+the motion in it. In mathematical form, force applied on a body is defined as the rate of change in
+
+aay) >
+
+> dp >
+ls F =ma
+
+its linear momentum i.e, F = a
+vector quantity and its S.I. unit is newton (symbol N) or kilogram-force (symbol kgf) where
+
+(if mass m is constant). The force is a
+
+1 kgf = g N if g is the acceleration due to gravity (= 9-8 m s~ on average).
+
+(A) MOMENT OF A FORCE AND EQUILIBRIUM
+
+1.1. TRANSLATIONAL AND ROTATIONAL
+
+MOTIONS
+
+A rigid body when acted upon by a force, can
+have two kinds of motion :
+
+(1) linear or translational motion, and
+(2) rotational motion.
+
+(1) Linear or translational motion
+
+When a force acts on a stationary rigid body
+which is free to move, the body starts moving in
+a straight path in the direction of force. This is
+
+Ball
+
+Direction of
+—— motion
+
+Fig. 1.1 Translational motion
+
+called the linear or translational motion. For
+example in Fig. 1.1, on pushing a ball lying on
+a floor, it begins to move.
+
+(2) Rotational motion
+
+If the body is pivoted at a point and the force
+is applied on the body at a suitable point, it
+rotates the body about the axis passing through
+the pivoted point. This is the turning effect of the
+force and the motion of body is called the
+rotational motion. For example, if a wheel is
+pivoted at its centre and a force is applied
+tangentially on its rim as iauas
+shown in Fig. 1.2, the ~~
+wheel rotates about its
+centre. Similarly when a
+force is applied normally
+
+on the handle of a door, Fig. 1.2 Rotational motion
+
+===== PAGE 2 =====
+
+the door begins to rotate about an axis passing
+through the hinges on which the door rests.
+
+1.2 MOMENT (TURNING EFFECT) OF A
+FORCE OR TORQUE
+
+Consider a body which is
+pivoted at a point O. If a
+force F is applied horizontally
+on the body with its line of
+action in the direction FP as
+shown in Fig. 1.3, the force is
+unable to produce linear
+motion of the body in its
+direction because the body is not free to move,
+but this force turns (or rotates) the body about the
+vertical axis passing through the point O, in the
+direction shown by the arrow in Fig. 1.3 (i.e., the
+force rotates the body anticlockwise).
+
+Fig. 1.3 Moment
+of a force
+
+Factors affecting the turning of a body
+
+The turning effect on a body by a force
+depends on the following two factors :
+
+(1)
+(2)
+
+the magnitude of the force applied, and
+
+the distance of line of action of the force
+from the axis of rotation (or pivoted point).
+
+Indeed, the turning effect on the body depends
+on the product of both the above stated factors.
+This product is called the moment of force (or
+torque). Thus, the body rotates due to the moment
+of force (or torque) about the pivoted point. In
+other words,
+
+“3
+
+Measurement of moment of force (or torque)
+
+of r
+at
+
+In Fig. 1.3, the line of action of force F is
+shown by the dotted line FP and the
+perpendicular drawn from the pivoted point O on
+the line of action of force is OP. Therefore,
+
+ome
+et 5 |
+
+Moment of force about the axis passing through the
+point O
+
+Force x Perpendicular distance
+of force from the point O
+F x OP
+
+(1.1)
+
+Note : For producing maximum turning
+effect on a body by a given force, the force is
+applied on the body at a point for which the
+
+perpendicular distance of line of action of the
+force from the axis of rotation is maximum so
+that the given force may provide the maximum
+torque to turn the body.
+
+Units of moment of force
+Unit of moment of force
+= unit of force x unit of distance
+
+The S.I. unit of force is newton and that of
+distance is metre, so the S.I. unit of moment
+of force is newton x metre. This is abbreviated
+as N m.*
+
+The C.GS. unit of moment of force is
+dyne x cm.
+
+But if force is measured in gravitational unit,
+then the unit of moment of force in S.I. system
+is kgf x m and in C.GS. system, the unit is
+gf x cm.
+
+These units are related as follows :
+
+1 N m= 10° dyne x 10? cm
+= 10’ dyne cm
+1 kgf x m=9-'8 Nm
+1 gf x cm = 980 dyne cm
+
+Clockwise and anticlockwise moments :
+Conventionally, if the effect on the body is to turn
+it anticlockwise, moment of force is called the
+anticlockwise moment and it is taken positive,
+while if the effect on the body is to turn it
+clockwise, the moment of force is called the
+clockwise moment and it is taken negative.
+
+.(1.2)
+
+and
+
+* The unit N m of moment of force (or torque) is not written joule (J).
+However the unit N m for work or energy is written joule (J) because
+torque is a vector, while work or energy is a sealar quantity.

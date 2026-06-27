@@ -1,0 +1,8 @@
+{
+    "layout": "ICSE_SELINA",
+    "parser": "CONTENTS_BASED",
+    "chapter_style": "NUMBER_TITLE",
+    "topic_style": "DECIMAL",
+    "unit_style": "LETTER_SECTION",
+    "page_style": "PAGE_RANGE"
+}

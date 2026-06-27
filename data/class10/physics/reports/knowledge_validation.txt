@@ -1,0 +1,28 @@
+============================================================
+BATMAN KNOWLEDGE VALIDATION REPORT
+============================================================
+
+Board          : ICSE
+Grade          : 10
+Subject        : Physics
+
+Master Source  : physics-textbook.txt
+
+TEXTBOOK
+------------------------------------------------------------
+Characters      : 874808
+Words           : 164738
+Lines           : 32356
+Chapters        : 1
+Pages           : 302
+MCQ Sections    : 34
+Exercise        : 1
+Numericals      : 39
+Examples        : 159
+Figure Mentions : 884
+
+VECTOR DATABASE
+------------------------------------------------------------
+Exists : True
+
+STATUS : PASS

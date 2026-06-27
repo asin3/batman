@@ -1,0 +1,20 @@
+{
+    "unit_rule": {
+        "enabled": true,
+        "regex": "^\\([A-Z]\\)\\s+",
+        "matches": 7,
+        "confidence": 0.005
+    },
+    "chapter_rule": {
+        "regex": "^\\d+[.:]\\s+.+",
+        "matches": 39
+    },
+    "topic_rule": {
+        "regex": "^\\d+\\.\\d+\\s+.+",
+        "matches": 6
+    },
+    "page_rule": {
+        "regex": "\\d+\\s*[-–]\\s*\\d+$",
+        "matches": 13
+    }
+}

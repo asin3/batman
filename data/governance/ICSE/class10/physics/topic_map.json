@@ -1,0 +1,565 @@
+{
+    "board": "ICSE",
+    "grade": "10",
+    "subject": "Physics",
+    "version": "2.0",
+    "topics": [
+        {
+            "chapter_id": "PHY-01",
+            "chapter": "Work, Energy and Power",
+            "topics": [
+                {
+                    "name": "MOMENT (TURNING EFFECT) OF A"
+                },
+                {
+                    "name": "COUPLE"
+                },
+                {
+                    "name": "EQUILIBRIUM OF BODIES"
+                },
+                {
+                    "name": "PRINCIPLE OF MOMENTS"
+                },
+                {
+                    "name": "CEN"
+                },
+                {
+                    "name": "UNIFORM CIRCULAR MOTION"
+                },
+                {
+                    "name": "WORK (Fig. 2.1), a cyclist while pedalling a cycle, a"
+                },
+                {
+                    "name": "MEASUREMENT OF WORK"
+                },
+                {
+                    "name": "WORK DONE BY THE FORCE OF"
+                },
+                {
+                    "name": "UNITS OF WORK"
+                },
+                {
+                    "name": "POWER (P = W/t)"
+                },
+                {
+                    "name": "UNITS OF POWER"
+                },
+                {
+                    "name": "ENERGY (Energy as work done)"
+                },
+                {
+                    "name": "UNITS OF ENERGY"
+                },
+                {
+                    "name": "MECHANICAL ENERGY AND"
+                },
+                {
+                    "name": "POTENTIAL ENERGY (U)"
+                },
+                {
+                    "name": "GRAVITATIONAL POTENTIAL ENERGY"
+                },
+                {
+                    "name": "KINETIC ENERGY"
+                },
+                {
+                    "name": "CONVERSION OF POTENTIAL ENERGY"
+                },
+                {
+                    "name": "DIFFERENT FORMS OF ENERGY"
+                },
+                {
+                    "name": "CONVERSION OF ONE FORM OF"
+                },
+                {
+                    "name": "PRINCIPLE OF CONSERVATION OF"
+                },
+                {
+                    "name": "THEORETICAL VERIFICATION OF"
+                },
+                {
+                    "name": "APPLICATION OF PRINCIPLE OF"
+                },
+                {
+                    "name": "MACHINES"
+                },
+                {
+                    "name": "RELATIONSHIP BETWEEN EFFICIENCY"
+                },
+                {
+                    "name": "LEVERS"
+                },
+                {
+                    "name": "KINDS OF LEVERS"
+                },
+                {
+                    "name": "EXAMPLES OF EACH CLASS OF LEVERS"
+                },
+                {
+                    "name": "PULLEY"
+                },
+                {
+                    "name": "SINGLE FIXED PULLEY"
+                },
+                {
+                    "name": "A SINGLE MOVABLE PULLEY"
+                },
+                {
+                    "name": "COMBINATION OF PULLEYS"
+                },
+                {
+                    "name": "REFRACTION OF LIGHT"
+                },
+                {
+                    "name": "LAWS OF REFRACTION"
+                },
+                {
+                    "name": "SPEED OF LIGHT IN DIFFERENT MEDIA;"
+                },
+                {
+                    "name": "PRINCIPLE OF REVERSIBILITY OF"
+                },
+                {
+                    "name": "EXPERIMENTAL VERIFICATION OF"
+                },
+                {
+                    "name": "REFRACTION OF LIGHT THROUGH A"
+                },
+                {
+                    "name": "MULTIPLE IMAGES IN A THICK PLANE"
+                },
+                {
+                    "name": "PRISM"
+                },
+                {
+                    "name": "REFRACTION OF LIGHT THROUGH A"
+                },
+                {
+                    "name": "REAL AND APPARENT DEPTH"
+                },
+                {
+                    "name": "APPARENT BENDING OF A STICK"
+                },
+                {
+                    "name": "TRANSMISSION OF LIGHT FROM A"
+                },
+                {
+                    "name": "CRITICAL ANGLE"
+                },
+                {
+                    "name": "RELATIONSHIP BETWEEN THE"
+                },
+                {
+                    "name": "TOTAL INTERNAL REFLECTION"
+                },
+                {
+                    "name": "TOTAL INTERNAL REFLECTION IN A"
+                },
+                {
+                    "name": "SOME CONSEQUENCES OF TOTAL"
+                },
+                {
+                    "name": "LENS A convex lens may be of the following three"
+                },
+                {
+                    "name": "ACTION OF A LENS AS A SET OF"
+                },
+                {
+                    "name": "REFRACTION OF LIGHT THROUGH"
+                },
+                {
+                    "name": "PRINCIPAL (OR CONSTRUCTION)"
+                },
+                {
+                    "name": "CONSTRUCTION OF RAY DIAGRAM"
+                },
+                {
+                    "name": "CHARACTERISTICS AND LOCATION"
+                },
+                {
+                    "name": "CHARACTERISTICS AND LOCATION"
+                },
+                {
+                    "name": "DIFFERENCE BETWEEN THE IMAGE FORMED BY A CONVEX AND A CONCAVE"
+                },
+                {
+                    "name": "SIGN CONVENTION OF MEASUREMENT"
+                },
+                {
+                    "name": "LENS FORMULA 2 - 1 = 3"
+                },
+                {
+                    "name": "LINEAR MAGNIFICATION"
+                },
+                {
+                    "name": "POWER OF A LENS"
+                },
+                {
+                    "name": "MAGNIFYING GLASS OR SIMPLE"
+                },
+                {
+                    "name": "APPLICATION OF LENSES"
+                },
+                {
+                    "name": "EXPERIMENTAL DETERMINATION OF"
+                },
+                {
+                    "name": "TO DIFFERENTIATE BETWEEN A"
+                },
+                {
+                    "name": "DEVIATION PRODUCED BY A"
+                },
+                {
+                    "name": "COLOURS IN WHITE LIGHT WITH THEIR"
+                },
+                {
+                    "name": "DISPERSION OF WHITE LIGHT"
+                },
+                {
+                    "name": "ELECTROMAGNETIC SPECTRUM"
+                },
+                {
+                    "name": "SCATTERING OF LIGHT"
+                },
+                {
+                    "name": "SOME APPLICATIONS OF SCATTERING"
+                },
+                {
+                    "name": "SOUND WAVES"
+                },
+                {
+                    "name": "REFLECTION OF SOUND WAVES"
+                },
+                {
+                    "name": "ECHO"
+                },
+                {
+                    "name": "DETERMINATION OF SPEED OF"
+                },
+                {
+                    "name": "USE OF ECHOES"
+                },
+                {
+                    "name": "NATURAL VIBRATIONS"
+                },
+                {
+                    "name": "DAMPED VIBRATIONS"
+                },
+                {
+                    "name": "RESONANCE (a special case of forced"
+                },
+                {
+                    "name": "SOME EXAMPLES OF RESONANCE"
+                },
+                {
+                    "name": "CHARACTERISTICS OF SOUND"
+                },
+                {
+                    "name": "MUSIC AND NOISE"
+                },
+                {
+                    "name": "CONCEPT OF CHARGE"
+                },
+                {
+                    "name": "CONCEPT OF CURRENT"
+                },
+                {
+                    "name": "CONCEPT OF POTENTIAL AND"
+                },
+                {
+                    "name": "CONCEPT OF RESISTANCE"
+                },
+                {
+                    "name": "OHM’S LAW (V= JR)"
+                },
+                {
+                    "name": "EXPERIMENTAL VERIFICATION OF"
+                },
+                {
+                    "name": "OHMIC AND NON-OHMIC RESISTORS"
+                },
+                {
+                    "name": "SPECIFIC RESISTANCE (OR RESISTIVITY)"
+                },
+                {
+                    "name": "CHOICE OF MATERIAL OF A WIRE"
+                },
+                {
+                    "name": "SUPERCONDUCTORS"
+                },
+                {
+                    "name": "ELECTRO-MOTIVE FORCE (E.M.F.) OF"
+                },
+                {
+                    "name": "TERMINAL VOLTAGE OF A CELL"
+                },
+                {
+                    "name": "INTERNAL RESISTANCE OF A CELL"
+                },
+                {
+                    "name": "COMBINATION OF RESISTORS"
+                },
+                {
+                    "name": "802. Z4,"
+                },
+                {
+                    "name": "ELECTRICAL ENERGY"
+                },
+                {
+                    "name": "MEASUREMENT OF ELECTRICAL"
+                },
+                {
+                    "name": "ELECTRICAL POWER AND"
+                },
+                {
+                    "name": "COMMERCIAL UNIT OF ELECTRICAL"
+                },
+                {
+                    "name": "POWER RATING OF COMMON"
+                },
+                {
+                    "name": "HOUSEHOLD CONSUMPTION OF"
+                },
+                {
+                    "name": "TRANSMISSION OF POWER FROM"
+                },
+                {
+                    "name": "POWER DISTRIBUTION TO A HOUSE"
+                },
+                {
+                    "name": "HOUSE WIRING (RING SYSTEM)"
+                },
+                {
+                    "name": "FUSE"
+                },
+                {
+                    "name": "SWITCHES"
+                },
+                {
+                    "name": "CIRCUITS WITH DUAL CONTROL"
+                },
+                {
+                    "name": "EARTHING (GROUNDING)"
+                },
+                {
+                    "name": "THREE-PIN PLUG AND SOCKET"
+                },
+                {
+                    "name": "COLOUR CODING OF WIRES IN A"
+                },
+                {
+                    "name": "HIGH TENSION WIRES"
+                },
+                {
+                    "name": "SAFETY PRECAUTIONS WHILE USING"
+                },
+                {
+                    "name": "OERSTED’S EXPERIMENT ON THE"
+                },
+                {
+                    "name": "MAGNETIC FIELD AND FIELD LINES"
+                },
+                {
+                    "name": "RULE TO FIND THE DIRECTION OF"
+                },
+                {
+                    "name": "MAGNETIC FIELD DUE TO CURRENT"
+                },
+                {
+                    "name": "MAGNETIC FIELD DUE TO A"
+                },
+                {
+                    "name": "ELECTROMAGNET"
+                },
+                {
+                    "name": "PERMANENT MAGNET"
+                },
+                {
+                    "name": "COMPARISON OF AN ELECTRO"
+                },
+                {
+                    "name": "ADVANTAGES OF AN ELECTRO-"
+                },
+                {
+                    "name": "USES OF ELECTROMAGNET"
+                },
+                {
+                    "name": "FORCE ON A CURRENT CARRYING"
+                },
+                {
+                    "name": "SIMPLE D.C. MOTOR"
+                },
+                {
+                    "name": "ELECTROMAGNETIC INDUCTION"
+                },
+                {
+                    "name": "FARADAY’S LAWS OF ELECTRO-"
+                },
+                {
+                    "name": "A.C. GENERATOR"
+                },
+                {
+                    "name": "DISTINCTION BETWEEN AN A.C."
+                },
+                {
+                    "name": "TRANSFORMER"
+                },
+                {
+                    "name": "CONCEPT OF HEAT"
+                },
+                {
+                    "name": "CONCEPT OF TEMPERATURE"
+                },
+                {
+                    "name": "FACTORS AFFECTING THE QUANTITY"
+                },
+                {
+                    "name": "DIFFERENCE BETWEEN HEAT AND TEMPERATURE"
+                },
+                {
+                    "name": "THERMAL (OR HEAT) CAPACITY"
+                },
+                {
+                    "name": "SPECIFIC HEAT CAPACITY"
+                },
+                {
+                    "name": "DISTINCTION BETWEEN THE HEAT"
+                },
+                {
+                    "name": "SPECIFIC HEAT CAPACITY OF SOME"
+                },
+                {
+                    "name": "CALORIMETER"
+                },
+                {
+                    "name": "PRINCIPLE OF METHOD OF MIXTURES"
+                },
+                {
+                    "name": "NATURAL PHENOMENA AND"
+                },
+                {
+                    "name": "SOME EXAMPLES OF HIGH AND"
+                },
+                {
+                    "name": "CHANGE OF PHASE (STATE)"
+                },
+                {
+                    "name": "MELTING AND FUSION"
+                },
+                {
+                    "name": "HEATING CURVE OF ICE DURING"
+                },
+                {
+                    "name": "CHANGE IN VOLUME ON MELTING"
+                },
+                {
+                    "name": "EFFECT OF PRESSURE ON THE"
+                },
+                {
+                    "name": "EFFECT OF IMPURITIES ON THE"
+                },
+                {
+                    "name": "VAPORISATION OR BOILING"
+                },
+                {
+                    "name": "HEATING CURVE FOR WATER"
+                },
+                {
+                    "name": "CHANGE IN VOLUME ON BOILING"
+                },
+                {
+                    "name": "EFFECT OF PRESSURE ON THE"
+                },
+                {
+                    "name": "EFFECT OF IMPURITIES ON THE"
+                },
+                {
+                    "name": "LATENT HEAT AND SPECIFIC"
+                },
+                {
+                    "name": "SPECIFIC LATENT HEAT OF FUSION"
+                },
+                {
+                    "name": "EXPLANATION OF LATENT HEAT OF"
+                },
+                {
+                    "name": "NATURAL CONSEQUENCES OF"
+                },
+                {
+                    "name": "ATOMIC MODEL"
+                },
+                {
+                    "name": "ISOTOPES"
+                },
+                {
+                    "name": "ISOBARS"
+                },
+                {
+                    "name": "ISOTONES"
+                },
+                {
+                    "name": "RADIOACTIVITY"
+                },
+                {
+                    "name": "RADIOACTIVITY AS EMISSION OF"
+                },
+                {
+                    "name": "PROPERTIES OF ALPHA PARTICLES"
+                },
+                {
+                    "name": "PROPERTIES OF BETA PARTICLES"
+                },
+                {
+                    "name": "PROPERTIES OF GAMMA RADIATIONS"
+                },
+                {
+                    "name": "DISTINCTION BETWEEN THE PROPERTIES OF a, B AND y RADIATIONS"
+                },
+                {
+                    "name": "CHANGES WITHIN THE NUCLEUS"
+                },
+                {
+                    "name": "USES OF RADIOACTIVITY — RADIO"
+                },
+                {
+                    "name": "SOURCES OF HARMFUL RADIATIONS"
+                },
+                {
+                    "name": "HARMFUL EFFECTS OF RADIATION"
+                },
+                {
+                    "name": "SAFETY PRECEDUTURE WHILE"
+                },
+                {
+                    "name": "BACKGROUND RADIATIONS"
+                },
+                {
+                    "name": "NUCLEAR ENERGY"
+                },
+                {
+                    "name": "NUCLEAR FISSION"
+                }
+            ]
+        },
+        {
+            "chapter_id": "PHY-02",
+            "chapter": ", we have discussed the",
+            "topics": []
+        },
+        {
+            "chapter_id": "PHY-03",
+            "chapter": ", article 9.4,",
+            "topics": []
+        },
+        {
+            "chapter_id": "PHY-04",
+            "chapter": "===== PAGE 208 =====",
+            "topics": []
+        },
+        {
+            "chapter_id": "PHY-05",
+            "chapter": "2 Radioactivity",
+            "topics": []
+        }
+    ]
+}

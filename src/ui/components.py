@@ -61,34 +61,18 @@ def render_topic_strip(
     grade="10"
 ):
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2 = st.columns(2)
 
     with c1:
 
-        st.metric(
-            "Subject",
-            subject
+        st.markdown(
+            f"### {topic}"
         )
 
     with c2:
 
-        st.metric(
-            "Topic",
-            topic
-        )
-
-    with c3:
-
-        st.metric(
-            "Chapter",
-            chapter
-        )
-
-    with c4:
-
-        st.metric(
-            "Grade",
-            grade
+        st.markdown(
+            f"### {chapter}"
         )
 
 

@@ -1,11 +1,11 @@
-LLM_PROVIDER = "openai"
-#LLM_PROVIDER = "gemini"
+#LLM_PROVIDER = "openai"
+LLM_PROVIDER = "gemini"
 
-from llm.gemini_provider import (
+from src.llm.gemini_provider import (
     generate_response as gemini_response
 )
 
-from llm.openai_provider import (
+from src.llm.openai_provider import (
     generate_response as openai_response
 )
 

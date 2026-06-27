@@ -3,33 +3,35 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 
-from behavior.intent_classifier import classify_intent
-from behavior.concept_teacher import get_prompt as concept_prompt
-from behavior.homework_guide import get_prompt as homework_prompt
-from behavior.study_coach import get_prompt as study_prompt
+from src.behavior.intent_classifier import classify_intent
+from src.behavior.concept_teacher import get_prompt as concept_prompt
+from src.behavior.homework_guide import get_prompt as homework_prompt
+from src.behavior.study_coach import get_prompt as study_prompt
+from src.retrieval.retrieval_router import should_retrieve
 
-from retrieval.retrieval_router import should_retrieve
+from src.conversation.conversation_manager import (
+    load_history,
+    save_history,
+    save_quiz_history
+)
 
-from conversation_manager import load_history
-from conversation_manager import save_history
+from src.quiz.quiz_parser import parse_quiz_request
 
-from quiz_parser import parse_quiz_request
-
-from quiz_generator import (
+from src.quiz.quiz_generator import (
     generate_mcq,
     extract_concept
 )
 
-from question_bank import (
+from src.question_bank import (
     save_question
 )
 
-from llm.provider_router import (
+from src.llm.provider_router import (
     ask_llm,
     get_current_provider
 )
 
-from quiz_manager import (
+from src.quiz.quiz_manager import (
     start_quiz,
     is_quiz_active,
     set_setup_stage,
@@ -46,6 +48,14 @@ from quiz_manager import (
     get_asked_questions,
     add_asked_concept,
     get_asked_concepts
+)
+
+from src.governance.learning_state import (
+    update_learning_state
+)
+
+from src.governance.topic_normalizer import (
+    normalize_topic_name
 )
 
 import chromadb
@@ -69,8 +79,13 @@ api_key=os.getenv("OPENAI_API_KEY")
 
 # ---------------------------------
 
-rules = Path(
-"docs/student_tutor_rules.md"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+rules = (
+    PROJECT_ROOT
+    / "docs"
+    / "standards"
+    / "student_tutor_rules.md"
 ).read_text(encoding="utf-8")
 
 # ---------------------------------
@@ -173,13 +188,9 @@ while True:
 
         set_setup_stage("")
 
-        print(
-            "\nQuiz Setup Complete"
-        )
+        print("\nStarting Quiz...")
 
-        print(
-            get_quiz_state()
-        )
+        start_quiz()
 
         continue
 
@@ -206,6 +217,14 @@ while True:
         difficulty = parsed["difficulty"]
         count = parsed["count"]
 
+        topics = [
+
+            normalize_topic_name(topic)
+
+            for topic in topics
+
+        ]
+        
         if not topics:
             print("\nWhich topic?")
             continue
@@ -226,12 +245,32 @@ while True:
 
         topic = topics[0]
 
+        update_learning_state(
+            student_id,
+            subject="Physics",
+            chapter=topic,
+            topic=topic,
+            last_question=question
+        )
+
         results = collection.query(
             query_texts=[topic],
             n_results=2
         )
 
         context = "\n".join(results["documents"][0])
+
+        metadata = results["metadatas"][0][0]
+
+        update_learning_state(
+            student_id,
+            board=metadata.get("board"),
+            grade=metadata.get("grade"),
+            subject=metadata.get("subject"),
+            chapter=metadata.get("chapter"),
+            topic=metadata.get("topic"),
+            last_question=question
+        )
 
         mcq = generate_mcq(
             context,
@@ -398,7 +437,16 @@ while True:
                 f"Score: {state['score']}/{state['total_questions']}"
             )
 
-            from quiz_manager import end_quiz
+            save_quiz_history(
+                student_id=student_id,
+                subject="Physics",
+                chapter=state["topics"][0],
+                difficulty=state["difficulty"],
+                score=state["score"],
+                total=state["total_questions"]
+            )
+
+            from src.quiz.quiz_manager import end_quiz
 
             end_quiz()
 
@@ -408,6 +456,13 @@ while True:
 
         state = get_quiz_state()
         topic = state["topics"][0]
+
+        update_learning_state(
+            student_id,
+            subject="Physics",
+            chapter=topic,
+            topic=topic
+        )
 
         results = collection.query(
             query_texts=[topic],
@@ -573,6 +628,23 @@ while True:
             results["documents"][0]
         )
 
+        metadata = results["metadatas"][0][0]
+
+        print("\nDEBUG METADATA")
+        print(metadata)
+
+        update_learning_state(
+            student_id,
+            board=metadata.get("board"),
+            grade=metadata.get("grade"),
+            subject=metadata.get("subject"),
+            chapter=metadata.get("chapter"),
+            topic=metadata.get("topic"),
+            last_question=question
+        )
+
+        print("\nLearning State Updated")
+
     else:
 
         context = (
@@ -585,7 +657,10 @@ while True:
 
     history_text = ""
 
-    for msg in history:
+for msg in history:
+
+    if "role" not in msg:
+        continue
 
         history_text += (
             f"{msg['role']}: "

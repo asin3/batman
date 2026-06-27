@@ -1,0 +1,3130 @@
+
+
+===== PAGE 1 =====
+
+Chapter
+
+2 Work, Energy and Power
+
+SYLLABUS
+
+@ Work, energy, power and their relation with force.
+
+Scope of syllabus : Definition of work. W = FS cos @; special cases of @ = 0°, 90°. W = mgh. Definition of energy, er
+as work done. Various units of work and energy and their relation with S.I. units. [erg, calorie, kWh and eV]. Definition |
+| of power, P = W/t; S.I. and C.GS. units; other units, kilowatt (kW), megawatt (MW) and gigawatt (GW); and horse power
+(1 HP = 746 W) [Simple numerical problems on work, power and energy].
+
+(ii) Different types of energy (e.g., chemical energy, mechanical energy, heat energy, electrical energy, nuclear energy,
+sound energy, light energy).
+
+Scope of syllabus : Mechanical energy : potential energy U = mgh (derivation included), gravitational potential energy,
+examples; kinetic energy K = +m? (derivation included); forms of kinetic energy : translational, rotational and ‘
+vibrational — only simple adttiex [Numerical problems on K and U only in case of translational motion]; qualitative.
+discussions of electrical, chemical, heat, nuclear, light and sound energy, conversion from one form to another; « S
+examples, 4
+
+| Gi) Principle of conservation of energy. eS cake
+
+“Scope of syllabus : Statement of the principle of conservation of energy; theoretical verification that U + K = bec
+a poses aang body. Application of this law to simple pendulum (qualitative only); simple numerical problems. _
+
+K, ENERGY AND POWER, THEIR MEASUREMENTS AND UNIT
+
+2.1 WORK (Fig. 2.1), a cyclist while pedalling a cycle, a
+In our daily language, the word ‘work’ is used horse while pulling a cart, a boy going upstairs,
+for some sort of exertion (physical or mental) or 4 Coolie lifting a load, all exert the force which
+for various activities such as while writing, Produces motion, so they do work.
+reading or eating, we say that we are doing work.
+But in Physics, the term ‘work’ is used in relation
+to the displacement produced by a force. The
+work is said to be done only when a body moves
+under the influence of a force. If there is no
+displacement of the body even when a force acts
+on it, the work done is said to be zero. Thus,
+
+MOTION
+=>
+
+Fig. 2.1 Pushing the car, work is being done
+
+However, if a man tries to push a wall
+(Fig. 2.2) or a child tries to push a heavy stone
+and they are unable to move it, then scientifically
+For example, a man while pushing a car no work is being done by them.
+
+
+
+===== PAGE 2 =====
+
+NO MOTION
+
+Fig. 2.2 Pushing the wall, no work is being done
+Similarly, a coolie does no work while
+standing with a heavy load on his head (although
+he feels tired), since the displacement of load is
+zero.
+
+2.2 MEASUREMENT OF WORK
+
+If forces F, and F, (where F, > F,) move
+two different bodies by the same distance, the
+work done by the force F, is said to be more
+than that by the force F,. Similarly, if a force F
+moves the bodies 1 and 2 by distances S, and S,
+respectively (where S, > S,), the work done
+by the force F on body 1 is said to be more
+than on body 2. Thus the amount of work
+done depends on both factors : the magnitude of
+the force applied, and the magnitude of the
+displacement.
+
+Work = Force x displacement of the point of
+
+application of force in the direction
+of force
+
+8 =.
+A 4 B
+Fig. 2.3 Work done by a force
+In Fig. 2.3, suppose a constant force F
+displaces a body from position A to position B
+along its own direction. Then the displacement of
+the body is AB (= S), and the work done is
+
+Here we assume that the force does not
+change during the displacement and it acts
+throughout the displacement.
+
+In eqn. (2.1), if S = 0, then W = 0. Thus
+
+Work is a scalar quantity.
+
+Expression of work (W= FS cos 6)
+
+It is not necessary that the force always causes
+the displacement of the body in its own direction.
+If under some circumstances, a force displaces the
+body in a direction other than the direction of
+force, then we can determine the amount of work
+done by the force in two ways : (1) by finding the
+component of displacement of the body in the
+direction of force, and (2) by finding the component
+of force in the direction of displacement.
+
+(1) By finding the component of displacement
+along the force : In Fig. 2.4, suppose a
+constant force F acts on a body along AB
+and displaces the body on an inclined surface
+from A to C. The displacement of the body
+is AC = S, which is at an angle @ to the
+direction of force. To find the component of
+displacement in the direction of force (i.e.,
+along AB), a perpendicular CB is drawn from
+the point C on AB. Then the component of
+displacement in the direction of force is AB.
+
+A|c_ Scos 8_>|B
+
+Fig. 2.4 Work done by a force when the displacement
+is not along the force by taking the component of
+displacement along the force
+
+Hence, work done W = F x AB
+
+* In eqn. (2.1), the sign “*x”’ means simple multiplication of two scalars F and S which are the magnitudes of force and
+
+displacement respectively. It does not mean the cross or vector product of two vectors F and S .
+
+
+===== PAGE 3 =====
+
+But in the right angled A ABC,
+
+base AB AB
+cos O= hypotenuse — AC ~ §
+or AB= S cos 6
+
+(2) By finding the component of force along
+the displacement : In Fig. 2.5, if PA
+represents the magnitude and direction of
+force F acting on the body, then the
+component of force F in the direction of
+displacement (i.e., along AC) is NA.
+
+Fig. 2.5 Work done by a force when the displacement
+is not along the force by taking the component of force
+along the displacement
+
+Therefore, work done
+W = NAxAC = NAxS
+But from right-angled A PNA,
+NA = PAcos@ = F cos @
+
+Then work done [W = F cos @ x S| yee(2.3),
+
+From eqns. (2.2) or (2.3), it is clear that the
+work done is equal to the product of
+
+(i)
+(ii)
+(iii)
+
+magnitude of force F,
+
+magnitude of displacement S, and
+cosine of the angle @ between the
+directions of force F and displacement S
+(i.e., cos 6 ).
+
+Note : Since force F and displacement S
+are vector quantities and work W is a scalar
+DE so work 4 is expressed as the dot product
+
+(or scalar product) of force and displacement
+vectors. The dot product of two vectors is a
+scalar. In vector form, work done W is written
+
+>>
+W=F-:S
+
+as
+
+Special cases
+
+Case (i) : If the displacement is in the direction
+of force, i.e., 8 = 0°, then cos 0° = 1.
+
+| W=FxS
+
+The work done is positive.
+
+Examples : (1) In free fall of a body of mass
+m under gravity through a height h from A to B
+(Fig. 2.6), the force of gravity F (= mg) is in the
+direction of displacement S (= h) and the work
+done by the force of gravity is W = FS = mgh.
+
+mOA
+
+F=mg
+Direction of motion
+(or displacement)
+
+(8
+Fig. 2.6 Positive work done by the force of
+gravity in free fall.
+
+(2) A coolie does work on the load when he
+raises it up against the force of gravity. Both the
+force exerted by coolie (= mg) and the
+displacement (= h), are in upward direction. The
+work done in raising the load = mgh.
+
+Case (ii) : If the displacement is normal to the
+direction of force, i.e., 8 = 90°, then cos 90° = 0.
+
+i w=0
+
+Hebe the work done is zero.
+
+Examples : (1) When a coolie walks on a
+horizontal ground while carrying a load on his
+head, no work is done against the force of gravity
+because the displacement of load is normal to the
+direction of force of gravity (which is vertically
+downwards).
+
+Note : The coolie does work against the
+force of friction when he moves with the load.
+
+(2) When a body moves in a circular path in
+a horizontal plane, no work is done since the
+centripetal force on the body is directed towards
+
+
+===== PAGE 4 =====
+
+Fig. 2.7 Zero work done by the centripetal
+force in circular motion
+
+the centre of circular path and the displacement
+at all instants is along the tangent to the circular
+path, ie., normal to the direction of force on the
+body as shown in Fig. 2.7. It is for this reason
+that in a circular path, the kinetic energy and
+hence the speed of the body does not change
+although a force acts on the body. Further on
+completion of one complete rotation, the total
+displacement of the body becomes zero, so the
+work done in one complete rotation is zero.
+
+Conditions for the work done by a force to be
+zero : From the above discussion, it is clear that
+the amount of work done by a force is zero in the
+following two situations :
+
+(1) when there is no displacement (5S = 0), and
+
+(2) when the displacement is normal to the
+
+direction of force (8 = 90°).
+
+Case (iii) : If the displacement is in a
+direction opposite to the force, i.e., 8 = 180°, then
+cos 180° = -1.
+
+W=-FxS
+
+The work done is negative. This is usually the
+case when the force opposes the motion or it tries
+to stop a moving body.
+
+Examples : (1) When a body moves on a
+surface, the force of friction between the body
+and surface is in direction opposite to the motion
+of the body, therefore, the work done by the force
+of friction is negative.
+
+(2) When a ball of mass m is thrown upwards
+from A to B to a height A (Fig. 2.8), the
+displacement h (upwards) is opposite to the
+direction of force of gravity mg (downwards), so
+the work done by the force of gravity mg in
+displacement h is W = —mgh i.e., negative.
+
+[orn of motion
+(or displacement)
+
+F=mg
+Fig. 2.8 Negative work done by the force of gravity
+in upward motion
+Note : If the force is variable (i.e., force
+varies during the displacement), the work done
+is determined by plotting a force-displacement
+graph. The force is taken on Y-axis and the
+displacement (in the direction of force) is taken
+on X-axis. The area enclosed by the sketch and
+the displacment axis (i.e., X-axis) gives the
+work done. In Fig. 2.9, the force F is directly
+proportional to the displacement and the
+graph for force against displacement is an
+inclined straight line OA. The work done by the
+force in displacment S is equal to the area of the
+
+1
+triangle OAB (= oF x S) which is shown
+shaded in Fig. 2.9.
+
+© Displacements > S
+Fig. 2.9 Work done by a variable force
+
+This method is applicable in all situations.
+If the force is constant (i.e., it does not change
+with the displacement), the sketch on graph
+will be a straight line parallel to the X-axis
+and the area of the rectangle enclosed between
+the straight line and the X-axis will be equal
+to the work done.
+
+2.3 WORK DONE BY THE FORCE OF
+GRAVITY W = mgh
+
+Let a body of mass m be moved down
+through a vertical height h either directly or
+
+
+
+===== PAGE 5 =====
+
+through an inclined plane (e.g. a hill, slope or
+Stairs). The force of gravity on the body is
+F = mg acting vertically downwards and the
+vertical displacement in the direction of force is
+S = h. Therefore the work done by the force of
+
+gravity is
+
+Thus work done by the force of gravity is
+same whether a person comes down from a
+certain height using the stairs* or slope or a lift
+(or elevator).
+
+Similarly, if a boy of mass m goes up through
+a vertical height h either directly or through the
+stairs or slope or lift, the work W = — mgh is
+done by the force of gravity on the boy (or the
+work W = mgh is done by the boy against the
+force of gravity).
+
+2.4 UNITS OF WORK
+
+S.I. unit : The S.I. unit of work is joule. It is
+abbreviated as J.
+
+Since work = force x displacement
+
+1 joule = 1 newton x 1 metre
+
+Thus,
+
+(2.4)
+
+Bigger units of work are kilo-joule (kJ),
+mega-joule (MJ) and giga-joule (GJ), where
+
+1 kJ = 10° J, 1 MJ = 10° J and 1 GJ = 10°J.
+
+C.GS. unit : The C.GS. unit of work is erg,
+where 1 erg = 1 dyne x 1 cm.
+
+Thus,
+
+Relationship between joule and erg
+ljoule =1Nx1im
+But 1.N = 10° dyne and 1 m= 107 cm
+. 1 joule = 10° dyne x 10? cm
+= 107 dyne x cm = 10’ erg
+* For stairs, h = number of stairs x height of each stair.
+
+vene(2.5)
+
+2.5 POWER (P = W/t)
+Definition
+
+Power is a scalar quantity.
+
+Measurement of power : The power spent by
+a source is measured as the amount of work done
+per second by the source (or it is equal to the rate
+of doing work by the source).
+
+If work W is done in time ¢, then
+
+Work done W
+Power P= “Time taken f
+
+Thus power spent by a source depends on the
+following two factors :
+
+(1) the amount of work done by the source,
+and
+the time taken by the source to do the
+said work.
+
+If a machine (or a person) does a given
+amount of work in a less time, more
+power is spent by it (or him).
+
+Example : If a coolie A takes 1 minute to
+lift a load to the roof of a bus, while another
+coolie B takes 2 minutes to lift the same load to
+the roof of the same bus, the work done by both
+the coolies is same, but the power spent by
+coolie A is twice the power spent by coolie B
+because the coolie A does work at double the rate
+(i.e., in half the time).
+
+Note : If a constant force F acts on a body
+and it displaces the body by a distance S (in the
+direction of force) in time t, then work done
+
+W=FxS
+
+or .. (2.6)
+
+(2)
+
+W_Fxs
+é t t
+a (average speed)
+
+and power P = ud
+
+But
+
+Power = Force x average speed
+
+P=Fxy és (257)
+
+
+===== PAGE 6 =====
+
+2.6 UNITS OF POWER
+S.I. unit : The S.I. unit of power is watt. It
+is abbreviated as W.
+
+1 joule
+lsecond
+
+ie., 1 watt = = 131
+
+Bigger units of power are kilowatt (kW),
+
+megawatt (MW) and gigawatt (GW), where
+1 kW = 10° W; 1 MW = 10° W and 1 GW = 10° W
+
+Smaller units of power are milliwatt (mW) and
+
+microwatt (uW), where
+1 mW = 10° W and 1 wW = 10° W.
+
+C.GS. unit : The C.GS. unit of power is erg
+per second (erg s~').
+Relationship between the S.I. unit and C.GS. unit
+
+Horse power : It is another unit of power,
+largely used in mechanical engineering. It is
+related to the S.I. unit watt as below :
+
+ws(2.8)
+
+sh cel pe
+
+Difference between work and power
+
+2.7 ENERGY (Energy as work done)
+
+A body capable of doing work is said to
+possess energy. The energy possessed by a body
+is measured by the amount of work that the body
+can perform. When a body does work, its energy
+decreases, while if work is done on the body, its
+energy increases. It means that whenever work is
+done, there is always a transfer of energy. Thus
+
+energy and work are related to each other. We can
+define energy as follows :
+
+ee x
+
+Like work, energy is also a scalar quantity.
+
+2.8 UNITS OF ENERGY
+
+The units of energy are same as that of work.
+
+(1) The S.L. unit of energy is joule (J) and the
+C.GS. unit of energy is erg, where
+
+1 J = 10’ erg.
+
+The bigger units of energy are : (i) watt
+hour (Wh) and (ii) kilowatt hour (kWh).
+Watt hour : One watt hour (1 Wh) is the
+
+energy spent (or work done) by a source
+of power 1 W in 1 h, ie.,
+1 watt hour (Wh) = 1 watt x 1 hour
+=1Js1 x 3600s
+= 3600 J=3-6kJ © ....(2.9)
+Kilowatt hour : One kilowatt hour
+(1 kWh) is the energy spent (or work
+done) by a source of power 1 kW in 1 h.
+i.e.,
+1 kilowatt hour (kWh) = 1 kilowatt x 1 hour
+= 1000 J s! x 3600s
+= 3-6 x 10° J = 3-6 MJ
+«..(2.10)
+
+(2)
+
+ji)
+
+(ii)
+
+Note : W (watt) and kW (kilowatt) are the
+units of power, while Wh (watt hour) and kWh
+
+(kilowatt hour) are the units of work or energy
+since power x time = work or energy.
+
+(3) Calorie : Heat energy is usually measured
+in calorie.
+1 calorie is the energy (heat) required in
+raising the temperature of 1 g of water
+from 14-5°C to 15-5°C (or through 1°C).
+It is related to joule as
+1 J =0-24 calorie or 1 calorie = 4-18 J ...(2.11)
+kilocalorie is a bigger unit of heat energy
+1 kilocalorie = 1000 calorie = 4180 J
+
+
+===== PAGE 7 =====
+
+(4) Electron volt : The energy of atomic
+particles is very small, so it is measured
+in electron volt (eV).
+
+1 eV is the energy gained by an electron
+when it is accelerated through a potential
+difference of 1 volt. i.e.,
+1 eV = charge on an electron x 1 volt
+= 1-6 x 10-9 coulomb x 1 volt
+= 1-6 x 10-!9 joule
+
+we(2.12)
+
+Difference between energy and power
+
+1. A crane pulls up a car of mass 500 kg to a
+vertical height of 4 m. Calculate the work done
+by the crane.
+
+In order to raise the car, the crane has to do work
+against the force of gravity. Therefore, the force
+required to lift the car F = mg
+
+= 500 x 9-8 = 4900 N.
+
+Displacement S = vertical height moved = 4 m.
+Work done W =FS = 4900 x 4= 19600 J
+
+2. A force of 10 N displaces a body by a distance of
+2 m at an angle 60° to its own direction. Find the
+amount of work done.
+Given : F = 10 N, S=2 m, 8 = 60°,
+Work = Force x displacement in the direction of
+force
+
+or W=F x Scos@
+
+(i) Work done by the boy
+W, = F, x h = 400 x 6 = 2400 J
+Work done by the girl
+W, = F, x h = 300 x 6 = 1800 J
+W, : W, = 2400 : 1800 = 4:3
+
+os Work done
+(ii) Power developed = Time taken
+
+Here, t, = 2 min = 120s; t, = 1:5 min=90s
+. Power developed by boy
+
+W, 24003
+= 4? ie Ho
+Power developed by girl
+Wr 1800)
+Pi,= 5 = o0R = 20 W
+
+P,: P,=20:20=1:1
+
+W=10x2 cos 60°=10x2 x4 ( cos 60° =) Alternative : (i) Since height climbed is same,
+
+=10J
+3. A boy of mass 40 kg climbs up a flight of 30 steps
+
+each of 20 cm high in 2 min and a girl of mass
+30 kg does the same in 1-5 min. Compare : (i) the
+work done, and (ii) the power developed by them
+(g = 10 ms)
+While climbing, both the boy and girl have to do
+work against their force of gravity.
+Force of gravity of boy
+
+F, = mg = 40 x 10 = 400 N
+Force of gravity of girl
+
+F, = mg = 30 x 10 = 300N
+Total height climbed up
+
+h = number of steps x height of each step
+= 30 x 20 cm = 600 cm=6m
+
+Wo mgh om 40 4
+
+W, ~ mgh ~ m ~ 30> 3
+_ AR W/h WM bh 4 «15 «1
+Gi) Be Wiig? Wy TSR SE Ay
+
+4. A force of 15 N is required to pull up a body of
+mass 2 kg through a distance 5 m along an
+inclined plane making an angle of 30° with the
+horizontal as shown in Fig. 2.9.
+
+Calculate :
+
+(i) the work done by the oa
+force in pulling os
+the body,
+
+mg Fig. 2.9
+
+
+
+===== PAGE 8 =====
+
+(ii)
+(iii) the work done against the force due to gravity.
+Take : g = 9-8 ms.
+
+Account for the difference in answers of
+
+part (i) and part (iii).
+
+(i) Work done by the force in pulling the body up
+
+W = Force x displacement in the direction of
+force = 15Nx5m=75 J
+Force due to gravity on the body
+
+F=mg=2x 9-8 =19-6N
+
+Work done against the force due to
+gravity W’ = Force due to gravity x vertical
+
+height moved
+
+= mg x BC
+
+(iv)
+
+(ii)
+
+(iii)
+
+But in right angled A ACB, sin 30° = 35
+BC = AB sin 30°
+Hence W’ = mg x AB sin 30°
+= 196% 5x4 (= sin 30° =4)
+= 493
+
+We note that W > W’. The difference in work W
+and W’ is 75 J- 49 J = 16 J. Actually 16 J is
+the work done against the force of friction
+between the body and the inclined plane.
+
+5. Calculate the power of an engine required to lift
+10° kg of coal per hour from a mine 360 m deep.
+( Take g = 10 ms~).
+Given: m= 10° kg, g = 10 ms”, h = 360 m,
+t=1h=60x60s = 3600s
+The work needed in lifting a mass m to a height h
+against the force due to gravity is
+
+(iv)
+
+W = mgxh=mgh
+Work done mgh
+and Power P = "nie taken. ikea ot
+10°x10x360
+
+Note : In fact, the actual power of the engine will
+be much more than 100 kW because (i) some energy
+will get wasted in overcoming the force of friction,
+
+1. Define work. When is work said to be done by a
+force ?
+
+2. How is the work done by a force measured when
+(i) force is in direction of displacement, (ii) force is
+at an angle to the direction of displacement ?
+
+the force due to gravity on the body, ' =
+
+and (ii) the efficiency of the engine will always be
+less than 100%.
+
+6. An electric motor of power 100 W is used to
+drive the stirrer in a water bath. If 50% of the
+energy supplied to the motor is spent in stirring
+the water, calculate the work done on water in
+one minute.
+
+Given, power supplied = 100 W, time t = 1 minute = 60 s
+Power used in stirring the water
+
+= 50% of the power supplied
+
+= =x 100 W = 50W
+Work done on water = power used x time
+
+= 50 W x 60s = 3000 J
+
+7. Aman exerts a force of 200 N in pulling a cart at
+a constant speed of 16 m s~!. Calculate the power
+spent by man.
+
+Given, force = 200 N, velocity = 16 ms"
+Power = force x velocity
+= 200 N x 16 ms“! = 3200 W
+8. The work done by the heart is 1 J per beat.
+
+Calculate the power of the heart if it beats
+72 times in 1 minute.
+Given : Number of beats in 1 minute = 72
+.. Number of beats per second = z = 12
+Power of heart = work done per second
+
+work done per beat
+x number of beats in 1 second
+
+1Jx12s"'
+= 12 Js" (or 1:2 W)
+9. Express 5 kWh into joule.
+1 kilowatt hour (kWh) = 1000 W x (60 x 60 s)
+
+= 36x 10°J
+5 kWh = 5x3-6x 10°J
+= 18x10’ J
+10. The energy of an electron is 4-0 x 10-! J. Express
+it in eV.
+Since leV = 16x 10°9J
+-19
+40x 10% J = ae eV=25eV
+
+3. A force F acts on a body and displaces it by a
+distance S$ in a direction at an angle 0 with the
+direction of force. (a) Write the expression for the
+work done by the force. (b) What should be the
+angle between the force and displacement to get
+
+
+===== PAGE 9 =====
+
+6.
+
+10.
+
+11.
+
+12,
+
+(i) zero, (ii) maximum, work ?
+Ans. (a) F S cos 8, (b) (i) 90° (ii) 0°
+
+A body is acted upon by a force. State two
+conditions when the work done is zero.
+
+State the condition when the work done by a force
+is (a) positive, (b) negative. Explain with the help of
+examples.
+
+A body is moved in a direction opposite to the
+direction of force acting on it. State whether the
+work is done by the force or work is done against
+the force.
+
+Ans. Work is done against the force.
+
+When a body moves in a circular path, how much
+work is done by the body ? Give reason.
+
+(Hint : The body is acted upon by the centripetal
+force) Ans. Zero
+Reason : Force is normal to displacement.
+
+A satellite revolves around the earth in a circular
+orbit. What is the work done by the satellite ? Give
+reason. Ans. Zero
+Reason : Force of gravity on the satellite is normal
+to its displacement.
+
+State whether work is done or not by writing yes or
+no, in the following cases ?
+
+(a) A man pushes a wall.
+
+(b) A coolie stands with a box on his head for
+15 min.
+(c) A boy climbs up 20 stairs.
+Ans. (a) No (b) No (c) Yes
+A coolie X carrying a load on his head climbs up a
+slope and another coolie Y carrying the identical
+load on his head moves the same distance on a
+frictionless horizontal platform. Who does more
+work ? Explain the reason.
+Ans. Coolie X does work against the force of
+gravity while coolie Y does no work because his
+displacement is normal to the force of gravity.
+
+The work done by a fielder when he takes a catch in
+
+a cricket match, is negative. Explain.
+Ans. The fielder applies force opposite to the
+direction of displacement of the ball.
+
+Give an example when work done by the force of
+
+gravity acting on a body is zero even though the
+body gets displaced from its initial position.
+
+Ans. A coolie while moving on the horizontal
+
+ground with a load does no work against
+
+the force of gravity.
+
+13.
+
+14.
+1S;
+16.
+
+17.
+
+18.
+19.
+
+20.
+
+21.
+
+27.
+
+B
+
+29.
+30.
+
+What are the S.I. and C.G.S units of work ? How are
+
+they related ? Establish the relationship.
+
+State and define the S.I. unit of work.
+
+Express joule in terms of erg.
+
+A body of mass m falls down through a height h.
+
+Obtain an expression for the work done by the force
+
+of gravity.
+
+A boy of mass m climbs up the stairs of vertical
+
+height h.
+
+(a) What is the work done by the boy against the
+force of gravity ?
+
+(b) What would have been the work done if he uses
+a lift in climbing the same vertical height ?
+
+Ans. (a) mgh, (b) mgh
+
+Define the term energy and state its S.I. unit.
+
+What physical quantity does the electron volt (eV)
+
+measure ? How is it related to the S.I. unit of that
+
+quantity ? Ans. Energy, 1 eV = 16 x 10°719J
+Complete the following sentences :
+
+GY UTS 5. .040008 calorie.
+
+(b) 1 kWh...
+
+Ans. (a) 0-24 (b) 3-6 x 106
+
+Name the physical quantity which is measured in
+calorie. How is it related to the S.I. unit of that
+quantity ?
+
+Ans. Heat energy, 1 calorie = 4-18 joule
+Define a kilowatt hour. How is it related to joule ?
+Define the term power. State its S.I. unit.
+State two factors on which power spent by a source
+depends. Explain your answer with examples.
+Differentiate between work and power.
+
+. Differentiate between energy and power.
+
+State and define the S.I. unit of power.
+
+(a) Name the physical quantity measured in terms of
+horse power.
+
+(b) How is horse power related to the S.J. unit of
+power ?
+
+Differentiate between watt and watt hour.
+
+Name the quantity which is measured in
+
+(a) kWh (b) kW (c) Wh (d) eV.
+
+Ans. (a) Energy, (b) Power, (c) Energy, (d) Energy
+
+MULTIPLE CHOICE TYPE
+
+1.
+
+One horse power is equal to :
+(a) 1000 W (b) 500 W
+(c) 764 W (d) 746 W. Ans. (d) 746 W
+
+
+===== PAGE 10 =====
+
+2.
+
+kWh is the unit of :
+(a) power
+(c) energy
+
+(b) force
+(d) none of these
+Ans. (c) energy
+
+NUMERICALS
+
+a,
+
+4.
+
+6.
+
+A body, when acted upon by a force of 10 kgf, gets
+displaced by 0-5 m. Calculate the work done by the
+force, when the displacement is (i) in the direction
+of force, (ii) at an angle of 60° with the force, and
+(iii) normal to the force. (g = 10 N kg~!)
+Ans. (i) 50 J (ii) 25 J Gii) zero
+A boy of mass 40 kg climbs up the stairs and
+reaches the roof at a height 8 m in 5 s. Calculate :
+(i) the force of gravity acting on the boy,
+(ii) the work done by him against the force of
+gravity,
+(iii) the power spent by the boy.
+(Take g = 10 ms)
+Ans. (i) 400 N (ii) 3200 J (iii) 640 W
+A man spends 6-4 kJ energy in displacing a body by
+64 m in the direction in which he applies force, in
+2-5 s. Calculate : (i) the force applied, and (ii) the
+power spent (in H.P.) by the man.
+Ans. (i) 100 N, (ii) 3-43 H.P.
+A weight lifter lifted a load of 200 kgf to a
+height of 2:5 m in 5 s. Calculate : (i) the work
+done, and (ii) the power developed by him. Take
+g=10Nkg". Ans. (i) 5000 J, (ii) 1000 W
+A machine raises a load of 750 N through a height
+of 16 m in 5 s. Calculate :
+(i) the energy spent by the machine,
+(ii) the power of the machine if it is 100% efficient.
+Ans. (i) 12000 J (ii) 2400 W
+An electric heater of power 3 kW is used for 10 h.
+How much energy does it consume ? Express your
+answer in (i) kWh, (ii) joule.
+Ans. (i) 30 kWh, (ii) 1-08 x 108 J.
+A water pump raises 50 litre of water through a
+height of 25 m in 5 s. Calculate the power of the
+pump required.
+(Take g = 10 N kg™! and density of water
+= 1000 kg m*). Ans. 2500 W
+A pump is used to lift 500 kg of water from a depth
+of 80 m in 10 s. Calculate :
+(a) the work done by the pump,
+(b) the power at which the pump works, and
+
+10.
+
+11.
+
+12.
+
+13.
+
+14,
+
+15.
+
+16.
+
+(c) the power rating of the pump if its efficiency is
+40%. (Take g = 10 ms)
+useful power
+
+[Hint : Efficiency = —————.
+power input
+
+Ans. (a) 4 x 10°J| (b) 40 kW (c) 100 kW
+
+An ox can apply a maximum force of 1000 N. It is
+
+taking part in a cart race and is able to pull the cart
+
+at a constant speed of 30 m s“! while making its best
+
+effort. Calculate the power developed by the ox.
+
+Ans. 30 kW
+
+The power of a motor is 40 kW. At what speed can
+the motor raise a load of 20,000 N 2? Ans. 2 ms"
+
+Rajan exerts a force of 150 N in pulling a cart at a
+constant speed of 10 m s-!. Calculate the power
+exerted. Ans. 1500 W
+
+A boy weighing 350 N climbs up the 30 steps, each
+20 cm high in 1 minute. Calculate : (i) the work
+done, and (ii) the power spent.
+
+Ans. (i) 2100 J, (ii) 35 W
+It takes 20 s for a person A of mass 50 kg to climb
+up the stairs, while another person B of same mass
+does the same in 15 s, Compare the (i) work done,
+and (ii) power developed by the persons A and B.
+
+Ans. (i) 1: 1 (ii) 3: 4
+
+A boy of weight 40 kgf climbs up the 15 steps, each
+15 cm high in 10 s and a girl of weight 20 kgf does
+the same in 5 s. Compare : (i) the work done, and
+(ii) the power developed by them. Take g = 10 N kg ~!.
+
+Ans. (i) 2: 1, @ii) 1:1
+
+A man raises a box of mass 50 kg to a height
+of 2 m in 20 s, while another man raises the same
+box to the same height in SO s.
+(a) Compare : (i) the work done, and (ii) the power
+developed by them.
+(b) Calculate : (i) the work done, and (ii) the power
+developed by each man. Take g = 10 N kg".
+Ans. (a) (i) 1: 1 (ii) 5: 2,
+(b) (i) 1000 J, 1000 J (ii) 50 W, 20 W
+A boy takes 3 minutes to lift a 20 litre water bucket
+from a 20 m deep well, while his father does it in
+2 minutes. (a) Compare : (i) the work, and (ii) power
+developed by them. (b) How much work each
+does ? Take density of water = 10° kg m™ and
+g=98Nkgt.
+
+Ans. (a) (i) work 1 : 1, (ii) power 2 : 3,
+(b) work done by each = 3-92 kJ
+
+
+
+===== PAGE 11 =====
+
+____(8) DIFFERENT FORMS OF ENERGY
+
+2.9 MECHANICAL ENERGY AND
+DIFFERENT FORMS
+
+The energy possessed by a body due to its
+
+state of rest or of motion, is called the mechanical
+
+energy. It is in two forms : (1) potential energy,
+
+ITS
+
+and (2) kinetic energy. The total mechanical
+energy of a body is equal to the sum of its
+potential energy and kinetic energy.
+
+2.10 POTENTIAL ENERGY (U)
+
+the symbol U.
+
+Examples : A body placed at a height
+above the ground, a wound up watch spring, a
+compressed spring, a bent bow, a stretched rubber
+string, etc. have the potential energy.
+
+It is usually denoted by
+
+Forms of potential energy
+
+In mechanics, potential energy is mainly of
+two kinds : (1) gravitational potential energy due
+to its changed position, and (2) elastic potential
+energy due to its changed configuration.
+
+(1) Gravitational potential energy : The
+potential energy possessed by a body due
+to force of attraction of earth on it, is
+called its gravitational potential energy.
+
+The gravitational potential energy of a
+body is zero when it is at infinity because
+the force of attraction of earth on the body
+is then zero. At a finite distance from
+earth, the gravitational potential energy of
+the body is negative.
+
+As the distance of body from the surface
+of earth increases, the force of attraction
+of earth decreases and its gravitational
+potential energy increases (i.e. the negative
+value of gravitational potential energy
+decreases). The gravitational potential
+
+SS =eE70)
+
+energy of a body at a point is the amount
+of work done by the force of attraction of
+earth in bringing that body from infinity
+to that point.
+
+Elastic potential energy : When an
+external force is applied on a body, its
+configuration (or shape) changes. Elasticity
+is the property by virtue of which a body
+regains its original configuration on
+removal of the external force. The
+potential energy possessed by a body in
+the deformed state due to change in its
+configuration is called the elastic potential
+energy. It is equal to the amount of work
+done in deforming the body (or in
+changing the configuration of the body).
+
+(2)
+
+2.11 GRAVITATIONAL POTENTIAL ENERGY
+AT A HEIGHT (U = mgh)
+
+The gravitational potential energy of a body
+at a height above the ground is measured by the
+amount of work done in lifting it up from the
+ground to that height against the force of gravity
+(assuming that its gravitational potential energy on
+the ground is zero).
+
+Let a body of mass m be lifted from the
+ground (or the earth surface) to a vertical height
+h. The least upward force F required to lift the
+body (without acceleration) must be equal to the
+force of gravity (= mg) on the body acting
+vertically downwards. The work done W on the
+body in lifting it to a height h is
+
+W = Force of gravity (mg) x displacement (h)
+
+= mgh
+
+This work is done in lifting the body up and
+it gets stored in the body in the form of its
+gravitational potential energy when it is at height
+h. Thus,
+
+
+
+===== PAGE 12 =====
+
+Note : Precisely mgh is the gain in
+potential energy of the body when it is raised
+to a height h above the ground. But here we
+have assumed that when the body is on the
+earth surface (or ground), its gravitational
+potential energy is zero, so we consider the
+gravitational potential energy of the body at
+height h equal to mgh.
+
+Thus when a body is thrown vertically
+upwards, it rises up, so the height of the body
+from the ground increases, hence its potential
+energy increases. Similarly, when a body is
+released from a height, it falls down, so the
+height of the body from the ground decreases,
+hence its potential energy decreases and it
+becomes zero at the earth surface.
+
+When a body of mass m is taken up from
+a height h, to a height h, above the
+ground (h, > h,), the gain in potential energy
+= final potential energy — initial potential energy
+= mg (h, — h,).
+
+But if a body of mass m falls down from a
+height h, to a height h, above the ground (h, < h,),
+the loss in potential energy = initial potential
+energy — final potential energy = mg (h, — h,).
+
+2.12 KINETIC ENERGY
+
+It is usually denoted by the symbol K.
+
+Examples : A fast moving stone has the
+capacity of breaking a window pane on striking
+it and thus it has the kinetic energy. Similarly, a
+car in motion, moving hands of a clock, the bullet
+fired from a gun, a rolling ball, an apple falling
+from a height, etc. have the kinetic energy.
+
+Expression for the kinetic energy (K = 4 mv’)
+
+The kinetic energy possessed by a moving
+body is equal to the amount of work which the
+moving body can perform before coming to rest.
+It can be calculated by the amount of work done
+by an opposing force to stop the body.
+
+' Suppose a body of tnass m is moving with a
+
+velocity v. It is brought to rest by applying a
+constant opposing force F. Let a be the uniform
+retardation produced by the force and the body
+travels a distance S before coming to rest. Then,
+
+retarding force F = mass x retardation = ma. ..(i)
+
+Kinetic energy of the body = work done by
+the retarding force in stopping it.
+
+or Kinetic energy K = retarding force
+x displacement
+or K= PFS sss (ii)
+
+Now to calculate the displacement S, we have
+initial velocity (u) =v,
+final velocity (v) =0
+Since a is the retardation, so accelaration = — a
+From the relation v = 12 + 2aS
+0 =v? - 2aS
+
+v
+Displacement S = oa wee (iii)
+
+Substituting the values of F and S from
+eqns. (i) and (iii) in eqn. (ii), we get
+Kinetic energy K=FxS
+
+or
+
+(2.14)
+
+Relationship between kinetic energy and
+momentum
+
+Let a body of mass m be moving with a
+velocity v. Then its
+
+kinetic energy K = $ mv (i)
+momentum p=my ...(ii)
+
+Substituting the value of v = p/m from eqn. (ii) in
+eqn. (i), we get
+K = 5 m (p/m) = p*/2m
+or p? =2mK
+Thus kinetic energy K and momentum p are
+
+related as :
+
+
+
+===== PAGE 13 =====
+
+Work-energy theorem
+
+When a force is applied in the direction of
+motion of a body, it accelerates the motion and
+thus increases the kinetic energy of the body. This
+increase in kinetic energy is equal to the work
+done by the force on the body. This is called the
+work-energy theorem. Thus
+
+———
+
+Let a body of mass m be moving with an
+initial velocity u. When a constant force F is
+applied on the body along its direction of motion,
+it produces an acceleration a and the velocity of
+the body changes from u to v in moving a
+distance S. Then
+
+Force F = mass x acceleration = m a
+Work done by the force = Force x displacement
+
+or W=FxS ane (ii)
+From relation v2 = u? + 2aS
+
+vy - uw
+Displacement S= la (iii)
+
+Substituting the values of F and S from eqns (i)
+and (iii) in eqn (ii), we get
+
+v =u?
+w= max| ]
+
+2a
+
+= $m(?-w)
+
+or (2.16)
+
+Butinitial kinetic energy K;= 4 mu
+and final kinetic energy K, = +m
+Then from eqn. (2.16), work done on the body
+W=K,-K,
+= Increase in kinetic energy _ ...(2.17)
+
+Forms of kinetic energy
+
+A body can have three types of motion
+namely the translational, rotational and vibrational,
+so the kinetic energy is also of three forms :
+
+ee a |
+
+(1) translational kinetic energy, (2) rotational
+
+kinetic energy, and (3) vibrational kinetic energy.
+
+(1) Translational kinetic energy : The
+
+motion of a body in a straight line path
+
+is called the translational motion and the
+
+kinetic energy of the body due to motion
+
+in a straight line is called the translational
+kinetic energy.
+
+Examples : A car moving in a straight path,
+a freely falling body, a molecule of monoatomic
+gas have the translational kinetic energy.
+
+(2) Rotational kinetic energy : If a body
+rotates about an axis, the motion is called
+the rotational motion and the kinetic
+energy of the body due to rotational
+motion is called the rotational kinetic
+energy or simply the rotational energy.
+
+Examples : A spinning top, a rotating wheel
+have the rotational kinetic energy. The earth
+rotating on its own axis has a huge amount of
+rotational kinetic energy. The atoms in a diatomic
+(or polyatomic*) molecule rotate about a fixed
+axis in addition to their translational motion, so
+they possess both the rotational and translational
+kinetic energies.
+
+(3) Vibrational kinetic energy : If a body
+moves to and fro about its mean position,
+the motion is called the vibrational
+motion. The kinetic energy of the body
+due to its vibrational motion is called the
+vibrational kinetic energy or simply the
+vibrational energy.
+
+Examples : A wire clamped at both the ends,
+when struck in the middle, vibrates. The energy
+possessed by the wire is the vibrational kinetic
+energy. A steel strip, clamped at one end, vibrates
+when the other free end is displaced slightly and
+then released. The steel strip is then said to
+possess the vibrational kinetic energy. In a solid,
+the atoms vibrate about their mean positions and
+so they possess the vibrational kinetic energy. In
+a polyatomic molecule* the atoms can vibrate
+
+* A molecule with two or more than two atoms such as H,, O,,
+N,, HCl, H,0, NH, etc., is called the polyatomic molecule.
+
+
+===== PAGE 14 =====
+
+about their mean positions, so a polyatomic
+molecule has the vibrational energy in addition to
+the rotational and translational energies.
+
+Note : Depending upon its state of motion,
+a moving body may possess either one or more
+than one form of kinetic energy simultaneously.
+For example, a rolling ball and the wheel of
+a running vehicle have both the translational
+and rotational kinetic energies simultaneously.
+
+Distnction between the potential energy
+and kinetic energy
+
+2.13 CONVERSION OF POTENTIAL ENERGY
+INTO THE KINETIC ENERGY
+Potential energy changes into the kinetic
+energy whenever it is put to use.
+
+Examples : (1) A stone at a height has
+gravitational potential energy due to its raised
+position. When the stone is made to fall on a nail
+standing on a wooden piece, the nail begins to
+penetrate. The reason is that as the stone starts
+falling, its potential energy begins to change into
+kinetic energy. The falling stone now has kinetic
+energy. When it strikes the nail the kinetic energy
+of the stone work on the nail. The kinetic energy
+of the stone changes into the kinetic energy of the
+nail due to which the nail moves into the wooden
+piece.
+
+(2) A wound up watch spring has the elastic
+potential energy because of its wound-up state. As
+the spring unwinds itself, the potential energy
+stored in it changes into the kinetic energy which
+
+does work in moving the hands of the watch and
+thus changes into the kinetic energy of the hands.
+
+(3) When the string of a bow is pulled, some
+work is done which is stored in the deformed
+state of the bow in the form of its elastic potential
+energy. On releasing the string to shoot an arrow,
+the potential energy of the bow changes into the
+kinetic energy of the arrow which makes it move.
+
+(4) A compressed spring has the elastic
+potential energy due to its compressed state.
+When it is released, the potential energy of the
+spring changes into the kinetic energy which does
+work on the ball placed on it and changes into
+the kinetic energy of the ball due to which it flies
+away (Fig. 2.10).
+
+Ball flies away
+
+on releasing
+the spring
+
+t Released
+spring
+
+Fig. 2.10 Ball flies away on releasing the spring
+
+2.14 DIFFERENT FORMS OF ENERGY
+
+Nature has provided us energy in the various
+forms namely, (J) solar energy, (2) heat (or
+radiant) energy, (3) light energy, (4) chemical (or
+fuel) energy, (5) hydro energy, (6) electrical
+energy, (7) nuclear energy, (8) geo-thermal energy,
+(9) wind energy, (10) sound energy, (11) magnetic
+energy, and (12) mechanical energy, etc. These
+forms of energy are described below.
+
+(1) Solar energy : The energy radiated out by
+sun is called the solar energy. Solar energy
+cannot be put to work directly, because it is
+too diffused and it is not always available
+uniformly. However, a number of devices
+such as (i) solar panels, (ii) solar furnaces,
+and (iii) solar cells, etc. have, been invented
+to make use of solar energy.
+
+(i) A solar panel consists of black-painted
+metal surface which absorbs the sun’s
+energy and heats water in its contact.
+
+
+===== PAGE 15 =====
+
+(2)
+
+(3)
+
+(4)
+
+(ii) In a solar furnace, parabolic mirror is
+used to focus the sun rays on a small
+area so that a high temperature is
+achieved. Thus by keeping water at the
+focus of mirror, water can be boiled to
+produce steam and steam can then be
+used to drive the turbine of an electric
+generator so as to obtain the electrical
+energy.
+
+(iii) The solar cells are used to convert the
+solar energy directly into the electrical
+energy. These cells are made from the
+thin slices of semiconducting material.
+However the efficiency of a solar cell
+to convert solar energy into the
+electrical energy is very low.
+
+Heat energy : The energy released on burning
+coal, oil, wood or gas is heat energy. The
+steam obtained on heating water possesses heat
+energy and it has the capacity to do work. In
+a steam engine, heat energy of steam is used
+to obtain work (mechanical energy). We
+receive heat energy on earth directly from sun.
+Light energy : It is the form of energy in
+presence of which other objects are seen. The
+natural source of light energy is sun. The
+moon reflects the sun light at night. Many
+sources such as fire, burning candle, etc. also
+give light energy alongwith the heat energy.
+
+Chemical (or fuel) energy : The energy
+possessed by the fossil fuels such as coal,
+petroleum and natural gas is called the
+chemical energy (or fuel energy). These fuels
+contain chemical energy stored in them.
+When fuels are burnt, the chemical energy
+changes into the heat and light energy.
+
+The food that we eat also has the chemical
+energy in it. Plants convert the solar energy
+into the chemical energy of food during
+the process of photosynthesis. A battery
+has chemical energy stored in it and it
+provides the electrical energy when in use
+by a chemical reaction which takes place
+inside it.
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+Hydro energy : The energy possesed by
+the fast moving water is called hydro energy.
+This energy is used to generate electricity in
+hydroelectric power stations. For this, water
+is stored in the dams built across the rivers
+high up in the hills and the water in the dams
+is allowed to fall down through pipes, the
+Kinetic energy of the falling water drives the
+turbines of the generators which produces
+electrical energy.
+
+Electrical energy : When two dry bodies are
+rubbed together, they get charged due to
+movement of free electrons from one body to
+the other body, so they possess electrical
+energy. An electric cell is a source of
+electrical energy due to movement of ions
+from one electrode to the other electrode
+within the cell as a result of a chemical
+reaction.
+
+Nuclear energy : The energy released due
+to loss in mass during the processes of
+nuclear fission and fusion, is called the
+nuclear (or atomic) energy. In both these
+processes the loss in mass gets converted into
+energy in accordance with the Einstein’s
+mass-energy relation E = mc. This energy
+is used in nuclear reactors for the constructive
+purpose to produce electrical energy and is
+used in atom bomb for the destructive
+purpose to produce heat and other forms of
+energy so as to destroy the enemy in war.
+Geo thermal energy : The energy released
+in nuclear disintegrations in the interior of
+earth gets stored deep inside the earth and
+is called the geo thermal energy. This energy
+heats up the underground water to produce
+the natural steam. Sometimes, the natural
+steam may burst out from the surface of earth
+as hot springs. The electric power companies
+may drill wells into the earth to trap the
+natural steam which may be used to run the
+turbine of generators to produce electricity.
+Wind energy : The energy possessed by the
+fast moving air (i.e., storm) is called the wind
+energy. This energy is used in driving a wind
+
+“x
+¢
+
+
+===== PAGE 16 =====
+
+mill. In past, for many years in rural areas,
+wind mills were used to pump out the
+underground water and to grind grains. Now
+a days, large giant wind mills are being used
+to drive the turbine of electric generators for
+producing electricity.
+
+10. Sound energy : A vibrating body possesses
+the sound energy. It is sensed by our ears.
+When the disturbance produced by a
+vibrating body in the atmospheric air layers
+reaches our ears and produces vibrations in
+the ear-membrane, sound is heard.
+
+11. Magnetic energy : The energy possessed by
+a magnet due to which it can attract iron
+filings, is called the magnetic energy. An
+electromagnet has the magnetic energy.
+
+12. Mechanical energy : The energy possessed
+by a body due to its state of rest or of motion,
+is called the mechanical energy. A body at a
+height, a moving body, a stretched bow, etc.
+have the mechanical energy.
+
+2.15 CONVERSION OF ONE FORM OF
+ENERGY INTO THE OTHER FORM
+
+In our daily life we require energy in various
+forms. Since one form of energy can be converted
+into the other form, we can obtain the energy in
+the required form from the form of energy
+available to us. Fig. 2.11 shows some examples
+of conversion of energy from one form to the
+other form.
+
+Now we consider below some more examples
+of conversion of one form of energy into the
+other form.
+
+(1) Mechanical energy to electrical energy:
+The water stored in the reservoir of a dam
+has the potential energy. When water falls,
+its potential energy decreases and kinetic
+energy increases. If the falling water is
+made to rotate a turbine near the bottom
+of the dam, the kinetic energy of water is
+transferred to the turbine in the form of
+rotational kinetic energy due to which it
+rotates. The turbine rotates the armature of
+
+(2)
+
+(3)
+
+Thermo couple
+Loud
+
+aker
+Electrical 28
+energy
+Microphone \
+
+Charging a
+battery
+Electrical
+energy Cell in
+use
+h Lighted
+candle Light
+
+PF Sun energy
+=f nian
+Lighted
+Ts
+
+Chemical
+energy
+
+Chemical
+energy
+
+Electrical
+energy
+
+Fig. 2.11 Examples of energy conversion
+
+the generator connected to it and thus the
+kinetic energy gets transformed into the
+electrical energy in the generator.
+
+Thus an electric generator (or a dynamo)
+converts the mechanical energy into the
+electrical energy.
+
+Electrical energy to mechanical energy :
+In an electric motor, when an electric
+current is passed in a coil freely
+suspended (or pivoted) in a magnetic field,
+a torque acts on the coil due to which it
+rotates. The shaft attached to the coil also
+rotates with it. Thus the electrical energy
+changes into the mechanical energy.
+
+The electric motor is used in many home
+appliances such as electric fan, washing
+machine, mixer, grinder, etc. It is also
+used to run the industrial machines.
+
+Electrical energy to heat energy : In
+electric appliances such as heater, oven,
+
+
+===== PAGE 17 =====
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+geyser, toaster, etc. electrical energy
+changes into the heat energy when a
+current passes through their resistance wire
+(or filament).
+
+Heat energy to electrical energy : In a
+thermocouple, when two junctions of two
+different metals are kept at different
+temperatures (one junction is kept hot,
+while the other cold), a current flows in
+the thermocouple. Thus a thermocouple
+changes the heat energy supplied at the
+hot junction into the electrical energy.
+
+Electrical energy to sound energy : A
+loudspeaker when in use, receives
+electrical energy in form of electrical
+signals from the microphone and changes
+it into the sound energy.
+
+In an electric bell when an electric current
+is passed, the electrical energy changes
+into the sound energy.
+
+Sound energy to electrical energy : A
+microphone converts the sound energy
+into the electrical energy in form of
+varying electric signals.
+
+Electrical energy to chemical energy :
+While charging a battery, the electrical
+energy changes into the chemical energy
+of the cell.
+
+Chemical energy to electrical energy :
+From an electric cell when current is
+drawn, the chemical energy stored in it
+changes into the electrical energy.
+
+Chemical energy to light energy : When
+a candle burns, it gives light. Similarly in
+a kerosene lamp when the oil soaked in
+its wick burns, the chemical energy
+changes into the light energy.
+
+Light energy to chemical energy : The
+light energy from sun is absorbed by the
+green plants and they change it in form of
+the chemical energy during the process of
+photosynthesis.
+
+dy)
+
+(12)
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+Electrical energy to light energy : When
+an electric bulb glows on passing an
+electric current through it, the electrical
+energy changes into the heat and light
+energies.
+
+Light energy to electrical energy : In a
+photoelectric cell, the light energy gets
+converted into the electrical energy.
+
+In a solar cell, the light (or solar) energy
+changes into the electrical energy.
+
+Heat energy to mechanical energy : In
+a steam engine, the chemical energy of
+coal first changes to heat energy of steam
+and then heat energy of steam changes
+into the mechanical energy.
+
+Chemical energy to heat energy : When
+fuel such as wood, coal, bio-gas, etc.
+burns, the chemical energy changes into
+heat energy. In explosion of crackers, the
+chemical energy changes into the heat,
+light and sound energies. In lighting a
+candle or match stick, the chemical energy
+changes into the heat and light energies.
+In respiration, the chemical energy
+converts into the heat energy.
+
+Chemical energy to mechanical energy :
+In automobiles, while in motion, the
+chemical energy of petrol (or diesel)
+changes into the mechanical energy (or
+kinetic energy).
+
+Electrical energy to magnetic energy :
+While making an electromagnet, an
+electric current is passed in a coil wound
+around a soft iron bar which gets
+magnetised. Thus the electrical energy
+changes into the magnetic energy.
+
+Mechanical energy to heat energy :
+When water falls from a height, the
+potential energy stored in water at that
+height changes into the kinetic energy of
+water during the fall. On striking the
+ground (or bottom), a part of the kinetic
+
+
+===== PAGE 18 =====
+
+energy of water changes into heat energy
+due to which the temperature of water
+rises.
+
+The moving parts of a machine gets heated
+due to friction, thus a part of mechanical
+energy changes into heat energy.
+
+Note : (1) Whenever mechanical energy
+changes to other forms, it is always in the
+form of kinetic energy and not in the form of
+potential energy i.e., the stored potential energy
+first changes to kinetic energy and then kinetic
+energy changes to the other form.
+
+(2) While transformation of energy from
+one form to the other desired form, the entire
+energy does not change into the desired form,
+but a part of it changes either to some other
+undesirable form (usually heat due to friction)
+or a part is lost to the surroundings due to
+radiation which is not useful. This conversion
+of energy to the undesirable (or non-useful)
+form is called the dissipation of energy. Since
+this part of energy is not available to us for
+any productive purpose, so we call this energy
+as the degraded from of energy.
+
+1. A body of mass 5 kg is taken from a height 5 m
+to 10 m. Find the increase in its potential energy
+(g =10 ms”).
+Given : m = 5 kg, h, =5 m,h,= 10m, g=10ms*
+Increase in potential energy = mg (h, — h,)
+=5x10x (10-5) = 250J
+2. A body of mass 1 kg falls from a height of 5 m.
+How much energy does it possess at any instant?
+(Take g = 9-8 m s~”)
+Given: m= 1kg,h=5m, g=9-8 ms
+The energy possessed by the body at any instant
+= Initial potential energy of the body
+=mgh=1x98x5=49 J
+3. 500 litre of water is raised from the first floor of
+a house at height 4 m to its third floor at height
+12 m. State whether the potential energy of water
+will decrease or increase ?
+Find the decrease/increase in potential energy of
+water. Take : g = 10 N kg", density of water
+= 1 kg litre?
+Given, mass of water m = volume x density
+= 500 x 1 = 500 kg, h, = 4m, h, = 12 m,
+g=10Nkg"!.
+Since height of water above the ground increases
+(h, > h,), so the potential energy of water will
+increase.
+Increase in potential energy
+
+mg (h, — hy)
+
+500 x 10 x (12 — 4)
+
+4. A block of mass 30 kg is pulled up a slope as
+shown in Fig. 2.12 with a constant speed by
+
+|
+
+4
+
+applying a force of 200 N parallel to the slope
+from the initial position A to the final position B.
+(a) Calculate :
+(i) the work done by the force in moving the
+block from A to B, and
+(ii) the potential energy gained by the block.
+Take : g = 10 ms
+
+(b) Account for the difference B
+in answers to parts
+(i) and (ii).
+
+oy A Cc
+Fig. 2.12
+(a) Given : m = 30 kg, F = 200 N, AB = 3 m and
+CB = 1-5 m.
+(i) Work done by the force in moving the block from A
+toB
+= Force x displacement in the direction of force.
+or W=FxAB
+=200Nx 3m=600J
+(ii) The potential energy gained by the block U = mgh
+where h=CB=1-5m
+U =30x 10x 1-5 = 450 J
+Out of the work done 600 J, only 450 J is the useful
+work which raises the potential energy of the block
+and the remaining work = 600 J - 450 J = 150 J is
+spent against the force of friction between the block
+and the slope which gets converted into the heat
+energy.
+
+(b)
+
+
+===== PAGE 19 =====
+
+5. In a dam, water falls at a rate of 1000 kg s“!
+from a height of 100 m.
+
+(a) Calculate the initial potential energy of the
+water.
+
+(b) Assuming that 60% of the energy of the
+falling water is converted to electrical
+energy, calculate the power generated.
+(Take g = 9-8 m s~”).
+
+Given : In one second 1000 kg of water falls.
+ie, m= 1000 kg, t=1s, g=9-8ms?,h= 100m.
+(a) Initial potential energy of water = mgh
+= 1000 x 9-8 x 100 = 9:8 x 10° J
+(b) Energy available from the falling water
+= its initial potential energy = mgh
+Energy converted to electrical energy
+= 60% of the energy gained from the falling water
+= a x mgh = 0-6 mgh
+Electrical energy 0-6 mgh
+Time = t
+= Seana imams Js
+= 5-88 x 10° W
+6. A truck driver loads some oil drums into a truck
+by lifting them directly. Each drum has a mass of
+
+80 kg and the platform of the truck is at a height
+
+of 0-8 m above the ground.
+
+(a) What force is needed to lift a drum into the
+truck ?
+
+(b) How much energy is used up in lifting a
+drum?
+
+(c) After the truck is loaded, the driver drives
+off. List the major energy changes that take
+place in moving the truck.
+
+(d) The driver stops the truck at the factory
+gate. What happens to the kinetic energy of
+the truck ?
+
+Take g = 10 ms”.
+Given : m = 80 kg, h= 0-8 m, g = 10 ms?
+
+(a) Force needed to lift a drum
+= Force of gravity on drum
+= mg = 80 x 10 = 800 N
+
+(b) Energy used up in lifting a drum
+= gravitational potential energy mgh
+= 80 x 10 x 0-8 = 640 J
+
+Power generated =
+
+(c) In moving the truck, the chemical energy of | 10.
+
+the fuel (diesel) changes into the mechanical
+(kinetic) energy.
+
+(d) On stopping the truck, the kinetic energy of the
+truck changes into the heat and sound energies.
+
+7. Calculate the kinetic energy of a body of
+
+mass 2 kg moving with a speed of 10 ms“.
+
+Given : m=2kg, v=10 ms"!
+Kinetic energy = 4m? = 4 x 2 x (10)?
+= 100 J
+
+8. How fast should a man weighing 600 N run so
+
+that his kinetic energy is 750 J ? (g = 10 ms”)
+
+Given : W = 600N, g=10 ms”,
+
+kinetic energy = 750 J, v=?
+
+W=mg -. 600 =mx10 or m=60kg
+Kinetic energy = + mv
+
+150 = 4 x 60x
+
+v= 270 « 25
+
+or v= 725 =5ms"
+
+9. How is the kinetic energy of a moving cart
+affected if (a) its mass is doubled, (b) its velocity
+
+is reduced to 4 rd of the initial velocity ?
+(a) K,= 4m, K,= 4x 2mxv
+K,= 2K,
+Alternative : If mass m is doubled (keeping the
+
+speed same), the kinetic energy gets doubled (since
+kinetic energy is directly proportional to the mass).
+
+ie. Increase in kinetic energy = K, — K, = 2K, — K,
+= K, (initial kinetic energy)
+
+vw, K, bm x (Zv)?= 4m x ha
+
+Alternative : If velocity v is reduced to ird
+(keeping the mass same), the kinetic energy reduces
+
+to $ th its initial value (since kinetic energy is
+directly proportional to the square of velocity).
+
+ie, Decrease in kinetic energy = K, — K, = K, — +k,
+8 8
+=a K, (ie. 9 th the initial kinetic energy)
+
+A truck weighing 5 x 10° kgf and a cart weighing
+500 kgf are moving with the same speed.
+Compare their kinetic energies.
+
+
+===== PAGE 20 =====
+
+11.
+
+12.
+
+(a)
+
+(b)
+
+(c)
+
+Given, mass of truck m, = 5 x 10° kg, mass of cart
+m, = 500 kg.
+Since speeds are same, kinetic energy is directly
+proportional to the mass (K s m).
+
+Ky hi 5x10" AF 0
+
+K, ~ ™ 5001
+K,: K, = 10:1
+For the same kinetic energy of a body, what
+should be the change in its velocity if its mass is
+increased four times ?
+Let initial mass m, = m, velocity = v,
+Final mass m, = 4m, velocity = v,
+For the same kinetic energy,
+
+or
+
+1 py mols 2
+DLs 4 meni Le)
+alls mvs 2
+or x mv? = 7x 4mxv,
+or v2 = iv or y= 5v
+
+Thus, velocity should be halved.
+
+A bullet of mass 5 g travels with a speed of
+500 m s~!. If it penetrates a fixed target which
+offers a constant resistive force of 1000 N to the
+motion of the bullet , find : (a) the initial kinetic
+energy of the bullet, (b) the distance through
+which the bullet has penetrated before coming to
+rest, and (c) the speed with which the bullet
+emerges out of the target if target is of thickness
+0-5 m.
+
+Given: m=5g=5x 103 kg, v=500ms",
+F = 1000N
+
+Kinetic energy of the bullet = 4m?
+= $x (5x 10°) x (500)? = 625 J
+Let the bullet penetrate through a distance S m in the
+target.
+Work done by the bullet against the material of the
+target = Resistive force x distance
+= 1000x SJ
+This work is obtained from the initial kinetic energy
+of the bullet.
+1000 S = 625
+or S = 625/1000 = 0-625 m
+Thus, the distance penetrated by the bullet = 0-625 m.
+Energy spent against the resistive force
+offered by the target in penetrating through it
+= Resistive force x thickness of target
+= 1000 N x 0-5 m = 500 J
+
+13.
+
+Note :
+
+Kinetic energy left with the bullet on emerging out
+of the target = 625 J- 500 J= 125 J
+
+If the speed of bullet is now v’, then kinetic energy
+
+= 5m’?
+
+4 my’? = 125Jor 4x (5 x 10-3)v’2 = 125
+
+_ [2xi25
+
+v= V5x107
+
+or = 223-6 ms).
+
+Calculate the kinetic energy of a body of mass
+0-1 kg and momentum 20 kg m s“!,
+Given : p= 20 kg ms!, m=0-1 kg
+Kinetic energy K =5 my? and
+P
+
+m
+
+momentum p=mvorv=
+
+Eliminating v,
+1 P 2
+K=5mx (4) = =
+
+~) Oe © 2
+= Sor = 200F=2x 10°J
+
+A ball of mass 10 g falls from a height of
+5 m. It rebounds from the ground to a height of
+4m. Find :
+
+(a) the initial potential energy of the ball,
+
+(b) the kinetic energy of the ball just before
+striking the ground,
+
+(c) the kinetic energy of the ball after striking
+the ground, and
+
+(d) the loss in kinetic energy on striking the
+ground.
+
+Take g = 9'8 ms.
+
+Given: m= 10 g= Deke = 0-01 kg,
+
+h=5m, g=98ms%, h’'=4m.
+
+(a) Initial potential energy of the ball = mgh
+
+=0-01 x 9-8 x 5= 0:49 J
+
+(b) Kinetic energy of the ball just before striking
+
+the ground = Initial potential energy of the ball
+= 0-49 J.
+
+(c) Kinetic energy of the ball after striking the
+ground = Potential energy of ball at the highest
+point after rebound.
+
+=mgh'= 0-01 x 9:8 x 4 =0-392 J
+(d) Loss in kinetic energy on striking the ground
+= Initial kinetic energy — Final kinetic energy
+= 0-49 J — 0-392 J = 0-098 J
+This energy appears in the form of heat
+energy and sound energy when the ball strikes
+the ground.
+
+
+===== PAGE 21 =====
+
+14. A spring is kept compressed by a toy cart of mass | kinetic energy of the cart.
+
+150 g. On releasing the cart, it moves with a
+speed of 0-2 m s~!, Calculate the potential energy
+(elastic) of the spring.
+
+Given : m= 150 g = 150 x 107 kg, v=0-2 ms!
+
+On releasing the cart, the spring tries to come back to
+its uncompressed state by pushing the cart away. Thus the
+potential energy stored in the spring changes into the
+
+Potential energy of spring U
+= Kinetic energy gained by the cart
+$m? = 4 x (150 x 103) x (0-2)?
+
+o Us=
+
+3x 10° J
+
+&
+2.
+
+2.
+
+10.
+
+. A body of mass m is moving with a uniform velocity
+
+What are the two forms of mechanical energy ?
+
+Name the form of energy which a wound up watch
+spring possesses. Ans. Elastic potential energy.
+Name the type of energy (kinetic energy K or
+potential energy U) possessed in the following
+cases :
+
+(a) A moving cricket ball
+
+(b) A compressed spring
+
+(c) A moving bus
+
+(d) A stretched wire
+
+(e) An arrow shot out of a bow
+
+(f) A piece of stone placed on the roof.
+
+Ans. (a) K (b) U (c) K (d) U(e) K(f) U
+
+Define the term potential energy of a body. State its
+different forms and give one example of each.
+
+Name the form of energy which a body may possess
+even when it is not in motion. Give an example to
+support your answer.
+
+What is meant by the gravitational potential
+energy ? Derive expression for it for a body placed
+at a height above the ground.
+
+Write an expression for the potential energy of a
+body of mass m placed at a height h above the earth
+surface. State the assumptions made, if any.
+
+What do you understand by the kinetic energy of a
+body ?
+
+A body of mass m is moving with a velocity v. Write
+the expression for its kinetic energy.
+
+State the work-energy theorem.
+
+u. A force is applied on the body due to which its
+velocity changes from u to v. How much work is
+
+being done by the force ? Ans, in (7 - Ww)
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17,
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+A light mass and a heavy mass have equal
+momentum. Which will have more kinetic energy ?
+{Hint : kinetic energy K = p?/2m where p is the
+momentum] Ans. Lighter mass
+Two bodies A and B of masses m and M (M >> m)
+have same kinetic energy. Which body will have
+more momentum ? Ans. Body B
+Name the three forms of kinetic energy and give one
+example of each.
+State two differences between the potential energy
+and the kinetic energy.
+Complete the following sentences :
+(a) The kinetic energy of a body is the energy by
+virtue of its
+(b) The potential energy of a body is the energy by
+virtue of its
+
+Ans. (a) motion (b) position
+When an arrow is shot from a bow, it has kinetic
+energy in it. Explain briefly from where does it get
+its kinetic energy ?
+
+A ball is placed on a compressed spring. What form
+of energy does the spring possess ? On releasing the
+spring, the ball flies away. Give a reason.
+A pebble is thrown up. It goes to a height and then
+comes back on the ground. State the different
+changes in form of energy during its motion.
+In what way does the temperature of water at the
+bottom of a waterfall differ from the temperature at
+the top ? Explain the reason.
+Is it possible that no transfer of energy takes place
+even when a force is applied to a body ?
+
+Ans. Yes, when force is normal to displacement.
+Name the form of mechanical energy, which is put
+to use. Ans. Kinetic energy
+
+. Name six different forms of energy ?
+
+Lal he oe
+
+SS
+
+
+===== PAGE 22 =====
+
+24. Energy can exist in several forms and may change
+from one form to another. For each of the following,
+state the energy changes that occur in :
+
+(a) the unwinding of a watch spring,
+
+(b) a loaded truck when started and set in motion,
+(c) a car going uphill,
+
+(d) photosynthesis in green leaves,
+
+(e) charging of a battery,
+
+(f) respiration,
+
+(g) burning of a match stick,
+
+(h) explosion of crackers.
+
+25. State the energy changes in the following cases
+while in use :
+(a) loudspeaker
+(b) a steam engine
+(c) microphone
+(d) washing machine
+(e) a glowing electric bulb
+(f) burning coal
+(g) a solar cell
+(h) bio-gas burner
+(i) an electric cell in a circuit
+(j) a petrol engine of a running car
+(k) an electric toaster
+(1) a photovoltaic cell
+(m) an electromagnet.
+
+26. Is it practically possible to convert a form of energy
+completely into the other useful form ? Explain your
+answer.
+
+MULTIPLE CHOICE TYPE
+1. A body at a height possesses :
+(a) kinetic energy  (b) potential energy
+(c) solar energy (b) heat energy.
+Ans. (b) potential energy
+2. In an electric cell while in use, the change in energy
+is from :
+(a) electrical to mechanical
+(b) electrical to chemical
+(c) chemical to mechanical
+(d) chemical to electrical.
+Ans. (d) chemical to electrical
+NUMERICALS
+
+1. Two bodies of equal masses are placed at heights h
+and 2h. Find the ratio of their gravitational potential
+energies. Ans. 1:2
+
+2. Find the gravitational potential energy of 1 kg
+
+mass kept at a height of 5 m above the ground if
+g=10ms~. Ans. 50 J
+
+3. A box of weight 150 kgf has gravitational potential
+energy stored in it equal to 14700 J. Find the height
+of the box above the ground.
+
+(Take g = 9-8 N kg7). Ans. 10 m
+
+4. A body of mass 5 kg falls from a height of 10 m to
+4 m. Calculate : (i) the loss in potential energy of the
+body, and (ii) the total energy possessed by the body
+at any instant ? (Take g = 10 ms”).
+
+Ans. (i) 300 J, (ii) 500 J
+
+5. Calculate the height through which a body of mass
+0-5 kg is lifted if the energy spent in doing so is 1-0 J.
+Take g = 10 ms. Ans. 0-2 m
+
+6. A boy weighing 25 kgf climbs up from the first floor
+at a height of 3 m above the ground to the third floor
+at a height of 9 m above the ground. What will be the
+increase in his gravitational potential energy ?
+
+(Take g = 10 N kg™). Ans. 1500 J
+
+7. A vessel containing 50 kg of water is placed at a
+height of 15 m above the ground. Assuming the
+gravitational potential energy at ground to be zero,
+what will be the gravitational potential energy of
+water in the vessel ?(g=10 ms) Ans. 7500 J
+
+8. A man of mass 50 kg climbs up a ladder of height
+10 m. Calculate : (i) the work done by the man,
+and (ii) the increase in his potential energy.
+
+(g =9-8 ms”). Ans. (i) 4900 J, (ii) 4900 J
+
+9. A block A, weighing 100 N, is pulled up a slope of
+length 5 m by means of a constant force F (= 100 N)
+as illustrated in Fig. 2.13.
+
+3m
+ae
+
+Fig. 2.13
+
+(a) What is the work done by the force F in
+moving the block A, 5 m along the slope ?
+
+(b) What is the increase in potential energy of the
+block A ?
+
+(c) Account for the difference in the work done by
+the force and the increase in potential energy of
+the block.
+
+Ans. (a) 500 J (b) 300 J (c) The difference i.e., 200 J
+energy is used in doing work against the force of
+friction between the block and the slope which
+will appear as heat energy.
+
+
+===== PAGE 23 =====
+
+10. Find the kinetic energy of a body of mass 1 ‘kg
+moving with a uniform velocity of 10 m s7.
+Ans. 50 J.
+11. If the speed of a car is halved, how does its kinetic
+energy change ? Ans. becomes one-fourth
+12. Calculate the decrease in the kinetic energy of a
+moving body if its velocity reduces to half of the
+Ans. (3) of the initial value
+13. Two bodies of equal masses are moving with
+uniform velocities v and 2v. Find the ratio of their
+kinetic energies. Ans. 1: 4
+14. A car is running at a speed of 15 km h-! while another
+similar car is moving at a speed of 30 km hr. Find
+the ratio of their kinetic energies. Ans. 1:4
+15. A ball of mass 0-5 kg slows down from a speed of
+5 ms‘ to that of 3 m s“!. Calculate the change in
+kinetic energy of the ball. Ans. 4 J (decrease)
+A cannon ball of mass 500 g is fired with a speed of
+15m s!. Find : (i) its kinetic energy, and (ii) its
+momentum. Ans. (i) 56-25 J, (ii) 7-5 kg ms!
+17. A body of mass 10 kg is moving with a velocity
+20 m s“!. If the mass of the body is doubled and its
+velocity is halved, find : (i) the initial kinetic energy,
+and (ii) to the final kinetic energy.
+Ans. (i) 2000 J (ii) 1000 J
+18. A truck weighing 1000 kgf changes its speed from
+36 km hr"! to 72 km hr! in 2 minutes. Calculate :
+(i) the work done by the engine, and (ii) its power.
+(g=10ms~%).
+Ans. (i) 1-5 x 10° J, (ii) 1-25 x 10° W
+
+initial velocity.
+
+19. A body of mass 60 kg has the momentum
+3000 kg m s“!. Calculate : (i) the kinetic energy, and
+(ii) the speed of the body.
+: Ans. (i) 7-5 x 104 J, Gi) 50 ms.
+20. How much work is needed to be done on a ball of
+mass 50 g to give it a momentum of 5 kg m s“!.?
+Ans. 250 J
+21. How much energy is gained by a box of mass 20 kg
+when a man
+(a) carrying the box waits for 5 minutes for a bus?
+(b) runs carrying the box with a speed of
+3 ms" to catch the bus ?
+raises the box by 0-5 m in order to place it
+inside the bus ? (g = 10 m s~?)
+Ans. (a) Zero (b) 90 J (c) 100 J
+12. A bullet of mass 50 g is moving with a velocity of
+500 m s“!. It penetrates 10 cm into a still target and
+comes to rest. Calculate : (a) the kinetic energy
+possessed by the bullet, and (b) the average retarding
+force offered by the target.
+Ans. (a) 6250 J (b) 62500 N
+
+23. A spring is kept compressed
+
+(c)
+
+by a small trolley of mass |Spring Tey ee
+0-5 kg lying on a smooth
+horizontal surface as shown
+
+Fig. 2.14
+
+in the adjacent Fig. 2.14.
+When the trolley is released, it is found to move at
+a speed of v = 2 ms". What potential energy did the
+spring possess when compressed ?
+
+Ans. 1-0 J
+
+2.16 PRINCIPLE OF CONSERVATION OF
+
+ENERGY
+
+In universe, energy occurs in various forms.
+The sum of all forms of energy in the universe
+remains constant. When there is a transformation
+of energy from one form to another, the total
+energy always remains same i.e., it remains
+conserved. If there is only an interchange between
+
+the potential energy and kinetic energy, the
+total mechanical energy (i.e., the sum of kinetic
+energy K and potential energy U) remains
+constant i.e., K + U = constant when there are
+no frictional forces.
+
+The principle of conservation of energy is one
+of the fundamental principles of nature.
+
+2.17 THEORETICAL VERIFICATION OF
+K + U= CONSTANT FOR A FREELY
+FALLING BODY
+
+Let a body of mass m be falling freely under
+
+gravity from a height h above the ground (i.e.,
+
+
+===== PAGE 24 =====
+
+from position A in Fig. 2.15). As the body falls
+down, its potential energy changes into the kinetic
+energy. At each point of motion, the sum of
+potential energy and kinetic energy remains
+unchanged. To verify it, let us calculate the sum
+of kinetic energy K and potential energy U at
+various positions, say at A (at height h above the
+ground), at B (when it has fallen through a
+distance x), and at C (on the ground).
+
+K = mgx, U = mg(h - x)
+
+K = mgh, U=0 GROUND
+Fig. 2.15 Free fall of a body
+At the position A (at height 4 above the ground) :
+
+Initial velocity of body = 0 (since body is at rest at A)
+Kinetic energy K = 0
+Potential energy U = mgh
+
+Hence total energy
+
+K+U=0+mgh = mgh
+wei)
+At the position B (when it has fallen a distance x) :
+
+Let v, be the velocity acquired by the body at B after
+falling through a distance x. Then u=0,S=x,a=g
+
+From equation vw? = uw? +2aS
+v,? = 0+2¢x =2ex
+.. Kinetic energy K = Amv?
+
+4m x (2gx) = mgx
+Now at B, height of body above the ground = h — x
+-. Potential energy U = mg (h-x)
+Hence total energy = K+U
+mgx + mg(h — x) = mgh
+
+At the position C (on the ground) :
+
+Let the velocity acquired by the body on reaching the
+ground be v. Then u=0, S=h, a=g
+
+From equation v? =u?+2aS
+v? =0+2gh
+or v2 =2gh
+
+Kinetic energy K = tmy?
+= 4m x (2gh) = mgh
+
+and potential energy U =0 (at the ground when h = 0)
+(iii)
+
+Thus from eqns. (i), (ii) and (iii), we note
+that the total mechanical energy (i.e., the sum
+of kinetic energy and potential energy)
+always remains constant at each point of motion
+and it is equal to the initial potential energy at
+height h. As the body falls, its potential
+energy decreases and kinetic energy increases.
+The potential energy changes into the kinetic
+energy. Just at the instant when it strikes
+the ground, whole of the potential energy
+has changed into the kinetic energy, therefore
+the kinetic energy of the body on reaching the
+ground is equal to the initial potential energy at
+height h.
+
+Similarly, when a body is thrown vertically
+upwards under gravity, its initial kinetic energy
+supplied at the instant of throwing up, keeps on
+decreasing and the potential energy keeps on
+increasing by the same amount. When the body
+reaches the highest point, whole of its initial
+kinetic energy has changed into the potential
+energy and therefore the body momentarily comes
+to rest. At this instant, the body is still under the
+influence of the force of gravity, so the body
+starts falling down and its potential energy begins
+to change into the kinetic energy.
+
+Hence total energy = K + U = mgh + 0 = mgh
+
+Note : The initial kinetic energy provided to
+the body at the ground, so as to reach a certain
+height h must be equal to the potential energy
+of the body at that height h (i.e., equal to mgh).
+Thus the initial velocity u to be imparted to the
+
+body so as to réach a height h/ is given as :
+
++ mu? = mgh or u= y2gh
+
++++(2.18)
+
+
+===== PAGE 25 =====
+
+Fig. 2.16 represents the variation in kinetic =
+
+energy and potential energy with the height above
+the ground.
+
+The table below represents the kinetic energy
+K, potential energy U and total energy E of the
+body of mass m at various heights above the
+ground during vertically downward and upward
+motions under gravity.
+
+oy
+
+TOTAL ENERGY
+
+HEIGHT (ABOVE THE GROUND) —>
+Fig. 2.16 Conservation of mechanical energy
+in motion under gravity
+
+Table showing the kinetic energy and potential energy of a body in vertical motion.
+
+h (i.e., highest point A)
++h (ie., middle point B)
+0 (i.e., ground C)
+
+0 (ie., ground C)
+
++h (ie., middle point B)
+h (i.e., highest point A)
+
+Downward motion
+(i.e., free fall)
+
+It is clear that at the ground (i.e., at point C)
+h=0, potential energy = 0, kinetic energy = mgh. At
+the middle point B, x = sh, potential energy
+
+= +mgh, kinetic energy = + mgh. At the highest
+point A (i.e., at height h), potential energy = mgh
+and kinetic energy = 0 (zero).
+
+Note : In the above calculations, we have
+ignored the force of friction between the body
+and air. In fact during the fall, some of the
+kinetic energy will change into the heat energy
+due to friction and it will get dissipated in air.
+At the ground C, the kinetic energy will be
+less than mgh. The conservation of mechanical
+energy is therefore strictly valid only in
+absence of external forces such as friction due
+to air etc., although the total energy of all
+kinds is always conserved.
+
+2.17 APPLICATION OF PRINCIPLE OF
+CONSERVATION OF ENERGY TO A
+SIMPLE PENDULUM
+
+Fig. 2.17 shows a simple pendulum suspended
+from a rigid support O. Its resting position is at
+
+A. When it is displaced to one side and then
+released, it swings from one side to the other,
+reaching equal distance and equal height on
+either side. Neglecting the force of friction
+between the bob and the surrounding air, the
+motion of pendulum can easily be explained by
+applying the principle of conservation of energy
+as follows.
+
+Fig. 2.17 Motion of a simple pendulum
+
+Explanation : Let A be the resting (or mean)
+position of the bob when it has zero potential
+
+
+===== PAGE 26 =====
+
+energy*. When the bob of the pendulum is
+displaced to B from its resting position A, the bob
+gets raised by a vertical height h, so its potential
+energy increases by mgh if m is the mass of the
+bob. Now on releasing the bob at B, it moves back
+from B to A. Its vertical height decreases from h
+to zero, so its potential energy decreases from mgh
+to zero and it gets converted into the kinetic energy
+
+ie., + my? = mgh. At the point B, the bob acquires
+a velocity v = /2gh, so it moves towards C. At
+the point C, when the bob raises by a vertical
+height h above the point A, again it acquires the
+potential energy mgh and its kinetic energy
+becomes zero. So the bob momentarily comes to
+
+* — In fact, at the mean position, the bob has minimum potential
+energy. Since we are interested only in the change in
+potential energy as the bob swings so we may assume it to
+be zero at the mean position.
+
+PSRs sarrrmemmmey, EXAMPLES | ose orem
+
+1. A ball of mass 50 g is thrown vertically upwards
+with an initial velocity 20 m s~!. Calculate :
+(i) the initial kinetic energy imparted to the ball,
+(ii) the maximum height reached if air friction is
+neglected, and
+(iii) the maximum height reached if 40% of the
+initial energy is lost against the air friction.
+Take g = 10 ms”.
+Given : m=50 g= = kg = 0-05 kg,
+u=20ms',g=10ms”.
+(i) Initial kinetic energy imparted to the ball
+= Smut = > x 005 x (20)? = 10 J
+(ii) If air friction is negligible, then
+Potential energy at the maximum height
+= initial kinetic energy
+
+or mgh = —my*
+2.
+et ER 6/20)
+hS 9, *2r4q be
+(iii) If 40% of the initial energy is lost against the air
+friction, then
+
+Potential energy at the maximum height
+= 60% of the initial kinetic energy
+
+rest at the point C. But’due to the force of gravity,
+the bob moves back from C to A.
+
+As the bob swings back from C to A, the
+potential energy decreases and the kinetic energy
+increases. At A (mean position), it has its total
+mechanical energy in the form of kinetic energy
+and the potential energy is zero, so the bob
+swings again from A to B to repeat the process.
+
+Thus during the swing, at the extreme
+positions B and C, the bob has only the potential
+energy, while at the mean position A, it has only
+the kinetic energy. At an intermediate position
+(between A and B or between A and C), the bob
+has both the kinetic energy and potential energy,
+but the sum of both (i.e., the total mechanical
+energy) remains constant throughout the swing.
+This is strictly true only in vacuum where there
+is no force of friction due to air.
+
+OD i sce af a es ma
+= too * initial kinetic energy
+60 1
+or mgh = 759 * zm
+_ 06? _ 06x(20)" _
+sda” aga" Rialasinr:
+
+2. A ball of mass 20 g falls from a height of 10 m
+and after striking the ground, it rebounds from
+the ground to a height of 8 m.
+
+(a) Calculate :
+(i) the kinetic energy of ball just before
+striking the ground, and
+(ii) the loss in kinetic energy of ball on
+striking the ground.
+(b) What happens to the loss in kinetic energy in
+part (ii)?
+Take g = 10 m s~. Neglect air friction.
+(a) Given, m = 20 g = 0-02 kg, h = 10 m,
+g=10ms”,h’ =8 m. Air friction is negligible.
+(i) The kinetic energy of ball just before striking
+the ground = initial potential energy of ball
+= mgh =0-02 x 10x 10=2 J
+
+
+
+===== PAGE 27 =====
+
+(ii) The kinetic energy of the ball just after striking
+the ground
+potential energy of the ball at the highest
+point after rebound = mgh’ = 0-02 x 10 x 8
+=16J
+-. Loss in kinetic energy on striking the ground
+= kinetic energy of the ball just before striking
+the ground — kinetic energy of the ball just
+after striking the ground = 2J-16J=0-4 J
+The loss in kinetic energy in part (ii) appears in
+form of heat and sound energies when the ball
+strikes the ground.
+
+(b)
+
+. A simple pendulum, while oscillating, rises to a
+maximum vertical height of 5 cm from its rest
+position when it reaches to its extreme position
+on one side. If mass of the bob of simple
+pendulum is 500 g and g = 10 m s”, find :
+
+(i) the total energy of simple pendulum at any
+instant while oscillating, and
+
+(ii) the velocity of bob at its mean position.
+State the assumption made in your
+calculation.
+
+Given, h = 5 cm = 0-05 m, m = 500 g = 0:5 kg,
+g=10ms?.
+Assumption : There is no loss of energy due to air
+friction.
+(i) Total energy of simple pendulum
+= potential energy at its extreme position
+= mgh = 0-5 x 10 x 0-05 = 0:25 J
+(ii) Kinetic energy at the mean position
+= potential energy at the extreme position
+
+ie., : mv? = mgh
+
+or v= J2gh = J/2x10x005 =i
+
+=Ims"
+
+. State the principle of conservation of energy.
+
+. What do you understand by the conservation of
+mechanical energy ? State the condition under which
+the mechanical energy is conserved.
+
+. Name two examples in which the mechanical energy
+of a system remains constant.
+
+. A body is thrown vertically upwards. Its velocity
+keeps on decreasing. What happens to its kinetic
+energy as its velocity becomes zero ?
+
+Ans. Kinetic energy changes to potential energy.
+
+. A body falls freely under gravity from rest. Name
+the kind of energy it will possess
+(a) at the point from where it falls,
+(b) while falling,
+(c) on reaching the ground.
+Ans. (a) Potential energy, (b) Potential energy
+and kinetic energy (c) Kinetic energy
+
+. Show that the sum of kinetic energy and potential
+energy (i.e., total mechanical energy) is always
+conserved in the case of a freely falling body under
+gravity (with air resistance neglected) from a height
+h by finding it when (i) the body is at the top,
+(ii) the body has fallen a distance x, (iii) the body
+has reached the ground.
+
+10.
+
+11.
+
+. A pendulum is oscillating on either side of its rest
+
+position. Explain the energy changes that takes place
+in the oscillating pendulum. How does the
+mechanical energy remain constant in it ? Draw the
+necessary diagram.
+
+. A pendulum with bob of mass m is oscillating on
+
+either side from its resting position A between the
+
+extremes B and C at a vertical height h above A.
+
+What is the kinetic energy K and potential energy U
+
+when the pendulum is at positions (i) A, (ii) B, and
+(iii) C?
+
+Ans. (i) K = mgh, U = 0 (ii) K = 0, U= mgh
+
+(iii) K = 0, U = mgh
+
+. Name the type of energy possessed by the bob of a
+
+simple pendulum when it is at (a) the extreme
+
+position, (b) the mean position, and (c) between the
+mean and extreme positions.
+
+Ans. (a) potential energy, (b) kinetic energy
+
+(c) both the kinetic and potential energy
+
+What do you mean by degradation of energy ?
+Explain it by taking one example of your daily life.
+Complete the following sentence :
+
+The conversion of part of energy into an undesirable
+form is called ............. ’
+Ans. Degradation of energy
+
+
+===== PAGE 28 =====
+
+MULTIPLE CHOICE TYPE :
+
+Ie
+
+A ball of mass m is thrown vertically up with an
+initial velocity so as to reach a height h. The correct
+statement is :
+(a) Potential energy of the ball at the ground is
+mgh.
+(b) Kinetic energy imparted to the ball at the
+ground is zero.
+(c) Kinetic energy of the ball at the highest point is
+mgh.
+(d) Potential energy of the ball at the highest point
+is mgh.
+Ans. (d) Potential energy of the ball at
+the highest point is mgh.
+A pendulum is oscillating on either side of its rest
+position . The correct statement is :
+(a) It has only the kinetic energy.
+(b) It has the maximum kinetic energy at its
+extreme position.
+(c) It has the maximum potential energy at its
+mean position.
+(d) The sum of its kinetic and potential energies
+remains constant throughout the motion.
+Ans. (d) The sum of its kinetic and potential
+energies remains constant throughout
+the motion.
+
+NUMERICALS
+
+A ball of mass 0-20 kg is thrown vertically upwards
+with an initial velocity of 20 m s~!. Calculate the
+maximum potential energy it gains as it goes up.
+Ans. 40 J
+A stone of mass 500 g is thrown vertically upwards
+with a velocity of 15 m s-!, Calculate : (a) the
+
+potential energy at the greatest height, (b) the kinetic
+energy on reaching the ground, and (c) the total
+energy at its half way point.
+
+Ans. (a) 56-25 J (b) 56-25 J (c) 56-25 J
+A metal ball of mass 2 kg is allowed to fall freely
+from rest from a height of 5 m above the ground.
+(Take g = 10 ms)
+
+(a) Calculate the poténtial energy possessed by the
+ball when initially at rest.
+
+(b) What is the kinetic energy of the ball just
+before it hits the ground ?
+
+(c) What happens to the mechanical energy after
+the ball hits the ground and comes to rest ?
+
+Ans. (a) 100 J (b) 100 J (c) Mechanical energy converts
+
+into the heat and sound energy.
+
+4. The diagram given below shows a ski jump. A skier
+
+weighing 60 kgf stands at A at the top of ski jump.
+He moves from A and takes off for his jump at B.
+
+A
+
+Fig. 2.18
+
+(a) Calculate the change in the gravitational
+potential energy of the skier between A and B.
+
+(b) If 75% of the energy in part (a) becomes
+kinetic energy at B, calculate the speed at
+which the skier arrives at B.
+
+(Take g = 10 ms)
+Ans. (a) 3-6 x 10*J (b) 30 ms
+
+5. A hydroelectric power station takes its water from a
+
+lake whose water level is at a height of 50 m above
+the turbine. Assuming an overall efficiency of 40%,
+calculate the mass of water which must flow through
+the turbine each second to produce power output of
+1 MW. (g = 10 ms).
+
+Ans. 5000 kg
+
+6. The bob of a simple pendulum is imparted a velocity
+
+of 5 ms! when it is at its mean position. To what
+maximum vertical height will it rise on reaching at
+its extreme position if 60% of its energy is lost in
+overcoming the friction of air ?
+
+(Take g = 10 ms). Ans. 0:75 m
+

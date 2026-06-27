@@ -1,0 +1,22 @@
+{
+    "generated_at": "2026-06-25T13:35:10.587224",
+    "board": "ICSE",
+    "grade": "10",
+    "subject": "Physics",
+    "master_source": "F:\\batman_student\\data\\class10\\physics\\textbook\\physics-textbook.txt",
+    "statistics": {
+        "characters": 874808,
+        "words": 164738,
+        "lines": 32356,
+        "estimated_chapters": 1,
+        "estimated_pages": 302,
+        "mcq_sections": 34,
+        "exercise_sections": 1,
+        "numerical_sections": 39,
+        "worked_examples": 159,
+        "figure_mentions": 884,
+        "vector_db_exists": true
+    },
+    "warnings": [],
+    "status": "PASS"
+}

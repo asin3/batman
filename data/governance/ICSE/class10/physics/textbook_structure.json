@@ -1,0 +1,9 @@
+{
+    "board": "ICSE",
+    "grade": "10",
+    "subject": "Physics",
+    "source": "normalized_textbook.txt",
+    "strategy": "ICSE_SELINA",
+    "units": [],
+    "chapters": []
+}
