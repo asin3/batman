@@ -1,2 +1,39 @@
-.env
+
+# Local environment
 .venv/
+.env
+
+# Vector database
+vector_db/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db.env
+Thumbs.db
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Student data
+data/students/
+
+# Generated Reports
+data/**/reports/
+
+# Student runtime / data
+data/students/
+
+# OCR / Source textbooks / Archived books
+data/**/textbook/source/
+data/**/textbook/archive/
+data/**/textbook/*.pdf
+
+# Temporary processing / OCR
+data/**/working/
