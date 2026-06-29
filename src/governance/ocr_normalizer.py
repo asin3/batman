@@ -30,34 +30,27 @@ physics-textbook.txt
 ===========================================================
 """
 
-from pathlib import Path
 import re
+
+from src.config.paths import (
+    STAGING_DIR,
+    GENERATED_DIR,
+)
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 RAW_TEXT = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "physics-textbook.txt"
+    STAGING_DIR /
+    "physics-textbook.txt"
 )
 
 OUTPUT = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "normalized_textbook.txt"
+    GENERATED_DIR /
+    "normalized_textbook.txt"
 )
-
 
 # ---------------------------------------------------------
 # LOAD

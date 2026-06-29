@@ -36,14 +36,17 @@ Last Updated:
 """
 
 import json
-from pathlib import Path
+
+from src.config.paths import (
+    DATA_DIR,
+)
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+from src.config.paths import DATA_DIR
 
 # ---------------------------------------------------------
 # GOVERNANCE ROOT
@@ -56,8 +59,7 @@ GRADE = "class10"
 SUBJECT = "physics"
 
 GOVERNANCE = (
-    PROJECT_ROOT
-    / "data"
+    DATA_DIR
     / "governance"
     / BOARD
     / GRADE

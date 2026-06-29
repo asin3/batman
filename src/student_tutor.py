@@ -1,4 +1,8 @@
-from pathlib import Path
+from src.config.paths import (
+    DOCS_DIR,
+    VECTOR_DB_DIR,
+)
+
 from dotenv import load_dotenv
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
@@ -58,6 +62,18 @@ from src.governance.topic_normalizer import (
     normalize_topic_name
 )
 
+from src.understanding.engine import (
+    understand
+)
+
+from src.orchestration.tutor_router import (
+    build_history_text
+)
+
+from src.orchestration.quiz_router import (
+    display_mcq
+)
+
 import chromadb
 import os
 
@@ -79,14 +95,13 @@ api_key=os.getenv("OPENAI_API_KEY")
 
 # ---------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
 rules = (
-    PROJECT_ROOT
-    / "docs"
+    DOCS_DIR
     / "standards"
     / "student_tutor_rules.md"
-).read_text(encoding="utf-8")
+).read_text(
+    encoding="utf-8"
+)
 
 # ---------------------------------
 
@@ -105,7 +120,7 @@ embedding_model = SentenceTransformer(
 # ---------------------------------
 
 db = chromadb.PersistentClient(
-path="./vector_db"
+    path=str(VECTOR_DB_DIR)
 )
 
 collection = db.get_collection(
@@ -142,6 +157,12 @@ while True:
     "\nAsk Batman-Student: "
     )
 
+    understanding = None
+
+    # -----------------------------
+    # EXIT
+    # -----------------------------
+
     if question.lower() == "exit":
 
         print(
@@ -150,6 +171,7 @@ while True:
 
         break
 
+    # -----------------------------   
     stage = get_setup_stage()
 
     # -----------------------------
@@ -198,7 +220,19 @@ while True:
     # START QUIZ
     # -----------------------------
 
-    if question.lower().startswith("quiz"):
+    if (
+
+        understanding
+
+        and
+
+        understanding["intent"]
+
+        and
+
+        understanding["intent"]["name"] == "QUIZ"
+
+    ):
     
         history.append(
             {
@@ -211,11 +245,23 @@ while True:
             student_id,
             history
         )
-        parsed = parse_quiz_request(question)
+        # -----------------------------
+        # UNDERSTANDING RESULT
+        # -----------------------------
 
-        topics = parsed["topics"]
-        difficulty = parsed["difficulty"]
-        count = parsed["count"]
+        topics = []
+
+        if understanding["entities"]["topic"]:
+
+            topics.append(
+
+                understanding["entities"]["topic"]
+
+            )
+
+        difficulty = understanding["entities"]["difficulty"]
+
+        count = understanding["entities"]["count"] or 0
 
         topics = [
 
@@ -347,13 +393,9 @@ while True:
             provider=get_current_provider()
         )
 
-        question_only = re.split(
-            r"CORRECT:",
+        question_only = display_mcq(
             mcq
-        )[0]
-
-        print("\n")
-        print(question_only)
+        )
 
         history.append(
             {
@@ -546,13 +588,9 @@ while True:
             provider=get_current_provider()
         )
 
-        question_only = re.split(
-            r"CORRECT:",
+        question_only = display_mcq(
             mcq
-        )[0]
-
-        print("\n")
-        print(question_only)
+        )
 
         history.append(
             {
@@ -567,6 +605,28 @@ while True:
         )
 
         continue
+    
+    # -----------------------------
+    # UNDERSTANDING ENGINE
+    # -----------------------------
+
+    if not is_quiz_active():
+
+        understanding = understand(
+
+            question,
+
+            student_id
+
+        )
+
+        print("\nUNDERSTANDING")
+
+        print(
+
+            understanding
+
+        )
 
     # -----------------------------
     # INTENT
@@ -655,17 +715,9 @@ while True:
     # HISTORY CONTEXT
     # -----------------------------
 
-    history_text = ""
-
-for msg in history:
-
-    if "role" not in msg:
-        continue
-
-        history_text += (
-            f"{msg['role']}: "
-            f"{msg['content']}\n"
-        )
+    history_text = build_history_text(
+        history
+    )
 
     # -----------------------------
     # PROMPT

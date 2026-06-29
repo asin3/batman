@@ -26,34 +26,23 @@ parsing_strategy.json
 ===========================================================
 """
 
-from pathlib import Path
 import json
+
+from src.config.paths import GOVERNANCE_DIR
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 RULE_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "structure_rules.json"
+    GOVERNANCE_DIR /
+    "structure_rules.json"
 )
 
 OUTPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "parsing_strategy.json"
+    GOVERNANCE_DIR /
+    "parsing_strategy.json"
 )
 
 

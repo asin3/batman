@@ -29,8 +29,9 @@ None
 ===========================================================
 """
 
-from pathlib import Path
 import json
+
+from src.config.paths import STUDENTS_DIR
 
 from src.governance.topic_normalizer import (
     normalize_topic_name
@@ -40,14 +41,10 @@ from src.governance.topic_normalizer import (
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 STUDENT_ID = input("Enter Student ID: ").strip()
 
 HISTORY_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "students"
+    STUDENTS_DIR
     / STUDENT_ID
     / "history.json"
 )

@@ -12,9 +12,18 @@ client = genai.Client(
 
 def generate_response(prompt):
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
+    try:
 
-    return response.text
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
+
+        return response.text
+
+    except Exception as e:
+
+        print("\n[Gemini Error]")
+        print(type(e).__name__)
+
+        return None

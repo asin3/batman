@@ -1021,34 +1021,593 @@
   },
   {
     "role": "user",
-    "content": "quiz me on light"
+    "content": "quiz me on light",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "user",
-    "content": "easy"
+    "content": "easy",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "It sounds like you're ready to finish for now!\n\nIf you have any more questions about physics or anything else you're studying, just let me know. I'm here to help you understand things clearly.\n\nUntil next time, keep learning!"
+    "content": "It sounds like you're ready to finish for now!\n\nIf you have any more questions about physics or anything else you're studying, just let me know. I'm here to help you understand things clearly.\n\nUntil next time, keep learning!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "Understood. It was good working with you, Student.\n\nFeel free to come back if you have more questions about machines or any other concepts. Keep learning!"
+    "content": "Understood. It was good working with you, Student.\n\nFeel free to come back if you have more questions about machines or any other concepts. Keep learning!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "Understood. If you have any more questions or need help with your studies, just let me know. I'm ready to assist when you are!"
+    "content": "Understood. If you have any more questions or need help with your studies, just let me know. I'm ready to assist when you are!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "Understood. It was a pleasure learning with you, student!\n\nIf you need any more help understanding concepts or tackling tough problems, just let me know. Batman is always ready to assist!"
+    "content": "Understood. It was a pleasure learning with you, student!\n\nIf you need any more help understanding concepts or tackling tough problems, just let me know. Batman is always ready to assist!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "Understood! If you need help with anything else, just let me know. I'm always ready to assist."
+    "content": "Understood! If you need help with anything else, just let me know. I'm always ready to assist.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
   },
   {
     "role": "assistant",
-    "content": "Understood, Student.\n\nIt was good working with you. If you need my help again, just call!"
+    "content": "Understood, Student.\n\nIt was good working with you. If you need my help again, just call!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "whats is light",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on current",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "easy",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the text, what is the *sole* effect when a force is applied to a rigid body?\n\nA) It causes only motion in the body.\nB) It causes both a change in size or shape and motion in the body.\nC) It causes only a change in the body's size or shape.\nD) It causes the body to become non-rigid.\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The text explicitly states: \"a force when applied on a rigid body can cause only the motion in it\".",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It was good working with you!\n\nIf you have any more questions or need help with other concepts, feel free to ask. Goodbye for now.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood, citizen!\n\nI hope our session was helpful. Feel free to return whenever you need guidance on your studies.\n\nBatman out.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It was good working with you.\n\nIf you have more questions or need help with physics concepts later, I'll be here.\n\nAlways remember, understanding the 'why' is just as important as knowing the 'how'. Keep training your mind!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It seems our lesson is concluding for now.\n\nRemember, the Bat-Signal is always ready if you need further guidance!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. It was good to train with you.\n\nBatman out.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Understood!\n\nIt looks like you're ready to conclude our session for now.\n\nRemember, the Bat-Cave is always open if you have more questions or need help with your studies. Keep up the good work!",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Batman could not reach the AI service at the moment. Please try again shortly.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat can a force cause when applied to a non-rigid body?\n\nA)\nBoth a change in its size or shape and motion\n\nB)\nOnly rotational motion\n\nC)\nOnly translational motion\n\nD)\nNo change at all\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that a force applied on a non-rigid body can cause both a change in its size or shape and motion.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "type": "QUIZ",
+    "mode": "QUIZ",
+    "subject": "Physics",
+    "chapter": "Force",
+    "difficulty": "easy",
+    "score": 1,
+    "total": 1,
+    "percentage": 100,
+    "timestamp": "2026-06-28T02:21:14.998248"
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the context, what is the S.I. unit of force?\n\nA)\nnewton\n\nB)\nmetre\n\nC)\nsecond\n\nD)\njoule\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that force is a vector quantity and its S.I. unit is newton, symbol N.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "type": "QUIZ",
+    "mode": "QUIZ",
+    "subject": "Physics",
+    "chapter": "Force",
+    "difficulty": "easy",
+    "score": 1,
+    "total": 1,
+    "percentage": 100,
+    "timestamp": "2026-06-28T02:46:42.512172"
+  },
+  {
+    "role": "user",
+    "content": "quiz me on force easy 1",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Batman could not reach the AI service at the moment. Please try again shortly.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force easy 3",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Batman could not reach the AI service at the moment. Please try again shortly.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force easy 2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the context, what is the relation between kilogram-force and newton?\n\nA)\n1 kgf = g N\n\nB)\n1 kgf = 1 N\n\nC)\n1 kgf = m N\n\nD)\n1 kgf = g kg\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "b",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that the force unit kilogram-force is related to newton by the relation 1 kgf = g N, where g is the acceleration due to gravity.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nAccording to the context, what two kinds of motion can a rigid body have when acted upon by a force?\n\nA)\nLinear or translational motion and rotational motion\n\nB)\nCircular motion and random motion\n\nC)\nVibrational motion and wave motion\n\nD)\nOnly straight-line motion\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that a rigid body acted upon by a force can have two kinds of motion: linear or translational motion and rotational motion.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "type": "QUIZ",
+    "mode": "QUIZ",
+    "subject": "Physics",
+    "chapter": "Force",
+    "difficulty": "easy",
+    "score": 1,
+    "total": 2,
+    "percentage": 50,
+    "timestamp": "2026-06-28T03:38:41.743970"
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force easy 2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhen a force acts on a rigid body, what two kinds of motion can it have?\n\nA)\nLinear or translational motion and rotational motion\n\nB)\nOnly change in size and change in shape\n\nC)\nOnly translational motion and no other motion\n\nD)\nOnly rotational motion and no other motion\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that a rigid body acted upon by a force can have two kinds of motion: linear or translational motion, and rotational motion.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit of force?\n\nA)\nnewton\n\nB)\nmetre\n\nC)\nsecond\n\nD)\nkilogram\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "s",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that force is a vector quantity and its S.I. unit is newton, symbol N.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "type": "QUIZ",
+    "mode": "QUIZ",
+    "subject": "Physics",
+    "chapter": "Force",
+    "difficulty": "easy",
+    "score": 1,
+    "total": 2,
+    "percentage": 50,
+    "timestamp": "2026-06-28T03:52:02.690906"
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force easy 2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit of force?\n\nA)\nnewton\n\nB)\nmetre\n\nC)\nsecond\n\nD)\nkilogram\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "According to the context, force is a vector quantity and its S.I. unit is newton, symbol N.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat are the two kinds of motion a rigid body can have?\n\nA)\nLinear or translational motion and rotational motion\n\nB)\nCircular motion and random motion\n\nC)\nVibrational motion and wave motion\n\nD)\nUniform motion and non-uniform motion\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "d",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "The context states that a rigid body can have two kinds of motion: linear or translational motion and rotational motion.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "type": "QUIZ",
+    "mode": "QUIZ",
+    "subject": "Physics",
+    "chapter": "Force",
+    "difficulty": "Easy",
+    "score": 1,
+    "total": 2,
+    "percentage": 50,
+    "timestamp": "2026-06-28T12:17:02.605353"
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "easy",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 easy Force quiz. \ud83e\udd87\n\n### Question 1\nAccording to the textbook context, a simple machine can help us lift a heavy load by applying:\n\nA) More effort  \nB) Less effort  \nC) No effort  \nD) Only electrical energy  \n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\nFor that question, the correct idea is:\n\nA **simple machine** helps us lift or move a heavy load by applying **less effort**.\n\nSo the best option was:\n\n**B) Less effort**\n\nExample: A pulley or lever can help lift a heavy object with less force.\n\n**Note:** The textbook context currently shown is about electric circuits, not force/simple machines, so I\u2019m using general Physics knowledge here.\n\n### Question 2\nThe S.I. unit of force is:\n\nA) newton  \nB) joule  \nC) metre  \nD) ampere  \n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\nThe S.I. unit of **force** is **newton**, written as **N**.\n\nMistake tracker:  \n- Q1: missed \u274c  \n- Q2: correct \u2705  \n\n### Question 3  \nForce is a:\n\nA) Scalar quantity  \nB) Vector quantity  \nC) Chemical quantity  \nD) Heat quantity  \n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "s",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "I think you typed **\u201cs\u201d**, but the options are **A, B, C, or D**. \ud83e\udd87\n\n### Question 3 again  \nForce is a:\n\nA) Scalar quantity  \nB) Vector quantity  \nC) Chemical quantity  \nD) Heat quantity  \n\n**Hint:** Force has both **magnitude** and **direction**.\n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Quiz me on Force easy",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 **Force quiz, easy level, 2 questions**. \ud83e\udd87  \nI\u2019ll ask **one question at a time**.\n\n**Note:** The textbook context you provided is about radioactivity and resistance, not force, so I\u2019ll use general Physics knowledge.\n\n### Question 1\nForce is commonly described as a:\n\nA) Push or pull  \nB) Form of energy  \nC) Type of heat  \nD) Unit of mass  \n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Correct. \u2705\n\n**Force is commonly described as a push or pull.**\n\nMistake tracker:  \n- Q1: correct \u2705\n\n### Question 2\nThe S.I. unit of force is:\n\nA) newton  \nB) joule  \nC) metre  \nD) ampere  \n\nWhat\u2019s your answer?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "b",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Not quite. \ud83e\udd87\n\n**B) joule** is the S.I. unit of **work/energy**, not force.\n\nThe S.I. unit of **force** is:\n\n\\[\n\\textbf{newton } (N)\n\\]\n\nSo the correct option was **A) newton**.\n\n### Final score\n- Q1: correct \u2705  \n- Q2: missed \u274c  \n\nYour score: **1/2** \u2705\n\nRemember:  \n**Force \u2192 newton (N)**  \n**Work/Energy \u2192 joule (J)**",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Quiz me",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Force",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "Easy",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "2",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit of force?\n\nA)\nnewton\n\nB)\nmetre\n\nC)\nkilogram\n\nD)\nsecond\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "a",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit of force?\n\nA)\nnewton (N)\n\nB)\nmetre (m)\n\nC)\nsecond (s)\n\nD)\nkilogram (kg)\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "d",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nIf the mass of a body is constant, force is given by which expression?\n\nA)\nF = ma\n\nB)\nF = m/a\n\nC)\nF = a/m\n\nD)\nF = m + a\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "d",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "QUESTION:\nWhat is the S.I. unit of force?\n\nA)\nnewton\n\nB)\nmetre\n\nC)\nsecond\n\nD)\nkilogram\n\n",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "what is force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "**Force** is a **push or pull** acting on a body.\n\n### Textbook definition\nForce is defined as the **rate of change of linear momentum** of a body.\n\n\\[\nF=\\frac{dp}{dt}\n\\]\n\nIf the mass is constant, then:\n\n\\[\nF=ma\n\\]\n\nwhere:\n\n- \\(F\\) = force  \n- \\(m\\) = mass  \n- \\(a\\) = acceleration  \n\n### Effects of force\nAccording to your textbook:\n\n- On a **rigid body**, force can cause **motion**.\n- On a **non-rigid body**, force can cause **motion** and change in **size or shape**.\n\n### Unit\nForce is a **vector quantity**, and its S.I. unit is **newton**, written as:\n\n\\[\nN\n\\]\n\n### Simple example\nWhen you push a ball, it starts moving. Your push is the **force**.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "what is force?",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Batman could not reach the AI service at the moment. Please try again shortly.",
+    "mode": "SUPER_CHAT",
+    "subject": ""
+  },
+  {
+    "role": "user",
+    "content": "what is centrifugal force?"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on your textbook context, here is the explanation.\n\n### What is Centrifugal Force?\n\n**Centrifugal force** is a force that appears to act on a body **away from the centre** of a circular path.\n\n### Key Points from Your Textbook\n\n1.  **Direction:** It acts in a direction **opposite** to the centripetal force.\n2.  **Magnitude:** Its magnitude is the **same** as that of the centripetal force.\n3.  **Not a Reaction:** It is **not** the force of reaction of the centripetal force. (Action and reaction act on different bodies, not the same body).\n4.  **Nature:** It is **not a real force**. It is a **fictitious force** that is assumed by an observer who is moving in the circular path along with the body.\n\n### The Merry-Go-Round Experiment (from your textbook)\n\n- **Setup:** A ball is tied to a string at the centre of a merry-go-round.\n- **Observation from the ground (real):** A person standing on the ground sees the ball being pulled towards the centre by the tension in the string. That tension is the **centripetal force**.\n- **Observation from the rotating platform (apparent):** A person moving with the merry-go-round *feels* as if the ball is being pulled **outward**, away from the centre. This outward \"feeling\" is the **centrifugal force**. To that moving observer, it seems like a real force, but it is actually just an effect of their own rotating frame of reference.\n\n### Simple One-Liner\n\n**Centrifugal force is the apparent outward force felt by a body moving in a circular path.**"
   }
 ]

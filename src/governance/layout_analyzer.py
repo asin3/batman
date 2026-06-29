@@ -32,34 +32,27 @@ layout_analysis.json
 ===========================================================
 """
 
-from pathlib import Path
 import json
 import re
+
+from src.config.paths import (
+    GENERATED_DIR,
+    GOVERNANCE_DIR,
+)
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 INPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "normalized_textbook.txt"
+    GENERATED_DIR /
+    "normalized_textbook.txt"
 )
 
 OUTPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "layout_analysis.json"
+    GOVERNANCE_DIR /
+    "layout_analysis.json"
 )
 
 OUTPUT_FILE.parent.mkdir(

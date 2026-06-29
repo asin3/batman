@@ -1,3 +1,17 @@
+"""
+============================================================
+Batman Student
+
+Module:
+quiz_generator.py
+
+Purpose:
+Generate quiz questions and identify concepts using the
+configured LLM provider.
+
+============================================================
+"""
+
 from src.llm.provider_router import ask_llm
 
 
@@ -17,6 +31,11 @@ Question:
     response = ask_llm(
         prompt
     )
+
+    if response.startswith(
+        "Batman could not reach"
+    ):
+        return "Unknown"
 
     return response.strip()
 
@@ -92,5 +111,10 @@ CONTEXT:
     response = ask_llm(
         prompt
     )
+
+    if response.startswith(
+        "Batman could not reach"
+    ):
+        return response
 
     return response

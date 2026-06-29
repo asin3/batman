@@ -1,11 +1,9 @@
 from datetime import datetime
 
 import json
-from pathlib import Path
+from src.config.paths import DATA_DIR
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-DATA_FOLDER = PROJECT_ROOT / "data"
+DATA_FOLDER = DATA_DIR
 
 
 def get_history_path(student_id):

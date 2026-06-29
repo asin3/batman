@@ -12,9 +12,18 @@ client = OpenAI(
 
 def generate_response(prompt):
 
-    response = client.responses.create(
-        model="gpt-5.5",
-        input=prompt
-    )
+    try:
 
-    return response.output_text
+        response = client.responses.create(
+            model="gpt-5.5",
+            input=prompt
+        )
+
+        return response.output_text
+
+    except Exception as e:
+
+        print("\n[OpenAI Error]")
+        print(type(e).__name__)
+
+        return None

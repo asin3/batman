@@ -26,30 +26,23 @@ topic_map.json
 ===========================================================
 """
 
-from pathlib import Path
 import json
 import re
 
+from src.config.paths import (
+    STAGING_DIR,
+    GOVERNANCE_DIR,
+)
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 TEXTBOOK = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "physics-textbook.txt"
+    STAGING_DIR /
+    "physics-textbook.txt"
 )
 
 OUTPUT = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "topic_map.json"
+    GOVERNANCE_DIR /
+    "topic_map.json"
 )
 
 

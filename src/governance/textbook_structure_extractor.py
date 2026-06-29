@@ -23,58 +23,37 @@ Knowledge Engine
 ===========================================================
 """
 
-from pathlib import Path
 import json
 import re
+
+from src.config.paths import (
+    GENERATED_DIR,
+    GOVERNANCE_DIR,
+)
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-
 NORMALIZED_TEXT = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "normalized_textbook.txt"
+    GENERATED_DIR /
+    "normalized_textbook.txt"
 )
-
 
 RULE_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "structure_rules.json"
+    GOVERNANCE_DIR /
+    "structure_rules.json"
 )
-
 
 STRATEGY_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "parsing_strategy.json"
+    GOVERNANCE_DIR /
+    "parsing_strategy.json"
 )
 
-
 OUTPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "governance"
-    / "ICSE"
-    / "class10"
-    / "physics"
-    / "textbook_structure.json"
+    GOVERNANCE_DIR /
+    "textbook_structure.json"
 )
 
 OUTPUT_FILE.parent.mkdir(

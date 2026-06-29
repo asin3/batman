@@ -37,7 +37,10 @@ Last Updated:
 ===========================================================
 """
 
-from pathlib import Path
+from src.config.paths import (
+    STAGING_DIR,
+    VECTOR_DB_DIR,
+)
 
 import chromadb
 
@@ -58,34 +61,14 @@ from src.governance.metadata_enricher import (
 # PROJECT PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = (
-    Path(__file__)
-    .resolve()
-    .parent
-    .parent
-    .parent
-)
-
-TEXTBOOK_FOLDER = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-)
+TEXTBOOK_FOLDER = STAGING_DIR
 
 NOTES_FOLDER = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "notes"
+    STAGING_DIR.parent /
+    "notes"
 )
 
-VECTOR_DB = (
-    PROJECT_ROOT
-    / "vector_db"
-)
+VECTOR_DB = VECTOR_DB_DIR
 
 
 # ---------------------------------------------------------

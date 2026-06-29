@@ -82,9 +82,11 @@ def enrich_metadata(
 
         for topic in chapter["topics"]:
 
-            if topic.lower() in text_lower:
+            topic_name = topic["name"]
 
-                metadata["topic"] = topic
+            if topic_name.lower() in text_lower:
+
+                metadata["topic"] = topic_name
 
                 return metadata
 

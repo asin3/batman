@@ -1,0 +1,343 @@
+# ADR-006 — Batman Understanding Engine
+
+**Status:** Accepted
+
+**Date:** 2026-06-28
+
+**Owner:** Batman Student Core
+
+---
+
+# 1. Purpose
+
+Define how Batman understands every student request before any tutoring, quiz, homework, planning, or reasoning begins.
+
+This ADR establishes Batman's Understanding Engine as the single entry point for interpreting human language.
+
+All future modules MUST use this engine.
+
+---
+
+# 2. Problem Statement
+
+Traditional AI assistants immediately send user requests to an LLM.
+
+This creates several problems:
+
+- High operating cost
+- Vendor dependency
+- Inconsistent behaviour
+- Poor explainability
+- No long-term learning
+- Duplicate logic across modules
+
+Batman must instead become progressively more capable through reusable Python intelligence.
+
+---
+
+# 3. Mission
+
+Batman should solve as much as possible using deterministic Python logic.
+
+The LLM is an external teacher—not Batman's brain.
+
+Every successful interaction should make Batman more capable in the future.
+
+---
+
+# 4. Guiding Principles
+
+## Principle 1 — Python First
+
+Batman always attempts to solve a request using internal skills before consulting an LLM.
+
+---
+
+## Principle 2 — LLM Last
+
+The LLM is used only when Batman cannot confidently understand or solve the request.
+
+---
+
+## Principle 3 — Clarify Before Guessing
+
+Batman never invents missing information.
+
+If confidence is insufficient, Batman asks the student.
+
+---
+
+## Principle 4 — Validate Everything
+
+Every LLM response must be validated before use.
+
+Batman never assumes external AI is correct.
+
+---
+
+## Principle 5 — Learn Forever
+
+Successful interpretations become reusable knowledge.
+
+The same mistake should never require repeated LLM calls.
+
+---
+
+# 5. Understanding Pipeline
+
+```
+Student Input
+        │
+        ▼
+Intent Engine
+        │
+        ▼
+Entity Extraction
+        │
+        ▼
+Confidence Engine
+        │
+        ▼
+Can Batman Solve?
+        │
+ ┌──────┴──────┐
+ │             │
+Yes            No
+ │             │
+Python       LLM
+ │             │
+ └──────┬──────┘
+        ▼
+Validation
+        ▼
+Learning Engine
+        ▼
+Batman Memory
+```
+
+---
+
+# 6. Responsibilities
+
+## Intent Engine
+
+Determines what the student wants.
+
+Examples:
+
+- Learn Concept
+- Quiz
+- Homework
+- Revision
+- Study Plan
+- Conversation
+
+---
+
+## Entity Extractor
+
+Extracts structured information.
+
+Examples:
+
+- Subject
+- Chapter
+- Topic
+- Difficulty
+- Number of Questions
+
+---
+
+## Confidence Engine
+
+Calculates Batman's confidence.
+
+Example:
+
+```
+Intent Confidence
+
+Quiz        99%
+
+Topic        95%
+
+Difficulty   20%
+
+Count         0%
+```
+
+---
+
+## Clarification Engine
+
+If required information is missing, Batman asks only for the missing fields.
+
+Example:
+
+Student:
+
+```
+Quiz me
+```
+
+Batman:
+
+```
+Which topic?
+```
+
+Student:
+
+```
+Force
+```
+
+Batman:
+
+```
+Difficulty?
+```
+
+Batman never repeats known information.
+
+---
+
+## Learning Engine
+
+Stores successful interpretations.
+
+Example:
+
+Student:
+
+```
+Current
+```
+
+Batman learns:
+
+```
+Current
+↓
+
+Current Electricity
+```
+
+Future requests no longer require clarification.
+
+---
+
+# 7. Decision Policy
+
+Batman follows this decision tree.
+
+```
+Can Python solve?
+
+        │
+   Yes──┴──No
+
+Python      LLM
+
+      │
+
+Validation
+
+      │
+
+Learning
+
+      │
+
+Memory
+```
+
+---
+
+# 8. LLM Usage Policy
+
+The LLM MAY be used for:
+
+- Ambiguous language
+- Natural language interpretation
+- Content generation
+- Explanation generation
+- Teaching
+
+The LLM MUST NOT be used for:
+
+- Simple parsing
+- Known topic mapping
+- Difficulty detection
+- Student state
+- File lookup
+- Rule execution
+
+---
+
+# 9. Learning Policy
+
+Batman learns only after successful validation.
+
+Learning must be:
+
+- Explainable
+- Versioned
+- Auditable
+- Reversible
+
+Batman never learns directly from raw LLM output.
+
+---
+
+# 10. Scope
+
+This engine is shared by:
+
+- Tutor
+- Quiz
+- Homework
+- Revision
+- Study Planner
+- Dashboard
+- Future Teacher Mode
+
+No module should implement its own understanding logic.
+
+---
+
+# 11. Out of Scope
+
+This ADR does not define:
+
+- Prompt engineering
+- Memory storage format
+- LLM provider implementation
+- Knowledge retrieval
+- OCR
+- Vector search
+
+Those are governed by separate ADRs.
+
+---
+
+# 12. Success Criteria
+
+Batman improves over time while reducing dependence on external AI.
+
+The percentage of requests solved entirely through Python should increase as Batman learns.
+
+Long-term Memory
+│
+├── learning_engine.py
+│   (Learns permanently)
+
+Working Memory
+│
+├── conversation_state.py
+│   (Lives during the current conversation)
+
+Knowledge Memory
+│
+└── RAG / Vector DB
+    (Textbook knowledge)

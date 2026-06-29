@@ -35,20 +35,15 @@ Last Updated:
 from datetime import datetime
 
 import json
-from pathlib import Path
+
+from src.config.paths import STUDENTS_DIR
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-
-STUDENTS = (
-    PROJECT_ROOT
-    / "data"
-    / "students"
-)
+STUDENTS = STUDENTS_DIR
 
 
 # ---------------------------------------------------------

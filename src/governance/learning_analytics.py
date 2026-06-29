@@ -39,26 +39,14 @@ import json
 
 from collections import Counter
 
-from pathlib import Path
+from src.config.paths import STUDENTS_DIR
 
 
 # ---------------------------------------------------------
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = (
-    Path(__file__)
-    .resolve()
-    .parent
-    .parent
-    .parent
-)
-
-STUDENTS_FOLDER = (
-    PROJECT_ROOT
-    / "data"
-    / "students"
-)
+STUDENTS_FOLDER = STUDENTS_DIR
 
 
 # ---------------------------------------------------------
@@ -67,16 +55,10 @@ STUDENTS_FOLDER = (
 
 def load_history(student_id):
 
-    from pathlib import Path
-
-    ROOT = Path(__file__).resolve().parents[2]
-
     history_file = (
-        ROOT
-        / "data"
-        / "students"
-        / student_id
-        / "history.json"
+    STUDENTS_FOLDER
+    / student_id
+    / "history.json"
     )
 
     if not history_file.exists():

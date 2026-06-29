@@ -24,7 +24,12 @@ physics-textbook.txt
 ===========================================================
 """
 
-from pathlib import Path
+from src.config.paths import (
+    STAGING_DIR,
+    REPORTS_DIR,
+    VECTOR_DB_DIR,
+)
+
 import json
 from datetime import datetime
 
@@ -33,31 +38,19 @@ from datetime import datetime
 # PATHS
 # ---------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
 TEXTBOOK = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "textbook"
-    / "physics-textbook.txt"
+    STAGING_DIR /
+    "physics-textbook.txt"
 )
 
-REPORTS = (
-    PROJECT_ROOT
-    / "data"
-    / "class10"
-    / "physics"
-    / "reports"
-)
+REPORTS = REPORTS_DIR
 
-VECTOR_DB = (
-    PROJECT_ROOT
-    / "vector_db"
-)
+VECTOR_DB = VECTOR_DB_DIR
 
-REPORTS.mkdir(parents=True, exist_ok=True)
+REPORTS.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
 
 # ---------------------------------------------------------
