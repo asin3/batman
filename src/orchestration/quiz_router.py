@@ -38,6 +38,50 @@ def display_mcq(mcq):
 
     return question_only
 
+# ---------------------------------------------------------
+# PARSE MCQ
+# ---------------------------------------------------------
+
+def parse_mcq(mcq):
+
+    question_match = re.search(
+
+        r"QUESTION:\s*(.*?)\s*A\)",
+
+        mcq,
+
+        re.DOTALL
+
+    )
+
+    correct_match = re.search(
+
+        r"CORRECT:\s*([ABCD])",
+
+        mcq
+
+    )
+
+    explanation_match = re.search(
+
+        r"EXPLANATION:\s*(.*)",
+
+        mcq,
+
+        re.DOTALL
+
+    )
+
+    return (
+
+        question_match,
+
+        correct_match,
+
+        explanation_match
+
+    )
+
 
 # ---------------------------------------------------------
 # HANDLE QUIZ
@@ -74,4 +118,10 @@ Force is a push or pull.
 
 """
 
-    display_mcq(sample)
+    question_match, correct_match, explanation_match = parse_mcq(sample)
+
+    print(question_match.group(1).strip())
+
+    print(correct_match.group(1))
+
+    print(explanation_match.group(1).strip())

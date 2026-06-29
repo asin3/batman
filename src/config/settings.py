@@ -18,9 +18,9 @@ must be stored here.
 # LLM
 # ---------------------------------------------------------
 
-#LLM_PROVIDER = "deepseek"
+LLM_PROVIDER = "deepseek"
 #LLM_PROVIDER = "openai"
-LLM_PROVIDER = "gemini"
+#LLM_PROVIDER = "gemini"
 
 # Options:
 # openai

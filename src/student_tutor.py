@@ -71,7 +71,8 @@ from src.orchestration.tutor_router import (
 )
 
 from src.orchestration.quiz_router import (
-    display_mcq
+    display_mcq,
+    parse_mcq
 )
 
 import chromadb
@@ -327,21 +328,8 @@ while True:
 
         import re
 
-        question_match = re.search(
-            r"QUESTION:\s*(.*?)\s*A\)",
-            mcq,
-            re.DOTALL
-        )
-
-        correct_match = re.search(
-            r"CORRECT:\s*([ABCD])",
+        question_match, correct_match, explanation_match = parse_mcq(
             mcq
-        )
-
-        explanation_match = re.search(
-            r"EXPLANATION:\s*(.*)",
-            mcq,
-            re.DOTALL
         )
 
         if question_match:
@@ -522,21 +510,8 @@ while True:
 
         import re
 
-        question_match = re.search(
-            r"QUESTION:\s*(.*?)\s*A\)",
-            mcq,
-            re.DOTALL
-        )
-
-        correct_match = re.search(
-            r"CORRECT:\s*([ABCD])",
+        question_match, correct_match, explanation_match = parse_mcq(
             mcq
-        )
-
-        explanation_match = re.search(
-            r"EXPLANATION:\s*(.*)",
-            mcq,
-            re.DOTALL
         )
 
         if question_match:
@@ -610,7 +585,7 @@ while True:
     # UNDERSTANDING ENGINE
     # -----------------------------
 
-    if not is_quiz_active():
+    if question.lower() not in ["a", "b", "c", "d"]:
 
         understanding = understand(
 
@@ -620,13 +595,9 @@ while True:
 
         )
 
-        print("\nUNDERSTANDING")
+    print("\nUNDERSTANDING")
 
-        print(
-
-            understanding
-
-        )
+    print(understanding)
 
     # -----------------------------
     # INTENT
