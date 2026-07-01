@@ -67,7 +67,11 @@ from src.understanding.engine import (
 )
 
 from src.orchestration.tutor_router import (
-    build_history_text
+
+    build_history_text,
+
+    route_request
+
 )
 
 from src.orchestration.quiz_router import (
@@ -598,6 +602,18 @@ while True:
     print("\nUNDERSTANDING")
 
     print(understanding)
+
+    route = route_request(
+        understanding
+    )
+
+    if route == "QUIZ":
+
+        print("\nRouter -> Quiz")
+
+    else:
+
+        print("\nRouter -> Tutor")
 
     # -----------------------------
     # INTENT

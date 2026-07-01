@@ -1,0 +1,646 @@
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+:root{
+
+    --bg:#F7F9FC;
+
+    --card:#FFFFFF;
+
+    --primary:#0B2545;
+
+    --secondary:#1F3C88;
+
+    --accent:#F59E0B;
+
+    --success:#16A34A;
+
+    --danger:#DC2626;
+
+    --border:#E5E7EB;
+
+    --text:#111827;
+
+    --muted:#6B7280;
+
+    --radius:14px;
+
+}
+
+
+/* ==========================================================
+   MAIN
+========================================================== */
+
+.block-container{
+
+    padding-top:1.2rem;
+
+    padding-bottom:2rem;
+
+    max-width:1400px;
+
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.dd-header{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    border:1px solid var(--border);
+
+    margin-bottom:18px;
+
+}
+
+.dd-title{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+}
+
+.dd-subtitle{
+
+    color:var(--muted);
+
+    font-size:15px;
+
+    margin-top:6px;
+
+}
+
+
+/* ==========================================================
+   PAGE TITLE
+========================================================== */
+
+.page-title h2{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    letter-spacing:-0.4px;
+
+    color:var(--primary);
+
+    margin-bottom:2px;
+
+}
+
+.page-title p{
+
+    color:var(--muted);
+
+}
+
+
+/* ==========================================================
+   SECTION TITLE
+========================================================== */
+
+.section-title{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:var(--primary);
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================================================
+   INFO CARDS
+========================================================== */
+
+.info-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:18px;
+
+    margin-bottom:16px;
+
+    transition:all .2s ease;
+
+}
+
+.info-card:hover{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+.info-card-icon{
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.info-card-title{
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:var(--primary);
+
+}
+
+.info-card-value{
+
+    color:var(--muted);
+
+    margin-top:8px;
+
+}
+
+
+/* ==========================================================
+   SUBJECT CHIP
+========================================================== */
+
+.subject-chip{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+
+/* ==========================================================
+   CHAPTER HEADER
+========================================================== */
+
+.chapter-header{
+
+    background:#EEF4FF;
+
+    color:var(--primary);
+
+    border-left:5px solid var(--accent);
+
+    padding:12px 16px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    letter-spacing:-0.2px;
+
+    margin-top:20px;
+
+    margin-bottom:12px;
+
+}
+
+
+/* ==========================================================
+   EMPTY STATE
+========================================================== */
+
+.empty-state{
+
+    text-align:center;
+
+    padding:35px;
+
+    color:var(--muted);
+
+    border:2px dashed var(--border);
+
+    border-radius:14px;
+
+    margin-top:20px;
+
+}
+
+
+/* ==========================================================
+   BADGE
+========================================================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:4px 12px;
+
+    border-radius:18px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.badge-blue{
+
+    background:#DBEAFE;
+
+    color:#1E3A8A;
+
+}
+
+.badge-green{
+
+    background:#DCFCE7;
+
+    color:#166534;
+
+}
+
+.badge-orange{
+
+    background:#FEF3C7;
+
+    color:#92400E;
+
+}
+
+/* ==========================================================
+   CALENDAR
+========================================================== */
+
+.calendar-day{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:12px;
+
+    min-height:120px;
+
+    padding:10px;
+
+    transition:.2s;
+
+    cursor:pointer;
+
+}
+
+.calendar-day:hover{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 6px 16px rgba(0,0,0,.08);
+
+}
+
+.calendar-day.selected{
+
+    border:2px solid var(--accent);
+
+}
+
+.schedule-day-wrapper{
+
+    position:relative;
+
+}
+
+.schedule-day-wrapper .stButton{
+
+    position:absolute;
+
+    top:8px;
+
+    right:8px;
+
+    z-index:10;
+
+}
+
+.calendar-date{
+
+    font-size:16px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.calendar-subject{
+
+    display:block;
+
+    background:#EEF4FF;
+
+    color:var(--primary);
+
+    border-radius:6px;
+
+    padding:4px 8px;
+
+    margin-bottom:4px;
+
+    font-size:12px;
+
+}
+
+
+/* ==========================================================
+   PROGRESS TABLE
+========================================================== */
+
+.progress-row{
+
+    padding:4px 0;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.progress-row:last-child{
+
+    border-bottom:none;
+
+}
+
+
+/* ==========================================================
+   NOTE EDITOR
+========================================================== */
+
+textarea{
+
+    border-radius:12px !important;
+
+}
+
+textarea:focus{
+
+    border-color:var(--secondary) !important;
+
+}
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.stButton>button{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    min-height:42px;
+
+}
+
+
+/* ==========================================================
+   METRICS
+========================================================== */
+
+div[data-testid="metric-container"]{
+
+    border-radius:12px;
+
+    border:1px solid var(--border);
+
+    background:white;
+
+}
+
+/* ==========================================================
+   DEBRIEF
+========================================================== */
+
+.debrief-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+}
+
+.debrief-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+}
+
+
+/* ==========================================================
+   COMING SOON
+========================================================== */
+
+.coming-soon-card{
+
+    background:#F9FAFB;
+
+    border:2px dashed var(--border);
+
+    border-radius:16px;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+.coming-soon-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.coming-soon-card p{
+
+    color:var(--muted);
+
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+
+/* ==========================================================
+   STREAMLIT MENU
+========================================================== */
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#CBD5E1;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#94A3B8;
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 992px){
+
+    .block-container{
+
+        padding-left:1rem;
+
+        padding-right:1rem;
+
+    }
+
+    .dd-title{
+
+        font-size:26px;
+
+    }
+
+    .chapter-header{
+
+        font-size:16px;
+
+    }
+
+}
+
+/* ===========================================
+   Progress Page
+=========================================== */
+
+div[data-baseweb="select"]{
+
+    min-height:32px;
+
+    font-size:13px;
+
+}
+
+div[data-baseweb="select"] > div{
+
+    min-height:32px;
+
+}
+
+div[data-testid="stDateInput"]{
+
+    max-width:140px;
+
+}
+
+/* =====================================================
+   Scheduling Calendar
+===================================================== */
+
+.schedule-card{
+    border:1px solid #3d3d3d;
+    border-radius:8px;
+    min-height:125px;
+    padding:8px;
+    margin-bottom:8px;
+}
+
+.schedule-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:8px;
+}
+
+.schedule-date{
+    font-size:15px;
+    font-weight:600;
+}
+
+.schedule-subject{
+    font-size:13px;
+    line-height:1.4;
+    padding-left:4px;
+}
+
+/* ==========================================================
+   END OF FILE
+========================================================== */
