@@ -21,7 +21,7 @@ import json
 from datetime import date
 import streamlit as st
 
-from batman_dd.core.services.student_progress_service import (
+from src.batman_dd.core.services.student_progress_service import (
 
     initialize_student_progress,
 

@@ -44,3 +44,21 @@ BOARD = "ICSE"
 GRADE = "10"
 
 SUBJECT = "Physics"
+
+# ---------------------------------------------------------
+# GOOGLE AUTH
+# ---------------------------------------------------------
+
+GOOGLE_CLIENT_SECRET_FILE = "secrets/google_client_secret.json"
+
+GOOGLE_REDIRECT_URI = "http://localhost:8501"
+
+GOOGLE_SCOPES = [
+
+    "openid",
+
+    "https://www.googleapis.com/auth/userinfo.email",
+
+    "https://www.googleapis.com/auth/userinfo.profile",
+
+]

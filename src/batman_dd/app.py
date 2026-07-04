@@ -6,28 +6,26 @@ import sys
 # PATH
 # ==========================================================
 
-ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-if str(ROOT) not in sys.path:
-    sys.path.append(str(ROOT))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 # ==========================================================
-# COMPONENTS
+# IMPORTS
 # ==========================================================
 
-from batman_dd.components import (
+from src.batman_dd.pages.progress import render_progress_page
+from src.batman_dd.pages.scheduling import render_scheduling_page
+from src.batman_dd.pages.debrief import render_debrief_page
+from src.batman_dd.pages.notes import render_notes_page
+
+from src.platform.auth.auth_gate import authenticate
+
+from src.batman_dd.components import (
     render_header,
-    render_footer
+    render_footer,
 )
-
-# ==========================================================
-# PAGES
-# ==========================================================
-
-from batman_dd.pages.progress import render_progress_page
-from batman_dd.pages.scheduling import render_scheduling_page
-from batman_dd.pages.debrief import render_debrief_page
-from batman_dd.pages.notes import render_notes_page
 
 # ==========================================================
 # PAGE CONFIG
@@ -36,27 +34,26 @@ from batman_dd.pages.notes import render_notes_page
 st.set_page_config(
     page_title="Batman-DD",
     page_icon="🦇",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.set_option("client.showSidebarNavigation", False)
 
 # ==========================================================
+# AUTHENTICATION
+# ==========================================================
+
+user = authenticate()
+
+# ==========================================================
 # LOAD CSS
 # ==========================================================
 
-css_path = (
-    Path(__file__).parent /
-    "styles.css"
-)
+css_path = Path(__file__).parent / "styles.css"
 
 if css_path.exists():
-
-    with open(
-        css_path,
-        encoding="utf-8"
-    ) as f:
-
+    with open(css_path, encoding="utf-8") as f:
         st.markdown(
             f"<style>{f.read()}</style>",
             unsafe_allow_html=True
@@ -67,16 +64,13 @@ if css_path.exists():
 # ==========================================================
 
 if "current_page" not in st.session_state:
-
     st.session_state.current_page = "Progress"
 
 if "selected_subject" not in st.session_state:
-
     st.session_state.selected_subject = "Physics"
 
 if "student_id" not in st.session_state:
-
-    st.session_state.student_id = "STD001"
+    st.session_state.student_id = user.student_id
 
 # ==========================================================
 # SIDEBAR
@@ -93,57 +87,30 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
-    st.caption(
-        "Daily Discipline"
-    )
+    st.caption("Daily Discipline")
 
     st.divider()
 
-    if st.button(
-        "📈 Progress",
-        use_container_width=True
-    ):
-
+    if st.button("📈 Progress", use_container_width=True):
         st.session_state.current_page = "Progress"
-
         st.rerun()
 
-    if st.button(
-        "📅 Scheduling",
-        use_container_width=True
-    ):
-
+    if st.button("📅 Scheduling", use_container_width=True):
         st.session_state.current_page = "Scheduling"
-
         st.rerun()
 
-    if st.button(
-        "📝 Daily Debrief",
-        use_container_width=True
-    ):
-
+    if st.button("📝 Daily Debrief", use_container_width=True):
         st.session_state.current_page = "Daily Debrief"
-
         st.rerun()
 
-    if st.button(
-        "📒 Quick Notes",
-        use_container_width=True
-    ):
-
+    if st.button("📒 Quick Notes", use_container_width=True):
         st.session_state.current_page = "Quick Notes"
-
         st.rerun()
 
     st.divider()
 
-    st.markdown(
-        "**Student**"
-    )
-
-    st.info(
-        st.session_state.student_id
-    )
+    st.markdown("**Student**")
+    st.info(st.session_state.student_id)
 
 # ==========================================================
 # HEADER
@@ -157,47 +124,20 @@ render_header()
 
 page = st.session_state.current_page
 
-# ----------------------------------------------------------
-# PROGRESS
-# ----------------------------------------------------------
-
 if page == "Progress":
-
     render_progress_page()
 
-# ----------------------------------------------------------
-# SCHEDULING
-# ----------------------------------------------------------
-
 elif page == "Scheduling":
-
     render_scheduling_page()
 
-# ----------------------------------------------------------
-# DAILY DEBRIEF
-# ----------------------------------------------------------
-
 elif page == "Daily Debrief":
-
     render_debrief_page()
 
-# ----------------------------------------------------------
-# QUICK NOTES
-# ----------------------------------------------------------
-
 elif page == "Quick Notes":
-
     render_notes_page()
 
-# ----------------------------------------------------------
-# UNKNOWN
-# ----------------------------------------------------------
-
 else:
-
-    st.warning(
-        "Unknown page selected."
-    )
+    st.warning("Unknown page selected.")
 
 # ==========================================================
 # RESERVED AREA

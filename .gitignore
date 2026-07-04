@@ -37,3 +37,6 @@ data/**/textbook/*.pdf
 
 # Temporary processing / OCR
 data/**/working/
+
+#secrets
+secrets/

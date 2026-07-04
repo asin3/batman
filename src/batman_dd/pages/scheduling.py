@@ -15,7 +15,7 @@ import calendar
 
 import streamlit as st
 
-from batman_dd.core.services.student_schedule_service import (
+from src.batman_dd.core.services.student_schedule_service import (
 
     initialize_student_schedule,
 

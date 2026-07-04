@@ -1,0 +1,8 @@
+{
+    "user_id": "USR000001",
+    "email": "amit@gmail.com",
+    "name": "Amit",
+    "provider": "google",
+    "status": "ACTIVE",
+    "student_id": "STD000001"
+}
