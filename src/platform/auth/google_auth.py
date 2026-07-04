@@ -17,13 +17,62 @@ from pathlib import Path
 
 def load_google_config():
 
+    try:
+        # -------------------------------------------------
+        # Streamlit Cloud
+        # -------------------------------------------------
+
+        if "GOOGLE_CLIENT_ID" in st.secrets:
+
+            return {
+
+                "client_id": st.secrets["GOOGLE_CLIENT_ID"],
+
+                "client_secret": st.secrets["GOOGLE_CLIENT_SECRET"],
+
+                "project_id": st.secrets["GOOGLE_PROJECT_ID"],
+
+                "auth_uri": st.secrets["GOOGLE_AUTH_URI"],
+
+                "token_uri": st.secrets["GOOGLE_TOKEN_URI"],
+
+                "auth_provider_x509_cert_url":
+                    st.secrets["GOOGLE_AUTH_PROVIDER_CERT_URL"],
+
+                "redirect_uris": [
+
+                    st.secrets["GOOGLE_REDIRECT_URI"]
+
+                ],
+
+                "javascript_origins": [
+
+                    st.secrets["GOOGLE_JAVASCRIPT_ORIGIN"]
+
+                ],
+
+            }
+
+    except Exception:
+
+        pass
+
+    # -------------------------------------------------
+    # Local Development
+    # -------------------------------------------------
+
     config_path = (
+
         Path(__file__).resolve().parents[3]
+
         / "secrets"
+
         / "google_oauth.json"
+
     )
 
     with open(config_path, "r") as f:
+
         config = json.load(f)
 
     return config["web"]
@@ -41,9 +90,8 @@ def create_google_oauth():
         authorize_endpoint="https://accounts.google.com/o/oauth2/v2/auth",
 
         token_endpoint="https://oauth2.googleapis.com/token",
+
     )
-
-
 # ---------------------------------------------------------
 # PUBLIC FUNCTIONS
 # ---------------------------------------------------------
@@ -68,7 +116,7 @@ def login():
 
             name="Continue with Google",
 
-            redirect_uri="http://localhost:8501",
+            redirect_uri=load_google_config()["redirect_uris"][0],
 
             scope="openid email profile",
 
