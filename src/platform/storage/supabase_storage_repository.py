@@ -9,10 +9,15 @@ from supabase import create_client
 
 from src.platform.storage.storage_repository import StorageRepository
 
+import streamlit as st
 
 ##############################################
 # LOAD CONFIGURATION
 ##############################################
+
+###########################################################
+# LOAD SUPABASE CONFIG
+###########################################################
 
 def load_supabase_config():
 
@@ -22,8 +27,26 @@ def load_supabase_config():
         / "supabase.json"
     )
 
-    with open(config_path, "r", encoding="utf-8") as file:
-        return json.load(file)
+# ------------------------------------------
+# Local Development
+# ------------------------------------------
+
+    if config_path.exists():
+
+        with open(config_path, "r", encoding="utf-8") as file:
+            return json.load(file)
+
+# ------------------------------------------
+# Streamlit Cloud
+# ------------------------------------------
+
+    return {
+
+        "url": st.secrets["SUPABASE_URL"],
+
+        "service_role_key": st.secrets["SUPABASE_SERVICE_ROLE_KEY"]
+
+    }   
 
 
 ##############################################
