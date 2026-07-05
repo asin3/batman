@@ -7,16 +7,14 @@
 # IMPORTS
 # ---------------------------------------------------------
 
-from pathlib import Path
-import json
-
+from src.platform.storage.storage_router import StorageRouter
+from src.platform.services.user_repository import get_user
 
 # ---------------------------------------------------------
-# CONSTANTS
+# REPOSITORY
 # ---------------------------------------------------------
 
-STUDENTS_PATH = Path("data/students")
-
+repository = StorageRouter.get_repository()
 
 # ---------------------------------------------------------
 # PUBLIC FUNCTIONS
@@ -24,31 +22,22 @@ STUDENTS_PATH = Path("data/students")
 
 def generate_student_id() -> str:
 
-    STUDENTS_PATH.mkdir(parents=True, exist_ok=True)
+    folders = repository.list("students")
 
-    folders = [
+    ids = []
 
-        folder.name
+    for folder in folders:
 
-        for folder in STUDENTS_PATH.iterdir()
+        if folder.startswith("STD"):
 
-        if folder.is_dir()
+            ids.append(int(folder.replace("STD", "")))
 
-    ]
-
-    if not folders:
+    if not ids:
 
         return "STD000001"
 
-    numbers = [
+    return f"STD{max(ids)+1:06d}"
 
-        int(folder.replace("STD", ""))
-
-        for folder in folders
-
-    ]
-
-    return f"STD{max(numbers)+1:06d}"
 
 # ---------------------------------------------------------
 # PUBLIC FUNCTIONS
@@ -56,35 +45,47 @@ def generate_student_id() -> str:
 
 def assign_student_id(user_id: str) -> str:
 
-    profile_path = Path("data/users") / user_id / "profile.json"
+    user = get_user(user_id)
 
-    with open(profile_path, "r") as file:
+    if user is None:
 
-        profile = json.load(file)
+        raise ValueError(f"User not found: {user_id}")
 
-    if profile["student_id"]:
+    if user.student_id:
 
-        return profile["student_id"]
+        return user.student_id
 
     student_id = generate_student_id()
 
-    profile["student_id"] = student_id
+    user.student_id = student_id
 
-    with open(profile_path, "w") as file:
+    repository.write_json(
 
-        json.dump(profile, file, indent=4)
+        f"users/{user.user_id}/profile.json",
+
+        {
+
+            "user_id": user.user_id,
+            "email": user.email,
+            "name": user.name,
+            "provider": user.provider,
+            "status": user.status,
+            "student_id": user.student_id,
+
+        }
+
+    )
 
     return student_id
 
+
 # ---------------------------------------------------------
-# PUBLIC FUNCTIONS 2
+# PUBLIC FUNCTIONS
 # ---------------------------------------------------------
 
-def create_student_workspace(student_id: str) -> None:
+def create_student_workspace(student_id: str):
 
-    student_path = STUDENTS_PATH / student_id
-
-    student_path.mkdir(parents=True, exist_ok=True)
+    empty = {}
 
     files = [
 
@@ -97,11 +98,17 @@ def create_student_workspace(student_id: str) -> None:
 
     for filename in files:
 
-        file_path = student_path / filename
+        path = f"students/{student_id}/{filename}"
 
-        if not file_path.exists():
+        if not repository.exists(path):
 
-            file_path.write_text("{}")
+            repository.write_json(
+
+                path,
+
+                empty
+
+            )
 
 
 # ---------------------------------------------------------
@@ -112,4 +119,4 @@ if __name__ == "__main__":
 
     create_student_workspace("STD000003")
 
-    print("STD000003")
+    print("Student Repository Ready")

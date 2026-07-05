@@ -94,6 +94,15 @@ def render_progress_page():
 
     st.subheader("📈 Progress")
 
+    student_id = "STD001"
+
+    physics = load_curriculum("Physics")
+
+    initialize_student_progress(
+        student_id,
+        physics
+    )
+
     tabs = st.tabs(SUBJECTS)
 
     for index, tab in enumerate(tabs):
@@ -114,15 +123,6 @@ def render_progress_page():
 
                 continue
 
-            student_id = "STD001"
-
-            initialize_student_progress(
-
-                student_id,
-
-                curriculum
-
-            )
             #
             # Subject not yet added
             #

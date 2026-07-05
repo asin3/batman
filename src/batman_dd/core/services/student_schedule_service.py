@@ -7,123 +7,72 @@ Owns all student scheduling.
 UI never reads/writes JSON directly.
 """
 
-from pathlib import Path
+# ==========================================================
+# IMPORTS
+# ==========================================================
+import streamlit as st
+
+from src.platform.storage.storage_router import StorageRouter
+
 from datetime import datetime
 
-import json
+# ==========================================================
+# STORAGE
+# ==========================================================
+
+repository = StorageRouter.get_repository()
 
 
 # ==========================================================
-# PATHS
+# CACHE
 # ==========================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[4]
+def get_schedule_cache(student_id: str):
 
-STUDENT_DIR = (
+    cache_key = f"schedule_{student_id}"
 
-    PROJECT_ROOT
+    if cache_key not in st.session_state:
 
-    / "data"
+        path = f"students/{student_id}/schedule.json"
 
-    / "students"
+        if repository.exists(path):
 
-)
+            st.session_state[cache_key] = repository.read_json(path)
 
+        else:
 
-# ==========================================================
-# HELPERS
-# ==========================================================
+            st.session_state[cache_key] = {}
 
-def get_schedule_file(
-
-    student_id: str
-
-) -> Path:
-
-    student_folder = STUDENT_DIR / student_id
-
-    student_folder.mkdir(
-
-        parents=True,
-
-        exist_ok=True
-
-    )
-
-    return student_folder / "schedule.json"
+    return st.session_state[cache_key]
 
 
 # ==========================================================
 # LOAD
 # ==========================================================
 
-def load_schedule(
+def load_schedule(student_id: str):
 
-    student_id: str
-
-):
-
-    schedule_file = get_schedule_file(
-
-        student_id
-
-    )
-
-    if not schedule_file.exists():
-
-        return {}
-
-    with open(
-
-        schedule_file,
-
-        "r",
-
-        encoding="utf-8"
-
-    ) as f:
-
-        return json.load(f)
+    return get_schedule_cache(student_id)
     
 # ==========================================================
 # SAVE
 # ==========================================================
 
 def save_schedule(
-
     student_id: str,
-
     schedule_data: dict
-
 ):
 
-    schedule_file = get_schedule_file(
+    path = f"students/{student_id}/schedule.json"
 
-        student_id
-
+    repository.write_json(
+        path,
+        schedule_data
     )
 
-    with open(
+    cache_key = f"schedule_{student_id}"
 
-        schedule_file,
-
-        "w",
-
-        encoding="utf-8"
-
-    ) as f:
-
-        json.dump(
-
-            schedule_data,
-
-            f,
-
-            indent=4,
-
-            ensure_ascii=False
-
-        )
+    st.session_state[cache_key] = schedule_data
 
 
 # ==========================================================
@@ -434,38 +383,15 @@ def get_scheduled_days(
 # INITIALIZE STUDENT SCHEDULE
 # ==========================================================
 
-def initialize_student_schedule(
+def initialize_student_schedule(student_id: str):
 
-    student_id: str
+    path = f"students/{student_id}/schedule.json"
 
-):
+    if repository.exists(path):
 
-    """
-    Creates an empty schedule.json for a
-    new student if it does not already exist.
-    """
+        return load_schedule(student_id)
 
-    schedule_file = get_schedule_file(
-
-        student_id
-
-    )
-
-    if schedule_file.exists():
-
-        return load_schedule(
-
-            student_id
-
-        )
-
-    save_schedule(
-
-        student_id,
-
-        {}
-
-    )
+    save_schedule(student_id, {})
 
     return {}
 

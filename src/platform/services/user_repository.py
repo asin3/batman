@@ -6,13 +6,14 @@ from pathlib import Path
 import json
 
 from src.platform.users.user_model import User
-
+from src.platform.storage.storage_router import StorageRouter
 
 # ---------------------------------------------------------
 # USER REPOSITORY
 # ---------------------------------------------------------
 
 USERS_PATH = Path("data/users")
+repository = StorageRouter.get_repository()
 
 
 def get_users_path():
@@ -24,11 +25,13 @@ def generate_user_id():
 
     ids = []
 
-    for folder in USERS_PATH.iterdir():
+    user_folders = repository.list("users")
 
-        if folder.is_dir() and folder.name.startswith("USR"):
+    for folder in user_folders:
 
-            ids.append(int(folder.name[3:]))
+        if folder.startswith("USR"):
+
+            ids.append(int(folder[3:]))
 
     if not ids:
 
@@ -50,8 +53,6 @@ def create_user_folder(user):
 
 def create_profile(user):
 
-    user_folder = create_user_folder(user)
-
     profile = {
 
         "user_id": user.user_id,
@@ -63,26 +64,23 @@ def create_profile(user):
 
     }
 
-    profile_path = user_folder / "profile.json"
+    repository.write_json(
+        f"users/{user.user_id}/profile.json",
+        profile
+    )
 
-    with open(profile_path, "w", encoding="utf-8") as file:
-
-        json.dump(profile, file, indent=4)
-
-    return profile_path
+    return profile
 
 
 def get_user(user_id):
 
-    profile_path = USERS_PATH / user_id / "profile.json"
+    path = f"users/{user_id}/profile.json"
 
-    if not profile_path.exists():
+    if not repository.exists(path):
 
         return None
 
-    with open(profile_path, "r", encoding="utf-8") as file:
-
-        data = json.load(file)
+    data = repository.read_json(path)
 
     return User(**data)
 

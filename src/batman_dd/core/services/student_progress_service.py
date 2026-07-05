@@ -7,119 +7,76 @@ Owns all student progress.
 UI never reads/writes JSON directly.
 """
 
-from pathlib import Path
-import json
+from src.platform.storage.storage_router import StorageRouter
 
 from datetime import datetime
+import streamlit as st
+
 
 # ==========================================================
 # PATHS
 # ==========================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[4]
 
-STUDENT_DIR = (
-    PROJECT_ROOT
-    / "data"
-    / "students"
-)
 
 
 # ==========================================================
 # HELPERS
 # ==========================================================
 
-def get_progress_file(
+# ==========================================================
+# STORAGE
+# ==========================================================
 
-    student_id: str
+repository = StorageRouter.get_repository()
 
-) -> Path:
+# ==========================================================
+# CACHE
+# ==========================================================
 
-    student_folder = STUDENT_DIR / student_id
+def get_progress_cache(student_id: str):
 
-    student_folder.mkdir(
+    cache_key = f"progress_{student_id}"
 
-        parents=True,
+    if cache_key not in st.session_state:
 
-        exist_ok=True
+        path = f"students/{student_id}/progress.json"
 
-    )
+        if repository.exists(path):
 
-    return student_folder / "progress.json"
+            st.session_state[cache_key] = repository.read_json(path)
+
+        else:
+
+            st.session_state[cache_key] = {}
+
+    return st.session_state[cache_key]
 
 
 # ==========================================================
 # LOAD
 # ==========================================================
 
-def load_progress(
+def load_progress(student_id: str):
 
-    student_id: str
-
-):
-
-    progress_file = get_progress_file(
-
-        student_id
-
-    )
-
-    if not progress_file.exists():
-
-        return {}
-
-    with open(
-
-        progress_file,
-
-        "r",
-
-        encoding="utf-8"
-
-    ) as f:
-
-        return json.load(f)
+    return get_progress_cache(student_id)
     
 # ==========================================================
 # SAVE
 # ==========================================================
 
-def save_progress(
+def save_progress(student_id: str, progress_data: dict):
 
-    student_id: str,
+    path = f"students/{student_id}/progress.json"
 
-    progress_data: dict
-
-):
-
-    progress_file = get_progress_file(
-
-        student_id
-
+    repository.write_json(
+        path,
+        progress_data
     )
 
-    with open(
+    cache_key = f"progress_{student_id}"
 
-        progress_file,
-
-        "w",
-
-        encoding="utf-8"
-
-    ) as f:
-
-        json.dump(
-
-            progress_data,
-
-            f,
-
-            indent=4,
-
-            ensure_ascii=False
-
-        )
-
+    st.session_state[cache_key] = progress_data
 
 # ==========================================================
 # UPDATE A SINGLE TOPIC
