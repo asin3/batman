@@ -20,8 +20,8 @@ from src.platform.storage.supabase_storage_repository import (
 def load_storage_config():
 
     config_path = (
-        Path(__file__).resolve().parents[3]
-        / "secrets"
+        Path(__file__).resolve().parents[2]
+        / "config"
         / "storage.json"
     )
 
