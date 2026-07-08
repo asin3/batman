@@ -1,0 +1,602 @@
+{
+    "subjects": [
+        {
+            "title": "Mathematics",
+            "groups": [],
+            "chapters": [
+                {
+                    "number": "1.",
+                    "title": "Goods and Services Tax (GST)",
+                    "topics": [
+                        "Characteristics of GST",
+                        "Types of GST in India",
+                        "Reverse charge mechanism",
+                        "Composition scheme",
+                        "Input Tax Credit (ITC)",
+                        "E-way bill"
+                    ]
+                },
+                {
+                    "number": "2.",
+                    "title": "Banking",
+                    "topics": [
+                        "Recurring Deposit (R.D.)",
+                        "Cumulative Time Deposit (C.T.D.)",
+                        "Calculation of interest on recurring deposit"
+                    ]
+                },
+                {
+                    "number": "3.",
+                    "title": "Shares and Dividend",
+                    "topics": [
+                        "Capital",
+                        "Shares",
+                        "Dividend",
+                        "Nominal value (N.V.)",
+                        "Market value (M.V.)",
+                        "Basic concepts"
+                    ]
+                },
+                {
+                    "number": "4.",
+                    "title": "Linear Inequations",
+                    "topics": [
+                        "Replacement set / domain",
+                        "Properties of inequations",
+                        "Solving linear inequations",
+                        "Number line representation"
+                    ]
+                },
+                {
+                    "number": "5.",
+                    "title": "Quadratic Equations",
+                    "topics": [
+                        "Roots of quadratic equation",
+                        "Solution set",
+                        "Factorization method",
+                        "Formula (Srid method)",
+                        "Nature of roots"
+                    ]
+                },
+                {
+                    "number": "6.",
+                    "title": "Problems on Quadratic Equations",
+                    "topics": [
+                        "Application-based problems"
+                    ]
+                },
+                {
+                    "number": "7.",
+                    "title": "Ratio and Proportion",
+                    "topics": [
+                        "Terms of ratio",
+                        "Properties",
+                        "Comparison of ratios",
+                        "Continued proportion",
+                        "Mean proportion",
+                        "Third proportional",
+                        "Problem solving"
+                    ]
+                },
+                {
+                    "number": "8.",
+                    "title": "Remainder & Factor Theorem",
+                    "topics": [
+                        "Polynomial value f(x)",
+                        "Division algorithm",
+                        "Remainder theorem",
+                        "Factor theorem",
+                        "Factors of polynomial",
+                        "Hit & trial method"
+                    ]
+                },
+                {
+                    "number": "9.",
+                    "title": "Matrices",
+                    "topics": [
+                        "Order of matrix",
+                        "Notation",
+                        "Types of matrices",
+                        "Equal matrices",
+                        "Transpose",
+                        "Operations on matrices",
+                        "Multiplication"
+                    ]
+                },
+                {
+                    "number": "10.",
+                    "title": "Arithmetic Progression (AP)",
+                    "topics": [
+                        "Sequence",
+                        "A.P.",
+                        "nth term",
+                        "Sum of n terms",
+                        "nth term from end"
+                    ]
+                },
+                {
+                    "number": "11.",
+                    "title": "Geometric Progression (GP)",
+                    "topics": [
+                        "G.P.",
+                        "General term",
+                        "nth term from end",
+                        "Sum of G.P."
+                    ]
+                },
+                {
+                    "number": "12.",
+                    "title": "Reflection",
+                    "topics": [
+                        "Coordinate axes",
+                        "Reflection",
+                        "Invariant points",
+                        "Combination of reflections"
+                    ]
+                },
+                {
+                    "number": "13.",
+                    "title": "Section & Midpoint Formula",
+                    "topics": [
+                        "Section formula",
+                        "Midpoint formula",
+                        "Coordinate geometry basic"
+                    ]
+                },
+                {
+                    "number": "14.",
+                    "title": "Equation of a Straight Line",
+                    "topics": [
+                        "Slope",
+                        "Intercepts",
+                        "Equation forms",
+                        "Conditions for parallel & perpendicular lines"
+                    ]
+                },
+                {
+                    "number": "15.",
+                    "title": "Similarity",
+                    "topics": [
+                        "Similarity transformation",
+                        "Properties",
+                        "Model / map"
+                    ]
+                },
+                {
+                    "number": "16.",
+                    "title": "Similarity of Triangles",
+                    "topics": [
+                        "Axioms of similarity",
+                        "Basic proportionality theorem",
+                        "Converse",
+                        "Area relations"
+                    ]
+                },
+                {
+                    "number": "17.",
+                    "title": "Loci",
+                    "topics": [
+                        "Points equidistant from points/lines",
+                        "Intersection cases"
+                    ]
+                },
+                {
+                    "number": "18.",
+                    "title": "Angle & Cyclic Properties of Circle",
+                    "topics": [
+                        "Theorems",
+                        "Cyclic properties"
+                    ]
+                },
+                {
+                    "number": "19.",
+                    "title": "Tangent Properties of Circles",
+                    "topics": [
+                        "Tangent theorems",
+                        "Intersecting chords",
+                        "Alternate segments"
+                    ]
+                },
+                {
+                    "number": "20.",
+                    "title": "Constructions",
+                    "topics": [
+                        "Tangents to circle",
+                        "Circumcircle / incircle",
+                        "Regular polygon constructions"
+                    ]
+                },
+                {
+                    "number": "21.",
+                    "title": "Volume & Surface Area of Solids",
+                    "topics": [
+                        "Cylinder",
+                        "Cone",
+                        "Sphere",
+                        "Hemisphere",
+                        "Formulae",
+                        "Applications"
+                    ]
+                },
+                {
+                    "number": "22.",
+                    "title": "Trigonometric Identities",
+                    "topics": [
+                        "Trigonometric ratios",
+                        "Relations between ratios",
+                        "Quotient relations",
+                        "Square relations",
+                        "Elimination of ratios",
+                        "Trig tables",
+                        "Degree–minute relation"
+                    ]
+                },
+                {
+                    "number": "23.",
+                    "title": "Heights and Distances",
+                    "topics": [
+                        "Line of sight",
+                        "Angle of elevation",
+                        "Angle of depression"
+                    ]
+                },
+                {
+                    "number": "24.",
+                    "title": "Graphical Representation of Data",
+                    "topics": [
+                        "Histogram",
+                        "Frequency polygon",
+                        "Ogive",
+                        "Drawing methods"
+                    ]
+                },
+                {
+                    "number": "25.",
+                    "title": "Measures of Central Tendency (Mean)",
+                    "topics": [
+                        "Average",
+                        "Arithmetic mean",
+                        "Ungrouped & grouped data",
+                        "Formula-based mean"
+                    ]
+                },
+                {
+                    "number": "26.",
+                    "title": "Median, Quartiles & Mode",
+                    "topics": [
+                        "Median",
+                        "Quartiles",
+                        "Interquartile range",
+                        "Semi-interquartile range",
+                        "Estimation from ogive",
+                        "Mode from histogram"
+                    ]
+                },
+                {
+                    "number": "27.",
+                    "title": "Probability",
+                    "topics": [
+                        "Basic terms",
+                        "Classical probability",
+                        "Sure event",
+                        "Impossible event",
+                        "Complementary events"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Physics",
+            "groups": [
+                {
+                    "title": "Force, Work, Power & Energy",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Force",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Work, Energy and Power",
+                            "topics": []
+                        },
+                        {
+                            "number": "3",
+                            "title": "Machines",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Light",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Refraction of Light at Plane Surfaces",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Refraction through a Lens",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Spectrum",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Sound",
+                    "chapters": [
+                        {
+                            "number": "7",
+                            "title": "Sound",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Electricity & Magnetism",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Current Electricity",
+                            "topics": []
+                        },
+                        {
+                            "number": "9",
+                            "title": "Household Circuits",
+                            "topics": []
+                        },
+                        {
+                            "number": "10",
+                            "title": "Electro-magnetism",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Heat",
+                    "chapters": [
+                        {
+                            "number": "11",
+                            "title": "Calorimetry",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Modern Physics",
+                    "chapters": [
+                        {
+                            "number": "12",
+                            "title": "Radioactivity",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        },
+        {
+            "title": "Chemistry",
+            "groups": [
+                {
+                    "title": "Physical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Periodic Table – Periodic Properties & Variations of Properties",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Chemical Bonding",
+                            "topics": []
+                        },
+                        {
+                            "number": "4A",
+                            "title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                            "topics": []
+                        },
+                        {
+                            "number": "4B",
+                            "title": "Percentage Composition, Empirical & Molecular Formula",
+                            "topics": []
+                        },
+                        {
+                            "number": "4C",
+                            "title": "Calculations Based on Chemical Equations",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Electrolysis",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Inorganic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "3A",
+                            "title": "Acids, Bases & Salts",
+                            "topics": []
+                        },
+                        {
+                            "number": "3B",
+                            "title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Metallurgy",
+                            "topics": []
+                        },
+                        {
+                            "number": "7A",
+                            "title": "Hydrogen Chloride",
+                            "topics": []
+                        },
+                        {
+                            "number": "7B",
+                            "title": "Ammonia",
+                            "topics": []
+                        },
+                        {
+                            "number": "7C",
+                            "title": "Nitric Acid",
+                            "topics": []
+                        },
+                        {
+                            "number": "7D",
+                            "title": "Sulphuric Acid",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Organic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Organic Chemistry",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Practical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "9",
+                            "title": "Practical Chemistry",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        },
+        {
+            "title": "Biology",
+            "groups": [
+                {
+                    "title": "Basic Biology",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Cell – The Structural and Functional Unit of Life",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                            "topics": []
+                        },
+                        {
+                            "number": "3",
+                            "title": "Genetics – Some Basic Fundamentals",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Plant Physiology",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Absorption by Roots – The Processes Involved",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Transpiration",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Photosynthesis",
+                            "topics": []
+                        },
+                        {
+                            "number": "7",
+                            "title": "Chemical Coordination in Plants",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Anatomy & Physiology",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "The Circulatory System",
+                            "topics": []
+                        },
+                        {
+                            "number": "9",
+                            "title": "The Excretory System",
+                            "topics": []
+                        },
+                        {
+                            "number": "10",
+                            "title": "The Nervous System",
+                            "topics": []
+                        },
+                        {
+                            "number": "11",
+                            "title": "Sense Organs",
+                            "topics": []
+                        },
+                        {
+                            "number": "12",
+                            "title": "The Endocrine System",
+                            "topics": []
+                        },
+                        {
+                            "number": "13",
+                            "title": "The Reproductive System",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Evolution",
+                    "chapters": [
+                        {
+                            "number": "14",
+                            "title": "Human Evolution",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Population",
+                    "chapters": [
+                        {
+                            "number": "15",
+                            "title": "Population – The Increasing Numbers and Rising Problems",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Pollution",
+                    "chapters": [
+                        {
+                            "number": "16",
+                            "title": "Pollution – A Rising Environmental Problem",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        }
+    ]
+}

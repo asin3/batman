@@ -110,7 +110,16 @@ with st.sidebar:
     st.divider()
 
     st.markdown("**Student**")
-    st.info(st.session_state.student_id)
+
+    student_name = getattr(user, "name", None)
+
+    if not student_name:
+        student_name = getattr(user, "display_name", None)
+
+    if not student_name:
+        student_name = st.session_state.student_id
+
+    st.info(student_name)
 
 # ==========================================================
 # HEADER

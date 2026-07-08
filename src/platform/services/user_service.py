@@ -111,6 +111,8 @@ def approve_user(user_id: str) -> User:
 
     student_id = assign_student_id(user_id)
 
+    profile["student_id"] = student_id
+
     create_student_workspace(student_id)
 
     return get_user(user_id)

@@ -36,6 +36,7 @@ from src.batman_dd.core.services.student_progress_service import (
     update_topic_progress
 
 )
+from src.batman_dd.core.services.curriculum_service import get_subject
 
 # ==========================================================
 # PATHS
@@ -92,9 +93,9 @@ def load_curriculum(subject_name: str):
 
 def render_progress_page():
 
+    student_id = st.session_state.user.student_id
+    
     st.subheader("📈 Progress")
-
-    student_id = "STD001"
 
     physics = load_curriculum("Physics")
 
@@ -111,7 +112,7 @@ def render_progress_page():
 
         with tab:
 
-            curriculum = load_curriculum(subject_name)
+            curriculum = get_subject(subject_name)
 
             if curriculum is None:
 
@@ -123,108 +124,235 @@ def render_progress_page():
 
                 continue
 
-            #
-            # Subject not yet added
-            #
-            
-            chapters = curriculum.get(
-                "chapters",
-                []
-            )
+            # ------------------------------------------
+            # Flat subjects (Mathematics)
+            # ------------------------------------------
 
-            if not chapters:
+            if curriculum.get("chapters"):
 
-                st.warning(
-                    "No chapters found."
-                )
+                for chapter in curriculum["chapters"]:
 
-                continue
+                    render_chapter(
+                        subject_name,
+                        "",
+                        chapter,
+                        student_id
+                    )
 
-            #
-            # Render every chapter
-            #
+            # ------------------------------------------
+            # Grouped subjects (Physics/Chemistry/Biology)
+            # ------------------------------------------
 
-            for chapter in chapters:
+            elif curriculum.get("groups"):
 
-                render_chapter(
-                    chapter
-                )
+                for group in curriculum["groups"]:
+
+                    st.markdown(f"#### 📘 {group['title']}")
+
+                    for chapter in group["chapters"]:
+
+                        render_chapter(
+                            subject_name,
+                            group["title"],
+                            chapter,
+                            student_id
+                        )
+
+            else:
+
+                st.warning("No chapters found.")
 
 # ==========================================================
 # CHAPTER
 # ==========================================================
 
-def render_chapter(chapter):
+def render_chapter(
+    subject_name,
+    group_name,
+    chapter,
+    student_id
+):
 
-    chapter_name = chapter["chapter_name"]
-
-    topics = chapter["topics"]
-
-    total_topics = len(topics)
-
-    student_id = "STD001"
-
-    completed_topics = get_completed_count(
-
-        student_id,
-
-        topics
-
+    chapter_name = chapter.get(
+        "chapter_name",
+        chapter.get("title")
     )
 
-    progress = get_progress_percentage(
-
-        student_id,
-
-        topics
-
+    chapter_id = chapter.get(
+        "chapter_id",
+        chapter.get("number")
     )
 
-    header = (
-        f"📘 {chapter_name}"
-        f"      |      "
-        f"Topics : {total_topics}"
-        f"      |      "
-        f"Done : {completed_topics}"
-        f"      |      "
-        f"{progress}%"
+    widget_prefix = (
+        f"{subject_name}_{group_name}_{chapter_id}"
     )
 
-    with st.expander(
-        header,
-        expanded=False
-    ):
+    topics = chapter.get("topics", [])
 
-        h1, h2, h3 = st.columns(
-            [7.5, 1.6, 1.4], gap="small"
+    # ------------------------------------------------------
+    # CHAPTER HAS TOPICS (Maths)
+    # ------------------------------------------------------
+
+    if topics:
+
+        total_topics = len(topics)
+
+        completed_topics = sum(
+            1
+            for topic in topics
+            if get_topic_status(
+                student_id,
+                (
+                    f"{chapter_id}_{topic}"
+                    if isinstance(topic, str)
+                    else topic["topic_id"]
+                )
+            ) == "Completed"
         )
 
-        with h1:
-            st.caption("Topic")
+        total_topics = len(topics)
 
-        with h2:
-            st.caption("Status")
-
-        with h3:
-            st.caption("Completed On")
-
-        st.markdown(
-            "<hr style='margin:2px 0 4px 0;border:0;border-top:1px solid #333;'>",
-            unsafe_allow_html=True
+        progress = (
+            int(completed_topics * 100 / total_topics)
+            if total_topics
+            else 0
         )
 
-        for topic in topics:
+        header = (
+            f"📘 {chapter_name}"
+            f" | Topics : {total_topics}"
+            f" | Done : {completed_topics}"
+            f" | {progress}%"
+        )
 
-            render_topic_row(
-                chapter["chapter_id"],
-                topic
+        with st.expander(header, expanded=False):
+
+            h1, h2, h3 = st.columns(
+                [7.5, 1.6, 1.4],
+                gap="small"
             )
+
+            with h1:
+                st.caption("Topic")
+
+            with h2:
+                st.caption("Status")
+
+            with h3:
+                st.caption("Completed On")
+
+            st.divider()
+
+            for topic in topics:
+
+                render_topic_row(
+                    student_id,
+                    chapter_id,
+                    topic
+                )
+
+    # ------------------------------------------------------
+    # CHAPTER HAS NO TOPICS (Physics/Chemistry/Biology)
+    # ------------------------------------------------------
+
+    else:
+
+        saved_status = get_topic_status(
+            student_id,
+            chapter_id
+        )
+
+        saved_date = get_topic_date(
+            student_id,
+            chapter_id
+        )
+
+        progress = (
+            100
+            if saved_status == "Completed"
+            else 0
+        )
+
+        header = (
+            f"📘 {chapter_name}"
+            f" | Status : {saved_status}"
+            f" | {progress}%"
+        )
+
+        with st.expander(header, expanded=False):
+
+            c1, c2 = st.columns([2, 2])
+
+            with c1:
+
+                status = st.selectbox(
+
+                    "Status",
+
+                    [
+                        "Not Started",
+                        "In Progress",
+                        "Completed"
+                    ],
+
+                    index=[
+                        "Not Started",
+                        "In Progress",
+                        "Completed"
+                    ].index(saved_status),
+
+                    key=f"{widget_prefix}_chapter_status"
+                )
+
+            with c2:
+
+                if saved_date:
+                    saved_date = date.fromisoformat(saved_date)
+
+                if status == "Completed":
+
+                    completed_on = st.date_input(
+
+                        "Completed On",
+
+                        value=saved_date
+                        if saved_date
+                        else date.today(),
+
+                        key=f"{widget_prefix}_chapter_date"
+                    )
+
+                else:
+
+                    completed_on = None
+
+            current_date = (
+                completed_on.isoformat()
+                if completed_on
+                else None
+            )
+
+            if (
+                status != saved_status
+                or current_date != get_topic_date(student_id, chapter_id)
+            ):
+
+                update_topic_progress(
+                    student_id,
+                    chapter_id,
+                    status,
+                    completed_on
+                )
+
+                st.rerun()
 
 # ==========================================================
 # TOPIC ROW
 # ==========================================================
 
 def render_topic_row(
+    
+    student_id,
 
     chapter_id,
 
@@ -232,9 +360,17 @@ def render_topic_row(
 
 ):
 
-    topic_id = topic["topic_id"]
+    if isinstance(topic, str):
 
-    topic_name = topic["topic_name"]
+        topic_id = f"{chapter_id}_{topic}"
+
+        topic_name = topic
+
+    else:
+
+        topic_id = topic["topic_id"]
+
+        topic_name = topic["topic_name"]
 
     col_topic, col_status, col_date = st.columns(
             [5.5, 1.2, 1.3], gap="small", vertical_alignment="center")
@@ -252,8 +388,6 @@ def render_topic_row(
     # ------------------------------------------------------
 
     with col_status:
-
-        student_id = "STD001"
 
         saved_status = get_topic_status(
 
@@ -367,6 +501,8 @@ def render_topic_row(
                 status,
                 completed_on
             )
+
+            st.rerun()
 
     #
     # ------------------------------------------------------

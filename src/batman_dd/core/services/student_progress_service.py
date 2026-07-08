@@ -228,146 +228,76 @@ def topic_exists(
 # ==========================================================
 
 def get_completed_count(
-
     student_id: str,
-
-    topics: list
-
-) -> int:
+    chapters: list
+):
 
     completed = 0
 
-    progress = load_progress(
+    progress = load_progress(student_id)
 
-        student_id
+    for chapter in chapters:
 
-    )
+        chapter_id = chapter["chapter_id"]
 
-    for topic in topics:
-
-        topic_id = topic["topic_id"]
-
-        topic_data = progress.get(
-
-            topic_id,
-
-            {}
-
-        )
-
-        if topic_data.get(
-
-            "status"
-
-        ) == "Completed":
+        if progress.get(chapter_id, {}).get("status") == "Completed":
 
             completed += 1
 
     return completed
-
 
 # ==========================================================
 # CHAPTER PERCENTAGE
 # ==========================================================
 
 def get_progress_percentage(
-
     student_id: str,
+    chapters: list
+):
 
-    topics: list
+    total = len(chapters)
 
-) -> int:
-
-    total_topics = len(
-
-        topics
-
-    )
-
-    if total_topics == 0:
-
+    if total == 0:
         return 0
 
     completed = get_completed_count(
-
         student_id,
-
-        topics
-
+        chapters
     )
 
-    return round(
-
-        (completed / total_topics) * 100
-
-    )
+    return round((completed / total) * 100)
 
 # ==========================================================
 # INITIALIZE STUDENT PROGRESS
 # ==========================================================
 
 def initialize_student_progress(
-
     student_id: str,
-
     curriculum: dict
-
 ):
-
-    progress = load_progress(
-
-        student_id
-
-    )
+    progress = load_progress(student_id)
 
     modified = False
 
-    chapters = curriculum.get(
-
-        "chapters",
-
-        []
-
-    )
+    chapters = curriculum.get("chapters", [])
 
     for chapter in chapters:
 
-        topics = chapter.get(
+        chapter_id = chapter["chapter_id"]
 
-            "topics",
+        if chapter_id not in progress:
 
-            []
+            progress[chapter_id] = {
+                "status": "Not Started",
+                "completed_on": None
+            }
 
-        )
-
-        for topic in topics:
-
-            topic_id = topic["topic_id"]
-
-            if topic_id not in progress:
-
-                progress[topic_id] = {
-
-                    "status": "Not Started",
-
-                    "completed_on": None
-
-                }
-
-                modified = True
+            modified = True
 
     if modified:
-
-        save_progress(
-
-            student_id,
-
-            progress
-
-        )
+        save_progress(student_id, progress)
 
     return progress
-
 
 # ==========================================================
 # END OF FILE

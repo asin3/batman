@@ -87,20 +87,19 @@ def get_user(user_id):
 
 def get_user_by_email(email):
 
-    for user_folder in USERS_PATH.iterdir():
+    user_folders = repository.list("users")
 
-        if not user_folder.is_dir():
+    for folder in user_folders:
 
-            continue
+        user = get_user(folder)
 
-        user = get_user(user_folder.name)
-
-        if user and user.email.lower() == email.lower():
-
+        if (
+            user
+            and user.email.lower() == email.lower()
+        ):
             return user
 
     return None
-
 
 # ---------------------------------------------------------
 # TEST

@@ -1,0 +1,1168 @@
+{
+    "document_type": "curriculum",
+    "subjects": [
+        {
+            "title": "Mathematics",
+            "groups": [],
+            "chapters": [
+                {
+                    "number": "1.",
+                    "title": "Goods and Services Tax (GST)",
+                    "full_title": "Goods and Services Tax (GST)",
+                    "topics": [
+                        {
+                            "title": "Characteristics of GST"
+                        },
+                        {
+                            "title": "Types of GST in India"
+                        },
+                        {
+                            "title": "Reverse charge mechanism"
+                        },
+                        {
+                            "title": "Composition scheme"
+                        },
+                        {
+                            "title": "Input Tax Credit (ITC)"
+                        },
+                        {
+                            "title": "E-way bill"
+                        }
+                    ]
+                },
+                {
+                    "number": "2.",
+                    "title": "Banking",
+                    "full_title": "Banking",
+                    "topics": [
+                        {
+                            "title": "Recurring Deposit (R.D.)"
+                        },
+                        {
+                            "title": "Cumulative Time Deposit (C.T.D.)"
+                        },
+                        {
+                            "title": "Calculation of interest on recurring deposit"
+                        }
+                    ]
+                },
+                {
+                    "number": "3.",
+                    "title": "Shares and Dividend",
+                    "full_title": "Shares and Dividend",
+                    "topics": [
+                        {
+                            "title": "Capital"
+                        },
+                        {
+                            "title": "Shares"
+                        },
+                        {
+                            "title": "Dividend"
+                        },
+                        {
+                            "title": "Nominal value (N.V.)"
+                        },
+                        {
+                            "title": "Market value (M.V.)"
+                        },
+                        {
+                            "title": "Basic concepts"
+                        }
+                    ]
+                },
+                {
+                    "number": "4.",
+                    "title": "Linear Inequations",
+                    "full_title": "Linear Inequations",
+                    "topics": [
+                        {
+                            "title": "Replacement set / domain"
+                        },
+                        {
+                            "title": "Properties of inequations"
+                        },
+                        {
+                            "title": "Solving linear inequations"
+                        },
+                        {
+                            "title": "Number line representation"
+                        }
+                    ]
+                },
+                {
+                    "number": "5.",
+                    "title": "Quadratic Equations",
+                    "full_title": "Quadratic Equations",
+                    "topics": [
+                        {
+                            "title": "Roots of quadratic equation"
+                        },
+                        {
+                            "title": "Solution set"
+                        },
+                        {
+                            "title": "Factorization method"
+                        },
+                        {
+                            "title": "Formula (Srid method)"
+                        },
+                        {
+                            "title": "Nature of roots"
+                        }
+                    ]
+                },
+                {
+                    "number": "6.",
+                    "title": "Problems on Quadratic Equations",
+                    "full_title": "Problems on Quadratic Equations",
+                    "topics": [
+                        {
+                            "title": "Application-based problems"
+                        }
+                    ]
+                },
+                {
+                    "number": "7.",
+                    "title": "Ratio and Proportion",
+                    "full_title": "Ratio and Proportion",
+                    "topics": [
+                        {
+                            "title": "Terms of ratio"
+                        },
+                        {
+                            "title": "Properties"
+                        },
+                        {
+                            "title": "Comparison of ratios"
+                        },
+                        {
+                            "title": "Continued proportion"
+                        },
+                        {
+                            "title": "Mean proportion"
+                        },
+                        {
+                            "title": "Third proportional"
+                        },
+                        {
+                            "title": "Problem solving"
+                        }
+                    ]
+                },
+                {
+                    "number": "8.",
+                    "title": "Remainder & Factor Theorem",
+                    "full_title": "Remainder & Factor Theorem",
+                    "topics": [
+                        {
+                            "title": "Polynomial value f(x)"
+                        },
+                        {
+                            "title": "Division algorithm"
+                        },
+                        {
+                            "title": "Remainder theorem"
+                        },
+                        {
+                            "title": "Factor theorem"
+                        },
+                        {
+                            "title": "Factors of polynomial"
+                        },
+                        {
+                            "title": "Hit & trial method"
+                        }
+                    ]
+                },
+                {
+                    "number": "9.",
+                    "title": "Matrices",
+                    "full_title": "Matrices",
+                    "topics": [
+                        {
+                            "title": "Order of matrix"
+                        },
+                        {
+                            "title": "Notation"
+                        },
+                        {
+                            "title": "Types of matrices"
+                        },
+                        {
+                            "title": "Equal matrices"
+                        },
+                        {
+                            "title": "Transpose"
+                        },
+                        {
+                            "title": "Operations on matrices"
+                        },
+                        {
+                            "title": "Multiplication"
+                        }
+                    ]
+                },
+                {
+                    "number": "10.",
+                    "title": "Arithmetic Progression (AP)",
+                    "full_title": "Arithmetic Progression (AP)",
+                    "topics": [
+                        {
+                            "title": "Sequence"
+                        },
+                        {
+                            "title": "A.P."
+                        },
+                        {
+                            "title": "nth term"
+                        },
+                        {
+                            "title": "Sum of n terms"
+                        },
+                        {
+                            "title": "nth term from end"
+                        }
+                    ]
+                },
+                {
+                    "number": "11.",
+                    "title": "Geometric Progression (GP)",
+                    "full_title": "Geometric Progression (GP)",
+                    "topics": [
+                        {
+                            "title": "G.P."
+                        },
+                        {
+                            "title": "General term"
+                        },
+                        {
+                            "title": "nth term from end"
+                        },
+                        {
+                            "title": "Sum of G.P."
+                        }
+                    ]
+                },
+                {
+                    "number": "12.",
+                    "title": "Reflection",
+                    "full_title": "Reflection",
+                    "topics": [
+                        {
+                            "title": "Coordinate axes"
+                        },
+                        {
+                            "title": "Reflection"
+                        },
+                        {
+                            "title": "Invariant points"
+                        },
+                        {
+                            "title": "Combination of reflections"
+                        }
+                    ]
+                },
+                {
+                    "number": "13.",
+                    "title": "Section & Midpoint Formula",
+                    "full_title": "Section & Midpoint Formula",
+                    "topics": [
+                        {
+                            "title": "Section formula"
+                        },
+                        {
+                            "title": "Midpoint formula"
+                        },
+                        {
+                            "title": "Coordinate geometry basic"
+                        }
+                    ]
+                },
+                {
+                    "number": "14.",
+                    "title": "Equation of a Straight Line",
+                    "full_title": "Equation of a Straight Line",
+                    "topics": [
+                        {
+                            "title": "Slope"
+                        },
+                        {
+                            "title": "Intercepts"
+                        },
+                        {
+                            "title": "Equation forms"
+                        },
+                        {
+                            "title": "Conditions for parallel & perpendicular lines"
+                        }
+                    ]
+                },
+                {
+                    "number": "15.",
+                    "title": "Similarity",
+                    "full_title": "Similarity",
+                    "topics": [
+                        {
+                            "title": "Similarity transformation"
+                        },
+                        {
+                            "title": "Properties"
+                        },
+                        {
+                            "title": "Model / map"
+                        }
+                    ]
+                },
+                {
+                    "number": "16.",
+                    "title": "Similarity of Triangles",
+                    "full_title": "Similarity of Triangles",
+                    "topics": [
+                        {
+                            "title": "Axioms of similarity"
+                        },
+                        {
+                            "title": "Basic proportionality theorem"
+                        },
+                        {
+                            "title": "Converse"
+                        },
+                        {
+                            "title": "Area relations"
+                        }
+                    ]
+                },
+                {
+                    "number": "17.",
+                    "title": "Loci",
+                    "full_title": "Loci",
+                    "topics": [
+                        {
+                            "title": "Points equidistant from points/lines"
+                        },
+                        {
+                            "title": "Intersection cases"
+                        }
+                    ]
+                },
+                {
+                    "number": "18.",
+                    "title": "Angle & Cyclic Properties of Circle",
+                    "full_title": "Angle & Cyclic Properties of Circle",
+                    "topics": [
+                        {
+                            "title": "Theorems"
+                        },
+                        {
+                            "title": "Cyclic properties"
+                        }
+                    ]
+                },
+                {
+                    "number": "19.",
+                    "title": "Tangent Properties of Circles",
+                    "full_title": "Tangent Properties of Circles",
+                    "topics": [
+                        {
+                            "title": "Tangent theorems"
+                        },
+                        {
+                            "title": "Intersecting chords"
+                        },
+                        {
+                            "title": "Alternate segments"
+                        }
+                    ]
+                },
+                {
+                    "number": "20.",
+                    "title": "Constructions",
+                    "full_title": "Constructions",
+                    "topics": [
+                        {
+                            "title": "Tangents to circle"
+                        },
+                        {
+                            "title": "Circumcircle / incircle"
+                        },
+                        {
+                            "title": "Regular polygon constructions"
+                        }
+                    ]
+                },
+                {
+                    "number": "21.",
+                    "title": "Volume & Surface Area of Solids",
+                    "full_title": "Volume & Surface Area of Solids",
+                    "topics": [
+                        {
+                            "title": "Cylinder"
+                        },
+                        {
+                            "title": "Cone"
+                        },
+                        {
+                            "title": "Sphere"
+                        },
+                        {
+                            "title": "Hemisphere"
+                        },
+                        {
+                            "title": "Formulae"
+                        },
+                        {
+                            "title": "Applications"
+                        }
+                    ]
+                },
+                {
+                    "number": "22.",
+                    "title": "Trigonometric Identities",
+                    "full_title": "Trigonometric Identities",
+                    "topics": [
+                        {
+                            "title": "Trigonometric ratios"
+                        },
+                        {
+                            "title": "Relations between ratios"
+                        },
+                        {
+                            "title": "Quotient relations"
+                        },
+                        {
+                            "title": "Square relations"
+                        },
+                        {
+                            "title": "Elimination of ratios"
+                        },
+                        {
+                            "title": "Trig tables"
+                        },
+                        {
+                            "title": "Degree–minute relation"
+                        }
+                    ]
+                },
+                {
+                    "number": "23.",
+                    "title": "Heights and Distances",
+                    "full_title": "Heights and Distances",
+                    "topics": [
+                        {
+                            "title": "Line of sight"
+                        },
+                        {
+                            "title": "Angle of elevation"
+                        },
+                        {
+                            "title": "Angle of depression"
+                        }
+                    ]
+                },
+                {
+                    "number": "24.",
+                    "title": "Graphical Representation of Data",
+                    "full_title": "Graphical Representation of Data",
+                    "topics": [
+                        {
+                            "title": "Histogram"
+                        },
+                        {
+                            "title": "Frequency polygon"
+                        },
+                        {
+                            "title": "Ogive"
+                        },
+                        {
+                            "title": "Drawing methods"
+                        }
+                    ]
+                },
+                {
+                    "number": "25.",
+                    "title": "Measures of Central Tendency (Mean)",
+                    "full_title": "Measures of Central Tendency (Mean)",
+                    "topics": [
+                        {
+                            "title": "Average"
+                        },
+                        {
+                            "title": "Arithmetic mean"
+                        },
+                        {
+                            "title": "Ungrouped & grouped data"
+                        },
+                        {
+                            "title": "Formula-based mean"
+                        }
+                    ]
+                },
+                {
+                    "number": "26.",
+                    "title": "Median, Quartiles & Mode",
+                    "full_title": "Median, Quartiles & Mode",
+                    "topics": [
+                        {
+                            "title": "Median"
+                        },
+                        {
+                            "title": "Quartiles"
+                        },
+                        {
+                            "title": "Interquartile range"
+                        },
+                        {
+                            "title": "Semi-interquartile range"
+                        },
+                        {
+                            "title": "Estimation from ogive"
+                        },
+                        {
+                            "title": "Mode from histogram"
+                        }
+                    ]
+                },
+                {
+                    "number": "27.",
+                    "title": "Probability",
+                    "full_title": "Probability",
+                    "topics": [
+                        {
+                            "title": "Basic terms"
+                        },
+                        {
+                            "title": "Classical probability"
+                        },
+                        {
+                            "title": "Sure event"
+                        },
+                        {
+                            "title": "Impossible event"
+                        },
+                        {
+                            "title": "Complementary events"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Physics",
+            "groups": [
+                {
+                    "title": "Force, Work, Power & Energy",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Force",
+                            "full_title": "Force",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Work, Energy and Power",
+                            "full_title": "Work, Energy and Power",
+                            "topics": []
+                        },
+                        {
+                            "number": "3",
+                            "title": "Machines",
+                            "full_title": "Machines",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Light",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Refraction of Light at Plane Surfaces",
+                            "full_title": "Refraction of Light at Plane Surfaces",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Refraction through a Lens",
+                            "full_title": "Refraction through a Lens",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Spectrum",
+                            "full_title": "Spectrum",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Sound",
+                    "chapters": [
+                        {
+                            "number": "7",
+                            "title": "Sound",
+                            "full_title": "Sound",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Electricity & Magnetism",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Current Electricity",
+                            "full_title": "Current Electricity",
+                            "topics": []
+                        },
+                        {
+                            "number": "9",
+                            "title": "Household Circuits",
+                            "full_title": "Household Circuits",
+                            "topics": []
+                        },
+                        {
+                            "number": "10",
+                            "title": "Electro-magnetism",
+                            "full_title": "Electro-magnetism",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Heat",
+                    "chapters": [
+                        {
+                            "number": "11",
+                            "title": "Calorimetry",
+                            "full_title": "Calorimetry",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Modern Physics",
+                    "chapters": [
+                        {
+                            "number": "12",
+                            "title": "Radioactivity",
+                            "full_title": "Radioactivity",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": [
+                {
+                    "number": "1",
+                    "title": "Force",
+                    "full_title": "Force",
+                    "topics": []
+                },
+                {
+                    "number": "2",
+                    "title": "Work, Energy and Power",
+                    "full_title": "Work, Energy and Power",
+                    "topics": []
+                },
+                {
+                    "number": "3",
+                    "title": "Machines",
+                    "full_title": "Machines",
+                    "topics": []
+                },
+                {
+                    "number": "4",
+                    "title": "Refraction of Light at Plane Surfaces",
+                    "full_title": "Refraction of Light at Plane Surfaces",
+                    "topics": []
+                },
+                {
+                    "number": "5",
+                    "title": "Refraction through a Lens",
+                    "full_title": "Refraction through a Lens",
+                    "topics": []
+                },
+                {
+                    "number": "6",
+                    "title": "Spectrum",
+                    "full_title": "Spectrum",
+                    "topics": []
+                },
+                {
+                    "number": "7",
+                    "title": "Sound",
+                    "full_title": "Sound",
+                    "topics": []
+                },
+                {
+                    "number": "8",
+                    "title": "Current Electricity",
+                    "full_title": "Current Electricity",
+                    "topics": []
+                },
+                {
+                    "number": "9",
+                    "title": "Household Circuits",
+                    "full_title": "Household Circuits",
+                    "topics": []
+                },
+                {
+                    "number": "10",
+                    "title": "Electro-magnetism",
+                    "full_title": "Electro-magnetism",
+                    "topics": []
+                },
+                {
+                    "number": "11",
+                    "title": "Calorimetry",
+                    "full_title": "Calorimetry",
+                    "topics": []
+                },
+                {
+                    "number": "12",
+                    "title": "Radioactivity",
+                    "full_title": "Radioactivity",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "title": "Chemistry",
+            "groups": [
+                {
+                    "title": "Physical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Periodic Table – Periodic Properties & Variations of Properties",
+                            "full_title": "Periodic Table – Periodic Properties & Variations of Properties",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Chemical Bonding",
+                            "full_title": "Chemical Bonding",
+                            "topics": []
+                        },
+                        {
+                            "number": "4A",
+                            "title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                            "full_title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                            "topics": []
+                        },
+                        {
+                            "number": "4B",
+                            "title": "Percentage Composition, Empirical & Molecular Formula",
+                            "full_title": "Percentage Composition, Empirical & Molecular Formula",
+                            "topics": []
+                        },
+                        {
+                            "number": "4C",
+                            "title": "Calculations Based on Chemical Equations",
+                            "full_title": "Calculations Based on Chemical Equations",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Electrolysis",
+                            "full_title": "Electrolysis",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Inorganic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "3A",
+                            "title": "Acids, Bases & Salts",
+                            "full_title": "Acids, Bases & Salts",
+                            "topics": []
+                        },
+                        {
+                            "number": "3B",
+                            "title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                            "full_title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Metallurgy",
+                            "full_title": "Metallurgy",
+                            "topics": []
+                        },
+                        {
+                            "number": "7A",
+                            "title": "Hydrogen Chloride",
+                            "full_title": "Hydrogen Chloride",
+                            "topics": []
+                        },
+                        {
+                            "number": "7B",
+                            "title": "Ammonia",
+                            "full_title": "Ammonia",
+                            "topics": []
+                        },
+                        {
+                            "number": "7C",
+                            "title": "Nitric Acid",
+                            "full_title": "Nitric Acid",
+                            "topics": []
+                        },
+                        {
+                            "number": "7D",
+                            "title": "Sulphuric Acid",
+                            "full_title": "Sulphuric Acid",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Organic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Organic Chemistry",
+                            "full_title": "Organic Chemistry",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Practical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "9",
+                            "title": "Practical Chemistry",
+                            "full_title": "Practical Chemistry",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": [
+                {
+                    "number": "1",
+                    "title": "Periodic Table – Periodic Properties & Variations of Properties",
+                    "full_title": "Periodic Table – Periodic Properties & Variations of Properties",
+                    "topics": []
+                },
+                {
+                    "number": "2",
+                    "title": "Chemical Bonding",
+                    "full_title": "Chemical Bonding",
+                    "topics": []
+                },
+                {
+                    "number": "3A",
+                    "title": "Acids, Bases & Salts",
+                    "full_title": "Acids, Bases & Salts",
+                    "topics": []
+                },
+                {
+                    "number": "3B",
+                    "title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                    "full_title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                    "topics": []
+                },
+                {
+                    "number": "4A",
+                    "title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                    "full_title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                    "topics": []
+                },
+                {
+                    "number": "4B",
+                    "title": "Percentage Composition, Empirical & Molecular Formula",
+                    "full_title": "Percentage Composition, Empirical & Molecular Formula",
+                    "topics": []
+                },
+                {
+                    "number": "4C",
+                    "title": "Calculations Based on Chemical Equations",
+                    "full_title": "Calculations Based on Chemical Equations",
+                    "topics": []
+                },
+                {
+                    "number": "5",
+                    "title": "Electrolysis",
+                    "full_title": "Electrolysis",
+                    "topics": []
+                },
+                {
+                    "number": "6",
+                    "title": "Metallurgy",
+                    "full_title": "Metallurgy",
+                    "topics": []
+                },
+                {
+                    "number": "7A",
+                    "title": "Hydrogen Chloride",
+                    "full_title": "Hydrogen Chloride",
+                    "topics": []
+                },
+                {
+                    "number": "7B",
+                    "title": "Ammonia",
+                    "full_title": "Ammonia",
+                    "topics": []
+                },
+                {
+                    "number": "7C",
+                    "title": "Nitric Acid",
+                    "full_title": "Nitric Acid",
+                    "topics": []
+                },
+                {
+                    "number": "7D",
+                    "title": "Sulphuric Acid",
+                    "full_title": "Sulphuric Acid",
+                    "topics": []
+                },
+                {
+                    "number": "8",
+                    "title": "Organic Chemistry",
+                    "full_title": "Organic Chemistry",
+                    "topics": []
+                },
+                {
+                    "number": "9",
+                    "title": "Practical Chemistry",
+                    "full_title": "Practical Chemistry",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "title": "Biology",
+            "groups": [
+                {
+                    "title": "Basic Biology",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Cell – The Structural and Functional Unit of Life",
+                            "full_title": "Cell – The Structural and Functional Unit of Life",
+                            "topics": []
+                        },
+                        {
+                            "number": "2",
+                            "title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                            "full_title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                            "topics": []
+                        },
+                        {
+                            "number": "3",
+                            "title": "Genetics – Some Basic Fundamentals",
+                            "full_title": "Genetics – Some Basic Fundamentals",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Plant Physiology",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Absorption by Roots – The Processes Involved",
+                            "full_title": "Absorption by Roots – The Processes Involved",
+                            "topics": []
+                        },
+                        {
+                            "number": "5",
+                            "title": "Transpiration",
+                            "full_title": "Transpiration",
+                            "topics": []
+                        },
+                        {
+                            "number": "6",
+                            "title": "Photosynthesis",
+                            "full_title": "Photosynthesis",
+                            "topics": []
+                        },
+                        {
+                            "number": "7",
+                            "title": "Chemical Coordination in Plants",
+                            "full_title": "Chemical Coordination in Plants",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Anatomy & Physiology",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "The Circulatory System",
+                            "full_title": "The Circulatory System",
+                            "topics": []
+                        },
+                        {
+                            "number": "9",
+                            "title": "The Excretory System",
+                            "full_title": "The Excretory System",
+                            "topics": []
+                        },
+                        {
+                            "number": "10",
+                            "title": "The Nervous System",
+                            "full_title": "The Nervous System",
+                            "topics": []
+                        },
+                        {
+                            "number": "11",
+                            "title": "Sense Organs",
+                            "full_title": "Sense Organs",
+                            "topics": []
+                        },
+                        {
+                            "number": "12",
+                            "title": "The Endocrine System",
+                            "full_title": "The Endocrine System",
+                            "topics": []
+                        },
+                        {
+                            "number": "13",
+                            "title": "The Reproductive System",
+                            "full_title": "The Reproductive System",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Evolution",
+                    "chapters": [
+                        {
+                            "number": "14",
+                            "title": "Human Evolution",
+                            "full_title": "Human Evolution",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Population",
+                    "chapters": [
+                        {
+                            "number": "15",
+                            "title": "Population – The Increasing Numbers and Rising Problems",
+                            "full_title": "Population – The Increasing Numbers and Rising Problems",
+                            "topics": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Pollution",
+                    "chapters": [
+                        {
+                            "number": "16",
+                            "title": "Pollution – A Rising Environmental Problem",
+                            "full_title": "Pollution – A Rising Environmental Problem",
+                            "topics": []
+                        }
+                    ]
+                }
+            ],
+            "chapters": [
+                {
+                    "number": "1",
+                    "title": "Cell – The Structural and Functional Unit of Life",
+                    "full_title": "Cell – The Structural and Functional Unit of Life",
+                    "topics": []
+                },
+                {
+                    "number": "2",
+                    "title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                    "full_title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                    "topics": []
+                },
+                {
+                    "number": "3",
+                    "title": "Genetics – Some Basic Fundamentals",
+                    "full_title": "Genetics – Some Basic Fundamentals",
+                    "topics": []
+                },
+                {
+                    "number": "4",
+                    "title": "Absorption by Roots – The Processes Involved",
+                    "full_title": "Absorption by Roots – The Processes Involved",
+                    "topics": []
+                },
+                {
+                    "number": "5",
+                    "title": "Transpiration",
+                    "full_title": "Transpiration",
+                    "topics": []
+                },
+                {
+                    "number": "6",
+                    "title": "Photosynthesis",
+                    "full_title": "Photosynthesis",
+                    "topics": []
+                },
+                {
+                    "number": "7",
+                    "title": "Chemical Coordination in Plants",
+                    "full_title": "Chemical Coordination in Plants",
+                    "topics": []
+                },
+                {
+                    "number": "8",
+                    "title": "The Circulatory System",
+                    "full_title": "The Circulatory System",
+                    "topics": []
+                },
+                {
+                    "number": "9",
+                    "title": "The Excretory System",
+                    "full_title": "The Excretory System",
+                    "topics": []
+                },
+                {
+                    "number": "10",
+                    "title": "The Nervous System",
+                    "full_title": "The Nervous System",
+                    "topics": []
+                },
+                {
+                    "number": "11",
+                    "title": "Sense Organs",
+                    "full_title": "Sense Organs",
+                    "topics": []
+                },
+                {
+                    "number": "12",
+                    "title": "The Endocrine System",
+                    "full_title": "The Endocrine System",
+                    "topics": []
+                },
+                {
+                    "number": "13",
+                    "title": "The Reproductive System",
+                    "full_title": "The Reproductive System",
+                    "topics": []
+                },
+                {
+                    "number": "14",
+                    "title": "Human Evolution",
+                    "full_title": "Human Evolution",
+                    "topics": []
+                },
+                {
+                    "number": "15",
+                    "title": "Population – The Increasing Numbers and Rising Problems",
+                    "full_title": "Population – The Increasing Numbers and Rising Problems",
+                    "topics": []
+                },
+                {
+                    "number": "16",
+                    "title": "Pollution – A Rising Environmental Problem",
+                    "full_title": "Pollution – A Rising Environmental Problem",
+                    "topics": []
+                }
+            ]
+        }
+    ]
+}

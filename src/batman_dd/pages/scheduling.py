@@ -32,8 +32,6 @@ from src.batman_dd.core.services.student_schedule_service import (
 # CONSTANTS
 # ==========================================================
 
-STUDENT_ID = "STD001"
-
 WEEKDAYS = [
 
     "Mon",
@@ -59,10 +57,10 @@ WEEKDAYS = [
 
 def render_scheduling_page():
 
+    student_id = st.session_state.student_id
+
     initialize_student_schedule(
-
-        STUDENT_ID
-
+        student_id
     )
 
     #
@@ -85,13 +83,15 @@ def render_scheduling_page():
 
 def render_month():
 
+    student_id = st.session_state.student_id
+
     year = st.session_state.schedule_year
 
     month = st.session_state.schedule_month
 
     month_data = get_month_schedule(
 
-        STUDENT_ID,
+        student_id,
 
         year,
 
@@ -399,7 +399,7 @@ def render_month():
 
                     saved_subjects = get_day_schedule(
 
-                        STUDENT_ID,
+                        student_id,
 
                         schedule_date
 
@@ -409,7 +409,7 @@ def render_month():
 
                         update_day_schedule(
 
-                            STUDENT_ID,
+                            student_id,
 
                             schedule_date,
 

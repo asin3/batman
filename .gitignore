@@ -9,6 +9,7 @@ vector_db/
 # IDE
 .vscode/
 .idea/
+supabase/.temp/
 
 # OS
 .DS_Store
@@ -23,6 +24,8 @@ __pycache__/
 
 # Student data
 data/students/
+data/class10/**/*.pdf
+
 
 # Generated Reports
 data/**/reports/

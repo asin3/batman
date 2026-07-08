@@ -1,0 +1,536 @@
+{
+    "subjects": [
+        {
+            "title": "Mathematics",
+            "enabled": true,
+            "target_date": null,
+            "groups": [],
+            "chapters": [
+                {
+                    "number": "1.",
+                    "title": "Goods and Services Tax (GST)",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "2.",
+                    "title": "Banking",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "3.",
+                    "title": "Shares and Dividend",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "4.",
+                    "title": "Linear Inequations",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "5.",
+                    "title": "Quadratic Equations",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "6.",
+                    "title": "Problems on Quadratic Equations",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "7.",
+                    "title": "Ratio and Proportion",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "8.",
+                    "title": "Remainder & Factor Theorem",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "9.",
+                    "title": "Matrices",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "10.",
+                    "title": "Arithmetic Progression (AP)",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "11.",
+                    "title": "Geometric Progression (GP)",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "12.",
+                    "title": "Reflection",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "13.",
+                    "title": "Section & Midpoint Formula",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "14.",
+                    "title": "Equation of a Straight Line",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "15.",
+                    "title": "Similarity",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "16.",
+                    "title": "Similarity of Triangles",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "17.",
+                    "title": "Loci",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "18.",
+                    "title": "Angle & Cyclic Properties of Circle",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "19.",
+                    "title": "Tangent Properties of Circles",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "20.",
+                    "title": "Constructions",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "21.",
+                    "title": "Volume & Surface Area of Solids",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "22.",
+                    "title": "Trigonometric Identities",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "23.",
+                    "title": "Heights and Distances",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "24.",
+                    "title": "Graphical Representation of Data",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "25.",
+                    "title": "Measures of Central Tendency (Mean)",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "26.",
+                    "title": "Median, Quartiles & Mode",
+                    "planned_date": null,
+                    "completed": false
+                },
+                {
+                    "number": "27.",
+                    "title": "Probability",
+                    "planned_date": null,
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Physics",
+            "enabled": true,
+            "target_date": null,
+            "groups": [
+                {
+                    "title": "Force, Work, Power & Energy",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Force",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "2",
+                            "title": "Work, Energy and Power",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "3",
+                            "title": "Machines",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Light",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Refraction of Light at Plane Surfaces",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "5",
+                            "title": "Refraction through a Lens",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "6",
+                            "title": "Spectrum",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Sound",
+                    "chapters": [
+                        {
+                            "number": "7",
+                            "title": "Sound",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Electricity & Magnetism",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Current Electricity",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "9",
+                            "title": "Household Circuits",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "10",
+                            "title": "Electro-magnetism",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Heat",
+                    "chapters": [
+                        {
+                            "number": "11",
+                            "title": "Calorimetry",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Modern Physics",
+                    "chapters": [
+                        {
+                            "number": "12",
+                            "title": "Radioactivity",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        },
+        {
+            "title": "Chemistry",
+            "enabled": true,
+            "target_date": null,
+            "groups": [
+                {
+                    "title": "Physical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Periodic Table – Periodic Properties & Variations of Properties",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "2",
+                            "title": "Chemical Bonding",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "4A",
+                            "title": "Gay-Lussac's Law, Avogadro's Law & Mole Concept",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "4B",
+                            "title": "Percentage Composition, Empirical & Molecular Formula",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "4C",
+                            "title": "Calculations Based on Chemical Equations",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "5",
+                            "title": "Electrolysis",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Inorganic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "3A",
+                            "title": "Acids, Bases & Salts",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "3B",
+                            "title": "Analytical Chemistry – Use of Ammonium & Sodium Hydroxide",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "6",
+                            "title": "Metallurgy",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "7A",
+                            "title": "Hydrogen Chloride",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "7B",
+                            "title": "Ammonia",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "7C",
+                            "title": "Nitric Acid",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "7D",
+                            "title": "Sulphuric Acid",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Organic Chemistry",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "Organic Chemistry",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Practical Chemistry",
+                    "chapters": [
+                        {
+                            "number": "9",
+                            "title": "Practical Chemistry",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        },
+        {
+            "title": "Biology",
+            "enabled": true,
+            "target_date": null,
+            "groups": [
+                {
+                    "title": "Basic Biology",
+                    "chapters": [
+                        {
+                            "number": "1",
+                            "title": "Cell – The Structural and Functional Unit of Life",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "2",
+                            "title": "Structure of Chromosomes, Cell Cycle and Cell Division",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "3",
+                            "title": "Genetics – Some Basic Fundamentals",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Plant Physiology",
+                    "chapters": [
+                        {
+                            "number": "4",
+                            "title": "Absorption by Roots – The Processes Involved",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "5",
+                            "title": "Transpiration",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "6",
+                            "title": "Photosynthesis",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "7",
+                            "title": "Chemical Coordination in Plants",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Anatomy & Physiology",
+                    "chapters": [
+                        {
+                            "number": "8",
+                            "title": "The Circulatory System",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "9",
+                            "title": "The Excretory System",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "10",
+                            "title": "The Nervous System",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "11",
+                            "title": "Sense Organs",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "12",
+                            "title": "The Endocrine System",
+                            "planned_date": null,
+                            "completed": false
+                        },
+                        {
+                            "number": "13",
+                            "title": "The Reproductive System",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Human Evolution",
+                    "chapters": [
+                        {
+                            "number": "14",
+                            "title": "Human Evolution",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Population",
+                    "chapters": [
+                        {
+                            "number": "15",
+                            "title": "Population – The Increasing Numbers and Rising Problems",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Pollution",
+                    "chapters": [
+                        {
+                            "number": "16",
+                            "title": "Pollution – A Rising Environmental Problem",
+                            "planned_date": null,
+                            "completed": false
+                        }
+                    ]
+                }
+            ],
+            "chapters": []
+        }
+    ]
+}

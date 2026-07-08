@@ -113,19 +113,26 @@ class SupabaseStorageRepository(StorageRepository):
 
         storage = self.client.storage.from_(bucket)
 
-        try:
-            storage.remove([object_name])
-        except Exception:
-            pass
+        if self.exists(path):
 
-        storage.upload(
-            object_name,
-            payload,
-            {
-                "content-type": "application/json"
-            }
-        )
+            storage.update(
+                object_name,
+                payload,
+                {
+                    "content-type": "application/json"
+                }
+            )
 
+        else:
+
+            storage.upload(
+                object_name,
+                payload,
+                {
+                    "content-type": "application/json"
+                }
+            )
+            
     ##########################################
     # Exists
     ##########################################
