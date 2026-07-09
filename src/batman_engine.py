@@ -2,23 +2,23 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from behavior.intent_classifier import classify_intent
-from behavior.batman_router import choose_skill
+from src.behavior.intent_classifier import classify_intent
+from src.behavior.batman_router import choose_skill
 
-from behavior.concept_teacher import get_prompt as concept_prompt
-from behavior.homework_guide import get_prompt as homework_prompt
-from behavior.study_coach import get_prompt as study_prompt
-from behavior.solved_example import get_prompt as solved_example_prompt
+from src.behavior.concept_teacher import get_prompt as concept_prompt
+from src.behavior.homework_guide import get_prompt as homework_prompt
+from src.behavior.study_coach import get_prompt as study_prompt
+from src.behavior.solved_example import get_prompt as solved_example_prompt
 
-from retrieval.retrieval_router import should_retrieve
+from src.retrieval.retrieval_router import should_retrieve
 
-from conversation_manager import load_history
-from conversation_manager import save_history
+from src.conversation.conversation_manager import load_history
+from src.conversation.conversation_manager import save_history
 
-from quiz_parser import parse_quiz_request
-from quiz_generator import generate_mcq
+from src.quiz.quiz_parser import parse_quiz_request
+from src.quiz.quiz_generator import generate_mcq
 
-from quiz_manager import (
+from src.quiz.quiz_manager import (
     start_quiz,
     is_quiz_active,
     set_difficulty,
@@ -50,8 +50,13 @@ client = OpenAI(
 # RULES
 # ---------------------------------
 
-rules = Path(
-    "docs/student_tutor_rules.md"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+rules = (
+    PROJECT_ROOT
+    / "docs"
+    / "standards"
+    / "student_tutor_rules.md"
 ).read_text(
     encoding="utf-8"
 )

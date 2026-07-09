@@ -9,9 +9,9 @@ sys.path.append(
     )
 )
 
-from batman_engine import ask_batman
+from src.batman_engine import ask_batman
 
-from ui.components import (
+from src.ui.components import (
     render_header,
     render_home_card,
     render_topic_strip,

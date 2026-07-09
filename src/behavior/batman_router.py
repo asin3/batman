@@ -1,4 +1,4 @@
-from behavior.intent_classifier import classify_intent
+from src.behavior.intent_classifier import classify_intent
 
 
 def choose_skill(question):
