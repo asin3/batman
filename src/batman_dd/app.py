@@ -20,7 +20,10 @@ from src.batman_dd.pages.scheduling import render_scheduling_page
 from src.batman_dd.pages.debrief import render_debrief_page
 from src.batman_dd.pages.notes import render_notes_page
 
-from src.platform.auth.auth_gate import authenticate
+from src.platform.auth.auth_gate import (
+    authenticate,
+    logout,
+)
 
 from src.batman_dd.components import (
     render_header,
@@ -120,6 +123,12 @@ with st.sidebar:
         student_name = st.session_state.student_id
 
     st.info(student_name)
+
+    if st.button(
+        "🚪 Logout",
+        use_container_width=True
+    ):
+        logout()
 
 # ==========================================================
 # HEADER

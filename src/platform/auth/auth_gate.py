@@ -80,9 +80,10 @@ def authenticate():
 
 def logout():
 
-    if "user" in st.session_state:
+    keys = list(st.session_state.keys())
 
-        del st.session_state.user
+    for key in keys:
+        del st.session_state[key]
 
     st.rerun()
 
