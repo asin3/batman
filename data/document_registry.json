@@ -1,0 +1,752 @@
+[
+    {
+        "document_id": "DOC000001",
+        "file": "biology_sq1.pdf",
+        "path": "class10/biology/samplesolvedpapers/source/biology_sq1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000002",
+        "file": "biology_sq2.pdf",
+        "path": "class10/biology/samplesolvedpapers/source/biology_sq2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000003",
+        "file": "biology_sq3.pdf",
+        "path": "class10/biology/samplesolvedpapers/source/biology_sq3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000004",
+        "file": "biology_sq4.pdf",
+        "path": "class10/biology/samplesolvedpapers/source/biology_sq4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000005",
+        "file": "biology_sq5.pdf",
+        "path": "class10/biology/samplesolvedpapers/source/biology_sq5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000006",
+        "file": "biology_textbook15.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook15.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000007",
+        "file": "biology_textbook16.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook16.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000008",
+        "file": "biology_textbook17.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook17.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000009",
+        "file": "biology_textbook18.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook18.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000010",
+        "file": "biology_textbook_misc.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook_misc.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000011",
+        "file": "biology_textbook1.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000012",
+        "file": "biology_textbook10.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook10.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000013",
+        "file": "biology_textbook11.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook11.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000014",
+        "file": "biology_textbook12.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook12.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000015",
+        "file": "biology_textbook14.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook14.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000016",
+        "file": "biology_textbook2.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000017",
+        "file": "biology_textbook3.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000018",
+        "file": "biology_textbook4.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000019",
+        "file": "biology_textbook5.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000020",
+        "file": "biology_textbook6.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook6.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000021",
+        "file": "biology_textbook7.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook7.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000022",
+        "file": "biology_textbook8.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook8.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000023",
+        "file": "biology_textbook9.pdf",
+        "path": "class10/biology/textbook/source/biology_textbook9.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Biology",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000024",
+        "file": "chemistry_textbook1.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000025",
+        "file": "chemistry_textbook10.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook10.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000026",
+        "file": "chemistry_textbook2.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000027",
+        "file": "chemistry_textbook3.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000028",
+        "file": "chemistry_textbook4.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000029",
+        "file": "chemistry_textbook5.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000030",
+        "file": "chemistry_textbook6.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook6.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000031",
+        "file": "chemistry_textbook7.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook7.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000032",
+        "file": "chemistry_textbook8.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook8.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000033",
+        "file": "chemistry_textbook9.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook9.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000034",
+        "file": "chemistry_textbook_misc.pdf",
+        "path": "class10/chemistry/textbook/source/chemistry_textbook_misc.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Chemistry",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000035",
+        "file": "physics_pyq1.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000036",
+        "file": "physics_pyq10.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq10.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000037",
+        "file": "physics_pyq11.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq11.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000038",
+        "file": "physics_pyq12.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq12.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000039",
+        "file": "physics_pyq14.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq14.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000040",
+        "file": "physics_pyq15.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq15.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000041",
+        "file": "physics_pyq16.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq16.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000042",
+        "file": "physics_pyq17.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq17.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000043",
+        "file": "physics_pyq18.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq18.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000044",
+        "file": "physics_pyq2.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000045",
+        "file": "physics_pyq3.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000046",
+        "file": "physics_pyq4.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000047",
+        "file": "physics_pyq5.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000048",
+        "file": "physics_pyq6.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq6.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000049",
+        "file": "physics_pyq7.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq7.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000050",
+        "file": "physics_pyq8.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq8.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000051",
+        "file": "physics_pyq9.pdf",
+        "path": "class10/physics/pyq/source/physics_pyq9.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "pyq",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000052",
+        "file": "physics_sq1.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000053",
+        "file": "physics_sq10.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq10.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000054",
+        "file": "physics_sq11.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq11.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000055",
+        "file": "physics_sq2.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000056",
+        "file": "physics_sq3.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000057",
+        "file": "physics_sq4.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000058",
+        "file": "physics_sq5.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000059",
+        "file": "physics_sq6.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq6.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000060",
+        "file": "physics_sq7.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq7.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000061",
+        "file": "physics_sq8.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq8.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000062",
+        "file": "physics_sq9.pdf",
+        "path": "class10/physics/samplesolvedpapers/source/physics_sq9.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "samplesolvedpapers",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000063",
+        "file": "physics_textbook10.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook10.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000064",
+        "file": "physics_textbook11.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook11.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000065",
+        "file": "physics_textbook12.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook12.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000066",
+        "file": "physics_textbook3.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook3.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000067",
+        "file": "physics_textbook4.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook4.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000068",
+        "file": "physics_textbook5.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook5.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000069",
+        "file": "physics_textbook6.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook6.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000070",
+        "file": "physics_textbook7.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook7.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000071",
+        "file": "physics_textbook8.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook8.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000072",
+        "file": "physics_textbook9.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook9.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000073",
+        "file": "physics_textbook.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000074",
+        "file": "physics_textbook1.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook1.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    },
+    {
+        "document_id": "DOC000075",
+        "file": "physics_textbook2.pdf",
+        "path": "class10/physics/textbook/source/physics_textbook2.pdf",
+        "board": "ICSE",
+        "grade": "10",
+        "subject": "Physics",
+        "source_type": "textbook",
+        "status": "OCR_DONE"
+    }
+]

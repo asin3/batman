@@ -22,10 +22,12 @@ __pycache__/
 *.py[cod]
 .venv/
 
+#secrets
+secrets/
+.streamlit/
+
 # Student data
 data/students/
-data/class10/**/*.pdf
-
 
 # Generated Reports
 data/**/reports/
@@ -34,13 +36,11 @@ data/**/reports/
 data/students/
 
 # OCR / Source textbooks / Archived books
-data/**/textbook/source/
 data/**/textbook/archive/
-data/**/textbook/*.pdf
+
+# Ignore only source PDFs
+data/**/*.pdf
 
 # Temporary processing / OCR
-data/**/working/
-
-#secrets
-secrets/
-.streamlit/
+data/**/staging/
+data/**/textbook/generated/
