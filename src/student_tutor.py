@@ -1,11 +1,18 @@
+
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.config.paths import (
     DOCS_DIR,
-    VECTOR_DB_DIR,
 )
 
 from dotenv import load_dotenv
 from openai import OpenAI
-from sentence_transformers import SentenceTransformer
 
 from src.behavior.intent_classifier import classify_intent
 from src.behavior.concept_teacher import get_prompt as concept_prompt
@@ -79,7 +86,10 @@ from src.orchestration.quiz_router import (
     parse_mcq
 )
 
-import chromadb
+from src.retrieval.vector_retriever import (
+    retrieve_context
+)
+
 import os
 
 load_dotenv()
@@ -106,30 +116,6 @@ rules = (
     / "student_tutor_rules.md"
 ).read_text(
     encoding="utf-8"
-)
-
-# ---------------------------------
-
-# EMBEDDING MODEL
-
-# ---------------------------------
-
-embedding_model = SentenceTransformer(
-"all-MiniLM-L6-v2"
-)
-
-# ---------------------------------
-
-# CHROMADB
-
-# ---------------------------------
-
-db = chromadb.PersistentClient(
-    path=str(VECTOR_DB_DIR)
-)
-
-collection = db.get_collection(
-"class10_physics"
 )
 
 # ---------------------------------
@@ -304,14 +290,20 @@ while True:
             last_question=question
         )
 
-        results = collection.query(
-            query_texts=[topic],
-            n_results=2
+        result = retrieve_context(
+            topic,
+            top_k=2
         )
 
-        context = "\n".join(results["documents"][0])
+        context = result["context"]
 
-        metadata = results["metadatas"][0][0]
+        metadata_list = result["metadata"]
+
+        metadata = (
+            metadata_list[0]
+            if metadata_list
+            else {}
+        )
 
         update_learning_state(
             student_id,
@@ -498,12 +490,12 @@ while True:
             topic=topic
         )
 
-        results = collection.query(
-            query_texts=[topic],
-            n_results=2
+        result = retrieve_context(
+            topic,
+            top_k=2
         )
 
-        context = "\n".join(results["documents"][0])
+        context = result["context"]
 
         mcq = generate_mcq(
             context,
@@ -666,31 +658,44 @@ while True:
 
     if retrieve:
 
-        results = collection.query(
-            query_texts=[question],
-            n_results=2
+        result = retrieve_context(
+            question
         )
 
-        context = "\n".join(
-            results["documents"][0]
-        )
+        context = result["context"]
 
-        metadata = results["metadatas"][0][0]
+        metadata_list = result["metadata"]
+
+        metadata = (
+            metadata_list[0]
+            if metadata_list
+            else {}
+        )
 
         print("\nDEBUG METADATA")
         print(metadata)
 
-        update_learning_state(
-            student_id,
-            board=metadata.get("board"),
-            grade=metadata.get("grade"),
-            subject=metadata.get("subject"),
-            chapter=metadata.get("chapter"),
-            topic=metadata.get("topic"),
-            last_question=question
-        )
+        if metadata:
 
-        print("\nLearning State Updated")
+            update_learning_state(
+
+                student_id,
+
+                board=metadata.get("board"),
+
+                grade=metadata.get("grade"),
+
+                subject=metadata.get("subject"),
+
+                chapter=metadata.get("chapter"),
+
+                topic=metadata.get("topic"),
+
+                last_question=question
+
+            )
+
+            print("\nLearning State Updated")
 
     else:
 

@@ -36,6 +36,13 @@ Last Updated:
 
 ===========================================================
 """
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config.paths import (
     STAGING_DIR,
@@ -43,17 +50,10 @@ from src.config.paths import (
 )
 
 import chromadb
+import json
 
 from sentence_transformers import (
     SentenceTransformer
-)
-
-from src.ingestion.chunk_text import (
-    chunk_text
-)
-
-from src.governance.metadata_enricher import (
-    enrich_metadata
 )
 
 
@@ -61,15 +61,19 @@ from src.governance.metadata_enricher import (
 # PROJECT PATHS
 # ---------------------------------------------------------
 
-TEXTBOOK_FOLDER = STAGING_DIR
-
-NOTES_FOLDER = (
-    STAGING_DIR.parent /
-    "notes"
-)
-
 VECTOR_DB = VECTOR_DB_DIR
 
+REGISTRY_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "document_registry.json"
+)
+
+# ---------------------------------------------------------
+# INDEX MODE
+# ---------------------------------------------------------
+
+REBUILD_INDEX = False
 
 # ---------------------------------------------------------
 # EMBEDDING MODEL
@@ -97,29 +101,8 @@ client = chromadb.PersistentClient(
 )
 
 collection = client.get_or_create_collection(
-
-    name="class10_physics"
-
+    name="icse_class10"
 )
-
-
-# ---------------------------------------------------------
-# KNOWLEDGE SOURCES
-# ---------------------------------------------------------
-
-SOURCES = [
-
-    (
-        TEXTBOOK_FOLDER,
-        "textbook"
-    ),
-
-    (
-        NOTES_FOLDER,
-        "notes"
-    )
-
-]
 
 
 # ---------------------------------------------------------
@@ -134,12 +117,65 @@ chunks_added = 0
 # INGESTION
 # ---------------------------------------------------------
 
-for folder, source in SOURCES:
+# ---------------------------------------------------------
+# PROCESS STAGED CHUNKS
+# ---------------------------------------------------------
 
-    if not folder.exists():
+with open(
+    REGISTRY_FILE,
+    "r",
+    encoding="utf-8"
+) as f:
+
+    registry = json.load(f)
+
+for document in registry:
+
+    # ---------------------------------------------------------
+    # INDEX FILTER
+    # ---------------------------------------------------------
+
+    if REBUILD_INDEX:
+
+        if document["status"] not in [
+
+            "EXTRACTED",
+
+            "INDEXED"
+
+        ]:
+
+            continue
+
+    else:
+
+        if document["status"] != "EXTRACTED":
+
+            continue
+    
+    print(
+        f"[{document['status']}] "
+        f"{document['document_id']}"
+    )
+
+
+    source_pdf = (
+        PROJECT_ROOT
+        / "data"
+        / document["path"]
+    )
+
+    chunk_file = (
+        source_pdf.parent.parent
+        / "staging"
+        / document["document_id"]
+        / "chunks.json"
+    )
+
+    if not chunk_file.exists():
 
         print(
-            f"\nSkipping: {folder}"
+            f"[MISSING] {document['document_id']}"
         )
 
         continue
@@ -147,109 +183,80 @@ for folder, source in SOURCES:
     print()
 
     print(
-        f"Scanning: {folder.name}"
+        f"Reading {document['document_id']}"
     )
 
-    for file_path in sorted(
-        folder.glob("*.txt")
-    ):
+    with open(
+        chunk_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
 
-        print(
-            f"Reading: {file_path.name}"
-        )
+        chunks = json.load(f)
 
-        text = file_path.read_text(
+    for index, chunk in enumerate(chunks):
 
-            encoding="utf-8",
+        embedding = model.encode(
+            chunk["content"]
+        ).tolist()
 
-            errors="ignore"
+        collection.add(
 
-        )
+            ids=[
+                f"{document['document_id']}_{index}"
+            ],
 
-        base_metadata = {
+            embeddings=[
+                embedding
+            ],
 
-            "board": "ICSE",
+            documents=[
+                chunk["content"]
+            ],
 
-            "grade": "10",
+            metadatas=[{
 
-            "subject": "Physics",
+                "document_id": document["document_id"],
+                "subject": document["subject"],
+                "board": document["board"],
+                "grade": document["grade"],
+                "source_type": document["source_type"],
+                "heading": chunk["heading"]
 
-            "chapter": "TBD",
-
-            "topic": "TBD",
-
-            "page": "TBD",
-
-            "document": file_path.name,
-
-            "source": source
-
-        }
-
-        chunks = chunk_text(
-
-            text,
-
-            base_metadata
+            }]
 
         )
 
-        print(
+        chunks_added += 1
 
-            f"Chunks: {len(chunks)}"
+    documents_added += 1
+# ---------------------------------------------------------
+# UPDATE REGISTRY STATUS
+# ---------------------------------------------------------
 
-        )
+    document["status"] = "INDEXED"
 
-        for chunk in chunks:
+# ---------------------------------------------------------
+# SAVE UPDATED REGISTRY
+# ---------------------------------------------------------
 
-            enriched_metadata = enrich_metadata(
+with open(
+    REGISTRY_FILE,
+    "w",
+    encoding="utf-8"
+) as f:
 
-                chunk["metadata"],
+    json.dump(
+        registry,
+        f,
+        indent=4,
+        ensure_ascii=False
+    )
 
-                chunk["text"]
+print()
 
-            )
+print("[UPDATED] document_registry.json")
 
-            chunk["metadata"] = enriched_metadata
-
-            embedding = model.encode(
-
-                chunk["text"]
-
-            ).tolist()
-            
-
-            collection.add(
-
-                ids=[
-
-                    chunk["chunk_id"]
-
-                ],
-
-                embeddings=[
-
-                    embedding
-
-                ],
-
-                documents=[
-
-                    chunk["text"]
-
-                ],
-
-                metadatas=[
-
-                    enriched_metadata
-
-                ]
-
-            )
-
-            chunks_added += 1
-
-        documents_added += 1
 
 # ---------------------------------------------------------
 # SUMMARY

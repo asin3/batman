@@ -77,7 +77,13 @@
         "grade": "10",
         "subject": "Biology",
         "source_type": "textbook",
-        "status": "RAW"
+        "status": "EXTRACTED",
+        "processing": {
+            "engine": "docling",
+            "status": "completed",
+            "processed_at": "2026-07-11T00:37:58",
+            "artifact_folder": "../staging/DOC000013"
+        }
     },
     {
         "document_id": "DOC000014",

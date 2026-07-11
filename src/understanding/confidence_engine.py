@@ -69,6 +69,26 @@ def calculate_confidence(
 
 ):
 
+    # ---------------------------------------------------------
+    # SAFETY CHECK
+    # ---------------------------------------------------------
+
+    if intent is None:
+
+        return {
+
+            "complete": False,
+
+            "resolved": 0,
+
+            "required": 0,
+
+            "missing": [],
+
+            "error": "Intent not resolved"
+
+        }
+
     intent_name = intent["name"]
 
     required = REQUIRED_FIELDS.get(

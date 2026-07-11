@@ -220,3 +220,21 @@ When "BCP" is referenced during any Batman discussion, it means:
 - Inspect existing code before generating CPS.
 
 ----
+## BCP-005 — Extraction Contract (Frozen)
+
+Batman never depends on a specific document extraction engine.
+
+Batman depends only on the Extraction Contract.
+
+Every supported extractor must produce the following artifacts:
+
+- document.md
+- document.json
+- metadata.json
+
+All downstream components (Chunk Builder, Embedding Engine, Vector Database, Retrieval Engine, Batman Core) consume these artifacts only.
+
+The original PDF is treated as the immutable source document and is never processed again after successful extraction.
+
+This design allows Batman to replace the extraction engine in the future without changing any downstream architecture.
+----
