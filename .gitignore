@@ -44,3 +44,18 @@ data/**/*.pdf
 # Temporary processing / OCR
 data/**/staging/
 data/**/textbook/generated/
+
+# Chroma database
+vector_db/**
+
+# Docling test outputs
+src/tests/docling_test/output/
+
+# Python cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
