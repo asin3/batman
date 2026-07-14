@@ -81,7 +81,7 @@
         "processing": {
             "engine": "docling",
             "status": "completed",
-            "processed_at": "2026-07-11T00:37:58",
+            "processed_at": "2026-07-13T13:43:34",
             "artifact_folder": "../staging/DOC000013"
         }
     },

@@ -22,11 +22,20 @@ Current Stage
 
 ============================================================
 """
-
 import json
+
+import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.knowledge.document_adapter import (
+    load_document,
+    get_content_texts,
+)
 
 STAGING_FOLDER = (
     PROJECT_ROOT
@@ -38,7 +47,7 @@ STAGING_FOLDER = (
     / "DOC000013"
 )
 
-MARKDOWN_FILE = STAGING_FOLDER / "document.md"
+DOCUMENT_JSON = STAGING_FOLDER / "document.json"
 
 OUTPUT_FILE = STAGING_FOLDER / "chunks.json"
 
@@ -47,54 +56,208 @@ print("=" * 60)
 print("SEMANTIC CHUNK BUILDER")
 print("=" * 60)
 
-markdown = MARKDOWN_FILE.read_text(
-    encoding="utf-8"
+#markdown = MARKDOWN_FILE.read_text(
+#    encoding="utf-8"
+#)
+
+#lines = markdown.splitlines()
+
+document = load_document(
+    DOCUMENT_JSON
 )
 
-lines = markdown.splitlines()
+lines = get_content_texts(
+    document
+)
+
+# ---------------------------------------------------------
+# BATMAN CHUNK
+# ---------------------------------------------------------
+
+def create_chunk(
+
+    chunk_id,
+
+    heading,
+
+    content,
+
+    page,
+
+    label,
+
+    parent,
+
+    children,
+
+    source_objects
+):
+
+    return {
+
+        "id": chunk_id,
+
+        "heading": heading,
+
+        "content": content,
+
+        "page": page,
+
+        "label": label,
+
+        "parent": parent,
+
+        "children": children,
+
+        "source_objects": source_objects,
+
+        "figure_refs": [],
+
+        "table_refs": []
+
+    }
 
 chunks = []
 
+#current_heading = "Document"
+
+#buffer = []
+
+#for line in lines:
+
+#    text = line["text"].strip()
+
+#    if not text:
+#        continue
+
+#    if text.startswith("#"):
+
+#        if buffer:
+
+#            chunks.append({
+
+#                "heading": current_heading,
+
+#                "content": "\n".join(buffer)
+
+#            })
+
+#           buffer = []
+
+#        current_heading = text.lstrip("#").strip()
+
+#    else:
+
+#        buffer.append(text)
+
+#if buffer:
+
+#    chunks.append({
+
+#        "heading": current_heading,
+
+#        "content": "\n".join(buffer)
+
+#    })
+
 current_heading = "Document"
+
+current_page = None
 
 buffer = []
 
-for line in lines:
+source_buffer = []
 
-    line = line.strip()
+for item in lines:
 
-    if not line:
+    if item["label"] == "section_header":
+
+        content = "\n".join(buffer).strip()
+
+        if len(content) >= 30:
+
+            chunk_id = f"CHUNK{len(chunks)+1:06d}"
+
+            source_objects = source_buffer.copy()
+
+            chunks.append(
+
+                create_chunk(
+
+                    chunk_id=chunk_id,
+
+                    heading=current_heading,
+
+                    content=content,
+
+                    page=current_page,
+
+                    label=item["label"],
+
+                    parent=None,
+
+                    source_objects=source_objects,
+
+                    children=[]
+
+                )
+
+            )
+
+        buffer = []
+
+        source_buffer = []
+
+        current_heading = item["text"]
+
+        current_page = item["page"]
+
         continue
 
-    if line.startswith("#"):
+    buffer.append(
 
-        if buffer:
+        item["text"]
 
-            chunks.append({
+    )
 
-                "heading": current_heading,
+    source_buffer.append(
 
-                "content": "\n".join(buffer)
+        item["id"]
 
-            })
+    )
 
-            buffer = []
+content = "\n".join(buffer).strip()
 
-        current_heading = line.lstrip("#").strip()
+if len(content) >= 30:
 
-    else:
+    chunk_id = f"CHUNK{len(chunks)+1:06d}"
+    
+    chunks.append(
 
-        buffer.append(line)
+        create_chunk(
 
-if buffer:
+            chunk_id=chunk_id,
 
-    chunks.append({
+            heading=current_heading,
 
-        "heading": current_heading,
+            content=content,
 
-        "content": "\n".join(buffer)
+            page=current_page,
 
-    })
+            label="section_header",
+
+            parent=None,
+
+            source_objects=source_buffer,
+
+            children=[]
+
+        )
+
+    )
+
+buffer = []
+
 
 with open(
     OUTPUT_FILE,

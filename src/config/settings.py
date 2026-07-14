@@ -62,3 +62,13 @@ GOOGLE_SCOPES = [
     "https://www.googleapis.com/auth/userinfo.profile",
 
 ]
+
+# ----------------------------------------------------------
+# KNOWLEDGE ASSET FOLDERS
+# ----------------------------------------------------------
+
+FIGURES_FOLDER = "figures"
+
+TABLES_FOLDER = "tables"
+
+EMBEDDINGS_FOLDER = "embeddings"

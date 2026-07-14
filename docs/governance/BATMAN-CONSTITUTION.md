@@ -143,7 +143,7 @@ Never inside workflow.
 
 ---
 
-## Principle 13
+## Principle 14
 
 Architecture before implementation.
 
@@ -153,7 +153,7 @@ coding stops until it becomes clear.
 
 ---
 
-## Principle 14
+## Principle 15
 
 Python grows.
 
@@ -163,7 +163,7 @@ Batman should become more intelligent through accumulated knowledge, not through
 
 ---
 
-## Principle 15
+## Principle 16
 
 Student trust is more important than appearing intelligent.
 
@@ -177,7 +177,7 @@ Batman never invents facts.
 
 ---
 
-## Principle 16
+## Principle 17
 
 Every successful interaction should make Batman better prepared for the next interaction.
 
@@ -186,7 +186,7 @@ Learning is permanent.
 Repeated work is failure.
 
 ---
-## Principle 17
+## Principle 18
 
 Inspect Before Modify.
 
@@ -195,6 +195,69 @@ Before generating any CPS for an existing file, inspect the current version of t
 If the file is unavailable, request it first.
 
 Never modify an existing implementation based on memory or assumptions.
+
+---
+## Principle 19 
+
+CPS Completion & Backlog Governance
+
+No new CPS shall begin while there are unresolved items from the previous CPS.
+
+If an item is intentionally deferred, it must first be recorded in the Engineering Backlog (BACKLOG.md) with:
+
+- A unique Backlog ID (BKL-xxx)
+- Status
+- Planned Stage (or Target CPS)
+- Reason for Deferral
+
+Only after every unresolved item has either been completed or formally moved to the Engineering Backlog may the next CPS begin.
+
+This rule ensures that technical debt is consciously managed, architectural decisions remain traceable, and no approved work is forgotten.
+
+---
+## Principle 20
+
+Every knowledge artifact required during tutoring must be produced during ingestion. Live tutoring must never depend on reprocessing the original source document.
+
+---
+
+## Principle 21
+
+CPS Business Flow Rule
+
+Every CPS must define the business impact of the change in simple language.
+
+Before implementation, each CPS must state:
+
+### Business Flow
+
+Explain where the CPS sits in the product flow and what business process changes.
+
+### Advantage
+
+State the direct product, operational, scale, quality, or customer advantage created by the CPS.
+
+### Disadvantage / Risk
+
+State the limitation, technical debt, dependency, cost, or risk introduced by the CPS.
+
+### Rule
+
+Technical implementation alone is not sufficient.
+
+Every CPS must answer:
+
+1. What changes in the business flow?
+2. What advantage does Batman gain?
+3. What disadvantage or risk is introduced?
+
+Keep the explanation short and understandable without reading the source code.
+
+
+---
+
+## Principle 22
+
 
 ---
 

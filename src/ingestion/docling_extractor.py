@@ -80,9 +80,43 @@ for document in registry:
 # DOCLING EXTRACTION
 # ----------------------------------------------------------
 
-from docling.document_converter import DocumentConverter
+from docling.document_converter import (
+    DocumentConverter,
+    PdfFormatOption,
+    ConversionResult,
+)
 
-converter = DocumentConverter()
+from docling_core.types.doc import PictureItem
+
+from docling.datamodel.pipeline_options import (
+    PdfPipelineOptions,
+)
+
+from docling.datamodel.base_models import (
+    InputFormat,
+)
+
+pipeline_options = PdfPipelineOptions()
+
+pipeline_options.generate_picture_images = True
+
+pipeline_options.generate_page_images = True
+
+pipeline_options.images_scale = 2.0
+
+converter = DocumentConverter(
+
+    format_options={
+
+        InputFormat.PDF: PdfFormatOption(
+
+            pipeline_options=pipeline_options
+
+        )
+
+    }
+
+)
 
 for document in selected_documents:
 
@@ -118,6 +152,148 @@ for document in selected_documents:
     result = converter.convert(str(source_pdf))
 
     doc = result.document
+
+    print()
+
+    print("=" * 60)
+    print("PICTURE EXPORT TEST")
+    print("=" * 60)
+
+    figure_manifest = []
+
+    count = 0
+
+    saved = 0
+
+    skipped = []
+
+    figures_folder = (
+        output_folder
+        / "figures"
+    )
+
+    figures_folder.mkdir(
+        exist_ok=True
+    )
+
+    for element, _level in doc.iterate_items():
+
+        if isinstance(element, PictureItem):
+
+            count += 1
+           
+            try:
+
+                image = element.get_image(doc)
+
+                if image is not None:
+
+                    saved += 1
+
+                    figure_id = f"FIG{count:06d}"
+
+                    image.save(
+
+                        figures_folder
+                        / f"{figure_id}.png"
+
+                    )
+
+                    figure_manifest.append({
+
+                        "figure_id": figure_id,
+
+                        "document_id": document["document_id"],
+
+                        "docling_picture": element.self_ref,
+
+                        "page": element.prov[0].page_no,
+
+                        "caption": None,
+
+                        "file": f"{figure_id}.png",
+
+                        "status": "COMPLETED"
+
+                    })
+
+            except Exception as e:
+
+                skipped.append({
+
+                    "picture_number": count,
+
+                    "reason": str(e)
+
+                })
+
+                figure_manifest.append({
+
+                    "figure_id": f"FIG{count:06d}",
+
+                    "document_id": document["document_id"],
+
+                    "docling_picture": element.self_ref,
+
+                    "page": element.prov[0].page_no,
+
+                    "caption": None,
+
+                    "file": None,
+
+                    "status": "RETRY_QUEUED",
+
+                    "reason": str(e),
+
+                    "retry_count": 0
+
+                })
+
+    with open(
+
+        output_folder / "figure_manifest.json",
+
+        "w",
+
+        encoding="utf-8"
+
+    ) as f:
+
+        json.dump(
+
+            figure_manifest,
+
+            f,
+
+            indent=4,
+
+            ensure_ascii=False
+
+        )
+
+    print(f"Pictures Found : {count}")
+
+    print(f"Pictures Saved : {saved}")
+
+    print(f"Pictures Skipped : {len(skipped)}")
+
+    if skipped:
+
+        print()
+
+        print("Retry Queue")
+
+        for item in skipped:
+
+            print(
+
+                f"Picture {item['picture_number']}"
+
+                f" -> {item['reason']}"
+
+            )
+
+    print()
 
     markdown_file.write_text(
         doc.export_to_markdown(),

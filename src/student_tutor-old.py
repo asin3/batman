@@ -231,20 +231,6 @@ while True:
         continue
 
     # -----------------------------
-    # UNDERSTANDING ENGINE
-    # -----------------------------
-
-    if question.lower() not in ["a", "b", "c", "d"]:
-
-        understanding = understand(
-
-            question,
-
-            student_id
-
-        )
-
-    # -----------------------------
     # START QUIZ
     # -----------------------------
 
@@ -330,22 +316,6 @@ while True:
         context, retrieval_results = build_retrieval_context(
             topic,
             top_k=2
-        )
-
-        print("\nDEBUG QUIZ CONTEXT")
-        print(f"Parsed Topics       : {topics}")
-        print(f"Selected Quiz Topic : {topic}")
-        print(
-            "Retrieval Chunks    : "
-            f"{[result['chunk_id'] for result in retrieval_results]}"
-        )
-        print(
-            "Retrieval Headings  : "
-            f"{[result['heading'] for result in retrieval_results]}"
-        )
-        print(
-            "Top Heading         : "
-            f"{retrieval_results[0]['heading'] if retrieval_results else None}"
         )
 
         mcq = generate_mcq(
@@ -528,22 +498,6 @@ while True:
             top_k=2
         )
 
-        print("\nDEBUG QUIZ CONTEXT")
-        print(f"Parsed Topics       : {topics}")
-        print(f"Selected Quiz Topic : {topic}")
-        print(
-            "Retrieval Chunks    : "
-            f"{[result['chunk_id'] for result in retrieval_results]}"
-        )
-        print(
-            "Retrieval Headings  : "
-            f"{[result['heading'] for result in retrieval_results]}"
-        )
-        print(
-            "Top Heading         : "
-            f"{retrieval_results[0]['heading'] if retrieval_results else None}"
-        )
-
         mcq = generate_mcq(
             context,
             state["difficulty"],
@@ -624,6 +578,20 @@ while True:
 
         continue
     
+    # -----------------------------
+    # UNDERSTANDING ENGINE
+    # -----------------------------
+
+    if question.lower() not in ["a", "b", "c", "d"]:
+
+        understanding = understand(
+
+            question,
+
+            student_id
+
+        )
+
     print("\nUNDERSTANDING")
 
     print(understanding)

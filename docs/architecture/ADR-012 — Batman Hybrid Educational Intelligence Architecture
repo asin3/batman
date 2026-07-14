@@ -1,0 +1,608 @@
+# ADR-012: Batman Hybrid Educational Intelligence Architecture
+
+Status: Accepted
+
+Date: 2026-07-15
+
+---
+
+# Context
+
+Batman Student is evolving from a RAG-based tutor into an educational intelligence platform.
+
+The current Batman architecture already contains:
+
+- Document ingestion
+- Knowledge assets
+- Semantic chunking
+- Embeddings
+- Vector retrieval
+- Retrieval validation
+- Understanding Engine
+- Conversation state
+- Student history
+- Learning state
+- Progress analytics
+- Quiz capabilities
+- Provider routing
+
+However, several intelligence capabilities remain incomplete or poorly orchestrated.
+
+These include:
+
+- Multi-turn workflow management
+- Conversation state transitions
+- Topic validation
+- Student mastery estimation
+- Adaptive teaching
+- General assessment
+- Next-best-learning-action decisions
+- Permanent learned intelligence
+
+Batman shall not continue building commodity infrastructure when mature free or open-source solutions already exist.
+
+Batman shall use proven foundations for solved technical problems and focus Selten engineering effort on Batman's unique educational intelligence.
+
+---
+
+# Decision
+
+Batman shall adopt a Hybrid Educational Intelligence Architecture.
+
+The architecture consists of three layers:
+FREE / OPEN-SOURCE FOUNDATION
+
+        ↓
+
+BATMAN INTELLIGENCE
+
+        ↓
+
+SELTEN PRODUCT IP
+
+
+Free and open-source technologies may provide technical engines, algorithms and infrastructure.
+
+Batman shall own educational meaning, educational decisions, student intelligence and adaptive learning behaviour.
+
+Paid third-party educational or orchestration platforms shall not become mandatory architectural dependencies.
+
+---
+
+# Architecture
+
+                     BATMAN STUDENT
+                            │
+                            ▼
+             BATMAN INTELLIGENCE CORE
+                            │
+      ┌─────────────────────┼─────────────────────┐
+      ▼                     ▼                     ▼
+
+
+UNDERSTAND STUDENT UNDERSTAND LEARNING DECIDE NEXT ACTION
+
+Intent Mastery Teach
+Context Mistakes Hint
+Topic Progress Clarify
+References History Practice
+Revise
+Assess
+
+      └─────────────────────┼─────────────────────┘
+                            │
+                            ▼
+
+                FOUNDATION ENGINES
+
+  Docling
+  Microsoft Agent Framework
+  Bayesian Knowledge Tracing
+  STACK
+  Haystack Components
+  Open-Source Tutor Research
+
+                            │
+                            ▼
+
+                REPLACEABLE AI MODELS
+
+              OpenAI / Gemini / Local Models
+
+
+
+---
+
+# Foundation Technology Decisions
+
+## Document Intelligence
+
+Technology:
+
+Docling
+
+Decision:
+
+ADOPT + EXTEND
+
+Docling owns document parsing capabilities.
+
+Batman owns:
+
+- Document Adapter
+- Knowledge Asset Contract
+- Academic metadata
+- Document lifecycle
+- Figure linking
+- Table linking
+- Educational knowledge structure
+
+Batman shall not build a PDF parsing engine.
+
+---
+
+## Knowledge and Retrieval
+
+Technology:
+
+Batman Knowledge Engine
+
+Optional supporting technology:
+
+Haystack components
+
+Decision:
+
+KEEP + SELECTIVELY EXTEND
+
+The existing Batman Knowledge Engine remains.
+
+This includes:
+
+- Knowledge Repository
+- Semantic Chunking
+- Embeddings
+- Vector Database
+- Retrieval Engine
+- Retrieval Validation
+
+Batman shall not migrate the complete Knowledge Engine to Haystack.
+
+Haystack components or patterns may be adopted only where a proven retrieval, ranking or evaluation gap exists.
+
+---
+
+## Workflow and Conversation State
+
+Technology:
+
+Microsoft Agent Framework
+
+Decision:
+
+ADOPT + EXTEND
+
+The framework shall manage:
+
+- Workflow state
+- Conversation state transitions
+- Pause and resume
+- Multi-turn flows
+- Deterministic routing
+- Checkpointing
+
+Batman shall own the meaning of each state and the educational decisions performed inside the workflow.
+
+The framework answers:
+
+"Where is the conversation?"
+
+Batman answers:
+
+"What does the conversation mean?"
+
+The existing home-grown workflow logic shall be migrated gradually.
+
+No full rewrite shall occur without module-level architecture mapping.
+
+---
+
+## Understanding Intelligence
+
+Technology:
+
+Batman Understanding Engine
+
+Decision:
+
+BUILD BATMAN
+
+The existing Understanding Engine remains Batman-owned intelligence.
+
+Responsibilities include:
+
+- Intent understanding
+- Entity extraction
+- Context resolution
+- Reference resolution
+- Confidence evaluation
+- Clarification
+- Topic normalization
+- Topic validation
+
+The Understanding Engine shall be repaired and extended.
+
+It shall not be replaced by a generic conversation framework.
+
+---
+
+## Student Mastery
+
+Technology:
+
+Bayesian Knowledge Tracing
+
+Reference implementation:
+
+pyBKT and proven intelligent tutoring system patterns
+
+Decision:
+
+ADOPT MODEL + BUILD AROUND
+
+Batman shall not invent basic mastery estimation mathematics.
+
+Bayesian Knowledge Tracing may be used to estimate student skill mastery.
+
+Example:
+Neuron 0.82
+Reflex Arc 0.31
+Synapse 0.54
+
+
+The mastery model estimates what the student knows.
+
+Batman decides what to do with that knowledge.
+
+The Batman Student Model remains Batman-owned intelligence.
+
+---
+
+## Tutor Pedagogy
+
+Technology Sources:
+
+Open-source intelligent tutoring systems and educational research.
+
+Decision:
+
+STUDY + EXTEND PATTERNS
+
+Batman may adopt proven tutoring patterns including:
+
+- Socratic questioning
+- Progressive hints
+- Error-specific feedback
+- Scaffolded explanation
+- Re-explanation strategies
+- Misconception handling
+
+Batman shall not adopt another tutoring product as its core.
+
+Batman owns the final teaching behaviour.
+
+---
+
+## Assessment Intelligence
+
+Decision:
+
+BUILD BATMAN
+
+Batman shall use an Assessment Intelligence architecture.
+
+Assessment is broader than Quiz.
+
+ASSESSMENT INTELLIGENCE
+    │
+    ├── OBJECTIVE
+    │     MCQ
+    │     True / False
+    │     Match
+    │     Fill Blank
+    │
+    ├── CONSTRUCTED RESPONSE
+    │     Short Answer
+    │     Long Answer
+    │     Explain Why
+    │     Numerical
+    │     Derivation
+    │     Proof
+    │
+    └── PERFORMANCE / VISUAL
+          Diagram
+          Graph
+          Working Steps
+
+
+The existing Quiz Engine shall remain temporarily.
+
+It shall later become one component of the Assessment Intelligence layer.
+
+---
+
+## Mathematical Assessment
+
+Technology:
+
+STACK or equivalent open-source symbolic assessment capability.
+
+Decision:
+
+ADOPT / INTEGRATE WHEN REQUIRED
+
+Batman shall not build a symbolic algebra grading engine from scratch.
+
+Mathematical and numerical assessment may use specialist symbolic assessment technology.
+
+Batman remains responsible for:
+
+- Curriculum context
+- Student context
+- Difficulty
+- Question selection
+- Feedback strategy
+- Learning decisions
+
+---
+
+## Adaptive Learning
+
+Technology:
+
+Batman Decision Engine
+
+Decision:
+
+BUILD BATMAN
+
+The Batman Decision Engine shall determine the next best learning action.
+
+Possible actions include:
+
+- Teach
+- Re-explain
+- Clarify
+- Give hint
+- Show example
+- Ask question
+- Practice
+- Revise
+- Assess
+- Move forward
+
+Decision inputs may include:
+
+- Student mastery
+- Previous mistakes
+- Curriculum dependencies
+- Student history
+- Recent learning
+- Assessment evidence
+- Confidence
+- Exam context
+
+This is core Selten product intelligence.
+
+---
+
+## Permanent Learning
+
+Technology:
+
+Batman Learned Knowledge
+
+Decision:
+
+BUILD BATMAN
+
+Batman shall permanently learn from validated successful interactions.
+
+Examples include:
+
+- Language mappings
+- Topic aliases
+- Confirmed interpretations
+- Misconception patterns
+- Successful teaching strategies
+- Reusable educational decisions
+
+Permanent learning shall be structured, local and versionable.
+
+Repeated work is considered architectural failure.
+
+---
+
+## AI Providers
+
+Technology:
+
+Batman Provider Router
+
+Decision:
+
+KEEP
+
+AI providers remain replaceable.
+
+Supported or future providers may include:
+
+- OpenAI
+- Gemini
+- Local Models
+- Other compatible providers
+
+LLMs assist Batman.
+
+LLMs do not own workflow or final decision authority.
+
+---
+
+# Ownership Boundary
+
+Foundation technologies may own:
+
+- Document parsing
+- Workflow mechanics
+- State persistence mechanics
+- Mastery mathematics
+- Symbolic mathematical evaluation
+- Retrieval utilities
+
+Batman owns:
+
+- Student understanding
+- Curriculum governance
+- Topic validation
+- Student context fusion
+- Pedagogy
+- Assessment coordination
+- Adaptive learning
+- Next-best-learning-action
+- Permanent educational learning
+
+---
+
+# Selten Product IP
+
+The long-term Selten moat shall be built around:
+
+UNDERSTAND THE STUDENT
+
+        ↓
+
+UNDERSTAND WHAT THE STUDENT KNOWS
+
+        ↓
+
+UNDERSTAND WHAT THE STUDENT NEEDS
+
+        ↓
+
+DECIDE THE NEXT BEST LEARNING ACTION
+
+        ↓
+
+LEARN FROM THE RESULT
+
+
+Commodity infrastructure is not the Selten moat.
+
+Batman Decision Intelligence is the strategic product asset.
+
+---
+
+# Migration Principle
+
+Existing Batman code shall not be discarded automatically.
+
+Before implementation begins, every existing module shall be classified as:
+
+- KEEP
+- WRAP
+- MIGRATE
+- MERGE
+- RETIRE
+- MISSING
+
+The first implementation activity after this ADR shall be architecture mapping.
+
+Architecture mapping shall not modify production code.
+
+Migration shall occur incrementally.
+
+---
+
+# Constraints
+
+Batman shall prefer free and open-source technology.
+
+Paid third-party platforms shall not become mandatory core dependencies.
+
+Batman shall remain:
+
+- Python-first
+- Local-first
+- Provider-independent
+- Deterministic where possible
+- Extensible
+- Educational-intelligence focused
+
+Frameworks assist Batman.
+
+Frameworks do not define Batman.
+
+---
+
+# Benefits
+
+- Reduces unnecessary custom infrastructure
+- Preserves existing Batman intelligence
+- Uses proven technical foundations
+- Avoids mandatory paid platform dependencies
+- Improves multi-turn workflow reliability
+- Introduces proven mastery modelling
+- Supports multiple assessment types
+- Keeps AI providers replaceable
+- Focuses engineering on Selten product IP
+- Creates a clear path toward adaptive educational intelligence
+
+---
+
+# Consequences
+
+Batman becomes a hybrid architecture.
+
+Several existing modules may require wrapping, migration or consolidation.
+
+The current student_tutor.py traffic flow shall not be treated as the future architecture.
+
+Quiz shall become a subset of Assessment Intelligence.
+
+Student history alone shall not be treated as Student Intelligence.
+
+Retrieval alone shall not be treated as educational understanding.
+
+New frameworks shall be introduced only when their architectural layer is ready for migration.
+
+---
+
+# Future Expansion
+
+This architecture supports:
+
+- Multiple subjects
+- Multiple boards
+- Multiple grades
+- Subjective assessment
+- Mathematical assessment
+- Diagram assessment
+- Adaptive tutoring
+- Study planning
+- Parent intelligence
+- Teacher intelligence
+- Local AI models
+- Specialist educational agents
+
+Future capabilities must extend this architecture.
+
+They shall not bypass the Batman Intelligence Core.
+
+---
+
+# Status
+
+Accepted.
+
+Frozen for Batman Product 1.0.
+
