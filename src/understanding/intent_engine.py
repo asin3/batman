@@ -23,6 +23,28 @@ import re
 
 INTENT_PATTERNS = {
 
+    "CONTINUATION": [
+
+        r"^yes\b",
+        r"^yeah\b",
+        r"^yep\b",
+        r"^please\b",
+        r"\bcontinue\b",
+        r"\bgo on\b",
+        r"\bexplain more\b",
+        r"\bmore detail\b",
+        r"\bmake it simpler\b",
+        r"\bi did not understand\b",
+        r"\bi didn'?t understand\b",
+        r"\bdid not understand\b",
+        r"\bdidn'?t understand\b",
+        r"\bnot clear\b",
+        r"\babove response\b",
+        r"\bthat part\b",
+        r"\bthis part\b"
+
+    ],
+
     "QUIZ": [
 
         r"\bquiz\b",

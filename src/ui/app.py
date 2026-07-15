@@ -11,6 +11,10 @@ sys.path.append(
 
 from src.batman_engine import ask_batman
 
+from src.conversation.pending_action_manager import (
+    load_pending_action
+)
+
 from src.ui.components import (
     render_header,
     render_home_card,
@@ -267,6 +271,98 @@ elif st.session_state.page == "WORKSPACE":
     render_chat_history(
         st.session_state.learn_messages
     )
+
+    if st.session_state.subject == "Biology":
+
+        pending_action = load_pending_action(
+            "STD001"
+        )
+
+        if pending_action:
+
+            st.caption(
+                "Drona is waiting for your response."
+            )
+
+            c1, c2, c3 = st.columns(
+                [1, 1, 2]
+            )
+
+            with c1:
+
+                if st.button(
+                    "Yes",
+                    key="biology_pending_yes",
+                    use_container_width=True
+                ):
+
+                    answer = ask_batman(
+                        "STD001",
+                        {
+                            "type": "PENDING_ACTION_RESPONSE",
+                            "action_id": pending_action["action_id"],
+                            "response": "ACCEPT",
+                            "text": "yes",
+                            "subject": "Biology"
+                        }
+                    )
+
+                    st.session_state.learn_messages.append(
+                        {
+                            "role": "user",
+                            "content": "Yes"
+                        }
+                    )
+
+                    st.session_state.learn_messages.append(
+                        {
+                            "role": "assistant",
+                            "content": answer
+                        }
+                    )
+
+                    st.rerun()
+
+            with c2:
+
+                if st.button(
+                    "No",
+                    key="biology_pending_no",
+                    use_container_width=True
+                ):
+
+                    answer = ask_batman(
+                        "STD001",
+                        {
+                            "type": "PENDING_ACTION_RESPONSE",
+                            "action_id": pending_action["action_id"],
+                            "response": "REJECT",
+                            "text": "no",
+                            "subject": "Biology"
+                        }
+                    )
+
+                    st.session_state.learn_messages.append(
+                        {
+                            "role": "user",
+                            "content": "No"
+                        }
+                    )
+
+                    st.session_state.learn_messages.append(
+                        {
+                            "role": "assistant",
+                            "content": answer
+                        }
+                    )
+
+                    st.rerun()
+
+            with c3:
+
+                st.caption(
+                    "Ask another way in the chat box."
+                )
 
     question = st.chat_input(
         f"Ask Drona about {st.session_state.subject}"

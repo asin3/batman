@@ -15,6 +15,15 @@ from src.retrieval.retrieval_router import should_retrieve
 from src.conversation.conversation_manager import load_history
 from src.conversation.conversation_manager import save_history
 
+from src.conversation.pending_action_manager import (
+    build_pending_action_prompt,
+    clear_pending_action,
+    extract_pending_action_from_response,
+    load_pending_action,
+    resolve_pending_action_response,
+    save_pending_action
+)
+
 from src.quiz.quiz_parser import parse_quiz_request
 from src.quiz.quiz_generator import generate_mcq
 
@@ -60,6 +69,78 @@ rules = (
 ).read_text(
     encoding="utf-8"
 )
+
+
+def remember_pending_action(
+    student_id,
+    response_text,
+    topic=None
+):
+
+    pending_action = extract_pending_action_from_response(
+        response_text,
+        topic=topic
+    )
+
+    if pending_action:
+
+        save_pending_action(
+            student_id,
+            pending_action
+        )
+
+    return pending_action
+
+
+def build_safe_history_text(history):
+
+    history_text = ""
+
+    for msg in history:
+
+        role = msg.get(
+            "role"
+        )
+
+        content = msg.get(
+            "content"
+        )
+
+        if not role or content is None:
+
+            continue
+
+        msg_mode = msg.get(
+            "mode",
+            "SUPER_CHAT"
+        )
+
+        msg_subject = msg.get(
+            "subject",
+            ""
+        )
+
+        history_text += (
+            f"[{msg_mode}] "
+            f"[{msg_subject}] "
+            f"{role}: "
+            f"{content}\n"
+        )
+
+    return history_text
+
+
+def build_subject_followup_instruction(subject):
+
+    if subject != "Biology":
+
+        return ""
+
+    return (
+        "For Biology learning responses, end with one short follow-up "
+        "offer beginning with 'Would you like'. Example: "
+        "'Would you like me to explain this with an example?'"
+    )
 
 # ---------------------------------
 # CHROMA
@@ -138,6 +219,132 @@ def ask_batman(
     history = load_history(
         student_id
     )
+
+    if isinstance(
+        question,
+        dict
+    ):
+
+        pending_action = load_pending_action(
+            student_id
+        )
+
+        pending_decision = resolve_pending_action_response(
+            question,
+            pending_action
+        )
+
+        decision_name = pending_decision["decision"]
+
+        if decision_name == "REJECT_PENDING_ACTION":
+
+            clear_pending_action(
+                student_id
+            )
+
+            answer = (
+                "Okay. I will leave that for now. "
+                "Ask me anything else when you are ready."
+            )
+
+            history.append(
+                {
+                    "mode": "LEARN",
+                    "subject": question.get(
+                        "subject",
+                        ""
+                    ),
+                    "role": "assistant",
+                    "content": answer
+                }
+            )
+
+            save_history(
+                student_id,
+                history
+            )
+
+            return answer
+
+        if decision_name in [
+            "ACCEPT_PENDING_ACTION",
+            "REFINE_PENDING_ACTION",
+            "SIMPLIFY_CONTEXT",
+            "SUMMARIZE_CONTEXT"
+        ]:
+
+            student_text = question.get(
+                "text",
+                question.get(
+                    "response",
+                    ""
+                )
+            )
+
+            history.append(
+                {
+                    "mode": "LEARN",
+                    "subject": question.get(
+                        "subject",
+                        ""
+                    ),
+                    "role": "user",
+                    "content": student_text
+                }
+            )
+
+            history_text = build_safe_history_text(
+                history
+            )
+
+            prompt = build_pending_action_prompt(
+                student_text,
+                pending_action,
+                history_text,
+                rules,
+                pending_decision
+            )
+
+            clear_pending_action(
+                student_id
+            )
+
+            response = client.responses.create(
+                model="gpt-5.5",
+                input=prompt
+            )
+
+            answer = response.output_text
+
+            history.append(
+                {
+                    "mode": "LEARN",
+                    "subject": question.get(
+                        "subject",
+                        ""
+                    ),
+                    "role": "assistant",
+                    "content": answer
+                }
+            )
+
+            save_history(
+                student_id,
+                history
+            )
+
+            remember_pending_action(
+                student_id,
+                answer,
+                topic=pending_action.get("topic")
+            )
+
+            return answer
+
+        return (
+            "I do not have a specific follow-up waiting. "
+            "Please type your question in the chat box."
+        )
 
     # ---------------------------------
     # QUIZ ANSWER FLOW
@@ -371,26 +578,13 @@ def ask_batman(
     # HISTORY CONTEXT
     # ---------------------------------
 
-    history_text = ""
+    history_text = build_safe_history_text(
+        history
+    )
 
-    for msg in history:
-
-        msg_mode = msg.get(
-            "mode",
-            "SUPER_CHAT"
-        )
-
-        msg_subject = msg.get(
-            "subject",
-            ""
-        )
-
-        history_text += (
-            f"[{msg_mode}] "
-            f"[{msg_subject}] "
-            f"{msg['role']}: "
-            f"{msg['content']}\n"
-        )
+    followup_instruction = build_subject_followup_instruction(
+        subject
+    )
 
     # ---------------------------------
     # PROMPT
@@ -409,6 +603,10 @@ BATMAN BEHAVIOR:
 GLOBAL RULES:
 
 {rules}
+
+FOLLOW-UP RULE:
+
+{followup_instruction}
 
 CONVERSATION HISTORY:
 
@@ -443,6 +641,12 @@ CURRENT STUDENT QUESTION:
     save_history(
         student_id,
         history
+    )
+
+    remember_pending_action(
+        student_id,
+        answer,
+        topic=question
     )
 
     return answer

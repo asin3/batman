@@ -53,7 +53,9 @@ REQUIRED_FIELDS = {
 
     ],
 
-    "STUDY_PLAN": []
+    "STUDY_PLAN": [],
+
+    "CONTINUATION": [],
 
 }
 

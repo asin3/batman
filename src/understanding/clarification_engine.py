@@ -52,6 +52,16 @@ def needs_clarification(
 
         return None
 
+    if not confidence["missing"]:
+
+        return {
+
+            "field": "intent",
+
+            "question": "Can you say a little more?"
+
+        }
+
     field = confidence["missing"][0]
 
     return {
