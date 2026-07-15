@@ -7,6 +7,12 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.runtime_error_boundary import (
+    install_runtime_error_boundary
+)
+
+install_runtime_error_boundary()
+
 from src.config.paths import (
     DOCS_DIR,
 )
@@ -24,6 +30,15 @@ from src.conversation.conversation_manager import (
     load_history,
     save_history,
     save_quiz_history
+)
+
+from src.conversation.pending_action_manager import (
+    build_pending_action_prompt,
+    clear_pending_action,
+    extract_pending_action_from_response,
+    load_pending_action,
+    resolve_pending_action_response,
+    save_pending_action
 )
 
 from src.quiz.quiz_parser import parse_quiz_request
@@ -65,12 +80,12 @@ from src.governance.learning_state import (
     update_learning_state
 )
 
-from src.governance.topic_normalizer import (
-    normalize_topic_name
-)
-
 from src.understanding.engine import (
     understand
+)
+
+from src.understanding.topic_context_resolver import (
+    resolve_topic_context
 )
 
 from src.orchestration.tutor_router import (
@@ -140,6 +155,27 @@ def build_retrieval_context(
     )
 
     return context, results
+
+
+def remember_pending_action(
+    student_id,
+    response_text,
+    topic=None
+):
+
+    pending_action = extract_pending_action_from_response(
+        response_text,
+        topic=topic
+    )
+
+    if pending_action:
+
+        save_pending_action(
+            student_id,
+            pending_action
+        )
+
+    return pending_action
 
 # ---------------------------------
 
@@ -231,6 +267,153 @@ while True:
         continue
 
     # -----------------------------
+    # PENDING ACTION
+    # -----------------------------
+
+    if not is_quiz_active():
+
+        pending_action = load_pending_action(
+            student_id
+        )
+
+        pending_decision = resolve_pending_action_response(
+            question,
+            pending_action
+        )
+
+        decision_name = pending_decision["decision"]
+
+        if decision_name == "REJECT_PENDING_ACTION":
+
+            clear_pending_action(
+                student_id
+            )
+
+            history.append(
+                {
+                    "role": "user",
+                    "content": question
+                }
+            )
+
+            response = (
+                "Okay. I will leave that for now. "
+                "Ask me anything else when you are ready."
+            )
+
+            print("\n")
+            print("=" * 70)
+            print("BATMAN-STUDENT")
+            print("=" * 70)
+            print("\n")
+            print(response)
+
+            history.append(
+                {
+                    "role": "assistant",
+                    "content": response
+                }
+            )
+
+            save_history(
+                student_id,
+                history
+            )
+
+            continue
+
+        if decision_name in [
+            "ACCEPT_PENDING_ACTION",
+            "REFINE_PENDING_ACTION",
+            "SIMPLIFY_CONTEXT",
+            "SUMMARIZE_CONTEXT"
+        ]:
+
+            history.append(
+                {
+                    "role": "user",
+                    "content": question
+                }
+            )
+
+            save_history(
+                student_id,
+                history
+            )
+
+            history_text = build_history_text(
+                history
+            )
+
+            prompt = build_pending_action_prompt(
+                question,
+                pending_action,
+                history_text,
+                rules,
+                pending_decision
+            )
+
+            clear_pending_action(
+                student_id
+            )
+
+            response = ask_llm(prompt)
+
+            print("\n")
+            print("=" * 70)
+            print("BATMAN-STUDENT")
+            print("=" * 70)
+            print("\n")
+
+            print(response)
+
+            history.append(
+                {
+                    "role": "assistant",
+                    "content": response
+                }
+            )
+
+            save_history(
+                student_id,
+                history
+            )
+
+            remember_pending_action(
+                student_id,
+                response,
+                topic=pending_action.get("topic")
+            )
+
+            continue
+
+        if decision_name == "ASK_CLARIFICATION":
+
+            offer_text = pending_action.get(
+                "offer_text",
+                "the previous offer"
+            )
+
+            print(
+                "\nDo you want me to continue with this, "
+                "skip it, or ask something else?"
+            )
+
+            print()
+            print(offer_text)
+
+            continue
+
+        if decision_name in [
+            "REPLACE_WITH_NEW_REQUEST",
+            "START_QUIZ_FROM_CONTEXT"
+        ]:
+
+            clear_pending_action(
+                student_id
+            )
+
+    # -----------------------------
     # UNDERSTANDING ENGINE
     # -----------------------------
 
@@ -245,8 +428,71 @@ while True:
         )
 
     # -----------------------------
+    # CONTINUATION
+    # -----------------------------
+
+    if (
+
+        not is_quiz_active()
+
+        and
+
+        understanding
+
+        and
+
+        understanding["intent"]
+
+        and
+
+        understanding["intent"]["name"] == "CONTINUATION"
+
+    ):
+
+        history.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
+
+        response = (
+            "I do not have a specific follow-up waiting. "
+            "Tell me which part you want me to continue or explain."
+        )
+
+        print("\n")
+        print("=" * 70)
+        print("BATMAN-STUDENT")
+        print("=" * 70)
+        print("\n")
+
+        print(response)
+
+        history.append(
+            {
+                "role": "assistant",
+                "content": response
+            }
+        )
+
+        save_history(
+            student_id,
+            history
+        )
+
+        remember_pending_action(
+            student_id,
+            response
+        )
+
+        continue
+
+    # -----------------------------
     # START QUIZ
     # -----------------------------
+
+    response_topic = None
 
     if (
 
@@ -277,29 +523,26 @@ while True:
         # UNDERSTANDING RESULT
         # -----------------------------
 
+        topic_decision = resolve_topic_context(
+            understanding,
+            student_id=student_id
+        )
+
         topics = []
 
-        if understanding["entities"]["topic"]:
+        if topic_decision["resolved_topic"]:
 
             topics.append(
 
-                understanding["entities"]["topic"]
+                topic_decision["resolved_topic"]
 
             )
 
         difficulty = understanding["entities"]["difficulty"]
 
         count = understanding["entities"]["count"] or 0
-
-        topics = [
-
-            normalize_topic_name(topic)
-
-            for topic in topics
-
-        ]
         
-        if not topics:
+        if topic_decision["needs_clarification"] or not topics:
             print("\nWhich topic?")
             continue
 
@@ -335,6 +578,7 @@ while True:
         print("\nDEBUG QUIZ CONTEXT")
         print(f"Parsed Topics       : {topics}")
         print(f"Selected Quiz Topic : {topic}")
+        print(f"Topic Source        : {topic_decision['source']}")
         print(
             "Retrieval Chunks    : "
             f"{[result['chunk_id'] for result in retrieval_results]}"
@@ -623,6 +867,48 @@ while True:
         )
 
         continue
+
+    if (
+
+        understanding
+
+        and
+
+        understanding["intent"]
+
+        and
+
+        understanding["intent"]["name"]
+        in ["CONCEPT", "HOMEWORK", "REVISION"]
+
+    ):
+
+        tutor_topic_decision = resolve_topic_context(
+            understanding,
+            learning_state={},
+            conversation_state={
+                "entities": {
+                    "topic": None
+                }
+            }
+        )
+
+        if tutor_topic_decision["source"] == "explicit":
+
+            update_learning_state(
+                student_id,
+                subject="Physics",
+                chapter=tutor_topic_decision["resolved_topic"],
+                topic=tutor_topic_decision["resolved_topic"],
+                last_question=question
+            )
+
+            print(
+                "\nCurrent Topic Updated : "
+                f"{tutor_topic_decision['resolved_topic']}"
+            )
+
+            response_topic = tutor_topic_decision["resolved_topic"]
     
     print("\nUNDERSTANDING")
 
@@ -780,4 +1066,10 @@ while True:
     save_history(
         student_id,
         history
+    )
+
+    remember_pending_action(
+        student_id,
+        response,
+        topic=response_topic
     )

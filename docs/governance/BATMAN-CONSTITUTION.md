@@ -253,14 +253,60 @@ Every CPS must answer:
 
 Keep the explanation short and understandable without reading the source code.
 
-
 ---
 
 ## Principle 22
 
+CPS Discussion-First and Token Discipline Protocol
+
+For every Batman CPS or requirement-level change, discussion must happen before implementation.
+
+Unless the user explicitly says **"Implement approved CPS"**, Codex must not write code, edit files, refactor, commit, push, install packages, or create new architecture.
+
+### Required CPS Discussion Format
+
+Before implementation, Codex must respond in this compact format:
+
+1. **Understanding**
+   - What Codex believes the requirement means.
+   - What problem is being solved.
+   - What is explicitly out of scope.
+
+2. **Options**
+   - List practical implementation or architecture options.
+   - Include deterministic Batman-first options before LLM-based options.
+   - Mention third-party or open-source options where relevant.
+
+3. **Recommendation**
+   - State the safest recommended approach.
+   - Explain why it fits Batman Constitution, ADRs, KISS, and Buy-Before-Build.
+
+4. **Files Likely Affected**
+   - List only the targeted files or folders expected to be inspected or changed.
+   - Do not perform broad repository audits unless the CPS requires it.
+
+5. **Test Plan**
+   - Unit test command, if applicable.
+   - Manual Drona or CLI user-flow test.
+   - Expected output or expected behaviour.
+   - Known limitations.
+
+6. **Permission Needed**
+   - Clearly ask whether the user wants Codex to implement.
+   - Do not proceed until approval is given.
+
+### Targeted Inspection Rule
+
+Codex shall inspect only the files relevant to the CPS unless broader inspection is explicitly required.
+
+Example:
+
+text >>
+Inspect only conversation/understanding/student_tutor files.
 
 ---
 
+## Principle 23
 
 ---
 ## Batman Engineering Protocol
