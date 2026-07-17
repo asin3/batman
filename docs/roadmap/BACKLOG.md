@@ -711,6 +711,75 @@ BACKLOG
 
 ---
 
+BKL-012
+
+Title
+
+Universal Follow-up Conversation Engine
+
+Priority
+
+High
+
+Status
+
+Proposed
+
+Planned Stage
+
+After Current Production Stabilization
+
+Reason for Deferral
+
+Current implementation was introduced experimentally for Biology through an automated Codex change. The behaviour, scope, and implementation need to be understood before generalising it across Batman.
+
+Business Problem
+
+Batman sometimes asks a follow-up question and sometimes does not.
+
+Currently:
+
+Follow-up behaviour is inconsistent.
+It appears to be limited to Biology.
+Other subjects and Super Chat do not provide the same conversational experience.
+
+This creates an inconsistent student experience.
+
+Business Goal
+
+Batman should behave like a continuous tutor.
+
+Every meaningful learning interaction should end with an appropriate follow-up opportunity when applicable, regardless of subject.
+
+The experience should be consistent across:
+
+Physics
+Chemistry
+Biology
+Maths
+Super Chat
+
+Investigation Required
+
+Before implementation:
+
+Understand how the current Biology follow-up engine works.
+Identify all files modified by the original implementation.
+Determine why follow-up questions are generated only sometimes.
+Separate generic conversation logic from Biology-specific rules.
+Design a reusable follow-up engine for all learning modes.
+Business Meaning
+
+Today Batman behaves differently depending on where the student is.
+
+After this backlog item:
+
+Batman will have one consistent tutoring style across the entire product instead of each subject behaving differently.
+
+---
+
+
+----
 Proposed addition to reconstructed backlog
 #	Item	State
 29	Batman HQ ↔ Codex Engineering Workflow Governance — Freeze responsibility boundary: Batman HQ handles WHY/WHAT/business flow/product decisions/architecture and produces ADR/CPS decisions; Codex operates on the actual Batman repository to inspect code, map modules, implement approved CPS, run tests, show diffs and commit through Git workflow.	WORKING MODEL AGREED; NOT YET FORMALLY GOVERNED/FROZEN

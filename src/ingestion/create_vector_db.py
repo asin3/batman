@@ -283,9 +283,7 @@ print(
 )
 
 print(
-
-    "Collection: class10_physics"
-
+    "Collection: icse_class10"
 )
 
 print(

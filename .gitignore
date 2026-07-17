@@ -46,7 +46,7 @@ data/**/staging/
 data/**/textbook/generated/
 
 # Chroma database
-vector_db/**
+vector_db/
 
 # Docling test outputs
 src/tests/docling_test/output/
@@ -59,3 +59,4 @@ src/tests/docling_test/output/
 
 # Logs
 *.log
+.aider*

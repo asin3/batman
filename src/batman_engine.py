@@ -41,7 +41,9 @@ from src.quiz.quiz_manager import (
     get_current_explanation
 )
 
-import chromadb
+from src.retrieval.knowledge_provider import get_collection
+
+#import chromadb
 import os
 import re
 
@@ -143,17 +145,10 @@ def build_subject_followup_instruction(subject):
     )
 
 # ---------------------------------
-# CHROMA
+# KNOWLEDGE ACCESS
 # ---------------------------------
 
-db = chromadb.PersistentClient(
-    path="./vector_db"
-)
-
-collection = db.get_collection(
-    "class10_physics"
-)
-
+collection = get_collection()
 # ---------------------------------
 # QUIZ HELPERS
 # ---------------------------------
@@ -163,19 +158,27 @@ def build_quiz_question(
     difficulty
 ):
 
-    results = collection.query(
-        query_texts=[topic],
-        n_results=2
-    )
+    if collection is not None:
 
-    context = "\n".join(
-        results["documents"][0]
-    )
+        results = collection.query(
+            query_texts=[topic],
+            n_results=2
+        )
 
-    mcq = generate_mcq(
-        context,
-        difficulty
-    )
+        context = "\n".join(
+            results["documents"][0]
+        )
+
+    else:
+
+        context = (
+            "Knowledge Base is currently unavailable."
+        )
+
+        mcq = generate_mcq(
+            context,
+            difficulty
+        )
 
     match = re.search(
         r"CORRECT:\s*([ABCD])",
@@ -557,7 +560,7 @@ def ask_batman(
     # RETRIEVAL
     # ---------------------------------
 
-    if retrieve:
+    if retrieve and collection is not None:
 
         results = collection.query(
             query_texts=[question],
@@ -566,6 +569,12 @@ def ask_batman(
 
         context = "\n".join(
             results["documents"][0]
+        )
+
+    elif retrieve:
+
+        context = (
+            "Knowledge Base is currently unavailable."
         )
 
     else:
