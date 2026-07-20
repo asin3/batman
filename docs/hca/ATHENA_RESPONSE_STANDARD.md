@@ -140,7 +140,61 @@ Only sequence.
 
 --------------------------------------------------
 
-7. Review of Orion
+7. Implementation Review Evidence
+
+(Required only for Athena Implementation Review.)
+
+Athena shall review the implementation using repository evidence rather than implementation summaries.
+
+Required Review Artifacts
+
+    1. Implementation Progress Report
+
+    2. Branch Creation Report
+
+    3. Git Diff
+    Implementation branch versus its base branch.
+
+    4. Additional evidence (when applicable)
+
+    - Change Log
+    - Test Report
+    - Environment Certification
+    - UAT Results
+
+Git Diff Standard
+
+The Git diff is the primary implementation review artifact.
+
+The diff shall be generated against the implementation branch's base branch.
+
+Example:
+
+git diff <base-branch>..<implementation-branch>
+
+The generated diff shall be stored under:
+
+docs/reviews/
+
+using the naming convention:
+
+<date>_<cps-id>_implementation.diff
+
+Example:
+
+2026-07-20_cps002_implementation.diff
+
+Athena shall review the actual implementation from the Git diff rather than relying solely on implementation summaries.
+
+Implementation reports summarize the work.
+
+The Git diff is the authoritative implementation evidence.
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+8. Review of Orion
 
 Whenever Orion provides recommendations:
 
@@ -170,7 +224,7 @@ Reason
 
 --------------------------------------------------
 
-8. Architecture Status
+9. Architecture Status
 
 Architecture Stable?
 
@@ -200,7 +254,7 @@ Do Not Proceed
 
 --------------------------------------------------
 
-9. What's Next
+10. What's Next
 
 Maximum five bullets.
 
@@ -208,7 +262,7 @@ Immediate next actions only.
 
 --------------------------------------------------
 
-10. Green Light
+11. Green Light
 
 Athena shall clearly state one of the following:
 
