@@ -29,6 +29,7 @@ Current HCA Standards:
 - PRODUCT_OWNER_UAT_STANDARD.md
 - ENVIRONMENT_CERTIFICATION_STANDARD.md
 - ATHENA_CPS_CLOSURE_STANDARD.md
+- AGENT_BRANCHING_STANDARD.md
 
 This Playbook defines the operational engineering workflow.
 
