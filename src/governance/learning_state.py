@@ -183,7 +183,7 @@ def get_current_topic(student_id):
 
 if __name__ == "__main__":
 
-    student = "STD001"
+    student = "STD000001"
 
     update_learning_state(
 

@@ -48,8 +48,9 @@ data/**/textbook/generated/
 # Chroma database
 vector_db/
 
-# Docling test outputs
+# Test outputs
 src/tests/docling_test/output/
+src/tests
 
 # Python cache
 .pytest_cache/
