@@ -3,7 +3,7 @@
 .venv/
 .env
 
-# Vector database
+# Vector database / # Chroma database
 vector_db/
 
 # IDE
@@ -15,19 +15,14 @@ supabase/.temp/
 .DS_Store
 Thumbs.db.env
 Thumbs.db
-.venv/
 
 # Python
 __pycache__/
 *.py[cod]
-.venv/
 
 #secrets
 secrets/
 .streamlit/
-
-# Student data
-data/students/
 
 # Generated Reports
 data/**/reports/
@@ -44,9 +39,6 @@ data/**/*.pdf
 # Temporary processing / OCR
 data/**/staging/
 data/**/textbook/generated/
-
-# Chroma database
-vector_db/
 
 # Test outputs
 src/tests/docling_test/output/
