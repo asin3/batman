@@ -22,6 +22,24 @@ from src.ui.components import (
     render_chat_history
 )
 
+from src.platform.auth.auth_gate import (
+    authenticate,
+    logout,
+)
+
+from src.batman_dd.pages.progress import (
+    render_progress_page,
+)
+from src.batman_dd.pages.scheduling import (
+    render_scheduling_page,
+)
+from src.batman_dd.pages.debrief import (
+    render_debrief_page,
+)
+from src.batman_dd.pages.notes import (
+    render_notes_page,
+)
+
 # ---------------------------------
 # PAGE
 # ---------------------------------
@@ -33,6 +51,12 @@ st.set_page_config(
 )
 
 # ---------------------------------
+# AUTHENTICATION
+# ---------------------------------
+
+user = authenticate()
+
+# ---------------------------------
 # STATE
 # ---------------------------------
 
@@ -41,6 +65,9 @@ if "page" not in st.session_state:
 
 if "subject" not in st.session_state:
     st.session_state.subject = "Physics"
+
+if "student_id" not in st.session_state:
+    st.session_state.student_id = user.student_id
 
 if "learn_messages" not in st.session_state:
 
@@ -64,7 +91,10 @@ if "superchat_messages" not in st.session_state:
 # HISTORY
 # ---------------------------------
 
-def load_history():
+def load_history(student_id=None):
+
+    if student_id is None:
+        student_id = st.session_state.student_id
 
     try:
 
@@ -72,7 +102,7 @@ def load_history():
             Path(__file__).resolve().parent.parent.parent
             / "data"
             / "students"
-            / "STD001"
+            / student_id
             / "history.json"
         )
 
@@ -203,11 +233,45 @@ with st.sidebar:
         use_container_width=True
     )
 
-    st.button(
-        "📈 Progress (Coming Soon)",
-        disabled=True,
+    st.divider()
+
+    if st.button(
+        "📈 Progress",
         use_container_width=True
-    )
+    ):
+        st.session_state.page = "PROGRESS"
+        st.rerun()
+
+    if st.button(
+        "📅 Schedule",
+        use_container_width=True
+    ):
+        st.session_state.page = "SCHEDULE"
+        st.rerun()
+
+    if st.button(
+        "📝 Daily Debrief",
+        use_container_width=True
+    ):
+        st.session_state.page = "DEBRIEF"
+        st.rerun()
+
+    if st.button(
+        "📒 Quick Notes",
+        use_container_width=True
+    ):
+        st.session_state.page = "NOTES"
+        st.rerun()
+
+    st.divider()
+
+    st.markdown(f"**{user.name}**")
+
+    if st.button(
+        "🚪 Logout",
+        use_container_width=True
+    ):
+        logout()
 
 # ---------------------------------
 # HEADER
@@ -275,7 +339,7 @@ elif st.session_state.page == "WORKSPACE":
     if st.session_state.subject == "Biology":
 
         pending_action = load_pending_action(
-            "STD001"
+            st.session_state.student_id
         )
 
         if pending_action:
@@ -297,7 +361,7 @@ elif st.session_state.page == "WORKSPACE":
                 ):
 
                     answer = ask_batman(
-                        "STD001",
+                        st.session_state.student_id,
                         {
                             "type": "PENDING_ACTION_RESPONSE",
                             "action_id": pending_action["action_id"],
@@ -332,7 +396,7 @@ elif st.session_state.page == "WORKSPACE":
                 ):
 
                     answer = ask_batman(
-                        "STD001",
+                        st.session_state.student_id,
                         {
                             "type": "PENDING_ACTION_RESPONSE",
                             "action_id": pending_action["action_id"],
@@ -383,7 +447,7 @@ elif st.session_state.page == "WORKSPACE":
         )
 
         answer = ask_batman(
-            "STD001",
+            st.session_state.student_id,
             full_question
         )
 
@@ -424,7 +488,7 @@ elif st.session_state.page == "SUPER_CHAT":
         )
 
         answer = ask_batman(
-            "STD001",
+            st.session_state.student_id,
             question
         )
 
@@ -436,3 +500,35 @@ elif st.session_state.page == "SUPER_CHAT":
         )
 
         st.rerun()
+
+# ---------------------------------
+# PROGRESS
+# ---------------------------------
+
+elif st.session_state.page == "PROGRESS":
+
+    render_progress_page()
+
+# ---------------------------------
+# SCHEDULE
+# ---------------------------------
+
+elif st.session_state.page == "SCHEDULE":
+
+    render_scheduling_page()
+
+# ---------------------------------
+# DEBRIEF
+# ---------------------------------
+
+elif st.session_state.page == "DEBRIEF":
+
+    render_debrief_page()
+
+# ---------------------------------
+# NOTES
+# ---------------------------------
+
+elif st.session_state.page == "NOTES":
+
+    render_notes_page()
