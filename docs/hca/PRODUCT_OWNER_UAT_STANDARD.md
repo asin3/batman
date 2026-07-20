@@ -20,6 +20,83 @@ It does not replace engineering testing.
 
 ---
 
+# Mandatory UAT Package
+
+Every CPS entering Product Owner UAT shall include a UAT Package prepared by Orion.
+
+The Product Owner shall not begin UAT until the UAT Package has been delivered.
+
+Purpose
+
+The UAT Package provides the Product Owner with a consistent testing guide and ensures that UAT validates the approved business scope rather than implementation assumptions.
+
+Mandatory Contents
+
+Every UAT Package shall contain:
+
+1. CPS Information
+   - CPS ID
+   - Title
+   - Repository
+   - Branch
+   - Version
+
+2. Scope Under Test
+
+3. Out of Scope
+
+4. Preconditions
+
+5. Test Environment
+
+6. Product Owner Test Cases
+
+For every test case:
+
+- Test ID
+- Business Scenario
+- Steps
+- Expected Result
+- Actual Result (Product Owner)
+- Pass / Fail
+
+7. Regression Checklist
+
+8. Known Limitations
+
+9. UAT Completion Criteria
+
+10. UAT Result Summary
+
+Standard Location
+
+docs/reviews/
+
+Naming Convention
+
+<date>_uat_package_<cps-id>.md
+
+Example
+
+2026-07-20_uat_package_cps002.md
+
+Responsibility
+
+Orion
+- Prepare the UAT Package.
+
+Product Owner
+- Execute the UAT.
+- Record actual results.
+- Record Pass / Fail.
+- Report business observations.
+
+Athena
+- Review UAT outcome.
+- Determine CPS Closure readiness.
+
+---
+
 # Responsibilities
 
 ## Orion
@@ -66,6 +143,8 @@ Before Product Owner UAT begins, the following must exist:
 
 ✓ Green Light for Product Owner UAT
 
+✓ Approved Implementation Branch
+
 ✓ Implementation Report
 
 ✓ Athena Implementation Review
@@ -108,7 +187,12 @@ Execute all validation checks defined in ENVIRONMENT_CERTIFICATION_STANDARD.md:
 
 Record the result and supporting evidence according to the Environment Certification Standard.
 
-Only a PASS result authorizes Product Owner UAT to begin.
+PASS
+
+or
+
+CONDITIONALLY CERTIFIED
+(as approved by Athena)
 
 ---
 
@@ -125,6 +209,7 @@ Record the issue as an Environment Blocker.
 Environment blockers shall be resolved before Product Owner UAT resumes.
 
 ---
+
 # UAT Workspace
 
 Every UAT execution shall create one UAT Report.
@@ -238,7 +323,31 @@ Otherwise stop and notify Athena.
 
 ---
 
-# Recording Test Results
+# UAT Scope Freeze
+
+Once Product Owner UAT has started, the implementation under test is frozen.
+
+During Product Owner UAT:
+
+- No source code modifications are permitted.
+- No dependency changes are permitted.
+- No repository changes are permitted.
+- No architectural changes are permitted.
+
+Only Product Owner observations, UAT evidence, and defect reports may be added.
+
+If any implementation change becomes necessary:
+
+1. Suspend Product Owner UAT.
+2. Return the CPS to Orion.
+3. Implement the required changes.
+4. Repeat Athena Implementation Review.
+5. Produce a new Environment Certification.
+6. Restart Product Owner UAT.
+
+Product Owner UAT shall always validate one fixed implementation baseline.
+
+---
 
 # Recording Test Results
 
@@ -382,7 +491,19 @@ Implementation
 
 ↓
 
+Implementation Report
+
+↓
+
+Implementation Review Evidence
+
+↓
+
 Athena Implementation Review
+
+↓
+
+Environment Certification
 
 ↓
 
@@ -394,7 +515,15 @@ Product Owner UAT
 
 ↓
 
-Athena Merge Readiness Review
+Athena UAT Review
+
+↓
+
+Athena CPS Closure
+
+↓
+
+Merge Readiness Review
 
 ↓
 
@@ -413,3 +542,5 @@ Product Owner UAT validates business value.
 Engineering testing validates technical correctness.
 
 Both approvals are mandatory before merge.
+
+----

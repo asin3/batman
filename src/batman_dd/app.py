@@ -1,3 +1,7 @@
+# DEPRECATED — Batman DD has been integrated into DRONA as workspaces.
+# This entry point is preserved for reference only.
+# Do not use. Run `streamlit run src/ui/app.py` instead.
+
 import streamlit as st
 from pathlib import Path
 import sys

@@ -486,6 +486,8 @@ Every CPS document shall contain:
 
 15. Next Engineering Stage
 
+16. Every new CPS shall define uniquely numbered Requirement IDs (REQ-001, REQ-002, ...) for all business requirements. These Requirement IDs shall be referenced by the UAT Package to provide end-to-end traceability from requirement through testing.
+
 A CPS is not implementation.
 
 It is the approved implementation plan.

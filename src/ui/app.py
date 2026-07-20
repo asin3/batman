@@ -27,6 +27,19 @@ from src.platform.auth.auth_gate import (
     logout,
 )
 
+from src.batman_dd.pages.progress import (
+    render_progress_page,
+)
+from src.batman_dd.pages.scheduling import (
+    render_scheduling_page,
+)
+from src.batman_dd.pages.debrief import (
+    render_debrief_page,
+)
+from src.batman_dd.pages.notes import (
+    render_notes_page,
+)
+
 # ---------------------------------
 # PAGE
 # ---------------------------------
@@ -220,16 +233,35 @@ with st.sidebar:
         use_container_width=True
     )
 
-    st.markdown(
-        '<a href="http://localhost:8501" target="_blank" '
-        'style="display: block; text-decoration: none;">'
-        '<button style="width: 100%; padding: 0.25rem 0.75rem; '
-        'border-radius: 8px; border: 1px solid rgba(250,250,250,0.2); '
-        'background: transparent; color: inherit; cursor: pointer; '
-        'text-align: left; font-size: inherit;">'
-        "📈 My Plan & Progress</button></a>",
-        unsafe_allow_html=True
-    )
+    st.divider()
+
+    if st.button(
+        "📈 Progress",
+        use_container_width=True
+    ):
+        st.session_state.page = "PROGRESS"
+        st.rerun()
+
+    if st.button(
+        "📅 Schedule",
+        use_container_width=True
+    ):
+        st.session_state.page = "SCHEDULE"
+        st.rerun()
+
+    if st.button(
+        "📝 Daily Debrief",
+        use_container_width=True
+    ):
+        st.session_state.page = "DEBRIEF"
+        st.rerun()
+
+    if st.button(
+        "📒 Quick Notes",
+        use_container_width=True
+    ):
+        st.session_state.page = "NOTES"
+        st.rerun()
 
     st.divider()
 
@@ -468,3 +500,35 @@ elif st.session_state.page == "SUPER_CHAT":
         )
 
         st.rerun()
+
+# ---------------------------------
+# PROGRESS
+# ---------------------------------
+
+elif st.session_state.page == "PROGRESS":
+
+    render_progress_page()
+
+# ---------------------------------
+# SCHEDULE
+# ---------------------------------
+
+elif st.session_state.page == "SCHEDULE":
+
+    render_scheduling_page()
+
+# ---------------------------------
+# DEBRIEF
+# ---------------------------------
+
+elif st.session_state.page == "DEBRIEF":
+
+    render_debrief_page()
+
+# ---------------------------------
+# NOTES
+# ---------------------------------
+
+elif st.session_state.page == "NOTES":
+
+    render_notes_page()
