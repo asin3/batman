@@ -192,9 +192,23 @@ The Git diff is the authoritative implementation evidence.
 
 --------------------------------------------------
 
+8. Athena CPS Closure Review
+
+Purpose
+
+To formally record Athena's decision that a CPS has successfully completed implementation, Product Owner UAT, and governance review, and is authorized to proceed to merge.
+
+Standard Location
+
+docs/reviews/
+
+Naming Convention
+
+YYYY-MM-DD_cps_closure_<cps-id>.md
+
 --------------------------------------------------
 
-8. Review of Orion
+9. Review of Orion
 
 Whenever Orion provides recommendations:
 
@@ -224,7 +238,7 @@ Reason
 
 --------------------------------------------------
 
-9. Architecture Status
+10. Architecture Status
 
 Architecture Stable?
 
@@ -254,7 +268,7 @@ Do Not Proceed
 
 --------------------------------------------------
 
-10. What's Next
+11. What's Next
 
 Maximum five bullets.
 
@@ -262,7 +276,7 @@ Immediate next actions only.
 
 --------------------------------------------------
 
-11. Green Light
+12. Green Light
 
 Athena shall clearly state one of the following:
 
