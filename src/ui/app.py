@@ -22,6 +22,11 @@ from src.ui.components import (
     render_chat_history
 )
 
+from src.platform.auth.auth_gate import (
+    authenticate,
+    logout,
+)
+
 # ---------------------------------
 # PAGE
 # ---------------------------------
@@ -33,6 +38,12 @@ st.set_page_config(
 )
 
 # ---------------------------------
+# AUTHENTICATION
+# ---------------------------------
+
+user = authenticate()
+
+# ---------------------------------
 # STATE
 # ---------------------------------
 
@@ -41,6 +52,9 @@ if "page" not in st.session_state:
 
 if "subject" not in st.session_state:
     st.session_state.subject = "Physics"
+
+if "student_id" not in st.session_state:
+    st.session_state.student_id = user.student_id
 
 if "learn_messages" not in st.session_state:
 
@@ -64,7 +78,10 @@ if "superchat_messages" not in st.session_state:
 # HISTORY
 # ---------------------------------
 
-def load_history():
+def load_history(student_id=None):
+
+    if student_id is None:
+        student_id = st.session_state.student_id
 
     try:
 
@@ -72,7 +89,7 @@ def load_history():
             Path(__file__).resolve().parent.parent.parent
             / "data"
             / "students"
-            / "STD001"
+            / student_id
             / "history.json"
         )
 
@@ -203,11 +220,26 @@ with st.sidebar:
         use_container_width=True
     )
 
-    st.button(
-        "📈 Progress (Coming Soon)",
-        disabled=True,
-        use_container_width=True
+    st.markdown(
+        '<a href="http://localhost:8501" target="_blank" '
+        'style="display: block; text-decoration: none;">'
+        '<button style="width: 100%; padding: 0.25rem 0.75rem; '
+        'border-radius: 8px; border: 1px solid rgba(250,250,250,0.2); '
+        'background: transparent; color: inherit; cursor: pointer; '
+        'text-align: left; font-size: inherit;">'
+        "📈 My Plan & Progress</button></a>",
+        unsafe_allow_html=True
     )
+
+    st.divider()
+
+    st.markdown(f"**{user.name}**")
+
+    if st.button(
+        "🚪 Logout",
+        use_container_width=True
+    ):
+        logout()
 
 # ---------------------------------
 # HEADER
@@ -275,7 +307,7 @@ elif st.session_state.page == "WORKSPACE":
     if st.session_state.subject == "Biology":
 
         pending_action = load_pending_action(
-            "STD001"
+            st.session_state.student_id
         )
 
         if pending_action:
@@ -297,7 +329,7 @@ elif st.session_state.page == "WORKSPACE":
                 ):
 
                     answer = ask_batman(
-                        "STD001",
+                        st.session_state.student_id,
                         {
                             "type": "PENDING_ACTION_RESPONSE",
                             "action_id": pending_action["action_id"],
@@ -332,7 +364,7 @@ elif st.session_state.page == "WORKSPACE":
                 ):
 
                     answer = ask_batman(
-                        "STD001",
+                        st.session_state.student_id,
                         {
                             "type": "PENDING_ACTION_RESPONSE",
                             "action_id": pending_action["action_id"],
@@ -383,7 +415,7 @@ elif st.session_state.page == "WORKSPACE":
         )
 
         answer = ask_batman(
-            "STD001",
+            st.session_state.student_id,
             full_question
         )
 
@@ -424,7 +456,7 @@ elif st.session_state.page == "SUPER_CHAT":
         )
 
         answer = ask_batman(
-            "STD001",
+            st.session_state.student_id,
             question
         )
 
