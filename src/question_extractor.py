@@ -4,11 +4,11 @@ from pathlib import Path
 
 
 TEXTBOOK_FOLDER = Path(
-    "data/class10/physics/textbook"
+    "data/Board/icse/class10/physics/textbook"
 )
 
 MCQ_OUTPUT_FOLDER = Path(
-    "data/class10/physics/question_bank/mcq"
+    "data/Board/icse/class10/physics/question_bank/mcq"
 )
 
 MCQ_OUTPUT_FOLDER.mkdir(

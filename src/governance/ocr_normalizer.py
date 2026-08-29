@@ -16,10 +16,10 @@ Owner:
 Knowledge Engine
 
 Reads:
-data/class10/physics/textbook/physics-textbook.txt
+data/Board/icse/class10/physics/textbook/physics-textbook.txt
 
 Writes:
-data/class10/physics/textbook/normalized_textbook.txt
+data/Board/icse/class10/physics/textbook/normalized_textbook.txt
 
 Governed By:
 ADR-004 Data Governance

@@ -124,6 +124,8 @@ class ProgressBuilder:
 
         output = (
             Path("data")
+            / "Board"
+            / "icse"
             / "class10"
             / "curriculum"
             / "output"

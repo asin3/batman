@@ -30,6 +30,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 STAGING_FOLDER = (
     PROJECT_ROOT
     / "data"
+    / "Board"
+    / "icse"
     / "class10"
     / "biology"
     / "textbook"

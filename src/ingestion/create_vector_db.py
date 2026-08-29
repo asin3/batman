@@ -13,8 +13,8 @@ Owner:
 Content Domain
 
 Reads:
-- data/class10/physics/textbook/
-- data/class10/physics/notes/
+- data/Board/icse/class10/physics/textbook/
+- data/Board/icse/class10/physics/notes/
 
 Writes:
 - vector_db/

@@ -20,6 +20,8 @@ class DocumentExporter:
 
         output_path = (
             Path("data")
+            / "Board"
+            / "icse"
             / "class10"
             / "curriculum"
             / "output"
