@@ -53,6 +53,8 @@ VECTOR_DB_DIR = PROJECT_ROOT / "vector_db"
 
 TEXTBOOK_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "textbook"
@@ -96,6 +98,8 @@ GOVERNANCE_DIR = (
 
 REPORTS_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "reports"
@@ -108,6 +112,8 @@ REPORTS_DIR = (
 
 NOTES_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "notes"
@@ -115,6 +121,8 @@ NOTES_DIR = (
 
 PYQ_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "pyq"
@@ -122,6 +130,8 @@ PYQ_DIR = (
 
 QUESTION_BANK_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "question_bank"
@@ -129,6 +139,8 @@ QUESTION_BANK_DIR = (
 
 REFERENCES_DIR = (
     DATA_DIR
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "references"

@@ -13,7 +13,7 @@ Owner:
 Batman Student Core
 
 Reads:
-data/class10/physics/textbook/physics-textbook.txt
+data/Board/icse/class10/physics/textbook/physics-textbook.txt
 
 Writes:
 data/governance/ICSE/class10/physics/topic_map.json

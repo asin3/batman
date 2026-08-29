@@ -1,6 +1,6 @@
 from pypdf import PdfReader
 
-pdf_path = r"data\class10\physics\textbook\chapter-1-force.pdf"
+pdf_path = r"data\Board\icse\class10\physics\textbook\chapter-1-force.pdf"
 
 reader = PdfReader(pdf_path)
 

@@ -10,11 +10,11 @@ Owner:
 Content Domain
 
 Reads:
-data/class10/physics/textbook/physics-textbook.txt
+data/Board/icse/class10/physics/textbook/physics-textbook.txt
 vector_db/
 
 Writes:
-data/class10/physics/reports/
+data/Board/icse/class10/physics/reports/
 
 Governed By:
 ADR-004 Data Governance

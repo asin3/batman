@@ -106,6 +106,10 @@ if __name__ == "__main__":
 
         / "data"
 
+        / "Board"
+
+        / "icse"
+
         / "class10"
 
         / "biology"

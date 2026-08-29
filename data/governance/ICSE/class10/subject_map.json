@@ -11,13 +11,13 @@
             "chapter_map": "chapter_map.json",
             "topic_map": "topic_map.json",
             "knowledge": {
-                "textbook": "data/class10/physics/textbook",
-                "notes": "data/class10/physics/notes",
-                "pyq": "data/class10/physics/pyq",
-                "question_bank": "data/class10/physics/question_bank",
-                "references": "data/class10/physics/references",
-                "sample_solved_papers": "data/class10/physics/samplesolvedpapers",
-                "reports": "data/class10/physics/reports"
+                "textbook": "data/Board/icse/class10/physics/textbook",
+                "notes": "data/Board/icse/class10/physics/notes",
+                "pyq": "data/Board/icse/class10/physics/pyq",
+                "question_bank": "data/Board/icse/class10/physics/question_bank",
+                "references": "data/Board/icse/class10/physics/references",
+                "sample_solved_papers": "data/Board/icse/class10/physics/samplesolvedpapers",
+                "reports": "data/Board/icse/class10/physics/reports"
             }
         },
         {

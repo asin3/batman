@@ -7,6 +7,8 @@ BASE_DIR = Path(__file__).resolve().parents[4]
 CURRICULUM_FILE = (
     BASE_DIR
     / "data"
+    / "Board"
+    / "icse"
     / "class10"
     / "curriculum"
     / "output"

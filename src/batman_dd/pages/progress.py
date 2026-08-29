@@ -47,6 +47,8 @@ BASE_DIR = Path(__file__).resolve().parents[3]
 CURRICULUM_DIR = (
     BASE_DIR
     / "data"
+    / "Board"
+    / "icse"
     / "class10"
     / "curriculum"
 )

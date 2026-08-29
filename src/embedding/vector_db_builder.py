@@ -33,6 +33,8 @@ DOCUMENT_FOLDER = (
 
     PROJECT_ROOT
     / "data"
+    / "Board"
+    / "icse"
     / "class10"
     / "biology"
     / "textbook"

@@ -38,6 +38,10 @@ DOCUMENT_FOLDER = (
 
     / "data"
 
+    / "Board"
+
+    / "icse"
+
     / "class10"
 
     / "biology"

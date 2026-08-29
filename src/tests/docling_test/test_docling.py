@@ -30,6 +30,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 PDF_FILE = (
     PROJECT_ROOT
     / "data"
+    / "Board"
+    / "icse"
     / "class10"
     / "physics"
     / "textbook"

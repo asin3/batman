@@ -481,6 +481,8 @@ if __name__ == "__main__":
     DOCUMENT_JSON = (
         PROJECT_ROOT
         / "data"
+        / "Board"
+        / "icse"
         / "class10"
         / "biology"
         / "textbook"
